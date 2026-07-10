@@ -1,0 +1,1 @@
+[File: 'relayer/src/lib.rs -> Scope: Critical. Authorization or role-bypass in NEAR contract entrypoints.'] [Function: near_client::parse_verify_response] Can an attacker cause parse_verify_response to return Ok(false) for a valid inclusion proof by exploiting the string comparison 'parsed_output == \

@@ -1,1 +1,0 @@
-[File: 'relayer/src/near_client.rs -> Scope: Critical. Arithmetic, endianness, serialization, hashing, or U256, target, or work conversion flaw that miscomputes proof-of-work validity, chainwork, header identity, difficulty, or merkle roots.'] [Function: sign_submit_blocks] Can an attacker cause the relayer to submit a Dogecoin header batch where the `#[cfg(not(feature = \

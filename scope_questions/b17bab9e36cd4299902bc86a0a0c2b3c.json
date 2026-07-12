@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: app/ante.go -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d24af654-5ea2-40bd-8dc7-4cdb9ce8f359?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/app.go -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_07b8e9d0-075e-4593-9695-0ea18a113137?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/encoding.go -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f91c2bb8-4d1f-43bf-a40e-6aab89317964?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/export.go -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3451f818-7b01-450d-9a78-64edf5fa4efe?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/genesis.go -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f616bc88-801c-4da1-99cd-fa119de33e23?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/params/encoding.go -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5d80c86e-18e3-443a-9c5a-e00d4a11e150?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/params/proto.go -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c75bfc72-cafc-461a-ac5b-835f619beeb6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/types.go -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_65d332bb-cc79-4f27-b663-aa6ba97b03d6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/upgrades.go -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8a7ab6b7-3256-48dc-830a-ab5a63c6067c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/versiondb.go -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d2c925d1-3644-4d2c-9f5f-db56167d1e3c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/versiondb_placeholder.go -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_14434a7c-620b-4442-aeec-9852115ee379?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cmd/chain-maind/app/app.go -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e3fb5241-bc4a-4615-b22f-33fc66787ea0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cmd/chain-maind/app/appunix.go -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e5abc950-04c6-49ea-8143-5bad344d47d0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cmd/chain-maind/app/appwin.go -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_20817acc-77f3-4877-b01c-2a491785e29e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cmd/chain-maind/app/versiondb.go -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_40221e74-3c7e-42cd-8cdc-fe1acb32d1ba?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cmd/chain-maind/app/versiondb_placeholder.go -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2bc05a3d-d8f4-4668-b58e-288a8d4cff88?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cmd/chain-maind/main.go -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c37f88a8-738c-4694-9717-453326a0d76c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cmd/chain-maind/opendb/opendb.go -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9a6999b6-7c99-40c6-a9da-fe4f13e0a352?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cmd/chain-maind/opendb/opendb_rocksdb.go -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_20070bac-89fd-4c4d-b32e-c0fce026e159?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: config/config.go -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3cc7869b-6be8-4887-9e07-8519cb2267cc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: config/prefix_mainnet.go -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_012773c5-c366-4952-84cf-a2297bbefe3a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: config/prefix_testnet.go -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_55631afd-b974-4524-97c3-58f6ae3597d2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: proto/chainmain/chainmain/v1/genesis.proto -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_07f59cde-ad32-4643-aec6-e2f802ca4a0c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: proto/chainmain/inflation/v1/genesis.proto -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_056e9ac4-f4df-4862-82b6-6fe9341bcff9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: proto/chainmain/inflation/v1/params.proto -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ba69a58f-b707-4832-882b-5c9bba3502ef?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: proto/chainmain/inflation/v1/query.proto -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8943bd50-c3a7-4bb2-a4d6-f7d8882ca501?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: proto/chainmain/inflation/v1/tx.proto -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b4f245cf-7094-46b0-b2b2-75e604b90ab0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: proto/chainmain/nft/v1/genesis.proto -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e4e2cc5d-71f8-47d6-bfba-a85dd436e998?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: proto/chainmain/nft/v1/nft.proto -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_377dbca3-f33d-4e64-bc28-7698a8aae76d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: proto/chainmain/nft/v1/query.proto -> Scope: Critical. Inflation, supply, bank, module-account, mint, burn, or escrow accounting flaw creates unbacked assets, loses backed assets, or lets value leave the intended module/account boundary.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a6d9659c-1bf6-449c-b02e-a67a117845ef?mode=deep",
+    "questions_generated": false
+  }
+]

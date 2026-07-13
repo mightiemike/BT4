@@ -1,0 +1,1 @@
+Looking at the exact code paths involved, let me trace the full sequence.

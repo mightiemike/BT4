@@ -1,0 +1,1 @@
+Looking at the vulnerability class from the report — **arithmetic semantic mismatch** where a numerator and denominator use different metrics (number-of-holders vs. raw quantity) — I need to find an analog in clvm_rs where two values that should use the same unit/scale are inconsistently mixed

@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: core/store/src/trie/ops/insert_delete.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_6139746a-610c-49bd-90ae-fbc846c0bf52?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/ops/interface.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_dabe85fc-13df-483b-8301-d1c04be62968?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/ops/iter.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_8ee8b2a1-a66f-4e5d-8cb0-8fc84d550c62?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/ops/resharding.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_7756dceb-e173-44f0-a876-0e389da59341?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/ops/squash.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_f22387a7-88a3-41f6-a020-350f93248f06?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/raw_node.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_d9345be5-9dcb-4f1d-9226-377faf302f5b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/receipts_column_helper.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_098b2357-ab58-445a-ac6f-e4d58a1ba4ee?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/shard_tries.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_112f83e6-0e12-4aa7-83d8-e14f81e1d9a0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/split.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_e2fa0643-7577-4d07-ba3d-f4d0323585a4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/state_parts.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_fb5df701-019c-4f72-84cd-523f7771e43e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/state_snapshot.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_83772ac8-503d-4a4f-bc31-0000a0f5afb6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/trie_recording.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_d0e483b5-9d28-4702-9209-f2dd715e2e50?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/trie_storage.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_c9098fab-af21-49e8-90ee-b9802a26b3f2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/trie_storage_update.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_de1f1d11-c590-40b0-a93f-6991ee1e26a4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/store/src/trie/update.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_660d2be1-4ffb-485a-8937-552a65c94fbd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: nearcore/src/config_validate.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_99c1071a-0ac0-460b-958e-ecd8527e5829?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: nearcore/src/state_sync.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_650b9b63-fa68-4448-8453-a721384ad672?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: neard/src/cli.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_dddd0ed4-9e4a-4afa-b784-5c573d3c6282?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: neard/src/main.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_78e0d125-bce9-4c25-9027-7380104301f4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/cache.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_6870b847-8a3d-4843-a297-58d95e6f140c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/features.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_2b0790a7-b905-42b6-bc7f-58e135eb005c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/imports.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_231e2f8d-343d-4550-a4bb-644d9504d4c4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/alt_bn128.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_b21dc3b4-7b2b-4ad5-9769-6fa1979f6dcb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/bls12381.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_5d9b4f1a-bf4c-4de8-af12-b2c1e06950b0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/context.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_6a5f4016-67ee-49f0-b33b-a08c7f0ce038?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/gas_counter.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_5b70a195-0306-451f-8fa0-9a376b8d1aab?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/logic.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_3784af58-9ee7-49b1-bc38-f86eaee6beec?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/recorded_storage_counter.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_46dfa219-9f85-469f-a215-1880386f0736?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/logic/vmstate.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_b94c20fa-17e6-453b-82fd-28e054f88990?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/near-vm-runner/src/prepare.rs -> Scope: Critical. Unprivileged-user-triggered Protocol feature activation, epoch boundary, runtime config selection, or protocol version negotiation applies new rules too early, too late, or inconsistently across chain, runtime, client, and network code.'",
+    "url": "https://deepwiki.com/search/-generate-protocolcompatibilit_47254bd2-6565-40d3-ba23-5cac9fa4064c?mode=deep",
+    "questions_generated": false
+  }
+]

@@ -1,0 +1,1 @@
+Let me look at the invoke transaction hash calculation and the `proof_facts` inclusion.

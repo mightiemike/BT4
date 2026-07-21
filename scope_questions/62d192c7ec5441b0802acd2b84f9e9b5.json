@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: crates/apollo_starknet_client/src/writer/objects/response.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_fae69922-d958-4bb0-a4f6-2a29d93c181b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_starknet_client/src/writer/objects/transaction.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_90771f05-ab16-4e36-9626-1a6a19b6493c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_storage/src/db/serialization.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_74eda7b9-30d9-4914-8f1d-02562cff77be?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_storage/src/deprecated/migrations.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_58695e30-1065-4cff-bc20-e1118f417829?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_storage/src/deprecated/serializers.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_cca846e1-2477-45b2-b981-90967cf23149?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_storage/src/serialization/mod.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_ae5d7758-ad95-41e8-8be9-8028bffbc7bc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_storage/src/serialization/serializers.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_f80f9848-696c-47e9-ae1c-e66cf960d181?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_storage/src/version.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_be827030-6d37-4f80-8b98-5aa11559f07f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/apollo_transaction_converter/src/transaction_converter.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_6fa10044-aa05-45db-8257-9e5c3313c98f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/blockifier/src/blockifier_versioned_constants.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_96d26f89-a643-469c-aec7-aeba219ba3e0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/blockifier/src/context.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_b58cf3ba-50dc-42ad-81ec-47053dcbaad9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/blockifier/src/state/compiled_class_hash_migration.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_e15c5c45-4f93-4712-b2e1-c07516989700?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/blockifier/src/transaction/objects.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_e93bb46c-9a7e-47be-a210-abe605ee700b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/native_blockifier/src/py_objects.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_d174a53a-5389-4e29-a701-3283113463b4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/papyrus_common/src/deprecated_class_abi.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_ba846ba6-3279-4bc4-9027-f7e119778555?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/papyrus_common/src/python_json.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_e54c75ab-fe7a-4eb9-be5d-6e1e003f277c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/shared_execution_objects/src/central_objects.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_2e8b0068-c1ff-41de-b504-8297cfe08571?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/abi.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_60ea738e-70af-49a5-acdc-ce5badb8fe40?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/block.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_0639654b-6fa0-41df-ab4d-3deac39090c3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/block_hash.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_936fefef-0cc1-4238-99e5-d24eb7936877?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/contract_class.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_403f7672-9c63-4682-8f0d-ea10a7e9510a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/contract_class/compiled_class_hash.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_a17c0a96-0fed-44c4-ae64-01ef73ee449f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/contract_class/structs.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_a6689952-35f3-48e1-96f3-1644b3a35289?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/core.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_37f67802-c8e3-4bdc-a5d3-9d5dc17764ea?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/crypto.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_49f3acfd-3379-466b-b23f-ec716c5ba8a0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/data_availability.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_c04f6fc7-a3f2-433a-aa28-416f4e3c9580?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/deprecated_contract_class.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_04374423-a92e-4bcb-aede-d5063f1f7343?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/executable_transaction.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_4bb40a31-e91b-444d-aab2-40b5515d1d2e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/execution_resources.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_e2953a2e-ce11-4a73-bc72-0930fdcb95d1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crates/starknet_api/src/hash.rs -> Scope: Critical. Unprivileged-user-triggered versioned constants, protocol config, compiler version, chain id, RPC version, or feature-boundary bug applies rules for the wrong Starknet version during validation, execution, sync, or admission.'",
+    "url": "https://deepwiki.com/search/-generate-compatibilitycanonic_5640a180-f338-4563-80a6-26539c44e48a?mode=deep",
+    "questions_generated": false
+  }
+]

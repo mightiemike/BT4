@@ -1,1 +1,0 @@
-[File: 'crates/apollo_config/src/behavior_mode.rs -> Scope: Critical.'] [Symbol: Mempool::new / BehaviorMode::Echonet -> FifoTransactionQueue / BehaviorMode::Starknet -> FeeTransactionQueue] Can an attacker-controlled config JSON with behavior_mode = \

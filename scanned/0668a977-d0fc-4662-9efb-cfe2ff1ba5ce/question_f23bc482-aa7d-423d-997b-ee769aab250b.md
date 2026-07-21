@@ -1,1 +1,0 @@
-[File: 'crates/apollo_config/src/behavior_mode.rs -> Scope: Critical.'] [Symbol: FifoTransactionQueue / TxBlockMetadata.timestamp / recorder service / update_tx_block_metadata] Can an attacker-controlled recorder service response that returns a TxBlockMetadata with timestamp = 0 and block_number = 0 for any transaction hash under a precondition where behavior_mode = \

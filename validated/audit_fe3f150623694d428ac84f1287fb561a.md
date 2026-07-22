@@ -1,0 +1,1 @@
+Let me read the factory code and the extension calling flow to complete my analysis.

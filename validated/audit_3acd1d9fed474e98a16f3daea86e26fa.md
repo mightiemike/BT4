@@ -1,1 +1,0 @@
-Let me look at the transaction hash computation and how these two variants affect it, plus the actual usage paths.

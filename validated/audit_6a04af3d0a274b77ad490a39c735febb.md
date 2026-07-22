@@ -1,1 +1,0 @@
-Let me look at the consensus flow to understand when proof verification tasks are awaited relative to block execution.

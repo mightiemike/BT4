@@ -1,0 +1,1 @@
+I need to trace the full swap path through the router into the `SwapAllowlistExtension` to check for a wrong-actor binding analog to the AuraSpell conditional-always-fails bug.

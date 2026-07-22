@@ -1,0 +1,1 @@
+I need to trace the exact call flow through `exactOutput` → `_exactOutputIterateCallback` → pool `swap` → `beforeSwap` to determine what `sender` value reaches the extension check.

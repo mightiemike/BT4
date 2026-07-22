@@ -1,0 +1,1 @@
+Looking at the `SwapAllowlistExtension`, `MetricOmmSimpleRouter`, and the pool's `swap()` hook plumbing, I need to trace the exact actor identity that reaches the allowlist check.

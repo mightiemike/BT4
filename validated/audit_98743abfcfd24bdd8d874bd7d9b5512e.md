@@ -1,0 +1,1 @@
+Based on my investigation of the codebase, I need to look more carefully at the `get_invoke_transaction_v3_hash` conditional `proof_facts` inclusion and the `proposal_commitment_from` function before concluding.

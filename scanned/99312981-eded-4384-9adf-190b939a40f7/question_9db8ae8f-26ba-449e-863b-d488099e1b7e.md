@@ -1,0 +1,1 @@
+[File: 'chain/jsonrpc/src/api/transactions.rs -> Scope: Critical'] [Symbol: RpcFrom<TxStatusError> for RpcTransactionError (ChainError arm)] Can an attacker-controlled transaction submission that triggers a TxStatusError::ChainError under any node state reach RpcFrom<TxStatusError>::rpc_from -> format!(\

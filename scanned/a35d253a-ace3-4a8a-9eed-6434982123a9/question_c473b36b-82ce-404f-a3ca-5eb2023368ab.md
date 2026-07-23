@@ -1,0 +1,1 @@
+[File: 'core/time/src/serde.rs -> Scope: Critical. An unprivileged attacker can cause stealing or loss of funds by making nearcore accept or apply an invalid transaction, receipt, state transition, contract execution result, or shard state update.'] [Symbol: serde_opt_duration_as_std::deserialize] Can a JSON value of {\

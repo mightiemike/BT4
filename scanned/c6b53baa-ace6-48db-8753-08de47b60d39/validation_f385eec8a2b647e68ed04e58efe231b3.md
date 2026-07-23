@@ -1,1 +1,0 @@
-Looking at the repository, I need to trace the swap allowlist guard through the router path to find the actor-binding mismatch.

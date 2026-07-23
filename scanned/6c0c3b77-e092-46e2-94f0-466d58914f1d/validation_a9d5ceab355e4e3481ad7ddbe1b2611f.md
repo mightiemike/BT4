@@ -1,1 +1,0 @@
-Let me look at the core pool's addLiquidity to confirm the sender/owner separation, and also check the extension calling path.

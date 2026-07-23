@@ -1,1 +1,0 @@
-I need to trace the full hook path from the router through the pool into the `SwapAllowlistExtension` to check actor binding.

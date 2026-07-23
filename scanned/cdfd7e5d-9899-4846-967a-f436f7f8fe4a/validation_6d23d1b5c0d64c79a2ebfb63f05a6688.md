@@ -1,1 +1,0 @@
-I need to read the pool's `addLiquidity` function and the full `ExtensionCalling.sol` to complete the picture before writing the report.

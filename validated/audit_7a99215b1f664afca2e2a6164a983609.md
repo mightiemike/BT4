@@ -1,0 +1,1 @@
+Looking at the extension guard and hook plumbing in this repository, I need to trace the swap allowlist path carefully.

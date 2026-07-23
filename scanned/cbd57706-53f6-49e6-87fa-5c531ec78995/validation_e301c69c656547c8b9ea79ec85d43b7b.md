@@ -1,1 +1,0 @@
-Let me read the pool's `addLiquidity` function to understand how `sender` and `owner` are passed to extensions.

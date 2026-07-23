@@ -1,1 +1,0 @@
-Looking at the extension hook plumbing, I need to trace what actor each allowlist extension actually gates, and whether that actor can be substituted when the supported router is in the call path.

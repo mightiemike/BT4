@@ -1,1 +1,0 @@
-I need to trace the full call path from the router through the pool into the extension to find the actor-binding mismatch.

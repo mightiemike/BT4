@@ -1,1 +1,0 @@
-Let me read the core pool's swap function to understand how `sender` is passed to extensions.

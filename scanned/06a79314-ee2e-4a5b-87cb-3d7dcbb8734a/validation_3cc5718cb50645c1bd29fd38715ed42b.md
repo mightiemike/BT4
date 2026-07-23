@@ -1,1 +1,0 @@
-The claim rests on whether `priceGuard` is ever applied before a decoded price reaches pool swap pricing. Let me verify the full consumption path.

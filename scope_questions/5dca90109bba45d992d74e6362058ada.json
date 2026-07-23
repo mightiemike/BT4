@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: chain/pool/src/types.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_ebd87d1a-e48b-408b-b618-f764e25b2d0b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/async-derive/src/lib.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_199bd18a-a71e-4cd5-9d53-d5d680dd8bb4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/async/src/functional.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_cd64ea78-1723-4b93-9bd0-9193e1bfdf6b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/async/src/futures.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_6cc6c415-830c-4395-8a44-9151b0b08434?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/async/src/instrumentation/data.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_665754fa-414b-481a-ad9b-520dbf6c6505?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/async/src/instrumentation/instrumented_window.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_340e26a3-8943-493e-a68c-2b5971d2d150?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/async/src/instrumentation/metrics.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_da9fac3e-2aaf-4b30-baaa-254ffc6771c8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/async/src/instrumentation/mod.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_afb8d3f0-85a8-4e53-8bb1-f451ea6b7091?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/async/src/instrumentation/queue.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_ca938b67-22a1-44a5-b34a-6b02ca9d8a30?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/async/src/instrumentation/reader.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_5e0ba9f6-0671-4ee2-b4be-45c7afc17b5b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/async/src/instrumentation/writer.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_46cd259b-0b37-4628-8e1e-5165b8615555?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/async/src/lib.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_725dcba2-e84c-43e5-8a20-a5eea16d515d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/async/src/messaging.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_f4b3625d-fbdb-421c-9a93-8ea5ab0221fd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/async/src/multithread/mod.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_48b617bd-9c01-4ac5-ad8b-09ccbada0bb5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/async/src/multithread/runtime_handle.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_e04edd92-c775-4652-9ccb-42ea433dd462?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/async/src/multithread/sender.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_19319e91-474a-4fc3-9724-af40daea5f72?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/async/src/thread_pool.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_53aec0b3-9a4d-48ee-b357-57607bcd3d87?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/async/src/tokio/futures.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_919f17e9-6ed5-4a35-b6b7-527c304bb6ff?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/async/src/tokio/mod.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_9d9615e0-bc5f-4876-bd28-06b8c7a18c2a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/async/src/tokio/runtime.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_2731c9d7-dd40-41ff-82e5-dc3452e91132?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/async/src/tokio/runtime_handle.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_07ce9178-2444-4fb1-a782-5266c8bd5dfd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/async/src/tokio/sender.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_474199b8-d36e-4364-9f32-5a6aa441d80a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/chain-configs/src/client_config.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_3ad9517a-deff-4b72-bb38-a2db4ff7fea3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/chain-configs/src/genesis_config.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_3c55b401-59e4-41dd-a0fa-22cd77f073ae?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/chain-configs/src/genesis_validate.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_951dcfea-3e85-403e-8b0d-b839dc05638b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/chain-configs/src/lib.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_cd4a1f1e-6d94-46a7-b605-8a58ed4f78d9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/chain-configs/src/metrics.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_26881173-10a2-47ed-8a34-704827f828b1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/chain-configs/src/updatable_config.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_1a034869-5c67-49f6-b2a0-d03b4aaee80e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/crypto/src/errors.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_aeb79400-f9c0-4cce-86d1-7f0e76143358?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/crypto/src/hash.rs -> Scope: Critical. An unprivileged attacker can trigger a consensus flaw through ordinary user-controlled transactions, contracts, or default RPC submission paths alone, with no trusted or network-level role.'",
+    "url": "https://deepwiki.com/search/-generate-nearcore-security-qu_42212845-78a4-43b3-85ca-adc57c1ce58e?mode=deep",
+    "questions_generated": false
+  }
+]

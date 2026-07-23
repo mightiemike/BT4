@@ -1,0 +1,72 @@
+Audit Report
+
+## Title
+`SwapAllowlistExtension.beforeSwap` checks the direct caller (`sender`) rather than the end user, enabling full allowlist bypass when the router is allowlisted — (File: `metric-periphery/contracts/extensions/SwapAllowlistExtension.sol`)
+
+## Summary
+
+`SwapAllowlistExtension.beforeSwap` gates swaps by checking `sender`, which resolves to `msg.sender` of `pool.swap()`. When swaps are routed through `MetricOmmSimpleRouter`, `sender` is the router contract address, not the actual end user. A pool admin who allowlists the router to permit allowlisted users to trade via the canonical router inadvertently grants every user unrestricted access to the curated pool, because the extension cannot distinguish individual end users behind the same router.
+
+## Finding Description
+
+`SwapAllowlistExtension.beforeSwap` performs the following check:
+
+```solidity
+if (!allowAllSwappers[msg.sender] && !allowedSwapper[msg.sender][sender]) {
+    revert IMetricOmmPoolActions.NotAllowedToSwap();
+}
+```
+
+Here `msg.sender` is the pool (the extension's caller) and `sender` is the first argument forwarded by the pool — which is `msg.sender` of the pool's own `swap()` call:
+
+```solidity
+// MetricOmmPool.swap()
+_beforeSwap(
+    msg.sender,   // ← becomes `sender` in the extension
+    recipient,
+    ...
+);
+```
+
+When a user calls `MetricOmmSimpleRouter.exactInputSingle()`, the router calls `pool.swap()` directly:
+
+```solidity
+(int128 amount0Delta, int128 amount1Delta) = IMetricOmmPoolActions(params.pool)
+    .swap(params.recipient, params.zeroForOne, ..., params.extensionData);
+```
+
+So `msg.sender` to the pool is the **router address**, and that router address is what `SwapAllowlistExtension` checks against the allowlist — not the actual end user. The swap interface has no separate "actual user" field analogous to the `owner` parameter in `addLiquidity`, which `DepositAllowlistExtension` correctly uses:
+
+```solidity
+function beforeAddLiquidity(address, address owner, uint80, LiquidityDelta calldata, bytes calldata)
+    ...
+{
+    if (!allowAllDepositors[msg.sender] && !allowedDepositor[msg.sender][owner]) {
+        revert IMetricOmmPoolActions.NotAllowedToDeposit();
+    }
+```
+
+The swap hook interface collapses all router-mediated swaps to a single identity (the router), making per-user enforcement impossible at the extension layer.
+
+## Impact Explanation
+
+A pool admin who configures a curated pool (only specific counterparties may trade) and also wants allowlisted users to be able to use `MetricOmmSimpleRouter` must call `setAllowedToSwap(pool, router, true)`. The moment `allowedSwapper[pool][router] = true`, every user — including non-allowlisted ones — can bypass the allowlist by routing through the router. LPs on a curated pool who expected only trusted counterparties are exposed to unrestricted oracle-priced trading, which can drain LP principal through adversarial or uninformed order flow the pool was specifically designed to exclude. This constitutes a direct loss of LP principal and broken core pool functionality (the allowlist invariant is violated).
+
+## Likelihood Explanation
+
+`MetricOmmSimpleRouter` is the canonical, publicly documented swap entrypoint. A pool admin who sets up a swap allowlist and wants allowlisted users to access the router will naturally add the router to the allowlist — this is the only way to make router-mediated swaps work for allowlisted users. The bypass is therefore a predictable consequence of a reasonable and expected admin configuration, not an exotic edge case. Any unprivileged user can exploit this by simply calling `router.exactInputSingle()` targeting the curated pool.
+
+## Recommendation
+
+The swap hook interface should expose the actual end user's identity separately from `sender`, mirroring how the liquidity interface exposes `owner` independently of `sender`. Until the interface is changed, `SwapAllowlistExtension` must document that allowlisting the router grants unrestricted access to all router users, and pool admins must be warned never to allowlist the router on a curated pool. A more robust fix is to have the router forward the original caller's address through `extensionData` and have the extension decode and verify it — though this requires a coordinated change across the router and extension.
+
+## Proof of Concept
+
+1. Pool admin deploys a pool with `SwapAllowlistExtension` configured in the `beforeSwap` order.
+2. Pool admin allowlists Alice: `setAllowedToSwap(pool, alice, true)`.
+3. Pool admin allowlists the router so Alice can use it: `setAllowedToSwap(pool, router, true)`.
+4. Bob (not allowlisted) calls `router.exactInputSingle({pool: pool, tokenIn: ..., zeroForOne: true, amountIn: X, ...})`.
+5. Router calls `pool.swap(recipient, true, X, priceLimit, "", extensionData)` — `msg.sender` to the pool is the router.
+6. Pool calls `_beforeSwap(msg.sender=router, recipient, ...)`.
+7. `SwapAllowlistExtension.beforeSwap` evaluates `allowedSwapper[pool][router]` = `true` → does **not** revert.
+8. Bob's swap executes on the curated pool, bypassing the allowlist entirely.

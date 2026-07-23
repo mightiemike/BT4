@@ -1,0 +1,1 @@
+Let me look more carefully at the extension hooks and the specific scenario where both fee types interact.

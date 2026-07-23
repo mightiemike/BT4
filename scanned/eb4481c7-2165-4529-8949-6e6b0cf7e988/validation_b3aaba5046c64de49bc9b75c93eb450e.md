@@ -1,1 +1,0 @@
-Looking at the `SwapAllowlistExtension`, `MetricOmmSimpleRouter`, and the pool's `swap` → `_beforeSwap` dispatch chain, I can identify a concrete allowlist bypass.

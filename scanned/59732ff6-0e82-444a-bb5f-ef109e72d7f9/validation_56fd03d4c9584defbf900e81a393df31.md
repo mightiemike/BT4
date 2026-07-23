@@ -1,1 +1,0 @@
-Looking at the extension hook plumbing, I need to trace how `sender` vs `owner` are bound in the `addLiquidity` path and how the `DepositAllowlistExtension` consumes those arguments.

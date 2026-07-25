@@ -1,0 +1,1 @@
+Looking at the actual code path for `pairing_check` with empty input:

@@ -1,0 +1,1 @@
+I'll analyze the external bug (ineffective slippage check where a preview value computed from current state is used as the minimum, making the check equivalent to no check) and search for a nearcore analog.

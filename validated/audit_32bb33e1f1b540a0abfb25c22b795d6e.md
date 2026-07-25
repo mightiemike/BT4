@@ -1,0 +1,1 @@
+Let me analyze the external bug pattern and search for a nearcore analog. The core invariant broken is: a user with an accumulated "deficit/penalty" can bypass it by taking a direct exit path before the penalty-enforcement function is called.

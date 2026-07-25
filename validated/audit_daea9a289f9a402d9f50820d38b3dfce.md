@@ -1,0 +1,1 @@
+I'll analyze the external bug (funds locked in a cooldown/denied state) and search for a nearcore analog. The bug class is: a state transition that permanently locks user funds until some expiry, with no way to withdraw early.

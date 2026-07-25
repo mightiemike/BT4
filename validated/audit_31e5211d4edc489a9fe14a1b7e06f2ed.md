@@ -1,0 +1,1 @@
+I need to read the rest of `view_client_actor.rs` to find the actual `handle_receipt_to_tx` implementation and `RECEIPT_TO_TX_MAX_DEPTH`, but the file was truncated at line 1000. Let me check what I can from the receipt_to_tx module.

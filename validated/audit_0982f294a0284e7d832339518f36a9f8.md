@@ -1,0 +1,3 @@
+I'll analyze the external bug (revoke ignores already-vested/earned amounts, causing loss depending on operation order) and search for a nearcore analog. The key invariant: **when an entitlement is revoked, already-earned amounts must remain accessible**.
+
+Let me search for analogous patterns in nearcore — particularly around account/access-key deletion with pending receipts, staking rewards, and refund paths.

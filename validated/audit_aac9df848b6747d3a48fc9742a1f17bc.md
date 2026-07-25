@@ -1,0 +1,1 @@
+Let me analyze the bug class from the report: a fee/refund calculation function that returns 0 in a base implementation but should be overridden for specific contexts, causing under-payment of fees. I'll search nearcore for analogous patterns in gas/fee accounting.

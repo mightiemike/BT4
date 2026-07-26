@@ -1,3 +1,0 @@
-I'll analyze the bug class (incorrect threshold comparison when initializing an index, causing wrong reward/balance calculations) and search for analogs in nearcore's runtime, epoch rewards, and fee accounting code.
-
-Let me search more specifically for the bug class analog: inconsistent threshold comparisons between a "view/read" path and an authoritative "state-changing" path in nearcore's runtime, gas accounting, and RPC code.

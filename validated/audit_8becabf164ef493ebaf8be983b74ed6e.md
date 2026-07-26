@@ -1,1 +1,0 @@
-Let me analyze the external bug pattern and search for a native analog in nearcore. The key pattern is: during a critical protocol operation, tokens are sent to a user-controlled address, and if that transfer can be made to fail (via a hook/callback), the entire critical operation is blocked.

@@ -1,1 +1,0 @@
-I'll analyze the external bug (a logically-consumed state object that persists and allows partial reward claims) and search for a nearcore analog. The key invariant to check: **a state object zeroed/expired but not removed, enabling some operations while blocking others**.

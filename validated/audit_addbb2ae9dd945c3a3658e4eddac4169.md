@@ -1,1 +1,0 @@
-Let me look more carefully at the `Delegate` action fee calculation path, specifically the `total_send_fees` vs `total_prepaid_send_fees` discrepancy I noticed.

@@ -1,1 +1,0 @@
-I'll analyze the bug pattern from the Derby Finance report and search for a native analog in nearcore. The core issue is: **a balance/state calculation happens before funds are credited, leading to an inaccurate result used downstream**. Let me search for similar patterns in nearcore's runtime, epoch transitions, and balance accounting.

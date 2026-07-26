@@ -1,1 +1,0 @@
-I'll analyze the external bug (premature state closure using intermediate state before all effects are applied) and search for analogous patterns in nearcore.

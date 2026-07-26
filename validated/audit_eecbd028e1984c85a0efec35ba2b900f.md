@@ -1,1 +1,0 @@
-I'll analyze the external bug (atomic redemption failure blocking all token recovery) and search for a nearcore analog involving receipt/refund atomicity, deposit recovery, or action batch failure handling.

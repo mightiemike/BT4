@@ -1,1 +1,0 @@
-I'll analyze the nearcore codebase to find a native analog to this reserve/balance inflation vulnerability. Let me search across multiple relevant areas simultaneously.

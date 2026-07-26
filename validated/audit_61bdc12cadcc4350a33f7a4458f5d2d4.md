@@ -1,1 +1,0 @@
-Based on my research, I need to check one critical function: `delegate_inner_action` — which is used in `total_deposit` to recurse into delegate actions. Let me verify whether `DelegateV2` is handled there.

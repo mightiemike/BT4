@@ -1,1 +1,0 @@
-I need to read the actual `validate_delegate_action_key` function body to complete the analysis.

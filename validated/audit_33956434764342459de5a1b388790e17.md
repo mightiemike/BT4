@@ -1,3 +1,0 @@
-I'll analyze the bug pattern and search for analogs in nearcore. The core issue is: a "remove then conditionally re-insert" operation where the re-insertion is skipped when a value is zero, causing state inconsistency between two components.
-
-Let me look at the delete account action and the `update_validator_accounts` interaction more carefully, as well as the `apply_epoch_update_to_proposals` zero-stake path.

@@ -1,0 +1,1 @@
+[File: 'File Name: x/uexecutor/keeper/outbound.go -> Scope: Critical.'] [Symbol: applyGasRefund] Can outbound.Amount or outbound.GasFee containing a syntactically valid negative decimal string (e.g. \

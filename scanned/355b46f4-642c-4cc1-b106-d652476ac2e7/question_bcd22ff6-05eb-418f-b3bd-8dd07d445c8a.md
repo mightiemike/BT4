@@ -1,0 +1,1 @@
+[File: 'universalClient/tss/coordinator/coordinator.go' -> Symbol: getInFlightSignCountPerChain/extractDestinationChain] Can a user submit deposits whose `destination_chain` values differ only in casing or whitespace (e.g. \

@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: app/ante/account_init_decorator.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_fa5f9f01-f2af-48ea-ab47-512c2edc7cfd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/ante/ante.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_9a7c6ae5-a689-4606-8630-f356775fa2a6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/ante/ante_cosmos.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_9b8e690c-42bf-4dc3-8894-928a136efd99?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/ante/ante_evm.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_bcf993e2-5ca0-442e-972f-6400458c0904?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/ante/fee.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_0dac52e4-2dac-472b-9694-0c3381734006?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/ante/handler_options.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_5903a975-853b-4762-ab9f-a4e032a9866c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/ante/validator_tx_fee.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_64f0b0f4-a2ac-4bcc-abe7-8e86019fe7b4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/cosmos/min_gas_price.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_549e420b-2e76-4787-9fa9-3fe024acfc1e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/txpolicy/gasless.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_46707dcf-3b24-44f3-a3f7-87e262c33ee1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: precompiles/usigverifier/USigVerifier.sol -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_4ce44e96-53eb-4362-8da2-25c1508b6d1c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: precompiles/usigverifier/query.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_a9d47e5e-2351-4464-a320-7d6154336dbe?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: precompiles/usigverifier/usigverifier.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_f9795b74-f868-485f-9d1d-cd6b9e4e0172?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/api/handlers.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_5040c3bd-ea45-40da-b256-b6a34b746a0e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/api/routes.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_d9dae555-7234-4125-a7af-b2021fc04820?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/api/server.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_8e318888-0371-4815-88e0-b5186b2ac449?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/chains.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_64dd9a11-4260-4eb5-bc8f-720b509d02d8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/common/chain_store.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_8d4bc585-e18d-482a-88f5-4790eace6975?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/common/event_cleaner.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_854831da-126b-46f2-8673-807306ec114c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/common/event_processor.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_530679da-ff0a-4a20-b8b5-0d1ccdd79a9a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/common/types.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_d93210df-528f-4020-b2d3-113f8a6e60b2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/evm/chain_meta_oracle.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_73a235d0-0efc-492c-a605-3da65df25598?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/evm/client.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_4e2c1909-97bd-40ae-9523-b410a73c9e0d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/evm/event_confirmer.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_117f2221-3afb-4824-a851-583bee1b5e8f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/evm/event_listener.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_dfc4b9db-55de-4d16-8a30-06207c182129?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/evm/event_parser.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_3441efab-7734-452c-9723-3502b7665a0d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/evm/rpc_client.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_ad7dc28c-4a8b-4dae-bca3-094a6d4077f3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/evm/tx_builder.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_9a99b40c-c980-4082-834e-2a5bab52b1ea?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/push/client.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_4a29b5d3-0b24-4945-aab0-d46bd2ad373c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/push/event_listener.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_11864bfe-bda5-4639-91b9-e806e3f084fa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/push/event_parser.go -> Scope: Critical. An unprivileged external user can make honest validators or honest node logic accept forged, replayed, mismatched, or cross-linked ballot, chain-meta, TSS, migration, inbound, or outbound state without assuming malicious peers, nodes, validators, or admins.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_06f7a216-b14b-45c8-bcae-d7aca03c593a?mode=deep",
+    "questions_generated": false
+  }
+]

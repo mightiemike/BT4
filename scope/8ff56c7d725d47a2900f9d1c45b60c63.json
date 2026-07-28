@@ -1,7 +1,0 @@
-[
-  "'File Name: x/uvalidator/types/msg_update_universal_validator.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
-  "'File Name: x/uvalidator/types/msg_update_universal_validator_status.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
-  "'File Name: x/uvalidator/types/network_info.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
-  "'File Name: x/uvalidator/types/params.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
-  "'File Name: x/uvalidator/types/universal_validator.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'"
-]

@@ -1,1 +1,0 @@
-[File: 'File Name: x/uexecutor/keeper/execute_inbound_gas_and_payload.go -> Scope: Critical.'] [Symbol: ExecuteInboundGasAndPayload zero-amount payload-only path] Can an attacker submit a GAS_AND_PAYLOAD inbound with `Amount=\

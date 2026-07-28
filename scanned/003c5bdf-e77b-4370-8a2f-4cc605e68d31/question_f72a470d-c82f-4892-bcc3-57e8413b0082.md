@@ -1,1 +1,0 @@
-[File: 'File Name: x/uexecutor/keeper/execute_inbound_gas_and_payload.go -> Scope: Critical.'] [Symbol: ExecuteInboundGasAndPayload isCEA recipient parsing] Can an attacker submit an inbound with `IsCEA=true` and a malformed `Recipient` string that passes the naive `strings.HasPrefix(strings.ToLower(recipient), \

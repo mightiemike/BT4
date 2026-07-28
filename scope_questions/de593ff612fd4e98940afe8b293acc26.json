@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: x/uregistry/depinject.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_4a41c8d9-210f-44cb-9c88-693710e8d93c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/keeper/genesis.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_fc84fe38-ba09-466e-9e8a-37c59e0934bf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/keeper/keeper.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_e0e07351-25ef-4791-9ec4-0c9d900b2867?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/keeper/msg_add_chain_config.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_f9c71ccd-e98d-4766-aab7-6c625853ded3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/keeper/msg_add_token_config.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_89812327-5319-452d-87fd-522f7352c18f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/keeper/msg_remove_token_config.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_a42cf127-11ba-4604-9c3d-d2e984dbf64b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/keeper/msg_server.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_c1498a7a-5c15-4835-8d0a-1d430d03f35b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/keeper/msg_update_chain_config.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_6d29c4b4-945d-484c-afff-6358456e4a81?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/keeper/msg_update_params.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_68cf8a28-362d-4ee6-8e9e-b921308a7330?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/keeper/msg_update_token_config.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_0c0c58e6-64d3-4218-91f5-26015559f641?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/keeper/query_server.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_755c9f1e-5874-42c2-b559-2244370537a3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/migrations/v2/migrate.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_a5ac661a-8e38-4003-9a18-94461c7f1e64?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/migrations/v3/migrate.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_d04662e9-5918-4b09-92d6-a470dc257416?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/module.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_300635ed-23c2-47ad-875c-b759081ffade?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/types/block_confirmation.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_92431c47-de98-41ce-a555-af3d4f946439?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/types/chain_config.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_1fc88d38-75b0-483c-91c6-68bed1f490fc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/types/chain_enabled.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_e47a8504-f987-4acc-998c-505d818464c1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/types/codec.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_348b54f2-7037-4baf-98fb-f98cccc4dad7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/types/constants.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_95392810-3251-4d76-bee2-5de4553621a3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/types/expected_keepers.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_de7ef6e0-99d7-409a-b867-2643336adab5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/types/gateway_methods.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_41ef958c-ffc3-49fa-a163-3a71f80ee8c4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/types/genesis.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_c34ef840-b9b0-40ec-8a08-4039773fe5e6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/types/keys.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_8db98a9a-78cb-43ac-9035-91fe4d2735fa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/types/msg_add_chain_config.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_8d3e056d-19db-47aa-9035-2afbd530f1e4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/types/msg_add_token_config.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_42b5cf6c-abec-4209-92ea-001049a8ef96?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/types/msg_remove_token_config.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_1f687ed5-6ccc-4e58-a799-0e09968a3057?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/types/msg_update_chain_config.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_28b28288-6b88-4ed3-98c1-91dd953ff0f7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/types/msg_update_params.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_117d52fa-f5b7-4e20-8567-38e0f98b9a72?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/types/msg_update_token_config.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_288bd9fc-ee71-4738-9d4e-eb91c2aae8d7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/types/native_representation.go -> Scope: Critical. An unprivileged external user can corrupt canonical asset or chain mapping so the wrong token, wrong chain, wrong recipient, wrong revert target, or wrong refund destination is used, causing theft, stuck funds, or irreversible accounting loss.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_04370c73-6433-4fc0-9d9a-7a4bd36bcc48?mode=deep",
+    "questions_generated": false
+  }
+]

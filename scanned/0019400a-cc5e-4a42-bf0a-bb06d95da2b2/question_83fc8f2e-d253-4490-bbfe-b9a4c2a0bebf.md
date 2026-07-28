@@ -1,0 +1,1 @@
+[File: 'File Name: x/uexecutor/keeper/voting.go -> Scope: Critical.'] [Symbol: VoteOnInboundBallot / IsCEA flag hashed into ballot key] Can an attacker toggle the `IsCEA` boolean semantics of an inbound observation (via source-chain event shape ambiguity that different honest node versions/parsers interpret differently) so that `fmt.Sprintf(\

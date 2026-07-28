@@ -1,0 +1,1 @@
+[File: 'File Name: x/utss/types/msg_tss_key_process.go -> Scope: Critical.'] [Symbol: MsgVoteTssKeyProcess.ValidateBasic] Can an attacker submit a TssPubkey value with leading or trailing internal whitespace (e.g. ' abc123') that passes strings.TrimSpace(msg.TssPubkey)==\

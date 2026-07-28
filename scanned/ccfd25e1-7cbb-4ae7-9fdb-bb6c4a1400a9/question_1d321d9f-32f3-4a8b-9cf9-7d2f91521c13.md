@@ -1,0 +1,1 @@
+[File: 'x/uexecutor/keeper/gas_fee.go -> Scope: High DoS'] [Symbol: GetOutboundTxGasAndFees] Can an attacker exploit the hardcoded UNIVERSAL_CORE handlerAddr resolution (uregistrytypes.SYSTEM_CONTRACTS[\

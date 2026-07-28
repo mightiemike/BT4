@@ -1,0 +1,1 @@
+[File: 'universalClient/chains/evm/client.go -> Scope: Critical'] [Symbol: parseEVMChainID] Can an attacker who controls only the destination of a cross-chain deposit (not chain config) rely on parseEVMChainID's use of `fmt.Sscanf(\

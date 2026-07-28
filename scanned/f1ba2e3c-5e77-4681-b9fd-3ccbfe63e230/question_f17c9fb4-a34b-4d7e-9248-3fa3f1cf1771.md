@@ -1,0 +1,1 @@
+[File: 'universalClient/chains/common/event_processor.go'] [Symbol: constructInbound] Can an attacker submit a source-chain deposit whose emitted VerificationData field is set to the literal string '0x' (a valid-looking but sentinel value) causing the fallback branch `eventData.VerificationData == \

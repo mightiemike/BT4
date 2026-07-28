@@ -1,0 +1,1 @@
+[File: 'universalClient/tss/txflow/types.go' -> Symbol: parse.ReadFundMigrationSigner] Can attacker-influenced data.OldTssPubkey (empty-string bypass check aside) be crafted to a syntactically valid but semantically wrong pubkey that still passes the `data.OldTssPubkey == \

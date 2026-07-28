@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: x/uexecutor/migrations/v5/migrate.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_572b62ce-ccc1-4903-a928-86033778100e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/module.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_762d2a3c-c7d8-4f6e-bdbf-4b3e244c1ecf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/abi.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_7787eb45-a7b1-416b-9b59-864db3fb7490?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/caip2.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_83fb3d67-8374-4591-9c92-dabd972d22d1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/chain_meta.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_f05273bf-ee4f-46d0-9c1c-3e51c9f93b8a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/codec.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_f0961f33-ba76-44e9-a190-34a40dc53aab?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/constants.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_f4129209-1745-43a4-b8a2-f8cae09dc23b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/decode_payload.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_d244a8ee-6200-4201-8b35-57afe53deb13?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/events.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_c8c619e1-767e-49b1-bb3c-b0f4a499b8e1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/expected_keepers.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_783d8b25-64e9-48e9-acf9-22c0259c146a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/gas_price.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_d2acc801-41fd-4ea8-bb8e-1aa080124505?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/gateway_pc_event_decode.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_d6df9cc7-6ee0-44c4-9a18-76942a97450e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/genesis.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_430d2d46-b232-4d16-9c95-dbe965a3e3fe?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/inbound.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_30aa08c4-7f18-45e7-9be0-b8c9fb07ebd7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/keys.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_c6ce2c69-c0ef-4b55-907e-f64537a89297?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/migration_payload.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_f052a6ad-4dad-4c94-8fb8-c8ca8c0db210?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/msg_execute_payload.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_47317553-f508-4025-a8ce-1e4404c0ca15?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/msg_migrate_uea.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_8ba64693-3a8c-4bf6-9dbc-e693198c7199?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/msg_vote_chain_meta.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_a918d636-60f8-4161-b0cc-6071fbd836ac?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/msg_vote_inbound.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_eb159857-cf9c-4da7-be3c-eb3abe871652?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/msg_vote_outbound.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_59ce0b69-45ac-490a-9a1e-6da934833c23?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/outbound_tx.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_e1096441-9010-47f2-8cd9-70ea44ca16b5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/params.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_97b16d03-6ed2-4a72-b886-7f8ad211b979?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/pc_tx.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_b3aeed61-a71b-4d4c-a267-d456b4754349?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/status.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_7130cf42-0812-4c7c-b55e-f63e69ee45c8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/tx_type.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_1532f089-8cf5-4335-98bb-c85b69cb9981?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/universal_account_id.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_8eccd43c-3feb-4250-800a-144f7e174cae?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/universal_payload.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_0ed0fb60-5352-4ad8-b2ea-365595586484?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uexecutor/types/universal_tx.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_115a88f6-2ed3-4baf-9d9f-bbccba74fb6c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uregistry/autocli.go -> Scope: Critical. An unprivileged external user can steal, mint, release, refund, revert, or permanently freeze funds by making Push Chain finalize the wrong inbound, outbound, payload, PRC20 accounting change, or module-originated EVM call.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_9ed1f654-6d62-4028-9c09-33fa5b821cf3?mode=deep",
+    "questions_generated": false
+  }
+]

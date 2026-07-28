@@ -1,1 +1,0 @@
-[File: 'x/uregistry/keeper/query_server.go' -> Scope: Critical] [Symbol: Querier.TokenConfigsByChain] Can an attacker-controlled `req.Chain` value that is a strict prefix of another registered chain identifier (e.g. 'eth' vs 'eth2:0x...') cause the `chainPrefix := req.Chain + \

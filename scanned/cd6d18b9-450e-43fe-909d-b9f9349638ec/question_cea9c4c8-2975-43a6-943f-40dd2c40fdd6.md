@@ -1,1 +1,0 @@
-[File: 'File Name: x/uregistry/types/keys.go -> Scope: Critical'] [Symbol: GetTokenConfigsStorageKey] Can an attacker who controls the CAIP-2 chain string and address strings submitted through a user-reachable inbound/deposit path (e.g. a chain id containing a colon such as 'eip155:1:evilsuffix') cause fmt.Sprintf(\

@@ -1,0 +1,1 @@
+[File: 'File Name: x/uregistry/types/native_representation.go -> Scope: Critical.'] [Symbol: NativeRepresentation.ValidateBasic ContractAddress prefix check] Can an attacker submit a ContractAddress value using an uppercase 'OX' or unicode-lookalike prefix that fails strings.HasPrefix(p.ContractAddress, \

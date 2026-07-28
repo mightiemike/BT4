@@ -1,0 +1,1 @@
+[File: 'File Name: universalClient/tss/txresolver/svm.go -> Scope: Critical.'] [Symbol: resolveSVM] Does the REVERT branch's hardcoded zero blockHeight and zero gasFeeUsed (`voteOutboundFailureAndMarkReverted(..., \

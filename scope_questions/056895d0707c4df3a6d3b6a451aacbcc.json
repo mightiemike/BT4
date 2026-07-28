@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: app/ante/account_init_decorator.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_fdd3ec3b-2a4c-46f4-97d4-067677919b52?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/ante/ante.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_43f7eaa4-7228-4b40-99ac-e24bd2d8c3d8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/ante/ante_cosmos.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_50dcaf1f-6f6f-4175-ba60-e9274fd7feaa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/ante/ante_evm.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_e75ef30a-1bd6-4523-b651-150f985f08c4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/ante/fee.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_891853aa-391f-42f3-afbc-07ffd75f0c6e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/ante/handler_options.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_eced055c-a035-400f-a5bb-f9be1451bd98?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/ante/validator_tx_fee.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_ceda441c-ce7c-4d3b-91a4-55542b3ae472?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/cosmos/min_gas_price.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_81bfde86-01f4-4dc4-a951-443d4637b6a5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/txpolicy/gasless.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_6267b528-77f0-4f7b-bc35-ac0ea718b3a0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: precompiles/usigverifier/USigVerifier.sol -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_ff351bad-d490-4735-aca6-66ee34a6025a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: precompiles/usigverifier/query.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_5251c19a-a8da-4e47-8898-8962a7024223?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: precompiles/usigverifier/usigverifier.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_e98084d3-819f-4c79-8cbe-55b17f4e6a27?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/api/handlers.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_4451f0fb-cabd-46af-9a7d-c78d37f98a18?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/api/routes.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_20d7cd5b-f7e7-4af1-8827-b104580f24db?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/api/server.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_dedd0e4a-b426-4dcf-9abf-a932ddf1f612?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/chains.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_15a38822-fa26-4150-a0b2-daa515768e02?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/common/chain_store.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_6c2ae436-4214-4c1e-b86f-95b78aa55bd9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/common/event_cleaner.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_b5be3616-548c-40bd-97f7-353335a4f36a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/common/event_processor.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_1ea56fc2-56f4-4a2f-b8cd-ef566eb0bce2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/common/types.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_7f07b053-3717-48e7-b521-581e3721792b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/evm/chain_meta_oracle.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_256f034a-c7d1-4801-8988-647c595b9505?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/evm/client.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_5427aa3f-0a29-476c-9f8c-120aa06d5cc5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/evm/event_confirmer.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_b4da4ebd-f5d2-42b2-a6ef-8875a3333b7b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/evm/event_listener.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_65e9bf04-b111-40d3-b080-2f406c2b99fb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/evm/event_parser.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_eac06c29-518f-4fa2-815b-1426dc163fc6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/evm/rpc_client.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_bd97cddf-ff4d-46ea-8697-8d434ed48b79?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/evm/tx_builder.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_8131b1e2-720c-4c1b-891e-571295d58160?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/push/client.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_29fc23af-2d3e-4bb5-9447-15c18721896c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/push/event_listener.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_f1218998-0d04-4592-96d5-896593590f4b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/push/event_parser.go -> Scope: Critical. An unprivileged external user can bypass gasless admission, ante validation, signature verification, or precompile checks to obtain unauthorized state transitions, fee bypass with material follow-on impact, or forged cross-chain identity verification.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_fbfea88c-3f30-4399-b73d-3787851e7105?mode=deep",
+    "questions_generated": false
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: x/utss/types/tss_key_process.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_53dbfcee-f10a-4d18-80d4-2093dc9483ed?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/abci.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_69f8fe5c-e034-4948-bed0-bf763a9adca2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/autocli.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_e8212914-22bd-413d-979b-402e1016e827?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/depinject.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_9451f032-8cff-4740-b2eb-da7a2f8f9269?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/keeper/ballot.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_24d70d88-13c6-4a4a-839b-6f4b3a25628c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/keeper/hooks.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_6534f901-3fc2-4a9f-8299-f595697beb63?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/keeper/keeper.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_e9719f56-cfc3-4996-9f35-5e68bdc01067?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/keeper/msg_add_universal_validator.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_2732912d-916d-405b-b62b-8071bc98f44a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/keeper/msg_remove_universal_validator.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_84459d53-9574-44a0-ad62-acfa11730e8b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/keeper/msg_server.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_b51e3376-d20f-487a-86cc-f5d7fb812e76?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/keeper/msg_update_params.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_6dc29d59-556c-4380-9dbd-eb5e6204a914?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/keeper/msg_update_universal_validator.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_72b5ce01-12bc-4bf7-b30a-80a6ea4f8d74?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/keeper/msg_update_universal_validator_status.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_0210dbaa-7c91-4a56-a56e-4240c1259b22?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/keeper/query_server.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_e844e697-5ad4-4a68-ab16-34649ace9eaa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/keeper/staking_hooks.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_0f39d7aa-9c65-47b1-a608-b9af2b417fac?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/keeper/validator.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_83064bbc-2977-441e-b1c5-7e2133211720?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/keeper/voting.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_5a86bb72-a838-4a81-840b-302d9e9b18e4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/module.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_e94db678-836d-499b-8245-6fdee40e08e5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/types/ballot.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_700327b3-155a-4692-a0db-89a2688d4a85?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/types/codec.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_311fd8e3-4439-4cf4-9737-88b1cc341541?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/types/expected_keepers.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_4075c12b-a872-414e-ad87-4d53c5f93fca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/types/genesis.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_59f26216-fa4d-47f6-881e-1bcea538876f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/types/hooks.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_bc0eb1b0-29bb-4a23-bff1-46e708a8af94?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/types/identity_info.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_09ee3eca-5b59-4ef6-8624-9867c4d97e4e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/types/keys.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_02d1c1b3-0c0b-439e-a8d1-38721be3bf40?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/types/lifecyle_event.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_3fe81c79-df40-4d15-890e-84b1a9fbd6ba?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/types/lifecyle_info.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_e85292e0-48c7-4d64-abc8-e7c355d9fad8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/types/msg_add_universal_validator.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_96cd8f41-2e35-43c1-9411-531ea7d723c9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/types/msg_remove_universal_validator.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_f53091eb-5916-4bbb-9bd3-dbb45bbceecd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: x/uvalidator/types/msg_update_params.go -> Scope: Critical. An unprivileged external user can execute a victim UEA or CEA action, bypass payload authorization, misuse verification data, or corrupt the module account manual nonce so unauthorized execution or value transfer occurs.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_599c3ae8-30ca-4aad-8f10-f208d8819bf2?mode=deep",
+    "questions_generated": false
+  }
+]

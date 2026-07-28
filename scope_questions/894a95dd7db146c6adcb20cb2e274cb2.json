@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: app/ante/account_init_decorator.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_5a63ac52-ab14-476c-8cb6-bfe546eaa24d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/ante/ante.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_0afd6b3e-0f2e-41bb-9f57-d0e587e18ee5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/ante/ante_cosmos.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_d67fb9ac-026d-4d8c-95d4-6e42a36fd541?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/ante/ante_evm.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_c0d57a7a-eab2-439c-9298-f6d84c6eb6bc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/ante/fee.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_2b615019-237b-467f-ad58-43c4295352b8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/ante/handler_options.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_d7de7c73-5658-4316-bb49-095d53698cd4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/ante/validator_tx_fee.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_6823ff28-8aa4-4870-b30d-41db2ae5bb53?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/cosmos/min_gas_price.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_4bcd6181-aa2b-4053-9ebd-9d6a5fad51af?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: app/txpolicy/gasless.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_1364afb1-61c8-4f9b-ade4-7bcf4eef1846?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: precompiles/usigverifier/USigVerifier.sol -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_087a5703-bbae-465b-b7ba-6fdf98461098?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: precompiles/usigverifier/query.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_dab2d949-54c1-47e5-947c-1886d7d04d71?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: precompiles/usigverifier/usigverifier.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_8a35bb32-99d8-4442-b4c3-a4905983d501?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/api/handlers.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_574e40c3-7976-48f7-99bd-0e7581fac07a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/api/routes.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_4b9be280-4148-4376-b06b-1bd6829d5f65?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/api/server.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_98444dd6-c22b-4a31-9e22-ea65bebd0819?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/chains.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_5f7c3ed9-366b-433b-8577-090e87e72206?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/common/chain_store.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_e17129ed-cbbd-49c5-bdb4-ce157bc213fd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/common/event_cleaner.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_54482985-2255-4d5a-be90-6a4dd517bfe5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/common/event_processor.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_2937f561-3247-41a2-bad4-07e38fb7c04c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/common/types.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_7bfea388-a378-440a-b215-6dafd7a52c56?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/evm/chain_meta_oracle.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_be00c95d-d2f3-43d9-ace5-5dc15674b705?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/evm/client.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_932cdd80-8c57-4b9a-8124-28f689ebf5d6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/evm/event_confirmer.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_e9e541d0-ba4c-4f36-8b14-33c5ff8dda12?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/evm/event_listener.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_6067c5a3-05bd-442e-868b-f0d02735bd44?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/evm/event_parser.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_686c02ba-d92a-466d-963a-1be69f6fbebe?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/evm/rpc_client.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_65cfa8a8-6b93-4c1e-97c8-908b565b7ea5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/evm/tx_builder.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_6256d75d-96e0-467c-9681-dd4f8167e307?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/push/client.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_d9cd8804-1544-4266-9cdf-3e4dc3a72c8f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/push/event_listener.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_6e067791-d87b-4cce-91cd-d98916cad071?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: universalClient/chains/push/event_parser.go -> Scope: High. An unprivileged external user can trigger a non-network-level denial of service through gasless transactions, payload execution, malformed proof or precompile input, or state-amplifying execution that materially stalls finalization or execution.'",
+    "url": "https://deepwiki.com/search/-generate-push-chain-l1-securi_de284c7c-bec1-4a51-9a35-7101737c61a2?mode=deep",
+    "questions_generated": false
+  }
+]

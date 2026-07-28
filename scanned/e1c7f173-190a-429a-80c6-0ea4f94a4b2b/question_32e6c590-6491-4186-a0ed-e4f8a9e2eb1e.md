@@ -1,0 +1,1 @@
+[File: 'universalClient/tss/txresolver/svm.go' -> Scope: Critical] [Symbol: extractOutboundIDs] When `event.EventData` unmarshal succeeds but `tx_id`/`utx_id` fields are empty (valid JSON, missing fields), does `resolveSVM` proceed to call `builder.IsAlreadyExecuted(ctx, \

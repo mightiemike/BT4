@@ -1,0 +1,1 @@
+[File: 'File Name: universalClient/pushsigner/vote.go -> Scope: High.'] [Symbol: voteInbound] Can an attacker submit a source-chain event with an arbitrarily long 'TxHash' or 'SourceChain' string that flows unsanitized into 'memo = fmt.Sprintf(\

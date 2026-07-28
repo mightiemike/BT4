@@ -1,0 +1,1 @@
+[File: 'universalClient/tss/coordinator/coordinator.go' -> Symbol: buildSignTransaction empty/zero-value TxID check] Can a user craft a deposit whose resulting `OutboundCreatedEvent.TxID` is a non-empty but semantically invalid placeholder (e.g., all-zero hash) that passes the `data.TxID == \

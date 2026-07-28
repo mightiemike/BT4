@@ -1,0 +1,1 @@
+[File: 'File Name: universalClient/pushsigner/vote.go -> Scope: High.'] [Symbol: voteTssKeyProcess] Can an attacker-influenced 'keyID' or 'tssPubKey' string (derived from attacker-observable but unvalidated external key-generation artifacts) of excessive length, embedded via 'fmt.Sprintf(\

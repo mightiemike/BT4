@@ -1,1 +1,0 @@
-[File: 'File Name: x/uexecutor/migrations/v4/migrate.go -> Scope: Critical.'] [Symbol: mapOutbound] Can an attacker who caused an old OutboundTx record with an empty DestinationChain (e.g. by initiating an inbound whose outbound never resolved a destination) under REQUIRED_STATE of pending migration reach CALL_PATH mapOutbound's `old == nil || old.DestinationChain ==

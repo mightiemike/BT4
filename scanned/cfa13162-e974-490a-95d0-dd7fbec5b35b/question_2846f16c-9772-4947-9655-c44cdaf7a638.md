@@ -1,1 +1,0 @@
-[File: 'File Name: x/uexecutor/keeper/msg_vote_inbound.go -> Scope: Critical.'] [Symbol: Inbound.ValidateForExecution isCEA gating] Can an attacker set IsCEA=true on a TxType_GAS inbound configuration path that ValidateForExecution's isCEA-type restriction (\

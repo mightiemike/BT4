@@ -1,1 +1,0 @@
-[File: 'x/uexecutor/keeper/evm_hooks.go' -> Scope: Critical] [Symbol: AttachRescueOutboundFromReceipt -> originalUtx.InboundTx.IsCEA branch] Can an attacker manipulate the eligibility check by triggering a rescue call before the CEA deposit's PcTx[0].Status is finalized as \

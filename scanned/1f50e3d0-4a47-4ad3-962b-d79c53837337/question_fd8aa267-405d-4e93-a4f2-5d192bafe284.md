@@ -1,1 +1,0 @@
-[File: 'File Name: universalClient/chains/common/chain_store.go -> Scope: High.'] [Symbol: GetPendingEvents / GetConfirmedEvents] Can an attacker-driven table size (via repeated unprivileged event insertion) make the `Order(\

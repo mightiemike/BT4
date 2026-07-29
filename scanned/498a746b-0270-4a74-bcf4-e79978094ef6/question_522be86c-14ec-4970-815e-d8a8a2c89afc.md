@@ -1,1 +1,0 @@
-[File: keys.go] [Symbol: GetRescueFundsOutboundId] Can a user-controlled pcTxHash or logIndex (e.g. an EVM-minted hash from a user's own transaction, or logIndex string from an unrecognized/default namespace) inject a ':' delimiter that collides GetRescueFundsOutboundId across two different rescue events, given the fields are concatenated raw (\

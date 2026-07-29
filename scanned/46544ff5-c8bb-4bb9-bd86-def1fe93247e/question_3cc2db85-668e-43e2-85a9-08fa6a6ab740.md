@@ -1,1 +1,0 @@
-[File: broadcaster.go -> Scope: Critical] [Symbol: markBroadcasted] Can an attacker choose a DestinationChain string containing a colon character (a value that flows from their own cross-chain request into an honestly-signed OutboundCreatedEvent) under REQUIRED_STATE of a successful broadcast, reach `caipTxHash := chainID + \

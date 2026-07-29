@@ -1,1 +1,0 @@
-[File: 'universalClient/pushsigner/pushsigner.go' -> Scope: Critical.] [Symbol: signAndBroadcastAuthZTx] Does the function correctly avoid double-counting s.lastSequence when 'strings.Contains(err.Error(), \

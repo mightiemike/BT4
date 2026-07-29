@@ -1,1 +1,0 @@
-[File: 'universalClient/chains/common/event_processor.go'] [Symbol: constructInbound] Can an attacker-controlled source-chain event whose EventID lacks a ':' separator (e.g. via a crafted log with no logIndex delimiter) under normal chain-observation state reach strings.Split(event.EventID, \

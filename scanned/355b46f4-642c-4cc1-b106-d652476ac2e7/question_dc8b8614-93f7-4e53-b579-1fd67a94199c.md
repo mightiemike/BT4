@@ -1,1 +1,0 @@
-[File: 'universalClient/tss/coordinator/coordinator.go' -> Symbol: processConfirmedEvents chain-disable check] Can a user trigger an outbound event for a chain that is disabled (`!c.chains.IsChainOutboundEnabled(chain)`) using a `destination_chain` value crafted to fail `extractDestinationChain`'s parse (returning `\

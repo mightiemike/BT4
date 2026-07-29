@@ -1,1 +1,0 @@
-[File: 'File Name: universalClient/chains/svm/tx_builder.go -> Scope: Critical.'] [Symbol: BuildOutboundTransaction isNative detection] Can an attacker-controlled AssetAddr string that is a zero-valued Solana pubkey encoded in a form other than the three literal strings checked (\

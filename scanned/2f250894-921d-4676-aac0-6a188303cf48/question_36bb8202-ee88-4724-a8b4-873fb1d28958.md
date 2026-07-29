@@ -1,1 +1,0 @@
-[File: 'universalClient/tss/eventstore/store.go' -> Scope: High DoS] [Symbol: Store.GetEvent] Can an attacker generate an extremely long-lived, ever-growing set of duplicate-prefix EventIDs (TxHash:LogIndex, hashEventID for TSS types) via mass low-value transactions on the source chain such that `GetEvent`'s `Where(\

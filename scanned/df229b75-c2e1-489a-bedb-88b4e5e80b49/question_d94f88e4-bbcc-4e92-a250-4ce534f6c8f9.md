@@ -1,1 +1,0 @@
-[File: 'x/uregistry/types/msg_add_token_config.go' -> Scope: Critical] [Symbol: TokenConfig.ValidateBasic] Can LiquidityCap be set to a non-empty but non-numeric attacker-controlled string (only checked via TrimSpace != \

@@ -1,1 +1,0 @@
-[File: 'File Name: x/uexecutor/types/pc_tx.go -> Scope: Critical.'] [Symbol: PCTx.ValidateBasic Status casing] Can an attacker submit Status value with mixed casing/whitespace variants (e.g., ' success ') that ValidateBasic normalizes and accepts via strings.ToUpper/TrimSpace, but downstream code compares p.Status directly (non-normalized) against \

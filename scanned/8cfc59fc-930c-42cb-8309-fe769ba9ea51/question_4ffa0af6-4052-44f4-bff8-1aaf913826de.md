@@ -1,1 +1,0 @@
-[File: 'File Name: universalClient/chains/evm/event_parser.go -> Scope: Critical...'] [Symbol: decodeSignatureData] When the signatureData word (Word 5) does not qualify as a valid dynamic offset (offset < minOffset or offset >= len(data)), can an attacker rely on the fallback `return \

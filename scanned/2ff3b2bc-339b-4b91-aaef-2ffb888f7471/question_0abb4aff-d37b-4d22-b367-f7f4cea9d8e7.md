@@ -1,1 +1,0 @@
-[File: 'File Name: precompiles/usigverifier/query.go -> Scope: Critical.'] [Symbol: VerifyEd25519] Can an attacker submit a `msgDigest` of all-zero bytes (`[32]byte{}`) paired with a signature they generate over the resulting ASCII string `\

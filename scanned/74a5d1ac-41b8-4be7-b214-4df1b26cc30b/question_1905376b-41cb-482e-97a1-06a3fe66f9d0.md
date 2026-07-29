@@ -1,1 +1,0 @@
-[File: 'File Name: x/utss/types/msg_vote_fund_migration.go -> Scope: Critical.'] [Symbol: MsgVoteFundMigration.ValidateBasic] Does ValidateBasic omit checking that TxHash contains no embedded null bytes or non-UTF8 sequences, and can an attacker-controlled TxHash with an embedded null byte pass validation, get logged via `k.Logger().Info(...,\

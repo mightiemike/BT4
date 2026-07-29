@@ -1,1 +1,0 @@
-[File: 'File Name: x/uexecutor/keeper/outbound.go -> Scope: Critical.'] [Symbol: applyGasRefund] If outbound.GasToken is attacker-set to the empty string or an address not recognized by GetDefaultFeeTierForToken, does the swap-fee-tier failure path unconditionally fall through to the no-swap CallUniversalCoreRefundUnusedGas call using common.HexToAddress(\

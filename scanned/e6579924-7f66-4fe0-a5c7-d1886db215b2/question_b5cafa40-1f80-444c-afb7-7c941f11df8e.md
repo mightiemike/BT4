@@ -1,1 +1,0 @@
-[File: 'File Name: x/uregistry/types/chain_config.go -> Scope: High.'] [Symbol: ChainConfig.ValidateBasic — chain CAIP-2 format check] Can an attacker submit a gasless transaction whose declared source-chain string passes the minimal `strings.Contains(chain, \

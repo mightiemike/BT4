@@ -1,1 +1,0 @@
-[File: 'File Name: x/uregistry/types/constants.go -> Scope: High.'] [Symbol: GATEWAY_METHOD.EVM.AddFunds / GATEWAY_METHOD.SVM.AddFunds] Can an unprivileged user craft a source-chain transaction whose calldata/method name string-matches GATEWAY_METHOD.EVM.AddFunds (\

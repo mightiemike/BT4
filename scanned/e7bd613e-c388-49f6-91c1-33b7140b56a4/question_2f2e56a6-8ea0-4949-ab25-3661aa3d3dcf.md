@@ -1,1 +1,0 @@
-[File: status.go] Can an unprivileged attacker exploit the always-nil ValidateBasic to submit a Status value that downstream code (e.g. PCTx.Status string assignment logic in execute_inbound_funds_and_payload.go) never independently re-validates, corrupting EXACT_VALUE_AT_RISK 'PCTx.Status (

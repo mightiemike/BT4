@@ -1,1 +1,0 @@
-[File: broadcaster.go -> Scope: Critical] [Symbol: broadcastOutbound] Can an attacker submit a request that produces an OutboundCreatedEvent with an empty or unregistered DestinationChain string under REQUIRED_STATE where `b.chains.IsChainOutboundEnabled(\

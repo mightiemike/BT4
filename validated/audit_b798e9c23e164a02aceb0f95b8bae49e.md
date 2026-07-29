@@ -1,0 +1,26 @@
+### Title
+`liquidity_cap` on `TokenConfig` is stored but never enforced during PRC20 minting, allowing unbounded per-token exposure — (File: `x/uexecutor/keeper/handler.go`, `x/uexecutor/keeper/evm.go`, `x/uregistry/types/token_config.go`)
+
+### Summary
+`x/uregistry`'s `TokenConfig` requires a non-empty `liquidity_cap` field (`x/uregistry/types/token_config.go:56-58`) as an explicit per-token risk control, mirroring the kind of exposure/collateral limits that under-designed or under-enforced caps caused insolvency risk in the Holdefi report. However, a full-repository search for `LiquidityCap` shows it is only referenced in proto/generated code and validation/test files — it is never read or checked anywhere in `x/uexecutor`'s inbound execution, deposit, or PRC20 minting path (`depositPRC20` in `x/uexecutor/keeper/handler.go:12-46`, `CallPRC20Deposit`/`CallPRC20DepositAutoSwap` in `x/uexecutor/keeper/evm.go`).
+
+### Finding Description
+`MsgAddTokenConfig`/`MsgUpdateTokenConfig` require admins to set a `liquidity_cap` (`proto/uregistry/v1/types.proto:141`, enforced by `TokenConfig.ValidateBasic` at `x/uregistry/types/token_config.go:56-58`), strongly implying the field is meant to bound the maximum PRC20 supply/exposure minted for that token. In practice, ordinary unprivileged users trigger PRC20 minting purely by depositing on the source chain and having honest Universal Validators observe/vote the inbound (`VoteInbound` → `ExecuteInbound` → `depositPRC20` → `CallPRC20Deposit`, see `x/uexecutor/keeper/msg_vote_inbound.go:148-155` and `x/uexecutor/keeper/handler.go:12-46`). None of this call chain looks up or checks `tokenCfg.LiquidityCap` against the token's current minted/circulating PRC20 supply before minting more. An attacker (or many colluding ordinary users) can repeatedly deposit the same token on the source chain, driving the PRC20 supply for that token arbitrarily above the admin-declared cap, with no on-chain enforcement stopping it.
+
+### Impact Explanation
+This directly maps to the "market can become insolvent"/risk-parameter bypass analog: the cap is presumably meant to bound the protocol's exposure to a given asset (e.g., to limit blast radius if that asset's bridge/vault logic, price feed, or liquidity later proves unsound). Because it's silently unenforced, an ordinary unprivileged user path (deposit → vote → mint) can push actual minted PRC20 exposure for a token far past the value the admin explicitly configured as the safe ceiling, defeating a documented safety control. This is a corruption of PRC20 accounting/registry-based risk limits (in the "Registry and accounting path" pivot) reachable via default user deposit flows, without needing any privileged actor.
+
+### Likelihood Explanation
+High reachability: any user can submit ordinary deposits on a whitelisted external chain and rely on honest Universal Validators to vote them through — no special conditions, no validator collusion required. The only "trigger" needed is enough capital/volume to exceed the configured cap, which is an unprivileged, straightforward action.
+
+### Recommendation
+Add and enforce a running "total minted"/circulating-supply counter per token in `x/uregistry` or `x/uexecutor`, and check it against `TokenConfig.LiquidityCap` before executing `depositPRC20`/`CallPRC20Deposit`/`CallPRC20DepositAutoSwap`. If the check would exceed the cap, either reject/queue the inbound (routing to the revert flow) or partially mint up to the cap, and emit an event so operators can raise the cap deliberately. Add integration tests exercising a deposit sequence that crosses `liquidity_cap` to confirm the enforcement triggers and produces the expected revert/queued outcome instead of silently succeeding.
+
+### Proof of Concept
+1. Admin registers a `TokenConfig` for chain `eip155:11155111` / a given ERC20 with `liquidity_cap = "1000000"` (1 unit, 6 decimals) via `MsgAddTokenConfig`.
+2. A user deposits `2000000` (2 units) of the token on the source chain gateway in a single transaction, or performs multiple smaller deposits summing above the cap.
+3. Universal Validators observe and vote the inbound(s) via `MsgVoteInbound`; ballots finalize normally (2/3 threshold, no malicious validators required).
+4. `VoteInbound` → `ExecuteInbound` → `depositPRC20` → `CallPRC20Deposit` executes and mints the full deposited amount to the recipient's PRC20 balance with no check against `tokenCfg.LiquidityCap` (confirmed absent by exhaustive `LiquidityCap` grep across `x/uexecutor`).
+5. Query the PRC20 contract's total supply / the recipient's balance: it exceeds the configured `liquidity_cap`, demonstrating the admin-declared exposure limit was never enforced by any reachable code path.
+
+Note: I could not find any test (e.g. in `test/integration/uexecutor/*liquidity*` or similarly named) that actually exercises cap enforcement — the only tests referencing `LiquidityCap` set it as a required non-empty string for other unrelated test setups, which corroborates that enforcement logic does not exist in this codebase snapshot.

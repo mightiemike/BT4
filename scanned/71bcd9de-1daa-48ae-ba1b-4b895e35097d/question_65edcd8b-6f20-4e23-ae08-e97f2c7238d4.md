@@ -1,1 +1,0 @@
-[File: msg_remove_token_config.go] [Symbol: MsgRemoveTokenConfig.ValidateBasic] Can an attacker craft a Chain string that merely contains a colon somewhere (e.g. 'x:') without valid CAIP-2 namespace/reference segments, pass the `strings.Contains(chain, \

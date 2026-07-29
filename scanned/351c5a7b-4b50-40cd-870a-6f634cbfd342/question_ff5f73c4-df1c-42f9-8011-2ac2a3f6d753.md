@@ -1,1 +1,0 @@
-[File: 'universalClient/tss/txbroadcaster/broadcaster.go -> Scope: High DoS'] [Symbol: markBroadcasted] Can a crafted chainID or txHash string (derived from attacker-controlled destination-chain data) containing unexpected characters (e.g., colons) collide with the caipTxHash concatenation `chainID +

@@ -1,1 +1,0 @@
-[File: universal_account_id.go] [Symbol: UniversalAccountId.ValidateBasic] Given ValidateBasic's owner-hex check only requires successful `hex.DecodeString` and does not reject leading/trailing extraneous characters beyond a single '0x' prefix, can an attacker supply an Owner value with an embedded '0X' (uppercase X) prefix that `strings.TrimPrefix(p.Owner, \

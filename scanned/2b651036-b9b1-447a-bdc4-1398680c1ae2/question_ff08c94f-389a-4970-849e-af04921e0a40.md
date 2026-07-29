@@ -1,1 +1,0 @@
-[File: 'File Name: universalClient/chains/common/chain_store.go -> Scope: Critical.'] [Symbol: ChainStore.InsertEventIfNotExists] Given REQUIRED_STATE where the underlying gorm.Create fails with a UNIQUE constraint error unrelated to the EventID column (e.g. a different unique index added in future migrations) does the substring check strings.Contains(err.Error(), \

@@ -1,1 +1,0 @@
-[File: ... store.go] [Symbol: GetSignedSignEvents / GetBroadcastedSignEvents] Can an attacker-controlled delay in destination-chain receipt confirmation (external, unprivileged) keep an event perpetually in BROADCASTED with an empty broadcasted_tx_hash bypass condition, so GetBroadcastedSignEvents's 'broadcasted_tx_hash != \

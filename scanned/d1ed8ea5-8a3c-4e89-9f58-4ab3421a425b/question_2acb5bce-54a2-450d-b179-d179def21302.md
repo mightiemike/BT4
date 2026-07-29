@@ -1,1 +1,0 @@
-[File: gateway_pc_event_decode.go] [Symbol: DecodeUniversalTxOutboundFromLog] Can the indexed `TxID` topic (attacker-influenced via calling the gateway with a chosen or replayed identifier, no uniqueness/format check in decode) collide with an existing UniversalTx key, causing `outbound.Id = strings.TrimPrefix(event.TxID, \

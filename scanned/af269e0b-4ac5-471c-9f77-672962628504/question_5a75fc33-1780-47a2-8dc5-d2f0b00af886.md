@@ -1,1 +1,0 @@
-[File: 'File Name: x/uregistry/types/params.go -> Scope: Critical.'] [Symbol: Params.Validate] Can an attacker-controlled bech32-like but malformed string reach Validate() (which only checks strings.TrimSpace(p.Admin) != \

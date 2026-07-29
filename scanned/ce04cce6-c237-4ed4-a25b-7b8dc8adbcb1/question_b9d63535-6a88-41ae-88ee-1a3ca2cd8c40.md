@@ -1,1 +1,0 @@
-[File: 'File Name: x/uregistry/types/params.go -> Scope: Critical.'] [Symbol: GatewayMethods.ValidateBasic] Can an attacker submit a source-chain event whose Identifier is valid hex but zero-length after trimming '0x' (hex.DecodeString(\

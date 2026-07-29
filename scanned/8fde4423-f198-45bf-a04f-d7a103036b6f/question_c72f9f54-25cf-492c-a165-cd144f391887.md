@@ -1,1 +1,0 @@
-[File: 'universalClient/tss/eventstore/store.go' -> Scope: High DoS] [Symbol: Store.PersistSignature] Can a `fundMigrationAmount *big.Int` value indirectly influenced by attacker-driven deposit amounts (that reach TSS fund-migration events) with an extremely large bit-length cause `signingData[\

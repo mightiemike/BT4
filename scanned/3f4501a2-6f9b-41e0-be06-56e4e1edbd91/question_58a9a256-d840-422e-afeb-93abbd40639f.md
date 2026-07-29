@@ -1,1 +1,0 @@
-[File: msg_remove_token_config.go] [Symbol: MsgRemoveTokenConfig.ValidateBasic] Can an attacker supply a Chain value equal to an existing registered CAIP-2 chain identifier but with added trailing segments after a second colon (e.g. 'eip155:1:extra') that satisfies `Contains(\

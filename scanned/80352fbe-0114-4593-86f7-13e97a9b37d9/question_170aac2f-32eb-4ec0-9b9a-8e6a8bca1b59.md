@@ -1,1 +1,0 @@
-[File: 'File Name: x/utss/types/params.go -> Scope: Critical.'] [Symbol: Params.ValidateBasic] Can an attacker-controlled genesis import or param string with only non-empty whitespace-padded content (e.g. a valid-looking but non-bech32 string) pass ValidateBasic's `strings.TrimSpace(p.Admin) == \

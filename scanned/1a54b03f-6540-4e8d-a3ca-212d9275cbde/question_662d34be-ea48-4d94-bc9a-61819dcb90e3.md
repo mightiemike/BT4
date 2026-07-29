@@ -1,1 +1,0 @@
-[File: decode_payload.go] [Symbol: DecodeUniversalPayloadEVM/-Solana returning (nil, nil) for empty input] Can an attacker submit RawPayload as an empty string or a string that trims to '0x' on a TxType_FUNDS_AND_PAYLOAD/GAS_AND_PAYLOAD inbound, causing DecodeRawPayload to return (nil, nil) instead of an error, which NormalizeForTxType interprets via `if p.RawPayload != \

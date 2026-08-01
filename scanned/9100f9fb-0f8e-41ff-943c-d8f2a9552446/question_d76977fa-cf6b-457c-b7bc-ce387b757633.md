@@ -1,1 +1,0 @@
-[File: reconfiguration_state.move -> Scope: High] [Symbol: is_in_progress] Can crafted timing of transactions (unprivileged, submitted by any account) that race `on_reconfig_start`/`on_reconfig_finish` produce a `State.variant` type_name comparison (`b\

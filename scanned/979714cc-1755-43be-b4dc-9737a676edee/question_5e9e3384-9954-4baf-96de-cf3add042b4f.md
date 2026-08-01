@@ -1,1 +1,0 @@
-[File: 'File Name: types/src/account_config/events/burn_event.rs -> Scope: Critical.'] [Symbol: BurnTranslator resource-not-found error path returning AptosDbError] Can an unprivileged user structure a transaction so that the Collection resource lookup for `burn_events()` transiently fails (e.g., object relocation/resource-group churn within the same transaction) causing `Err(\

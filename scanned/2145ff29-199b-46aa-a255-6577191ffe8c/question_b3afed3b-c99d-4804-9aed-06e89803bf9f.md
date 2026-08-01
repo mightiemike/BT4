@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/framework/aptos-framework/sources/configs/chunky_dkg_config.move -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'] [Symbol: grace_period_secs] Can the hardcoded byte-literal comparison `variant_type_name == b\

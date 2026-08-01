@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/block_executor/value.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'] [Symbol: ValueWithLayout::bytes_len] Can the `fail_point!(\

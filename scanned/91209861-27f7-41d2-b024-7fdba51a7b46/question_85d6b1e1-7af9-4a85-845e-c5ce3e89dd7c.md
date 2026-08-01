@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/aptos-gas-meter/src/traits.rs -> Scope: Critical.'] [Symbol: DiskSpacePricing::legacy_storage_fee_per_event / legacy_storage_discount_for_events] Can an attacker craft a sequence of events whose aggregate `event_fee` is smaller than the computed `event_discount`, tripping the `.expect(\

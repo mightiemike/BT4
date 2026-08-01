@@ -1,0 +1,1 @@
+[File: 'File Name: storage/aptosdb/src/state_store/state_merkle_batch_committer.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'] [Symbol: StateMerkleBatchCommitter::run] Can an unprivileged write set that produces a `snapshot` whose `.version()` is `None` cause the `expect(

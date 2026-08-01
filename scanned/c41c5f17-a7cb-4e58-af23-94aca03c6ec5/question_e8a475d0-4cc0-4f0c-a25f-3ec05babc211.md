@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/account_config/events/burn_token.rs -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'] [Symbol: BurnToken struct_tag MODULE_NAME/STRUCT_NAME constants] Are the ident_str! constants \

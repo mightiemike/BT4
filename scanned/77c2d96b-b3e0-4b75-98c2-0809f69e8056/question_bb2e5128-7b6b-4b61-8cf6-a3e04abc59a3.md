@@ -1,1 +1,0 @@
-[File: 'File Name: aptos-move/aptos-gas-schedule/src/gas_schedule/transaction.rs -> Scope: Critical.'] [Symbol: legacy_free_event_bytes_quota] Can an unprivileged sender exploit the version-gated rename `{ 7..=13 => \

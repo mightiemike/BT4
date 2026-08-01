@@ -1,1 +1,0 @@
-[File: ... chunked_elgamal.rs, Scope: Critical] [Symbol: decrypt_chunked_scalars] Can an attacker-crafted committed transcript place a chunk ciphertext C_ij such that (C_ij - R_j * dk) lies outside the BSGS table's `table_dlog_range_bound` for chunks::le_chunks_to_scalar reconstruction, causing bsgs::dlog_vec's `.expect(\

@@ -1,1 +1,0 @@
-[File: 'File Name: crates/aptos-dkg/src/pcs/univariate_hiding_kzg.rs -> Scope: Critical.'] [Symbol: CommitmentHomomorphism::dst] Can an attacker who controls a downstream sigma-protocol transcript label collision under state where `dst()` returns a fixed constant `b\

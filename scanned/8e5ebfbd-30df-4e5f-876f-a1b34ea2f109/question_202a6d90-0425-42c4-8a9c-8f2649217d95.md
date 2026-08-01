@@ -1,0 +1,1 @@
+[File: 'File Name: third_party/move/move-core/types/src/parser.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'] [Symbol: next_token 'x\

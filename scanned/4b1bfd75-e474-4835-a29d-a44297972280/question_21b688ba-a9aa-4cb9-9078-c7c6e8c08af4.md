@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/account_config/events/token_withdraw.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'] [Symbol: TokenWithdrawTranslator's StructTag::from_str(\

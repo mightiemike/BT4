@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: types/src/on_chain_config/gas_schedule.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_bfdd7b23-dd5a-48e9-9aee-747b98829247?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/on_chain_config/jwk_consensus_config.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_654e6c2f-d025-410b-b41e-e7bd85513a04?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/on_chain_config/randomness_api_v0_config.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_2f7684f3-30e6-4d24-ab0e-c7602c437173?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/on_chain_config/randomness_config.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_b9dacf8b-5555-4024-a33b-a52fca66968b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/on_chain_config/timed_features.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_99d59038-debc-43ee-b943-9d37abba3cde?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/on_chain_config/timestamp.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_8b2c44a9-75e8-4827-8915-2f150f40b6d6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/on_chain_config/transaction_fee.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_6f0fb0d6-b6b8-43c1-bb9f-844a516e4ae6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/on_chain_config/validator_set.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_ee5e3a17-4ebf-4225-a351-affe11783fcb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/proof/definition.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_1a78a866-7a0e-4ed6-bfe2-724e65176b54?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/randomness.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_613f50d7-65e4-46c9-b393-45b637d39828?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/secret_sharing.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_1fb4edbd-71af-41e3-919e-23b08856b8c1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/serde_helper/bcs_utils.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_637f66e9-6293-49f3-8068-832bf1197a0d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/serde_helper/vec_bytes.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_09e3f659-30d0-467a-80c8-34e95938ddb2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/stake_pool.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_8518d176-16f3-44a4-af4f-71999090614d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/staking_contract.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_8fc4dd08-71b9-4ac8-a05a-f170404c26f5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/state_proof.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_4bd8cc39-bd7a-4783-81e7-b00936596f31?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/state_store/errors.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_14cd73b7-9e21-4e47-8f7c-71d36f58b3de?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/state_store/hot_state.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_490b9195-d72d-4f9b-b408-51533dfe2c01?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/state_store/native_position.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_577c2f9a-50de-4ba8-97ee-0bc4d3524a55?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/state_store/state_key/inner.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_e7aecd75-3c62-403c-b525-8ffad0b85844?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/state_store/state_key/prefix.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_769e132e-3a3f-4a13-8b31-ca56a6a89d47?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/state_store/state_key/registry.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_a9b3f075-9750-4c7c-949d-635284f22413?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/state_store/state_slot.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_24bc14e9-5f81-4435-9fd3-87ad3f9a70b3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/state_store/state_storage_usage.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_cee4aec5-24f9-4c2a-a376-c6487d99d279?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/state_store/state_value.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_5c7245e9-3749-4dd8-8b66-9bed423dc7ac?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/state_store/table.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_5dd7a0b0-73a5-4d80-84bf-bf795198b158?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/timestamp.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_919c16ed-a00f-4b97-94d3-97eb62d3cfca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/transaction/analyzed_transaction.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_2c914eda-2ce3-4184-a054-cb9b7ea4cd3b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/transaction/authenticator.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_55876b09-f863-4cf8-85f2-32a3d38ddad9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: types/src/transaction/block_epilogue.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_59ecd4f3-952e-488c-8413-b61cf5cf1d94?mode=deep",
+    "questions_generated": false
+  }
+]

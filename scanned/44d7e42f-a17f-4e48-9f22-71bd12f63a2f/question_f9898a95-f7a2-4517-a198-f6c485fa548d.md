@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/framework/aptos-token-objects/sources/token.move -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'] [Symbol: create_token_seed] Can an attacker-controlled collection or name String containing byte sequences colliding after `b\

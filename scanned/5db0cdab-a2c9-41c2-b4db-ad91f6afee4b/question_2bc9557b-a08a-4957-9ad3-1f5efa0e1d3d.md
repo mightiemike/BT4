@@ -1,0 +1,1 @@
+[File: 'File Name: storage/aptosdb/src/utils/iterators.rs -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'] [Symbol: AccountTransactionSummariesIter::next_impl] Can the `ensure!(version == txn_summary.version(), \

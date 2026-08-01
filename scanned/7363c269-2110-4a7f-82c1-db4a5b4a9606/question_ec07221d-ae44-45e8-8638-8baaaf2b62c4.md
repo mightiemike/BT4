@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/framework/aptos-stdlib/sources/string_utils.move -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'] [Symbol: format1/format2/format3/format4 -> native_format_list] Can an attacker supply a format string containing unmatched or overlapping brace sequences (e.g. `\

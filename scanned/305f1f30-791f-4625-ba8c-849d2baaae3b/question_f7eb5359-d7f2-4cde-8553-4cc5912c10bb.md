@@ -1,0 +1,1 @@
+[File: state_update_refs.rs] [Symbol: StateUpdateRefs::for_last_checkpoint_batched/for_latest_batched consumers in update_with_memorized_reads] Can a crafted chunk where for_last_checkpoint_batched() is Some but for_last_checkpoint_per_version() is None (or vice versa), reachable through an inconsistent StateUpdateRefs construction from state-sync input, cause the `.expect(\

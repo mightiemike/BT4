@@ -1,0 +1,1 @@
+[File: types/src/account_config/events/mint.rs] [Symbol: MintTranslator error path] When both `get_state_value_bytes_for_object_group_resource` calls for FixedSupply and UnlimitedSupply return None and the translator returns `Err(\

@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/waypoint.rs -> Scope: Critical.'] [Symbol: Waypoint::new_epoch_boundary] Can an attacker submit a LedgerInfo where `ends_epoch()` returns true but `next_epoch_state` is empty or default, bypassing the `ensure!(ledger_info.ends_epoch(), \

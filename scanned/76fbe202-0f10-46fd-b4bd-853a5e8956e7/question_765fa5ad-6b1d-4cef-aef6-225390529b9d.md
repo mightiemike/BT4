@@ -1,0 +1,1 @@
+[File: transaction_argument.rs] [Symbol: convert_txn_args .expect() panic] Can an attacker craft a TransactionArgument variant whose MoveValue::from().simple_serialize() legitimately returns None under REQUIRED_STATE of a value exceeding serialization limits, reaching the .expect(\

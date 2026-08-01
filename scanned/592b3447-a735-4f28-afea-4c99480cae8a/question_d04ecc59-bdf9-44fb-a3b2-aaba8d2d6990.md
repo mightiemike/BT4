@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/framework/natives/src/debug.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'] [Symbol: native_stack_trace] Can an unprivileged caller invoking `native_stack_trace` under `should_print = cfg!(feature = \

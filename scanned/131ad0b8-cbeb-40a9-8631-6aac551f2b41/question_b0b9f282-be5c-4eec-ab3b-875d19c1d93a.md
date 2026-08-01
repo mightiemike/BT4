@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/account_config/resources/collection.rs -> Scope: High.'] [Symbol: MoveResource::resource_path (via CollectionResource's MoveStructType impl)] Can an attacker craft a type-argument-bearing struct colliding with CollectionResource's fixed MODULE_NAME/STRUCT_NAME (

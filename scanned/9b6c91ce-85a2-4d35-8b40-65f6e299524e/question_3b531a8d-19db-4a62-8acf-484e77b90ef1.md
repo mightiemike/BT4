@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/validator_performances.rs -> Scope: Critical.'] [Symbol: ValidatorPerformance] Can an unprivileged full-node JSON-RPC/REST consumer force `get_account_resource_at_version(PeerId::ONE, \

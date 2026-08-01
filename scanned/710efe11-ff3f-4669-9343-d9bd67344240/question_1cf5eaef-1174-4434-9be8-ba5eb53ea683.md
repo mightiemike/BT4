@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/vm/module_metadata.rs -> Scope: Critical.'] [Symbol: check_module_complexity / check_budget] Can an attacker publish a module whose signature/struct graph is engineered to sit exactly at the `COMPLEXITY_BUDGET` (module_metadata.rs:49) boundary such that under `cfg!(feature =

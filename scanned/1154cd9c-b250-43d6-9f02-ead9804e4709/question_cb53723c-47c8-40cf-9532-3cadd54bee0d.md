@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/on_chain_config/chunky_dkg_config.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'] [Symbol: OnChainChunkyDKGConfig::try_from unknown variant bail] When `variant_type_name` at line 106 does not match any known MOVE_TYPE_NAME, does the `bail!(\

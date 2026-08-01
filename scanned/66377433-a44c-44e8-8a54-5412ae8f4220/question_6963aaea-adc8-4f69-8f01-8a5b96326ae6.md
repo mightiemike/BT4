@@ -1,0 +1,1 @@
+[File: 'File Name: storage/aptosdb/src/position_snapshot_committer.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'] [Symbol: merklize_position] Can `new_state.version().expect(\

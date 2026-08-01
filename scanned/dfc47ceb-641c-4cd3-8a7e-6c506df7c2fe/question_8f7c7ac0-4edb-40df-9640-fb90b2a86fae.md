@@ -1,0 +1,1 @@
+[File: 'File Name: storage/aptosdb/src/pruner/ledger_pruner/ledger_metadata_pruner.rs -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'] [Symbol: LedgerMetadataPruner::progress] Can the `AptosDbError::Other(\

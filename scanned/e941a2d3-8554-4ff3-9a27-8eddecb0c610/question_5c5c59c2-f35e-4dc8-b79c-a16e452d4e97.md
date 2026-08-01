@@ -1,0 +1,1 @@
+[File: 'File Name: storage/aptosdb/src/ledger_db/transaction_accumulator_db.rs -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'] [Symbol: HashReader::get error path vs get_transaction_proof callers] Does the anyhow!(\

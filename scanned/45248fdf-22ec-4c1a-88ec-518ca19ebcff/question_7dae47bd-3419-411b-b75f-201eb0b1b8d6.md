@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/aptos-vm/src/transaction_validation.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'] [Symbol: TransactionValidation::is_account_module_abort] Can an attacker construct a Move abort whose AbortLocation matches ModuleId::new(CORE_CODE_ADDRESS, \

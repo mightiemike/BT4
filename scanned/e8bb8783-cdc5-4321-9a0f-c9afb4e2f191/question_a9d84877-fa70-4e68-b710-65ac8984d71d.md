@@ -1,0 +1,1 @@
+[File: ...] [Symbol: CreateCollectionTranslator error path returning AptosDbError] Can an attacker who never creates a `0x3::token::Collections` resource (only ever using v2-native `0x4::collection` flows) but who still emits a `0x4::collection::CreateCollection` v2 event, cause `engine.get_state_value_bytes_for_resource` to return `None` and the translator to return `Err(\

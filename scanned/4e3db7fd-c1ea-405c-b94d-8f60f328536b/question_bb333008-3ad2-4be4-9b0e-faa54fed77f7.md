@@ -1,0 +1,1 @@
+[File: 'File Name: third_party/move/move-vm/types/src/delayed_values/derived_string_snapshot.rs -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'] [Symbol: from_utf8_bytes] Can an attacker construct a DerivedStringSnapshot resource whose embedded numeric string has non-canonical leading zeros (e.g. \

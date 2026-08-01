@@ -1,0 +1,1 @@
+[File: identifier.rs -> Scope: High.] [Symbol: Identifier Display/fmt] Can an unprivileged sender cause an `Identifier` (bypassing `is_valid`) containing the address-delimiter character sequence used by `ModuleId`'s `Display` (\

@@ -1,0 +1,1 @@
+[File: 'File Name: execution/executor/src/workflow/do_ledger_update.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'] [Symbol: assemble_transaction_infos] Can an attacker exploit the `.expect(\

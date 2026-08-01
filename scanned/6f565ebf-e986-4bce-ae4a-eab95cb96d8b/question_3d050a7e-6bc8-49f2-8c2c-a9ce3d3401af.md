@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/aptos-vm/src/validator_txns/jwk.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'] [Symbol: verify_multi_signatures empty-signature test bypass] Can an attacker exploit the `#[cfg(any(test, feature = \

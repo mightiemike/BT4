@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/account_config/events/burn_token.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'] [Symbol: BurnTokenTranslator error path] Can an attacker force the `Err(AptosDbError::from(anyhow::format_err!(

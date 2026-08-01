@@ -1,0 +1,1 @@
+[File: 'File Name: crates/aptos-dkg/src/pcs/univariate_hiding_kzg.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'] [Symbol: CurveGroupTrait::dst for CommitmentHomomorphism] Can an attacker who controls which sigma-protocol context invokes `dst()` (returning the fixed constant `b\

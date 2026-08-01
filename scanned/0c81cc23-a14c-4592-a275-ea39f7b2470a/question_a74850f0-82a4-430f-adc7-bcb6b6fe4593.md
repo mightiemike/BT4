@@ -1,1 +1,0 @@
-[File: 'File Name: storage/aptosdb/src/position_state_store.rs -> Scope: Critical.'] [Symbol: PositionMerkleBatchCommitter::run panics via .expect] Can an unprivileged write-set crafted to make `merkle_db.commit(version, batch.top_levels_batch, batch.batches_for_shards)` fail mid-shard-write (e.g. a malformed `StateKey` producing an oversized RocksDB key) cause the `.expect(\

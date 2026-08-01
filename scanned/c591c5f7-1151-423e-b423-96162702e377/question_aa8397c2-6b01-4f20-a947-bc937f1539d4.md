@@ -1,1 +1,0 @@
-[File: 'File Name: aptos-move/framework/natives/src/object_code_deployment.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'] [Symbol: ExtendRef] Given the `#[serde(rename = \

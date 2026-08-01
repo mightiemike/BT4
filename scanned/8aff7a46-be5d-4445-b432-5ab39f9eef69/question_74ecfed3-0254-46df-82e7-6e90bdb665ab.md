@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/framework/aptos-framework/sources/jwks.move -> Scope: Critical.'] [Symbol: apply_patch] Can an unprivileged caller supply a Patch whose copyable_any::Any variant type_name string collides in prefix/suffix bytes with a known variant (b\

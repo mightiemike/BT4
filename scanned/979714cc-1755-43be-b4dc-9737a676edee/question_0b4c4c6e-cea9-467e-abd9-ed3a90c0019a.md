@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/account_config/events/burn_event.rs -> Scope: Critical.'] [Symbol: BurnTranslator resource lookup fallback] Can an unprivileged user burn a token from a collection using `ConcurrentSupply` (which lacks the `burn_events` handle) causing the translator to `Err(\

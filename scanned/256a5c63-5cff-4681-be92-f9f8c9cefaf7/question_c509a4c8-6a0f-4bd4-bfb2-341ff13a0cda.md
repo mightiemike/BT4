@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/aptos-vm/src/verifier/resource_groups.rs -> Scope: Critical.'] [Symbol: validate_resource_groups scope equality fallback error path] Can an attacker exploit the `groups.get(&group_module_id)` None branch returning `Err(metadata_validation_error(\

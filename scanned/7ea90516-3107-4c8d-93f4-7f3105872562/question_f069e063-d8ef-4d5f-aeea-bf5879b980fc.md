@@ -1,0 +1,1 @@
+[File: '...versioned_data.rs -> Scope ...'] [Symbol: VersionedData::remove / remove_v2 panic-vs-error semantics] Can an unprivileged transaction whose Move code triggers speculative abort ordering causing remove() to be called on a key/txn_idx entry that does not exist crash the executor via the .expect(\

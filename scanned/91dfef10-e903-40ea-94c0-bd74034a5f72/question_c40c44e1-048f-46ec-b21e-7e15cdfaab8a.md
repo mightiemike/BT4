@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/framework/natives/src/string_utils.rs -> Scope: Critical.'] [Symbol: format_vector max_len truncation] Given an attacker-supplied Vector value whose length exceeds context.max_len, can the truncation logic ('if i >= context.max_len { write!(out, \

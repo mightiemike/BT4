@@ -1,0 +1,1 @@
+[File: 'File Name: crates/aptos-dkg/src/dlog/bsgs.rs...'] [Symbol: dlog_vec] If `dlog_vec` returns `None` (via `.collect()` on any unsolved target) for an attacker-submitted transcript containing exactly one adversarially out-of-range chunk, does the caller `decrypt_chunked_scalars`'s `.expect(\

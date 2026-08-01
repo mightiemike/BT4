@@ -1,0 +1,1 @@
+[File: ... same header ...] [Symbol: StateUpdateRefs::concat_per_version_updates None-branch expect] Can a caller path reachable from unprivileged input (e.g., an empty chunk or a chunk consisting solely of checkpoint-boundary edge cases) drive both for_last_checkpoint and for_latest to None simultaneously, causing the `.expect(\

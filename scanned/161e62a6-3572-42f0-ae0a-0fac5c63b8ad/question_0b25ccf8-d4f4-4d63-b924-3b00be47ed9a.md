@@ -1,0 +1,1 @@
+[File: 'File Name: dkg/src/network.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'] [Symbol: NetworkSender::send_rpc bail!(\

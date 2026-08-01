@@ -1,0 +1,1 @@
+[File: 'File Name: storage/storage-interface/src/state_store/sharded_jmt_state.rs -> Scope: Critical.'] [Symbol: extend error mapping] Does mapping every `batch_update` failure into `AptosDbError::Other(format!(\

@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/framework/aptos-framework/sources/configs/chunky_dkg_config.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'] [Symbol: enabled] Can an unprivileged reader relying on `enabled()`'s byte-string comparison `variant_type_name != b\

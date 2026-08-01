@@ -1,0 +1,1 @@
+[File: 'File Name: crates/aptos-crypto/src/weighted_config.rs -> Scope: Critical.'] [Symbol: WeightedConfig::get_all_virtual_players] Can a race between the `weights` field state (read via `get_player_weight`) and the `starting_index` field (read via `get_virtual_player`, called via `.expect(\

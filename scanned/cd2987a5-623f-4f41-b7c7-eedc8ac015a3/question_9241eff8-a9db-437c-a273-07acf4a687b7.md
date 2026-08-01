@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/account_config/events/withdraw_event.rs -> Scope: Critical.'] [Symbol: WithdrawEvent::amount() accessor feeding CoinWithdrawTranslator] Can an unprivileged account with a CoinStore under a non-default (custom) CoinType, but whose type string formatting via format!(\

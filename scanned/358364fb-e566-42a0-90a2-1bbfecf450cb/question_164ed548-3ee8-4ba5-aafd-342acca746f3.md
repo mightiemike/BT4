@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/framework/aptos-framework/sources/reconfiguration_state.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'] [Symbol: variant.type_name string comparison] Can the hardcoded byte-string comparison `variant_type_name == b\

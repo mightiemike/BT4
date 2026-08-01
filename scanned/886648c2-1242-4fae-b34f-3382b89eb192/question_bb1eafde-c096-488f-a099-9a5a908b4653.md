@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/aptos-vm/src/transaction_validation.rs -> Scope: Critical.'] [Symbol: is_account_module_abort] Can an attacker deploy or invoke code causing an abort at ModuleId::new(CORE_CODE_ADDRESS, \

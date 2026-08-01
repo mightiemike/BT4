@@ -1,0 +1,1 @@
+[File: 'File Name: crates/aptos-crypto/src/bls12381/bls12381_validatable.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'] [Symbol: Serialize for UnvalidatedPublicKey (human-readable hex path)] Can an attacker cause the human-readable hex-encoding path (`format!(

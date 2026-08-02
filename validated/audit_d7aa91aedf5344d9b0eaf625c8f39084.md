@@ -1,0 +1,1 @@
+Now let's check the `Equivalent<ModuleId>` implementation for `(address, name)` to see how normalization is actually done.

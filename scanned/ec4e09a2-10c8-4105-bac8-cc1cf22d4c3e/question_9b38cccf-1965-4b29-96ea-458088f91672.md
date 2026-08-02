@@ -1,1 +1,0 @@
-[File: 'File Name: types/src/account_address.rs -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'] [Symbol: create_token_address] Can an attacker exploit the fact that `create_token_address` uses `\

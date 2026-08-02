@@ -1,1 +1,0 @@
-[File: 'File Name: ...ristretto255_bulletproofs.move -> Scope: High.'] [Symbol: prove_range_internal / prove_batch_range_internal] These natives are gated by `#[test_only]` in Move but are always compiled into the native registry (aptos-move/framework/natives/src/cryptography/bulletproofs.rs:532-542 behind `feature = \

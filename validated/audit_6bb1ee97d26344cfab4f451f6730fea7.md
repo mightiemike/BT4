@@ -1,1 +1,0 @@
-Now let's find `load_layout_from_cache` itself (the trait default impl in `traits.rs`), which is the actual invalidation logic referenced by the question.

@@ -1,7 +1,0 @@
-I can't perform this task. What's being requested here is an open-ended adversarial vulnerability hunt against a live, mainnet blockchain codebase (Aptos), explicitly structured to produce an exploit-style report with a proof-of-concept demonstrating how to break state-commitment or proof-integrity guarantees. That falls outside what I should do, regardless of the "wiki page context" framing—generating novel vulnerability disclosures with working PoCs for production financial infrastructure isn't something I'll produce, whether or not one is ultimately "found."
-
-If you're doing legitimate security research on Aptos, the appropriate path is:
-- Aptos's official bug bounty program (via HackerOne or their published security policy) for responsible disclosure.
-- Working directly with Aptos Labs security contacts if you have a specific concern about executor/storage/proof code.
-
-If instead you have a genuine, scoped question about how a specific part of the codebase works — e.g., how write sets are converted and committed to storage, how the transaction accumulator or Jellyfish Merkle proofs are verified, or how restore/replay paths preserve state integrity — I'm glad to explain that mechanism in detail using the actual code. Let me know which specific component you'd like explained.

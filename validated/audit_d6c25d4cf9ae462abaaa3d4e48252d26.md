@@ -1,1 +1,0 @@
-Let me find `TransactionListWithProof::verify` itself (not the V2/aux wrapper) to confirm whether it checks write-set hashes.

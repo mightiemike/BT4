@@ -1,1 +1,0 @@
-[File: native_extensions.rs] [Symbol: NativeContextExtensions::remove] Can an attacker structure a transaction so a native calls remove::<NativeTableContext>() twice in the same session's natives (REQUIRED_STATE: two natives both attempting change-set extraction), and does the second remove's expect(\

@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: storage/scratchpad/src/sparse_merkle/updater.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_8be8ff64-37f9-4273-a780-a7f19959788c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/scratchpad/src/sparse_merkle/utils.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_b5a0bd43-9bee-4898-a97d-dd63c66cb32c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/storage-interface/src/block_info.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_2e619d21-0b32-4235-8c87-e06c3cb3b0b6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/storage-interface/src/chunk_to_commit.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_26f24d36-692e-4033-9dd0-b37e4170dca2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/storage-interface/src/errors.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_a2a64b25-2808-487d-b3fa-27a3502ef401?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/storage-interface/src/ledger_summary.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_8f9802e7-63c1-462d-94ba-298a5fd6261e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/storage-interface/src/state_store/hot_state.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_1e82df17-c2ae-407b-9d0e-ee5e5ae57d9d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/storage-interface/src/state_store/leaf_entry.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_295868e2-d650-4482-b744-5151039479a5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/storage-interface/src/state_store/sharded_jmt_state.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_9a416a0d-72a8-43f2-a552-5038e9d7090a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/storage-interface/src/state_store/state.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_3356303c-fc52-4438-be6b-102039ff2111?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/storage-interface/src/state_store/state_delta.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_14d2c3e6-5965-4663-b1a6-dd2f854689be?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/storage-interface/src/state_store/state_summary.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_2c3ebc3a-1a3b-4f38-8f7a-a492ef9f2276?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/storage-interface/src/state_store/state_update_refs.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_aef85f32-2e76-425c-a8e9-5dce97ec35c3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/storage-interface/src/state_store/state_view/cached_state_view.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_4986d247-c30b-426e-b0a5-169f6872e691?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/storage-interface/src/state_store/state_view/db_state_view.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_a88352a6-098b-4432-bb64-02110cc9e439?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/storage-interface/src/state_store/state_view/hot_state_view.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_3cf0aa98-b7fc-48cc-a870-d58faed27a11?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/storage-interface/src/state_store/state_with_summary.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_f908fffa-d53b-417f-975e-1c1a28f7345b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: storage/storage-interface/src/state_store/versioned_state_value.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_5a7a6f5c-3dff-4a4e-93b1-b0cc2a422622?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: third_party/move/move-binary-format/src/access.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_ab5de833-c90e-47a3-b125-88745e63981c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: third_party/move/move-binary-format/src/binary_views.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_a8aacf23-6432-4543-9b45-39deac179ee5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: third_party/move/move-binary-format/src/builders.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_ba8ce2ef-77d8-4159-8442-afbe514fc1b7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: third_party/move/move-binary-format/src/check_bounds.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_925e863c-681f-40b9-94d9-8a6449a51bba?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: third_party/move/move-binary-format/src/check_complexity.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_f61c7a4e-faeb-471e-b7b0-431a5b59d053?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: third_party/move/move-binary-format/src/compatibility.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_a9aebb1c-15c7-4abf-aa07-a2b7c2a41c1f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: third_party/move/move-binary-format/src/constant.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_7f1e04de-5d2f-407b-baab-f1876da83e15?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: third_party/move/move-binary-format/src/control_flow_graph.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_fcb80058-2180-42ee-8521-2446a9d8147e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: third_party/move/move-binary-format/src/deserializer.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_b4917187-bde7-4887-82ea-1f5ff55fe0fb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: third_party/move/move-binary-format/src/errors.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_b00f67cb-3114-42a5-8c4f-86fa1dbf65c6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: third_party/move/move-binary-format/src/file_format.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_5bc4b6ee-3a6c-45ff-ab23-68cc4c447317?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: third_party/move/move-binary-format/src/file_format_common.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_037d150b-f874-4136-a4f5-a43d237e728a?mode=deep",
+    "questions_generated": false
+  }
+]

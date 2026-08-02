@@ -1,1 +1,0 @@
-[File: 'File Name: dkg/src/epoch_manager.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'] [Symbol: start_new_epoch / payload.get expect(\

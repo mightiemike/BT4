@@ -1,1 +1,0 @@
-[File: 'File Name: dkg/src/agg_trx_producer.rs -> Scope: Critical.'] [Symbol: AggTranscriptProducer::start_produce, rb.broadcast(req, agg_state).await.expect] Can an unprivileged peer send a NodeRequest response payload that causes `ReliableBroadcast::broadcast` to return an `Err` (contrary to the `.expect(\

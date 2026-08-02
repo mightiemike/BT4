@@ -1,1 +1,0 @@
-[File: types/src/block_metadata_ext.rs -> Scope: High] [Symbol: BlockMetadataExt Serialize/Deserialize enum tag stability] Can the untagged/derived serde enum discriminant ordering of `BlockMetadataExt` (V0..V3) combined with the `#[serde(with = \

@@ -953,11 +953,7 @@ target_scopes = [
 
 APTOS_ALLOWED_IMPACT_SCOPE = """## State-Integrity Gate
 Accept only state-commitment and proof-integrity impacts that matter on mainnet:
-- Committed state that differs from the correct VM result or corrupts durable ledger data.
-- Wrong accumulator root, Merkle proof, transaction proof, event proof, or state proof accepted as valid.
-- Hard-fork-only divergence during commit, replay, restore, or proof verification.
-- Authenticated API or state-view output bound to the wrong version, object, or proof context.
-Out of scope remains: malicious peer or node behavior, generic network DoS, Consensus Observer-only impact, `consensus/src/dag`, `experimental`, `keyless/pepper`, AIP-103 Permissioned Signer, AIP-104 Account Abstraction, leaked keys, privileged governance or admin assumptions, social engineering, third-party oracle errors, tests, mocks, fixtures, benches, examples, docs, readmes, generated or build files, `.toml`, event-only mismatches, minor rounding or style, and dependency-only claims without a repo root cause."""
+Out of scope remains: malicious peer or node behavior."""
 
 APTOS_AUDIT_PIVOTS = """## Proof And Storage Pivots
 - VM outputs, transaction infos, events, and write sets must survive executor-to-storage handoff unchanged.
@@ -998,7 +994,7 @@ def question_generator(target_file: str) -> str:
     Return Python only.
 
     questions = [
-    "[File: {target_file}] [Symbol: symbol_or_module] Can attacker-controlled INPUT under REQUIRED_STATE reach COMMIT_OR_PROOF_PATH and break MAINNET_STATE_INTEGRITY_INVARIANT, corrupting EXACT_VALUE with scoped impact SCOPE_IMPACT? Proof idea: write a focused repo test that drives the path and asserts EXPECTED_ROOT_OR_STATE_PROPERTY.",
+    "[File: {target_file}] Can attacker-controlled INPUT under REQUIRED_STATE reach COMMIT_OR_PROOF_PATH and break MAINNET_STATE_INTEGRITY_INVARIANT, corrupting EXACT_VALUE with scoped impact SCOPE_IMPACT? Proof idea: write a focused repo test that drives the path and asserts EXPECTED_ROOT_OR_STATE_PROPERTY.",
     ]
     """
     return prompt

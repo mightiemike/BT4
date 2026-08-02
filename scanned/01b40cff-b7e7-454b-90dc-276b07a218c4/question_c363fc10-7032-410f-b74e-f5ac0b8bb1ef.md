@@ -1,1 +1,0 @@
-[File: 'File Name: storage/aptosdb/src/state_store/state_merkle_batch_committer.rs -> Scope: Critical.'] [Symbol: StateMerkleBatchCommitter::run / current_version] Can crafted transactions that leave snapshot.version() as None (e.g., an empty checkpoint-only commit with no writes) reach this loop and trigger the `.expect(

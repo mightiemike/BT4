@@ -1,0 +1,220 @@
+### Title
+`ensure_match_transaction_info` silently accepts a wrong world-state root — ([File: types/src/transaction/mod.rs])
+
+### Summary
+`TransactionOutput::ensure_match_transaction_info` is the function used by execution-debugging/replay tooling to confirm that a locally re-executed `TransactionOutput` matches the authenticated `TransactionInfo` that is committed into the transaction accumulator. It verifies status, gas, the write-set hash (`state_change_hash`), and the event root hash, but it never compares `state_checkpoint_hash`, `hot_state_checkpoint_hash`, or `position_state_checkpoint_hash` — the actual Sparse-Merkle/JMT state roots. This mirrors the `VotingEscrow.checkpoint.timestamp` bug class: a field that exists specifically to bind a checkpoint to a verifiable value is carried in the struct but never consulted at the point where correctness should be enforced.
+
+### Finding Description
+`ensure_match_transaction_info` explicitly documents the gap in its own body: [1](#0-0) 
+
+It checks `status`, `gas_used`, `write_set_hash` (against `state_change_hash`), and `event_root_hash`, then returns `Ok(())` without ever touching `txn_info.state_checkpoint_hash()`, `txn_info.hot_state_checkpoint_hash()`, or `txn_info.position_state_checkpoint_hash()` — fields that exist on `TransactionInfo`/`TransactionInfoV1` precisely to bind a version to the world-state Merkle root: [2](#0-1) 
+
+This comparator is invoked by debugging/replay tooling: `aptos-debugger`'s `print_mismatches` calls it to detect divergence between a freshly re-executed `TransactionOutput` and the on-chain, accumulator-committed `TransactionInfo`: [3](#0-2) 
+and it is also referenced from `aptos-move/cli/src/commands.rs`.
+
+Because the function returns `Ok(())` even when `state_checkpoint_hash` diverges, any consumer that relies solely on `ensure_match_transaction_info` to assert "my local re-execution reproduces the authenticated ledger" will treat a wrong world-state root as a passing check — i.e., a value that is supposed to be proof-bound (the SMT root recorded in the accumulator-hashed `TransactionInfo`) is accepted without verification at the one call site designed to catch this class of divergence.
+
+Note: the primary chunk-executor commit path (`DoStateCheckpoint::get_state_checkpoint_hashes`, driven from `ChunkExecutorInner::update_ledger`) does independently validate `state_checkpoint_hash` against `known_state_checkpoints` derived from the persisted `TransactionInfo`s, and would fail loudly on mismatch: [4](#0-3) [5](#0-4) 
+This means the gap is scoped to callers of `ensure_match_transaction_info` specifically (debugger/CLI verification utilities), not the core consensus/chunk-executor commit path used by backup-restore's `ReplayVerifyCoordinator`.
+
+### Impact Explanation
+`ensure_match_transaction_info` is the designated correctness oracle exposed to operators/tooling for confirming that re-executed transactions reproduce the authenticated, accumulator-committed state. Because it silently ignores `state_checkpoint_hash`/`hot_state_checkpoint_hash`/`position_state_checkpoint_hash`, a divergence in the recomputed world-state root (e.g., from a state-computation bug, an incompatible replay environment, or a malicious/corrupted state feed to the debugger) is reported as a match. This is a proof-binding failure at the verification layer: the API is supposed to catch exactly this discrepancy and does not, undermining trust in tooling built on it to detect ledger-state divergence. Because the core chunk-executor/backup replay path has its own independent check, the practical blast radius is limited to code paths that rely on `ensure_match_transaction_info` as their sole correctness gate (currently `aptos-debugger` and `aptos-move/cli`).
+
+### Likelihood Explanation
+The condition triggers deterministically whenever `ensure_match_transaction_info` is called and `write_set_hash`/`event_root_hash`/`status`/`gas_used` happen to match but the state/hot-state/position-state root does not (a plausible scenario whenever there is a bug affecting only Merkle-tree construction, not the raw write set, or when position/hot-state features diverge). No privileged access is required to trigger the code path; it is exercised by ordinary debugger/replay usage.
+
+### Recommendation
+Extend `ensure_match_transaction_info` to compare `self`-derived state roots (when computable) against `txn_info.state_checkpoint_hash()`, `hot_state_checkpoint_hash()`, and `position_state_checkpoint_hash()`, or clearly document/gate any caller that relies on it as a complete correctness check to also perform the checkpoint-hash comparison the chunk-executor path already does, before this function is used as a stand-alone divergence detector.
+
+### Proof of Concept
+Not applicable in the traditional sense (no exploit script); the finding is a direct code-inspection result: `ensure_match_transaction_info` at [6](#0-5)  returns `Ok(())` in all cases where status/gas/write-set-hash/event-root-hash match, regardless of `state_checkpoint_hash`, `hot_state_checkpoint_hash`, or `position_state_checkpoint_hash`, which can be confirmed by constructing two `TransactionInfo`s differing only in `state_checkpoint_hash` and observing the function accepts both against the same `TransactionOutput`.
+
+### Citations
+
+**File:** types/src/transaction/mod.rs (L2139-2204)
+```rust
+    pub fn ensure_match_transaction_info(
+        &self,
+        version: Version,
+        txn_info: &TransactionInfo,
+        expected_write_set: Option<&WriteSet>,
+        expected_events: Option<&[ContractEvent]>,
+    ) -> Result<()> {
+        const ERR_MSG: &str = "TransactionOutput does not match TransactionInfo";
+
+        let expected_txn_status: TransactionStatus = txn_info.status().clone().into();
+        ensure!(
+            self.status() == &expected_txn_status,
+            "{}: version:{}, status:{:?}, auxiliary data:{:?}, expected:{:?}",
+            ERR_MSG,
+            version,
+            self.status(),
+            self.auxiliary_data(),
+            expected_txn_status,
+        );
+
+        ensure!(
+            self.gas_used() == txn_info.gas_used(),
+            "{}: version:{}, gas_used:{:?}, expected:{:?}",
+            ERR_MSG,
+            version,
+            self.gas_used(),
+            txn_info.gas_used(),
+        );
+
+        let write_set_hash = CryptoHash::hash(self.write_set());
+        ensure!(
+            write_set_hash == txn_info.state_change_hash(),
+            "{}: version:{}, write_set_hash:{:?}, expected:{:?}, write_set: {:?}, expected(if known): {:?}",
+            ERR_MSG,
+            version,
+            write_set_hash,
+            txn_info.state_change_hash(),
+            self.write_set,
+            expected_write_set,
+        );
+
+        let event_hashes = self
+            .events()
+            .iter()
+            .map(CryptoHash::hash)
+            .collect::<Vec<_>>();
+        let event_root_hash = InMemoryEventAccumulator::from_leaves(&event_hashes).root_hash;
+        ensure!(
+            event_root_hash == txn_info.event_root_hash(),
+            "{}: version:{}, event_root_hash:{:?}, expected:{:?}, events: {:?}, expected(if known): {:?}",
+            ERR_MSG,
+            version,
+            event_root_hash,
+            txn_info.event_root_hash(),
+            self.events(),
+            expected_events,
+        );
+
+        // TODO(trading-native): this comparator ignores the checkpoint hashes
+        // (state/hot-state and `position_state_checkpoint_hash`), so replay-verify
+        // tooling (e.g. db-tool's `replay_on_archive`) can report a successful
+        // replay even when the authenticated position state root diverges from
+        // local execution. Validate the checkpoint hashes here before enabling
+        // COMPUTE_TRADING_NATIVE_STATE_ROOTS.
+        Ok(())
+    }
+```
+
+**File:** types/src/transaction/mod.rs (L2440-2461)
+```rust
+#[derive(Clone, Debug, Eq, PartialEq, Serialize, Deserialize)]
+#[cfg_attr(any(test, feature = "fuzzing"), derive(Arbitrary))]
+pub struct TransactionInfoV1 {
+    gas_used: u64,
+    status: ExecutionStatus,
+    transaction_hash: HashValue,
+    event_root_hash: HashValue,
+    state_change_hash: HashValue,
+    state_checkpoint_hash: Option<HashValue>,
+    hot_state_checkpoint_hash: Option<HashValue>,
+    auxiliary_info_hash: Option<HashValue>,
+
+    /// Repurposed reserved field; `None` matches the prior BCS encoding.
+    position_state_checkpoint_hash: Option<HashValue>,
+    placeholder1: Option<HashValue>,
+    placeholder2: Option<HashValue>,
+    placeholder3: Option<HashValue>,
+    placeholder4: Option<HashValue>,
+    placeholder5: Option<HashValue>,
+    placeholder6: Option<HashValue>,
+    placeholder7: Option<HashValue>,
+}
+```
+
+**File:** aptos-move/aptos-debugger/src/aptos_debugger.rs (L233-246)
+```rust
+    fn print_mismatches(
+        txn_outputs: &[TransactionOutput],
+        expected_txn_infos: &[TransactionInfo],
+        first_version: Version,
+    ) {
+        for idx in 0..txn_outputs.len() {
+            let txn_output = &txn_outputs[idx];
+            let txn_info = &expected_txn_infos[idx];
+            let version = first_version + idx as Version;
+            txn_output
+                .ensure_match_transaction_info(version, txn_info, None, None)
+                .unwrap_or_else(|err| println!("{}", err))
+        }
+    }
+```
+
+**File:** execution/executor/src/workflow/do_state_checkpoint.rs (L206-220)
+```rust
+        if let Some(known) = known_state_checkpoints {
+            ensure!(
+                known.len() == num_txns,
+                "Bad number of known {label} hashes. {} vs {}",
+                known.len(),
+                num_txns,
+            );
+            if let Some(idx) = last_checkpoint_index {
+                ensure!(
+                    known[idx] == Some(computed_last_checkpoint_hash),
+                    "{label} root hash mismatch with known hashes passed in. {:?} vs {:?}",
+                    known[idx],
+                    Some(computed_last_checkpoint_hash),
+                );
+            }
+```
+
+**File:** execution/executor/src/chunk_executor/mod.rs (L363-413)
+```rust
+    pub fn update_ledger(&self) -> Result<()> {
+        let _timer = CHUNK_OTHER_TIMERS.timer_with(&["chunk_update_ledger_total"]);
+
+        let (parent_state_summary, parent_position_state_summary, parent_accumulator, chunk) =
+            self.commit_queue.lock().next_chunk_to_update_ledger()?;
+        let ChunkToUpdateLedger {
+            output,
+            chunk_verifier,
+        } = chunk;
+
+        let txn_infos = chunk_verifier.transaction_infos();
+        let known_state_checkpoints = Some(
+            txn_infos
+                .iter()
+                .map(|t| t.state_checkpoint_hash())
+                .collect_vec(),
+        );
+        let known_hot_state_checkpoints =
+            output.execution_output.hot_state_root_in_txn_info.then(|| {
+                txn_infos
+                    .iter()
+                    .map(|t| t.hot_state_checkpoint_hash())
+                    .collect_vec()
+            });
+        let compute_trading_native_state_roots =
+            output.execution_output.compute_trading_native_state_roots;
+        let known_position_state_checkpoints = compute_trading_native_state_roots.then(|| {
+            txn_infos
+                .iter()
+                .map(|t| t.position_state_checkpoint_hash())
+                .collect_vec()
+        });
+        let position_persisted = compute_trading_native_state_roots
+            .then(|| ProvablePositionStateSummary::new_persisted(self.db.reader.as_ref()))
+            .transpose()?;
+        let state_checkpoint_output = DoStateCheckpoint::run()
+            .execution_output(&output.execution_output)
+            .parent_state_summary(&parent_state_summary)
+            .persisted_state_summary(&ProvableStateSummary::new_persisted(
+                self.db.reader.as_ref(),
+            )?)
+            .maybe_known_state_checkpoints(known_state_checkpoints)
+            .maybe_known_hot_state_checkpoints(known_hot_state_checkpoints)
+            // Parent position summary is chained across chunks by the commit
+            // queue (seeded from the pre-committed position tip); the persisted
+            // base supplies cold-key proofs. The known-hash check validates the
+            // computed root against the committed TransactionInfos.
+            .maybe_parent_position_state_summary(parent_position_state_summary.as_ref())
+            .maybe_persisted_position_state_summary(position_persisted.as_ref())
+            .maybe_known_position_state_checkpoints(known_position_state_checkpoints)
+            .build()?;
+```

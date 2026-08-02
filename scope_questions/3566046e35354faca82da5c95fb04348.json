@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/object.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_45a2020e-4961-451c-87f4-cda583f91e18?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/object_code_deployment.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_ffd81879-3558-4986-beea-7c42ef4922b7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/primary_fungible_store.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_c2dbe087-99c7-48a6-b98b-b8edaae207d2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/randomness.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_b84745a5-00cc-462c-af3d-cd0db1129bfc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/reconfiguration.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_6b6c79d5-a8ba-45e0-b54a-0e677c604769?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/reconfiguration_state.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_c5c319f2-9237-40b4-ad1e-0d51e313de88?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/reconfiguration_with_dkg.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_d8137d25-8018-4d0c-bfec-4835f5c27d93?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/resource_account.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_b96d1de4-0ac3-44f3-9b9f-9410f86de436?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/stake.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_282508f7-cd16-4452-8c62-11bd43efc459?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/staking_contract.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_336c0953-013e-4041-831f-37e8d3f4a091?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/staking_proxy.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_0fce73f8-ed55-4d3e-a3b9-4bbd53e08587?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/state_storage.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_0ede0867-64d4-4a92-9b93-4e6fedfdd44c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/storage_gas.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_1caebc81-52cb-4cea-815b-1ecccaa2e0b9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/system_addresses.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_011a8947-c54b-4c51-8df7-99948ffa33ef?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/timestamp.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_480df0e6-8d5c-4c4a-af03-cc06149a68af?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/transaction_context.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_34a4f696-9426-455a-87d3-6095b62e2be8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/transaction_fee.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_1c994858-7f33-48ed-93ae-f71f996cbece?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/transaction_limits.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_b9709d80-17e2-40f8-94a8-7f85a57a6a90?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/transaction_validation.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_75e62f41-fd73-4d67-b580-5a26bba72ac1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/util.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_6607f790-f516-4e4a-b2ab-003512afc093?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/validator_consensus_info.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_4ea74d6c-296b-4740-959d-f9cf58d59223?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/vesting.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_813e874e-3b0d-48f6-b097-50939b840a94?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/voting.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_89aff7c9-d5f8-4e0c-97d8-7024fb61d741?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-stdlib/sources/any.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_c99ac9de-0051-4620-b315-99b73f2b49f1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-stdlib/sources/bcs_stream.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_91594a38-effd-4d7d-b33a-42dc6d4fa6ad?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-stdlib/sources/capability.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_ebee2dfd-8f77-43fd-8fd8-fa17f312ac2e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-stdlib/sources/comparator.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_9b3475d8-37b9-4856-bee0-12553cb9ff81?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-stdlib/sources/copyable_any.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_87f132ac-417b-4635-8ef8-05fd1b0f70f4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-stdlib/sources/cryptography/bls12381.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_0a083f82-2ee1-415f-93b7-017fb455730d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-stdlib/sources/cryptography/bls12381_algebra.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_b4e33983-37a6-47d9-b0ef-9600428435bf?mode=deep",
+    "questions_generated": false
+  }
+]

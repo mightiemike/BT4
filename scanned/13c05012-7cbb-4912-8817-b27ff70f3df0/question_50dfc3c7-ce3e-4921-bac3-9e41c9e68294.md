@@ -1,1 +1,0 @@
-[File: 'File Name: types/src/account_config/resources/coin_store.rs -> Scope: Critical.'] In `storage/indexer/src/event_v2_translator.rs::CoinDepositTranslator`, can an unprivileged coin-module deployer choose a `coin_type` string for a `CoinDeposit` V2 event such that `format!(\

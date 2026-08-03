@@ -1,1 +1,0 @@
-[File: alt_fr.rs -> Scope: Critical.] Can a keyless-account JWT `uid_val` field chosen by an unprivileged user, when padded/hashed via `pad_and_hash_string` and packed into scalars that flow through `AltFr::from(ark_bn254::Fr)` (alt_fr.rs:14-24), trigger the `.expect(\

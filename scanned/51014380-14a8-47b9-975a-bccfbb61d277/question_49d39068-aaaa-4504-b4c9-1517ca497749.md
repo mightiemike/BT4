@@ -1,1 +1,0 @@
-[File: 'File Name: types/src/write_set.rs -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'] Can `NativePositionOp::as_write_op`'s `.expect(\

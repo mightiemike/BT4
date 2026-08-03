@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/aptos-vm/src/move_vm_ext/session/respawned_session.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'] Can an attacker exploit the `ExecutorViewWithChangeSet::release_group_cache` implementation, which is documented to `unreachable!(

@@ -1,0 +1,1 @@
+[File: 'File Name: crates/aptos-crypto/src/hash.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'] Can an unprivileged caller of DefaultHasher::prefixed_hash exploit the fact that HASH_PREFIX (b\

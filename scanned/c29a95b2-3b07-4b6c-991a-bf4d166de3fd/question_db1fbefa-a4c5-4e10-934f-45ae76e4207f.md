@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/framework/natives/src/cryptography/ed25519.rs -> Scope: High.'] Can an attacker exploit the fact that native_public_key_validate's abort message includes attacker-controlled `key_len` formatted into a string (`format!(\

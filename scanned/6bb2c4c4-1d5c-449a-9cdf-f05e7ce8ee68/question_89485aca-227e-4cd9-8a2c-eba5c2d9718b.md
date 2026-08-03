@@ -1,0 +1,1 @@
+[File: 'File Name: execution/executor-types/src/transactions_with_output.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'] Can TransactionsWithOutput::last(), which uses .expect(\

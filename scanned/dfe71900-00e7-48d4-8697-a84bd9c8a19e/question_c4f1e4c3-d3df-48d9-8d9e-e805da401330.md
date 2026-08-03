@@ -1,0 +1,1 @@
+[File: 'File Name: crates/aptos-crypto/src/hash.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'] Can HashValue's serde Deserialize implementation (in the non-human-readable BCS path, wrapping bytes in a newtype named \

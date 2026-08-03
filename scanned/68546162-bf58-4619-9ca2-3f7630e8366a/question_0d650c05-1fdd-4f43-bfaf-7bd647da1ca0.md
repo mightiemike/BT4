@@ -1,0 +1,1 @@
+[File: 'File Name: storage/storage-interface/src/state_store/state.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'] Can the `expect!` on `new_metadata.try_into().expect(\

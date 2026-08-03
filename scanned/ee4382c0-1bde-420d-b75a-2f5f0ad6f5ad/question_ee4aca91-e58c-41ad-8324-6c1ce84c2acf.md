@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/framework/natives/src/hash.rs -> Scope: Critical.'] Does `native_keccak256` produce a byte-for-byte deterministic 32-byte output for attacker-controlled empty input (`vector<u8>[]>`), and would any deviation from the canonical Keccak-256(\

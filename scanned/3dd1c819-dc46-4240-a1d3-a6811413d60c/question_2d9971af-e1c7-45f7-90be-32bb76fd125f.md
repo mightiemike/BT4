@@ -1,0 +1,1 @@
+[File: values_impl.rs -> Scope: Critical...] Can attacker-controlled struct layouts with `MoveStructLayout::WithVariants` produce a mismatch between `field_layouts.len()` and `values.len()` in `SerializationReadyValue<MoveStructLayout, Vec<Value>>::serialize`'s non-variant branch, where the invariant-violation error message construction itself (`format!(

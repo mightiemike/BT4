@@ -1,0 +1,1 @@
+[File: 'File Name: ...'] Can an attacker whose package depends on one of the ten reserved framework addresses `@1..@10` via `is_policy_exempted_address`, reaching the wildcard `AllowedDep { module_name: \

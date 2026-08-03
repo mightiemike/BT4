@@ -1,0 +1,1 @@
+[File: 'File Name: storage/storage-interface/src/state_store/state.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'] Can a transaction that produces a `MakeHot` op for a key never previously read into `StateCacheShard` or `overlay` reach `State::expect_old_slot`'s panic path (`panic!(\

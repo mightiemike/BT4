@@ -1,0 +1,1 @@
+[File: commit_history.rs, Scope: Critical] Does `OnChainConfig for CommitHistoryResource` (commit_history.rs:38-41) rely on `Self::CONFIG_ID = (ADDRESS, MODULE_IDENTIFIER, TYPE_IDENTIFIER)` to derive `StateKey::on_chain_config::<CommitHistoryResource>()`, and can any inconsistency between `MODULE_IDENTIFIER=\

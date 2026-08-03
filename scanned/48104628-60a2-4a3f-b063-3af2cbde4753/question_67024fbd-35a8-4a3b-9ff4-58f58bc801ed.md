@@ -1,0 +1,1 @@
+[File: 'File Name: ...string_utils.rs -> Scope: Critical...'] Can an attacker submit a `U256`/`I256` value (from `move_core_types::int256`) whose `Display` formatting implementation is non-deterministic or platform-dependent (e.g., due to differing big-integer backend implementations across validator binary builds), so that `native_format_impl`'s `write!(out, \

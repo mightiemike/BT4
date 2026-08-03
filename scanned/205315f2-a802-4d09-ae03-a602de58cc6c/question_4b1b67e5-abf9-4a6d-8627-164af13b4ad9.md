@@ -1,0 +1,1 @@
+[File: 'File Name: execution/executor/src/workflow/do_get_execution_output.rs -> Scope: Critical.'] Can a user-submitted transaction that is kept with `TransactionStatus::Keep` but is actually a `Transaction::BlockEpilogue` (spoofed ordering) trigger the `assert!(output.status().is_kept(), \

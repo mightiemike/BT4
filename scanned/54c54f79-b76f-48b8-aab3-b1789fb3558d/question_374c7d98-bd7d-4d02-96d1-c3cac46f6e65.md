@@ -1,1 +1,0 @@
-[File: 'File Name: types/src/transaction/block_epilogue.rs -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'] Given that `Transaction::type_name()` (types/src/transaction/mod.rs:3459-3468) reports all `BlockEpiloguePayload` variants uniformly as `\

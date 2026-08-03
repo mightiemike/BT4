@@ -1,1 +1,0 @@
-[File: 'File Name: api/types/src/transaction.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'] Can attacker-supplied DKG/JWK-update payload bytes decoded via `ExportedProviderJWKs::from` (lines 965-980), which does `String::from_utf8(issuer).unwrap_or(\

@@ -1,1 +1,0 @@
-[File: storage/aptosdb/src/position_merkle_batch_committer.rs -> Scope: High] If `PositionMerkleCommit.snapshot` (this file, lines 20-28) is published via `persisted.set(snapshot)` (line 86) strictly after `merkle_db.commit` succeeds, can a write set crafted to make `merklize_position` panic partway (e.g. via the `.expect(\

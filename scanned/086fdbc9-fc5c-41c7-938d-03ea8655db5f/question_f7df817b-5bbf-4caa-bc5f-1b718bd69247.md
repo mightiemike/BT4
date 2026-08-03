@@ -1,1 +1,0 @@
-[File: 'File Name: aptos-move/framework/aptos-framework/sources/code.move -> Scope: Critical...'] Can an attacker who controls `PackageDep.account` pointing to one of the exempted addresses in `is_policy_exempted_address` (lines 351-354) combined with a crafted `package_name` cause `check_dependencies` to push a wildcard `AllowedDep{account, module_name:

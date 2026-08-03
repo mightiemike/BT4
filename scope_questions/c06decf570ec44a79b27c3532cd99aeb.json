@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: aptos-move/block-executor/src/captured_reads.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_d9442673-483d-449e-bd7f-718e2f36c245?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/block-executor/src/code_cache.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_cf12f797-4ccc-45d1-b43a-67f55a5e8b20?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/block-executor/src/code_cache_global.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_189e9dbd-f0f1-4b8b-a6a8-f04822529543?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/block-executor/src/code_cache_global_manager.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_46ba6b8a-5ba5-42b0-bea5-3a50e13a1146?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/block-executor/src/cold_validation.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_7f73ad33-0a0f-4273-b9fa-40d531123fa4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/block-executor/src/errors.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_beaf02f0-7f4c-4daf-9d81-d8a6512375bc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/block-executor/src/executor.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_4f5e7a76-d4eb-4fb8-8010-dfe0d1561c87?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/block-executor/src/executor_utilities.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_500ea254-4da7-42df-b472-ff955c927a63?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/block-executor/src/explicit_sync_wrapper.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_7244af76-ca02-4d6d-8f64-ae234d54d116?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/block-executor/src/hot_state_op_accumulator.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_23110b62-ea48-43b9-a1ca-d6e84d5f98e4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/block-executor/src/limit_processor.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_161334a9-dc9b-4f0c-b2cc-fd8e96dc8438?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/block-executor/src/scheduler.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_545d40e6-940b-4aee-9d8d-9ef039b8f33a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/block-executor/src/scheduler_status.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_2b157418-dc71-4a5c-ab43-52d31f4c6ffb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/block-executor/src/scheduler_v2.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_892e9403-88af-486b-942d-dfabe619c7a6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/block-executor/src/scheduler_wrapper.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_ce5221f8-78fa-4dfe-9558-59b32f8f9662?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/block-executor/src/task.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_ac652456-30a7-4347-9bbd-6c85d26afc05?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/block-executor/src/txn_commit_hook.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_0b2bf67d-9834-4c8d-b4cb-2e9338e5ce3f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/block-executor/src/txn_last_input_output.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_fa2a0629-548d-4528-b033-d1dbb7394c9f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/block-executor/src/txn_provider/blocking_txns_provider.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_51463a42-56e4-4801-970e-af88650a4931?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/block-executor/src/txn_provider/default.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_d9640557-a169-4684-82e7-833438ae18e1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/block-executor/src/types.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_910dee92-1481-4a45-82e7-a42440993da8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/block-executor/src/value_exchange.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_a5719431-6e8d-4d81-a12a-5b73e166d9b2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/block-executor/src/view.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_f74d0e0e-c5d5-4c7c-b394-1294f8a3d31c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/block-executor/src/worker_pool.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_04e5dc30-65dd-4684-82d9-36bb8a052cb8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/account/account.move -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_7f38cf9f-f961-46fe-b1f0-9ba6a28b25d3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/account/auth_data.move -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_33e5b116-a144-44cc-93dd-7d1672743469?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/account/rate_limiter.move -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_7c42022f-6787-4319-81af-8b78e5be5f39?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/aggregator/aggregator.move -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_7a8987ff-3e9a-44f3-b332-974df4613267?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/aggregator/aggregator_factory.move -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_17550517-e324-41a9-9570-c0286b57ec7b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/aggregator/optional_aggregator.move -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_5366b7b0-a920-4974-8109-ecfef0dccda4?mode=deep",
+    "questions_generated": false
+  }
+]

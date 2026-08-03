@@ -1,1 +1,0 @@
-[File: 'File Name: crates/aptos-dkg/src/sigma_protocol/homomorphism/fixed_base_msms.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'] Does `Trait::normalize_output`'s reconstruction step (`projective_output.map(|_t| iter.next().expect(\

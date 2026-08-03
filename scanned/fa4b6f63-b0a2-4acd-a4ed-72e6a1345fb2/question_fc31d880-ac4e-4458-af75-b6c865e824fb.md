@@ -1,1 +1,0 @@
-[File: inner.rs, Scope: Critical] Can an unprivileged Move module publish or resource write whose `ModuleId`/`StructTag` triggers the fallback in `StateKey::from_deserialized` (when `bcs::from_bytes::<Path>` fails and, under `feature = \

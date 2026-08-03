@@ -1,1 +1,0 @@
-[File: '... Scope: Critical ...'] Does `is_in_progress()` (aptos-move/framework/aptos-framework/sources/reconfiguration_state.move:55) rely solely on raw byte comparison `*state.variant.type_name().bytes() == b\

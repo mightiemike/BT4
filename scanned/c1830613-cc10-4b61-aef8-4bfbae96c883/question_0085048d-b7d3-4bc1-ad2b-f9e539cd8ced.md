@@ -1,0 +1,1 @@
+[File: 'File Name: crates/aptos-dkg/src/fiat_shamir.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'] Can `challenge_nonzero_scalar` (fiat_shamir.rs:311-321), which loops calling `challenge_full_scalar` under the identical label `b\

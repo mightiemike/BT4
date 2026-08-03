@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/aptos-vm/src/transaction_validation.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'] Can an attacker submit a transaction with `ReplayProtector::Nonce` while `is_transaction_payload_v2_enabled` is false, reaching the `unreachable!(\

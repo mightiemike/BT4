@@ -1,0 +1,1 @@
+[File: constants.rs -> Scope: Critical.] Can an unprivileged caller who controls the `override_aud_val` string exploit `cached_pad_and_hash_string`'s reliance on constants-tables to make `EMPTY_OVERRIDE_AUD_FIELD_HASH` (precomputed via pad_and_hash_string(\

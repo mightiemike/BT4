@@ -1,0 +1,1 @@
+[File: util.move -> Scope: High.] Does the shared native implementation backing both `util::from_bytes` and `from_bcs::from_bytes` (per `natives/src/lib.rs`'s registration of `util::make_all` under both the `\

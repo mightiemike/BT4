@@ -1,0 +1,1 @@
+[File: 'File Name: crates/aptos-dkg/src/fiat_shamir.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'] Can a malicious `RangeProof::append_vk` (fiat_shamir.rs) input using a crafted verification key structure bypass the `vk_bytes` domain separation label `b\

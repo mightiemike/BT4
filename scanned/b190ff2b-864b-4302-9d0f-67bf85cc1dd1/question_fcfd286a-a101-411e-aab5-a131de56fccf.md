@@ -1,0 +1,1 @@
+[File: truncation_helper.rs -> Scope: High.] Can an attacker-triggered sequence of JMT node writes that leaves `find_closest_node_version_at_or_before(state_merkle_db.metadata_db(), current_version - 1)` (lines 275-279) returning `None` due to a version gap cause `truncate_state_merkle_db` to panic on `.expect(\

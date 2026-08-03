@@ -1,1 +1,0 @@
-[File: jwks.move -> Scope: Critical.] Can an unprivileged caller invoke `new_patch_upsert_jwk`/`new_rsa_jwk` (jwks.move:407-424) to build a `Patch` with an `RSA_JWK.kty` field, given the constructor hardcodes `kty: utf8(b\

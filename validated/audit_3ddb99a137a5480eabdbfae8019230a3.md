@@ -1,0 +1,1 @@
+Now let's find the actual `CollectionMutationTranslator` implementation and `get_next_sequence_number` to understand the sequence-number/EventKey binding logic.

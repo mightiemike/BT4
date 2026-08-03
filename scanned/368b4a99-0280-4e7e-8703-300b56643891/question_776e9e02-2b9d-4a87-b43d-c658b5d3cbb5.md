@@ -1,1 +1,0 @@
-[File: 'File Name: types/src/account_config/events/uri_mutation.rs -> Scope: Critical.'] Can an unprivileged user cause `UriMutationTranslator::translate_event_v2_to_v1` to return `Err(AptosDbError::from(anyhow::format_err!(\

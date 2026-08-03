@@ -1,1 +1,0 @@
-[File: 'File Name: execution/executor-types/src/planned.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'] Does the unwrap-free but panic-based error handling in Planned::get (rx.recv().expect(\

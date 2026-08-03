@@ -1,1 +1,0 @@
-[File: ... Scope: Critical ...] Can a `coin_type` string (types/src/account_config/events/coin_withdraw.rs:17) containing characters used as struct-tag delimiters (e.g. `<`, `>`, `,`) survive the `format!(\

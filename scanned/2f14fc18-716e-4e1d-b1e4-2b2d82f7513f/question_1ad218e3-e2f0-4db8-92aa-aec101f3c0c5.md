@@ -1,1 +1,0 @@
-[File: 'File Name: types/src/account_config/events/coin_deposit.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'] Can an unprivileged user's `CoinDeposit.coin_type` string containing characters that are valid in a Move struct tag string but ambiguous in the `format!(\

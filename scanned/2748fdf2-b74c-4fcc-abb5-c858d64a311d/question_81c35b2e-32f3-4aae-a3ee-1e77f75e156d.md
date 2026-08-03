@@ -1,1 +1,0 @@
-[File: 'File Name: api/types/src/transaction.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'] Can `ExportedProviderJWKs::from` (lines 965-980), which silently replaces non-UTF8 issuer bytes with the string `\

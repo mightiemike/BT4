@@ -1,1 +1,0 @@
-[File: 'File Name: types/src/on_chain_config/randomness_api_v0_config.rs -> Scope: Critical.'] Can `StateKey::on_chain_config::<RequiredGasDeposit>()` and `StateKey::on_chain_config::<AllowCustomMaxGasFlag>()`, both keyed off `CONFIG_ID(ADDRESS, MODULE_IDENTIFIER, TYPE_IDENTIFIER)` under the shared `MODULE_IDENTIFIER = \

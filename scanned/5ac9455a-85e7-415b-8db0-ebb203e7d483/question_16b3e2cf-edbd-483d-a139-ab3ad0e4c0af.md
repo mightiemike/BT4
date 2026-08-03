@@ -1,1 +1,0 @@
-[File: limits.rs] Does `check_abort_message_limit` treat `bytes_len == 0` (empty abort message) identically to a message that was never provided (`None`), and can an unprivileged sender submit `AbortMsg` with a zero-length vector to produce a `Some(\

@@ -1,0 +1,1 @@
+[File: 'File Name: api/types/src/transaction.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'] Can an attacker exploit the `#[serde(skip_serializing_if = \

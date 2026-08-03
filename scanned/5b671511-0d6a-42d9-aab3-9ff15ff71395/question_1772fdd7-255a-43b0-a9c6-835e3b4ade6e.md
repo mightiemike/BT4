@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/on_chain_config/validator_set.rs -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'] `OnChainConfig::CONFIG_ID` for `ValidatorSet` is derived from `MODULE_IDENTIFIER=\

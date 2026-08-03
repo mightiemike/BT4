@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/framework/aptos-stdlib/sources/hash.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'] Can an unprivileged caller pass a zero-length (`b\

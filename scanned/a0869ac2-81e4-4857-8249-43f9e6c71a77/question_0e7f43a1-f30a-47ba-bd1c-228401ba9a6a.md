@@ -1,0 +1,1 @@
+[File: 'File Name: storage/aptosdb/src/position_buffered_state.rs -> Scope: Critical.'] Can a native-position write set that causes `merklize_position` to return an `Err` (e.g., due to a malformed key/value combination reachable from `write_set().native_position_iter()`) trigger the `.expect(\

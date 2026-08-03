@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/aptos-vm-types/src/module_and_script_storage/code_storage.rs -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'] Can an attacker publish a module and script in a way that exploits the `#[delegate(ScriptCache, target_ref =

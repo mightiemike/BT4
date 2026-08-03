@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/on_chain_config/gas_schedule.rs -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'] Can a state value written under the `GasSchedule` (V1) access path be deserialized by code expecting `GasScheduleV2::deserialize_into_config` due to shared `MODULE_IDENTIFIER = \

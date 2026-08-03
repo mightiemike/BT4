@@ -1,0 +1,1 @@
+[File: jwks.move -> Scope: Critical.] Can an unprivileged caller of `patch_federated_jwks` (jwks.move:183-203) supply a `PatchRemoveIssuer` for an issuer whose byte-string differs from a stored issuer only by trailing zero bytes (e.g., stored `b\

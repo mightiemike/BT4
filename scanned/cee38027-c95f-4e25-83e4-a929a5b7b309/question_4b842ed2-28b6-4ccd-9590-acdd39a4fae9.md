@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/state_store/state_storage_usage.rs -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'] Can a proptest-derived `Arbitrary` `StateStorageUsage` (types/src/state_store/state_storage_usage.rs:6-11, `#[cfg_attr(any(test, feature =

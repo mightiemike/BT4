@@ -1,0 +1,1 @@
+[File: 'File Name: crates/aptos-dkg/src/sigma_protocol/homomorphism/fixed_base_msms.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'] Can the domain-separation string produced by `LiftHomomorphism`'s `CurveGroupTrait::dst` (`homomorphism::domain_separate_dsts(b\

@@ -1,0 +1,1 @@
+[File: ... Scope: High ...] Can `format_enum_option`'s `OPTION_NONE_TAG` equality check (lines 194-201) be spoofed by an attacker-crafted `Struct` value where the first unpacked field equals `Value::u16(OPTION_NONE_TAG)` but the struct is not actually a `None` variant, causing the formatter to emit `\

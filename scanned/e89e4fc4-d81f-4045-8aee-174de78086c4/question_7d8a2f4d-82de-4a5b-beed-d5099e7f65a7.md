@@ -1,1 +1,0 @@
-[File: types/src/block_metadata_ext.rs -> Scope: Critical] Can `previous_block_votes_bitvec()` (line 174-181), which returns a `&Vec<u8>` uniformly across variants but is BCS-encoded with `#[serde(with = \

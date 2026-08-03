@@ -1,0 +1,1 @@
+[File: 'File Name: execution/executor-types/src/planned.rs -> Scope: Critical.'] If the `getter: impl FnOnce() -> T + Send + 'static` closure captures execution-output state that itself embeds attacker-influenced write-set data (via `TransactionsToKeep`), does `Planned::get`'s `rx.recv().expect(\

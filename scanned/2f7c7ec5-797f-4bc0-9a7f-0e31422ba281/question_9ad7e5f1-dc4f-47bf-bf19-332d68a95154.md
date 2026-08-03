@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/account_address.rs -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'] Can attacker-supplied `collection: &str` and `name: &str` strings to `create_token_address` be chosen such that the concatenation `collection.as_bytes() || b\

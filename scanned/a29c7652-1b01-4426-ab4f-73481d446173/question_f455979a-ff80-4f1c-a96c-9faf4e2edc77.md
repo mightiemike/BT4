@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/account_config/events/mutate_token_property_map_event.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'] Does `MoveStructType` for `MutateTokenPropertyMapEvent` binding `MODULE_NAME = \

@@ -1,0 +1,1 @@
+[File: 'File Name: third_party/move/move-binary-format/src/module_script_conversion.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'] Can disassemble_script/disassemble_script_with_coverage (move-asm/disassembler.rs lines 37-39, 53-58), which call script_into_module(script.clone(), \

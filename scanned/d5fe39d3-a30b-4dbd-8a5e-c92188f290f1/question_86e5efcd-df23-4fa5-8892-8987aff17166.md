@@ -1,0 +1,1 @@
+[File: ... Scope: Critical ...] Can `from_utf8_bytes::<u64>` used in `TryFromMoveValue for DelayedFieldID` be given attacker-crafted byte content from a `DerivedStringSnapshot`'s value field that parses successfully as `u64` (e.g. `\

@@ -1,0 +1,1 @@
+[File: coin_register.rs] Does `MoveEventV2Type::create_event_v2` (types/src/move_utils/move_event_v2.rs:9-14) for `CoinRegister` bind the emitted `ContractEvent::V2` to the exact `TypeTag::Struct(Self::struct_tag())` derived from `MODULE_NAME=\

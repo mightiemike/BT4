@@ -1,0 +1,1 @@
+[File: 'types/src/account_config/events/create_token_data_event.rs' -> Scope: Critical] If the Collections resource state value at the creator address is absent when TokenDataCreationTranslator::translate_event_v2_to_v1 runs, does every node deterministically return the same Err(\

@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/framework/aptos-token-objects/sources/aptos_token.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'] Can an attacker supply `property_values: vector<vector<u8>>` entries with a valid `type` tag like `\

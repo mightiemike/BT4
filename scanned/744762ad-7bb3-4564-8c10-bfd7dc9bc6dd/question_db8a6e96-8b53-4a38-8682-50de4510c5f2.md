@@ -1,0 +1,1 @@
+[File: 'File Name: storage/aptosdb/src/position_buffered_state.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'] Can an attacker cause the `.expect(\

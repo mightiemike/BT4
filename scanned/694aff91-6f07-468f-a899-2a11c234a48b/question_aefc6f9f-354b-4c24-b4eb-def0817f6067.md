@@ -1,1 +1,0 @@
-[File: same as above] Can an unprivileged consumer of the `aptos_framework_sdk_builder::version_set_version`/`version_set_for_next_epoch` helper functions, which hardcode `ModuleId::new(AccountAddress::new([...1]), ident_str!(\

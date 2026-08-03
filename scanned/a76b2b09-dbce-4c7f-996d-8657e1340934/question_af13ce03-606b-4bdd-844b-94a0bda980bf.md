@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/account_config/events/cancel_offer.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'] Does `CANCEL_OFFER_TYPE`'s hard-coded `StructTag { address: TOKEN_ADDRESS, module:

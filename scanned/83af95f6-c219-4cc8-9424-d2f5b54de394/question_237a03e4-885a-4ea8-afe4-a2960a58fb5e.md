@@ -1,0 +1,1 @@
+[File: ...] Can repeated emission of `CollectionMaximumMutateEvent` from the same `EventKey` with attacker-chosen `old_maximum`/`new_maximum` values overflow `EventStore::get_next_sequence_number`'s `checked_add` (storage/aptosdb/src/event_store/mod.rs, lines 92-102) at `u64::MAX`, and does the resulting `Err(\

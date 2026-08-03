@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/account_config/events/description_mutate_event.rs -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'] Given `get_state_value_bytes_for_resource`'s reliance on a `struct_tag` string built via `StructTag::from_str(\

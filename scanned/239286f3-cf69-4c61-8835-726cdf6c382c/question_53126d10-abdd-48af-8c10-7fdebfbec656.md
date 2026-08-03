@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/epoch_change.rs -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'] Can the Arbitrary/fuzzing implementation for EpochChangeProof (`arbitrary_with`, gated behind `feature = \

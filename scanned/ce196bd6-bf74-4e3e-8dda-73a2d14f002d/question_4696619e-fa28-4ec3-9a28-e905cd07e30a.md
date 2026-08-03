@@ -1,0 +1,1 @@
+[File: ...] Can an attacker who controls the `creator` field of a `CreateCollection` event (create_collection.rs:18) target an account address for which `get_state_value_bytes_for_resource` (event_v2_translator.rs:796-798) returns a `CollectionsResource` belonging to an unrelated actual resource type due to a `StructTag` string-parsing shortcut (`StructTag::from_str(\

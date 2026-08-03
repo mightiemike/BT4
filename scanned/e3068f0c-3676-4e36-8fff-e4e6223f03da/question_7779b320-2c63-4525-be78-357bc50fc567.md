@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/account_config/events/collection_description_mutate.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'] Can an attacker who controls `collection_name` construct a value that collides under `StructTag::from_str(\

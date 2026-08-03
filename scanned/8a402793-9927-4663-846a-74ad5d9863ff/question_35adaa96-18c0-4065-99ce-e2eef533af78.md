@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/lazy_bls.rs -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'] Can an attacker supply a human-readable (JSON) `LazyBlsSignature` string that strips a different prefix than `bls12381::Signature::AIP_80_PREFIX`/`\

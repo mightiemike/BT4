@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/account_config/events/maximum_mutate_event.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'] Since `MAXIMUM_MUTATE_EVENT_TYPE` (lines 75-83) embeds `STRUCT_NAME` `\

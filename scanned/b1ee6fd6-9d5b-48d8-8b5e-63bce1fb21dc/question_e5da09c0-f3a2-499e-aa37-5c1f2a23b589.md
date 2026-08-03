@@ -1,1 +1,0 @@
-[File: ... parser.rs Scope: Critical ...] Can the digit-underscore normalization in next_number (parser.rs lines 71-105, stripping '_' before numeric parse) combined with Parser::parse_transaction_argument's 's.replace('_', \

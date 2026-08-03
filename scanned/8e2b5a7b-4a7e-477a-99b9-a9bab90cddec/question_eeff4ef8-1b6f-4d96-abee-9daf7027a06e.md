@@ -1,1 +1,0 @@
-[File: 'File Name: types/src/account_config/resources/any.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'] Does `TokenEventStoreV1Resource`'s `Option<AnyResource>` extension field, when `None` is BCS-encoded versus when `Some(AnyResource{type_name: \

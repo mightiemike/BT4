@@ -1,0 +1,1 @@
+[File: ...] Can the fixed `PoK` witness pair `poly_randomness`/`hiding_kzg_randomness` (lines 1279-1284) inside `two_term_msm::Witness` be reused across two different `comm` statements (via the same DST `b\

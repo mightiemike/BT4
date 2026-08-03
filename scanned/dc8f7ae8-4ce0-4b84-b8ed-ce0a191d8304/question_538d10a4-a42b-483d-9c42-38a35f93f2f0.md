@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/account_config/events/maximum_mutate_event.rs -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'] Because `MaximumMutateEvent`'s `STRUCT_NAME` constant is the typo'd identifier `\

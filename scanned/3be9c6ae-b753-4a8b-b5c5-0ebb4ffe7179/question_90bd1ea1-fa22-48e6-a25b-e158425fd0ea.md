@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/account_config/events/randomness_event.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'] Can an unprivileged actor exploit any Display/FromStr asymmetry between TypeTag::from_str(\

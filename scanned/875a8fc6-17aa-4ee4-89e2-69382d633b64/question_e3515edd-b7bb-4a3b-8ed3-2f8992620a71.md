@@ -1,0 +1,1 @@
+[File: value.rs -> Scope: Critical.] Can a state value whose on-chain layout resolves to `MoveStructLayout::RuntimeVariants` with `variants.len() > u16::MAX` reach `<&MoveStructLayout as DeserializeSeed>::deserialize` (value.rs:994-1006), triggering the `D::Error::custom(

@@ -1,0 +1,1 @@
+[File: ... token_withdraw_event.rs ...] Can an unprivileged attacker who fails to satisfy `engine.get_state_value_bytes_for_resource` for `0x3::token::TokenStore` (e.g., by withdrawing right after clearing/moving the resource in the same transaction) force `TokenWithdrawTranslator::translate_event_v2_to_v1` in `storage/indexer/src/event_v2_translator.rs` down the `Err(\

@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/account_config/resources/fungible_store.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'] Can the presence of `#[cfg_attr(any(test, feature = \

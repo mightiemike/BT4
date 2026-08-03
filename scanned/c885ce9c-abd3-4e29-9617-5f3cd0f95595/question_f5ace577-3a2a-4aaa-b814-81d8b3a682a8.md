@@ -1,0 +1,1 @@
+[File: types/src/state_store/hot_state.rs -> Scope: Critical...] Can a state key whose committed value causes StateSlotKind to be something other than HotOccupied/HotVacant reach HotStateValue::clone_from_slot or HotStateValueRef::from_slot through the normal commit path, triggering the `panic!(\

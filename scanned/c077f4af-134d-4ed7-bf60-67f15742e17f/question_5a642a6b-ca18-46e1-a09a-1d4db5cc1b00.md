@@ -1,0 +1,1 @@
+[File: ... secp256k1.move ...] Can the fixed gas cost model (`aptos_framework.secp256k1.ecdsa_recover` charged as a flat `NumArgs::one()` regardless of `message`/`signature` byte-length variance up to the `assert!`-enforced maximums) be bypassed by an attacker submant no — wait, disregard.

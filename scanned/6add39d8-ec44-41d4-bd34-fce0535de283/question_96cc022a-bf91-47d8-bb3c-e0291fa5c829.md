@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/on_chain_config/transaction_fee.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'] Does `ConfigID::CONFIG_ID` for `TransactionFeeBurnCap`, derived from `ADDRESS = 0x1`, `MODULE_IDENTIFIER = \

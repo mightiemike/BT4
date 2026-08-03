@@ -1,0 +1,1 @@
+[File: 'File Name: storage/storage-interface/src/state_store/state_view/cached_state_view.rs -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'] Can an unprivileged write set combined with `prime_cache_for_keys`'s `.expect(\

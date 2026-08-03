@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/block-executor/src/txn_last_input_output.rs -> Scope: High.'] Can a crafted transaction that causes `check_success_or_skip_status` (lines 183-197) to be bypassed via a code path that calls `.expect(\

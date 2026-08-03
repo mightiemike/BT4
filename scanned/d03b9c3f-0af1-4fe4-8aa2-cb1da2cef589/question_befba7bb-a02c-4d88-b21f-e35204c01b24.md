@@ -1,0 +1,1 @@
+[File: 'File Name: storage/aptosdb/src/common.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'] Can crafted write sets that force many rapid checkpoints (each satisfying `should_commit`) overrun the bounded `AsyncCommitThread` channel capacity fast enough that `enqueue`'s `.expect(\

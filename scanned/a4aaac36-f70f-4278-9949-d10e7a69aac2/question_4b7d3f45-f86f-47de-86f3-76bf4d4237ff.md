@@ -1,0 +1,1 @@
+[File: 'File Name: third_party/move/move-vm/runtime/src/native_extensions.rs -> Scope: Critical.'] Can attacker-controlled input cause `NativeContextExtensions::remove::<T>` to be invoked on an extension type `T` whose `downcast_box::<T>()` fails (returning `Err`), and does the resulting `panic!(

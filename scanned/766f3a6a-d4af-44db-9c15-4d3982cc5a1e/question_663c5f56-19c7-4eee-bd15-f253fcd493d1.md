@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/block_info.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'] Can the `#[cfg(any(test, feature = \

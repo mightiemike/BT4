@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/account_config/resources/coin_store.rs -> Scope: Critical.'] Can an unprivileged caller of `Account::balance` supply a `move_struct_tag` whose `Display`/`FromStr` round-trip through `format!(\

@@ -1,0 +1,1 @@
+[File: 'File Name: crates/aptos-crypto/src/arkworks/msm.rs -> Scope: High.'] Can MsmInput::new's length-mismatch bail! error be silently discarded via a .expect() or .unwrap() call site (e.g., zeta_z_com's `.expect(\

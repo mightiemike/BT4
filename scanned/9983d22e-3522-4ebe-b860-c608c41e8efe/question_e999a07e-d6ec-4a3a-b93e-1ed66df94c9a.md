@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/framework/natives/src/debug.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'] Can an unprivileged caller exploit native_old_print_stacktrace's println!(\

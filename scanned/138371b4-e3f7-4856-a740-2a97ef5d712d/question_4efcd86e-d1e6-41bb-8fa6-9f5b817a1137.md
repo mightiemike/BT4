@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/framework/aptos-stdlib/sources/cryptography/bls12381.move -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'] Can an unprivileged caller of `verify_aggregate_signature` (bls12381.move:211) supply `messages` entries that are empty byte vectors (`x\

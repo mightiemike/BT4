@@ -1,0 +1,1 @@
+[File: 'File Name: execution/executor-types/src/transactions_with_output.rs -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'] Does `TransactionsWithOutput::last` (lines 71-81), which `.expect(\

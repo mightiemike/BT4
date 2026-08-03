@@ -1,0 +1,1 @@
+[File: ... Scope: Critical ...] Is there a code path where NativeContextExtensions::remove::<T>() is called twice for the same extension type within one session lifecycle (once by a native reading intermediate state and once at session-end materialization), where the second call's `.expect(\

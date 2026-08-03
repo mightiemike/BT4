@@ -1,0 +1,1 @@
+[File: 'File Name: storage/storage-interface/src/errors.rs -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'] Can `ensure_synced_version`/`ensure_pre_committed_version` (storage/storage-interface/src/lib.rs) raising `AptosDbError::NotFound(\

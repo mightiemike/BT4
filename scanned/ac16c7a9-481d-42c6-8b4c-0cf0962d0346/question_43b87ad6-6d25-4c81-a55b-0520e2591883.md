@@ -1,0 +1,1 @@
+[File: ...] Can a malformed/empty witness (e.g., zero-length `input.values` in `Domain`) passed through `Trait::msm_terms` produce a `Codomain` whose flattened element count is zero, causing `normalize_output`'s `iter.next().expect(\

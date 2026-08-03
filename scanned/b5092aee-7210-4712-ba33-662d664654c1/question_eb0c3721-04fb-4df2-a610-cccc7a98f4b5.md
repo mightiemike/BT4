@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/aptos-vm/src/verifier/resource_groups.rs -> Scope: Critical.'] Can an attacker publish a resource_group_member module where the referenced group module is legitimately absent from module storage at validation time, forcing `metadata_validation_error(\

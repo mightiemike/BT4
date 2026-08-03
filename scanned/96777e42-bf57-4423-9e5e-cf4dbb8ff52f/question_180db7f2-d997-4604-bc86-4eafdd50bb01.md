@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/account_config/resources/pending_claims.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'] Does `PendingClaimsResource`'s `MoveStructType` impl (`MODULE_NAME = \

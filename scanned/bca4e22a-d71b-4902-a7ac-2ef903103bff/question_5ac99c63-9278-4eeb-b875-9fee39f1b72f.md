@@ -1,0 +1,1 @@
+[File: 'versioned_delayed_fields.rs' -> Scope: Critical.] Can the atomic 'next_idx_to_commit' counter (line 412) be advanced out of sync with the actual per-ID commit state if a transaction produces delayed-field IDs that are absent from 'ids_iter' passed into 'try_commit' (attacker can control which delayed fields a txn touches), causing the '.expect(\

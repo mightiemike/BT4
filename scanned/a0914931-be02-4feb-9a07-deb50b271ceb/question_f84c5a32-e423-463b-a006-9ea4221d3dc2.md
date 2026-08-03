@@ -1,1 +1,0 @@
-[File: ...] Does the `variant_type_name` byte comparison in `enabled()` (randomness_config.move:77-78) use full String equality including length, or could a `type_name` value that is a superstring/prefix of `\

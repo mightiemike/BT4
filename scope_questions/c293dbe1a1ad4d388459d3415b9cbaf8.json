@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/object.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_2b132e48-0add-4f97-a98a-4667fa6c1fef?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/object_code_deployment.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_4f4e8186-9e5d-4f63-8ee1-6cd269343672?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/primary_fungible_store.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_9af97ff5-ae4a-48a1-88d6-9f9f35b87fdb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/randomness.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_8062a823-bc4f-4d06-971f-ea0e11e8a4d6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/reconfiguration.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_1d6d6318-63c2-4cae-99e5-7ee462058d5b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/reconfiguration_state.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_5b961bd2-62a9-41b0-a63e-5564b2b2442e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/reconfiguration_with_dkg.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_2b01ac49-37ca-48c3-88c8-a0261221fd29?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/resource_account.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_9f9b32e7-d7bc-443c-89df-d82930f6b44a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/stake.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_7f7d9183-d223-4690-9202-f7e9cc5bc4f7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/staking_contract.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_132954c2-5148-4657-9587-7bb2bb813c84?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/staking_proxy.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_4d014e48-f597-4179-b643-c0ff7e9b87f4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/state_storage.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_6f1257db-249e-45f4-8bda-f61c82f3625b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/storage_gas.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_4f341c1e-a53d-4a6c-ad84-5fcf6d72b215?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/system_addresses.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_346dfded-5868-4e73-bf3a-61a8a3c2254e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/timestamp.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_14c8bd66-ce3b-4e93-afc2-fc049dca8d15?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/transaction_context.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_6c7fe93e-c7d1-413f-969a-78dfd33f3656?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/transaction_fee.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_9585e884-f088-488a-a050-2f030771fc66?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/transaction_limits.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_06fc9302-6c8c-4e32-9b2a-192baab01c31?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/transaction_validation.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_3b79f231-d887-4862-9e81-21524bc933d4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/util.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_c19accd7-6652-4000-a77f-dab61655a649?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/validator_consensus_info.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_7db77258-3602-4bc8-963b-79f025ae174f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/vesting.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_1dbfc4ba-7757-4428-a6d7-4b3fb9c20ba0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-framework/sources/voting.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_c8e53f4a-aca7-4f02-8fb9-cbaae0776889?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-stdlib/sources/any.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_f69335f1-44df-47fc-bb33-723ba358c9a5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-stdlib/sources/bcs_stream.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_b7bd4a6f-2efe-4854-b02d-995b3c1da221?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-stdlib/sources/capability.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_384b5d21-7ef0-45ec-b951-7b524bf001a2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-stdlib/sources/comparator.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_fa4b33e5-1c8f-4c86-bd0b-ff5f42b7e8df?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-stdlib/sources/copyable_any.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_f77f38bc-aab8-4bea-ae67-cebddac77753?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-stdlib/sources/cryptography/bls12381.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_d3e2117f-5f54-423d-a6e5-d67547f6f52d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: aptos-move/framework/aptos-stdlib/sources/cryptography/bls12381_algebra.move -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'",
+    "url": "https://deepwiki.com/search/-compose-18-to-24-aptos-statei_b5229936-3397-4abc-80e1-77bd27b482c3?mode=deep",
+    "questions_generated": false
+  }
+]

@@ -1,1 +1,0 @@
-[File: 'File Name: types/src/transaction/webauthn.rs -> Scope: Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.'] Can an attacker-controlled `client_data_json` byte blob with a duplicated `\

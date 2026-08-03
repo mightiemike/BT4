@@ -1,1 +1,0 @@
-[File: 'File Name: types/src/transaction/webauthn.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'] Does `PartialAuthenticatorAssertionResponse::to_bytes()` (line 112) use `.expect(\

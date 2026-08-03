@@ -1,1 +1,0 @@
-[File: 'File Name: ...string_utils.rs -> Scope: Critical...'] Can an attacker submit a Move struct value whose type tag collides in name only ('String', module 'string', address 0x1) but with a different field layout than the real `std::string::String`, causing `native_format_impl` to misidentify it via the `type_.name.as_str() == \

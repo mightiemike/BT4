@@ -1,1 +1,0 @@
-[File: aptos-move/aptos-vm-environment/src/natives.rs] Can an unprivileged account submit a transaction exercising `0x7::native_position` natives, given required state that `aptos_position_natives::all_natives(builder)` results are remapped into a single `\

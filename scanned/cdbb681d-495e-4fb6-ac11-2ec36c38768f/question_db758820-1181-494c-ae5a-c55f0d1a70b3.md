@@ -1,1 +1,0 @@
-[File: aptos-move/aptos-vm-environment/src/natives.rs] Can an unprivileged account publish a module reusing the `genesis` module name at `CORE_CODE_ADDRESS`, given required state that `aptos_framework_natives::all_natives` maps both `\

@@ -1,0 +1,1 @@
+[File: same as above] Does the `StateKvPrunerManager<S, D>`'s generic bound `D: Deref<Target = ShardedKvDb>` allow constructing a manager over a `state_kv_db` shared by both the primary `StateKvDb` and a `PositionDb` wrapper in a way that `PRUNER_VERSIONS.with_label_values(&[S::name(), \

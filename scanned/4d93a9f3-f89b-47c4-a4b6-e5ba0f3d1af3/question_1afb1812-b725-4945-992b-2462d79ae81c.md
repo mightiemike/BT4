@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/contract_event.rs -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'] Can `ContractEvent::size()` (lines 108-114), which calls `.expect(\

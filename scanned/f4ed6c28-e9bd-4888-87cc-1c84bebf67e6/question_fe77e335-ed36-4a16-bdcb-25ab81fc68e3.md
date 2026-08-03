@@ -1,0 +1,1 @@
+[File: transaction_fee.rs -> Scope: Critical.] Target symbol `ConfigID` construction (`Self::CONFIG_ID = ConfigID(ADDRESS, MODULE_IDENTIFIER, TYPE_IDENTIFIER)`): can two different `OnChainConfig` implementers accidentally share identical `(ADDRESS, MODULE_IDENTIFIER, TYPE_IDENTIFIER)` tuples (e.g., a future config also using \

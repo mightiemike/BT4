@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/account_address.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'] Can an attacker choose a collection name string containing the literal `::` separator so `create_token_address`'s unbounded string concatenation (`collection.as_bytes() + b\

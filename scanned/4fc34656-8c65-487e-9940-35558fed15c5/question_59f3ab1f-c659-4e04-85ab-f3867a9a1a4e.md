@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/randomness.rs -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'] Can a crafted BCS payload for `Randomness` (types/src/randomness.rs, `#[serde(with = \

@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/randomness.rs -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'] Can a malformed on-chain `PerBlockRandomness` resource (types/src/randomness.rs `OnChainConfig` impl, `MODULE_IDENTIFIER = \

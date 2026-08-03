@@ -1,0 +1,1 @@
+[File: 'types/src/state_proof.rs' -> Scope: Critical.] Can an unprivileged party exploit the `Arbitrary`-derived fuzzing/test-only construction path of `StateProof` (types/src/state_proof.rs lines 21-26, gated by `cfg(any(test, feature = \

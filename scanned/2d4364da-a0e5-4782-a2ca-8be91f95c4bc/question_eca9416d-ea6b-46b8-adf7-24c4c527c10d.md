@@ -1,0 +1,1 @@
+[File: 'File Name: third_party/move/move-bytecode-verifier/src/struct_api_checker.rs -> Scope: Critical.'] Can an attacker submit a module whose `matches_attr` check is satisfied for `FunctionAttribute::PackVariant` on a function whose name lacks a variant suffix (edge-case parsing of `variant_name` as `Some(

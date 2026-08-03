@@ -1,0 +1,1 @@
+[File: 'File Name: aptos-move/framework/aptos-token-objects/sources/token.move -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'] Can an attacker-supplied `collection_name` and `name` pair that contains the literal separator bytes `\

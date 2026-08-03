@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/account_config/events/mutate_token_property_map_event.rs -> Scope: Critical.'] Can an unprivileged actor submit a MutatePropertyMap event whose account has never before mutated a token, such that `get_state_value_bytes_for_resource` returns `None` and `MutatePropertyMapTranslator` returns `Err(\

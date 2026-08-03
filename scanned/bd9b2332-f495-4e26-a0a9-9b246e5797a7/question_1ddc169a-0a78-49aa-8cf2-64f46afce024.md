@@ -1,0 +1,1 @@
+[File: 'File Name: api/types/src/transaction.rs -> Scope: Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.'] Can `ExportedProviderJWKs::from<ProviderJWKs>` (api/types/src/transaction.rs, line 965), which falls back to `\

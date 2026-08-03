@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/account_config/events/maximum_mutate_event.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'] Does the const STRUCT_NAME typo ident_str!(\

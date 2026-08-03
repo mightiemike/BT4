@@ -1,0 +1,1 @@
+[File: 'File Name: types/src/account_config/resources/fungible_store.rs -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'] Can an attacker who controls the `type_args`/module path of a coin type passed to `StructTag::from_str(&format!(\

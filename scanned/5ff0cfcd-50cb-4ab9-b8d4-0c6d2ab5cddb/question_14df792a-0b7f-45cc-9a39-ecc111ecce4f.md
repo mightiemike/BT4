@@ -1,1 +1,0 @@
-[File: 'File Name: aptos-move/aptos-vm/src/verifier/resource_groups.rs -> Scope: High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.'] Can an unprivileged upgrade transaction supply a `ResourceGroupScope` value that round-trips through `ResourceGroupScope::from_str`/`as_str` (e.g. exploiting `\

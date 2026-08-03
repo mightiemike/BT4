@@ -1,1 +1,0 @@
-[File: 'File Name: types/src/on_chain_config/jwk_consensus_config.rs -> Scope: Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.'] Does the `OnChainConfig::CONFIG_ID` constant for `OnChainJWKConsensusConfig` (derived from `MODULE_IDENTIFIER = \

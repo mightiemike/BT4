@@ -1,0 +1,1 @@
+functions.grep_search:2{"pattern": "EAUTH_FUNCTION_SIGNATURE_MISMATCH|update_dispatchable_authenticator_impl|check_dispatch_type_compatibility", "repo_name": "patrichyt/aptos-core--008", "include": "aptos-move/framework/aptos-framework/sources/account/account_abstraction.move"}

@@ -1,1 +1,0 @@
-[File: 'File Name: types/src/account_config/events/royalty_mutate.rs -> Scope: High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.'] Can an unprivileged caller who never migrates to TokenEventStoreV1 (remaining on a legacy path) cause the translator's `Err(AptosDbError::from(anyhow::format_err!(\

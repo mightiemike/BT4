@@ -1,1 +1,0 @@
-[File: JsonFormat.java -> Scope: Critical] [Function: JsonFormat.mergeField null-array-entry handling] Can an attacker insert a literal 'null' element inside a repeated JSON array (e.g. inside 'raw_data.contract' or a per-contract 'permission_id' collection) so that 'tokenizer.tryConsume(\

@@ -1,1 +1,0 @@
-[File: JsonFormat.java -> Scope: Critical] [Function: JsonFormat.mergeField numeric fallback (DIGITS matcher + type.findFieldByNumber)] Can an attacker who does not know the JSON field name for a given proto field instead supply the raw field number as the JSON key (e.g. '{\

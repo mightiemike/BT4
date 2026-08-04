@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetContractInfoServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_21199b21-e85f-4f09-afa9-0825aee6efa8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetContractServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_be2b0e7b-e026-4a3d-af1c-ab5df1d3e4b9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetDelegatedResourceAccountIndexServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7a44e23c-7436-4806-841b-9848200512ae?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetDelegatedResourceAccountIndexV2Servlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d927b73e-ff12-4feb-9951-e29e952cb41a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetDelegatedResourceServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_43c72997-0247-4233-a79c-e77bb39f69d7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetDelegatedResourceV2Servlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_df742981-9a2b-4026-889c-5467e04f6213?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetDiversifierServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aa222f99-f893-4387-860d-933a58ec5b42?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetEnergyPricesServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7632687e-6d70-42e3-aa53-6063647340a9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetExchangeByIdServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_83515fe8-ea20-4be0-9e7c-99d9ff3e2481?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetExpandedSpendingKeyServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_85e188aa-3cb8-4a18-bf43-a21decedcdd4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetIncomingViewingKeyServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a683a0b7-c8ba-4099-83f7-7fcbcc19d3c9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetMarketOrderByAccountServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f70e9fbc-2caf-4028-ac75-a35cd6df10ab?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetMarketOrderByIdServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_93dabd3f-43ef-4990-a5dc-1f31e9ede073?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetMarketOrderListByPairServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bbd57953-9a60-458d-8bdc-62a91c2de811?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetMarketPairListServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_21aecea2-fed9-4cd4-82df-bb159c98d43c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetMarketPriceByPairServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fa7bb04e-1a4f-4c1a-9ea9-8627304e7bf3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetMemoFeePricesServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a94ab104-a595-46ab-8f6d-75c0e7032971?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetMerkleTreeVoucherInfoServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4b5cb5b7-4727-4f4b-962b-bcd65499288e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetNewShieldedAddressServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b1cfb85a-e9c7-4471-836d-430ac4e84371?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetNextMaintenanceTimeServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7de74f79-c76b-4a0b-8126-7852c09af521?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetNkFromNskServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3da8d962-4366-412f-a585-95173ffa0141?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetNodeInfoServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_806bf068-3820-4f21-996c-2986fe354df8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetNowBlockServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_716aa6b2-9c38-4971-b224-b71ea6430266?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetPaginatedAssetIssueListServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_47d203a9-35b6-40eb-8d0b-ba23ac90f2cb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetPaginatedExchangeListServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0569e820-0d4b-4e06-bb80-27b85c55b69d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetPaginatedNowWitnessListServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7707a14d-64a2-4853-8272-f59e8a8e3796?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetPaginatedProposalListServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7e303366-3916-4cfc-9b3e-3bf721ec940a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetPendingSizeServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_24b07780-14d5-4e72-975d-19a452ed6838?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetProposalByIdServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5185e8d2-67ed-427d-8921-62e2a8b6d425?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/http/GetRcmServlet.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_572b8615-ea4b-459e-b559-2450d5534d39?mode=deep",
+    "questions_generated": false
+  }
+]

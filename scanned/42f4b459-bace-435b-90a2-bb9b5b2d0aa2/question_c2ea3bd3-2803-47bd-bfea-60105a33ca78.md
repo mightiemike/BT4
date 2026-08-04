@@ -1,1 +1,0 @@
-[File: 'framework/src/main/java/org/tron/core/services/jsonrpc/types/TransactionReceipt.java'] [Function: TransactionReceipt(BlockCapsule, TransactionInfo, TransactionContext, long) status field, line: this.status = txInfo.getReceipt().getResultValue() <= 1 ? \

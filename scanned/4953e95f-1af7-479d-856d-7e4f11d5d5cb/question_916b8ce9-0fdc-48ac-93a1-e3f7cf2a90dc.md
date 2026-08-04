@@ -1,0 +1,1 @@
+[File: ProgramTrace.java -> Scope: Critical.] [Function: ProgramTrace.error(Exception) / VMActuator.fillResult] Can an unprivileged ATTACKER trigger revert/exception messages containing attacker-controlled strings (e.g., a Solidity revert reason string) under PRECONDITIONS vmTrace enabled, triggering CALL_SEQUENCE result.getException() -> ProgramTrace.error(error) -> format(\

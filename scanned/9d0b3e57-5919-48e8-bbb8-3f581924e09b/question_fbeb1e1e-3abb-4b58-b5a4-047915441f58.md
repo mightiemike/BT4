@@ -1,0 +1,1 @@
+[File: 'FullNodeJsonRpcHttpService.java' -> Scope: Critical] [Function: TronJsonRpcImpl.estimateGas contractType == TransferContract branch] Can an unprivileged attacker call eth_estimateGas with contractType resolving to TransferContract (buildTransferContractTransaction) and a 'from' address with zero/insufficient balance, and does the code path return \

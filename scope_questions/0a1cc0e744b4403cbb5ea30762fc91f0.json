@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/common/zksnark/MerklePath.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cc0b99da-9704-4278-86a0-fe445a42e84f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/common/zksnark/ZksnarkUtils.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bbcb526b-b1cc-43e8-8fe4-b5eb9354d490?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/ChainBaseManager.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_183d446f-3d2e-42e0-b5d1-9b00771d10fa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/actuator/Actuator.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f8bf1a2e-56bb-489f-b9df-6f245ef5ee13?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/actuator/Actuator2.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6dfdacf1-66c1-4187-b2cf-c2d7a49f1513?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/actuator/TransactionFactory.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_efe10edc-6f6b-4d2d-8bbb-38367e571601?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/AbiCapsule.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_481cfa41-4610-49ca-b9ab-148cbda2767e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/AccountCapsule.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cf70994e-252d-4d82-b91b-d1bf52e38a7b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/AccountTraceCapsule.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2659671a-0511-4eeb-8dc8-77867ff3aa99?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/AssetIssueCapsule.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8e7ab1c3-4b0d-47fe-8306-ee32faa9ebd5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/BlockBalanceTraceCapsule.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bdeed7c2-028e-4824-93df-1618e1b7e28f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/BlockCapsule.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_71da3e9a-f30b-4192-9971-42a57c91fb20?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/BytesCapsule.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0ce16bca-ff1f-4295-89d3-624a444ed829?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/CodeCapsule.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d9d89e12-b850-48d4-961b-858624a21561?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/ContractCapsule.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_98466de4-8992-47b1-a39c-f6adeeef4e1a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/ContractStateCapsule.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b350c9eb-c568-457c-8ab4-93b0521fad32?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/DelegatedResourceAccountIndexCapsule.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3520926d-d93e-4bb2-a11c-999be966b726?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/DelegatedResourceCapsule.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f4d05723-d725-4ff5-95ba-2b73e8e0b939?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/ExchangeCapsule.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_760da5dd-eedc-4e85-be84-a076f17f2bcf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/ExchangeProcessor.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5a4e97e9-63e1-46dc-988d-8f80f21958f3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/IncrementalMerkleTreeCapsule.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_30608079-416c-4afd-930b-31a82b03e328?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/IncrementalMerkleVoucherCapsule.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_68b9a580-d231-4a85-98a6-83b08dbc6c2d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/MarketAccountOrderCapsule.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0ecf18c1-bcf6-44c8-ba89-3c97a0e8c1d3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/MarketOrderCapsule.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_50013539-52c5-48d8-b8f2-fcff3bffd7a9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/MarketOrderIdListCapsule.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d57a7629-8543-415f-aecf-9fd023f2fddd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/MarketPriceCapsule.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bb3ca6d3-eb2d-4e5c-8fbc-cbcf98e758d9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/PbftSignCapsule.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5d911c93-b75c-418b-9bd3-15bac186666e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/PedersenHashCapsule.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b1f36453-652f-4bbe-a75e-4aad0863a35b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/ProposalCapsule.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_20544858-7c99-4fe2-a58e-2991494dcf5f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/ProtoCapsule.java -> Scope: High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_55707e7a-1ef6-4deb-928b-1add7c192739?mode=deep",
+    "questions_generated": false
+  }
+]

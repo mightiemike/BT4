@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/ReceiptCapsule.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7525d514-1fba-4b6e-85db-cab3da61e1ab?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/SafeExchangeProcessor.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b61c7b0e-b65d-436c-86e2-18e561423197?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/StorageRowCapsule.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_493950de-96bc-4773-aa27-bb1e78addafe?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/TransactionCapsule.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_953815b2-3b70-4b95-9c1f-dbe5f5a62809?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/TransactionInfoCapsule.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2cd00140-1f55-4792-844c-e81a976c44f2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/TransactionResultCapsule.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8bd72f96-49b3-4b10-882e-fb3aa7686a44?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/TransactionRetCapsule.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_226c210a-99f8-4838-898d-39b0ee55c737?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/VotesCapsule.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_594608ff-d0ba-4b23-b6e4-680431c47b4e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/WitnessCapsule.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b72df0d6-213f-4094-8f7d-79aad1aa4133?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/utils/AssetUtil.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c76246a8-f3e6-46e8-8d44-2f3bf65e0277?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/utils/BlockUtil.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_267b3740-439c-427f-b89b-479ca02ffeff?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/utils/MarketUtils.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4bf2ea62-7809-4b2a-92ff-5c51118ff711?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/utils/MerkleTree.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b6b85b41-b908-4b8b-ac42-85a513640141?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/utils/TransactionUtil.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_508bff1d-b33a-4c45-a3b9-168704ddbff2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/BandwidthProcessor.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_72ecb4fd-2125-471b-8ccc-147da6cbf7a4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/BlockIndexStore.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5c52089c-1abb-4079-bca4-3bdd168c8ea1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/BlockStore.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3795ce6f-813e-4fe6-8b9c-f1d584aaa816?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/CommonDataBase.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_77b09c8b-3429-479d-809f-996c80d2e167?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/CommonStore.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_094db9e7-57fd-4d8c-bc30-140c067eada3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/EnergyProcessor.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_331fa28f-1feb-491c-8d52-ccf7630dedf6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/KhaosDatabase.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_998d5342-4674-47ff-a75e-713efddfbdc9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/PbftSignDataStore.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_75ea4ff1-25be-4a53-9076-02d219558d3b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/RecentBlockStore.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c68fe41e-5dbd-4cf0-a88a-593249c3235d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/RecentTransactionItem.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2f4a4f61-e153-4264-953b-84e5eb7ce354?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/RecentTransactionStore.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e5513f00-cb34-44f2-b390-2da8dcef106c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/ResourceProcessor.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_85619373-8e79-4eb8-b6ff-0edc73932529?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/RevokingDatabase.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bbcff7c0-1cbd-4f61-986e-82a1ae5acc08?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/TransactionCache.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d3246c54-fe42-4b64-981a-d5091a51cddb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/TransactionContext.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5a59416f-41e7-47f5-91b2-d6b3da10111f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/TransactionStore.java -> Scope: Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7704dd2d-3fcd-4ffe-a363-78ef1be3d5c4?mode=deep",
+    "questions_generated": false
+  }
+]

@@ -1,1 +1,0 @@
-[File: TransactionResult.java] [Function: TransactionResult(BlockCapsule, int, Transaction, long, long, Wallet)] Can an attacker deploy/trigger a smart contract via a crafted TriggerSmartContract whose protobuf Any parameter fails to unpack (malformed/oversized data field) such that parseInput's catch-all swallows the exception and returns input=\

@@ -1,0 +1,1 @@
+[File: HttpApiAccessFilter.java -> Scope: Critical] [Function: isDisabled] Can an attacker append matrix parameters or a trailing query-like suffix directly into the path segment (e.g. '/wallet/estimateenergy;x=1') so that split(\

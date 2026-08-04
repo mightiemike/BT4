@@ -1,1 +1,0 @@
-[File: 'GetBlockServlet.java -> Scope: Critical auth/permission/threshold bypass'] [Function: Util.printTransactionToJSON invoked via GetBlockServlet.fillResponse with detail=true] Can an unprivileged attacker call GET/POST /wallet/getblock with {\

@@ -1,1 +1,0 @@
-[File: RuntimeData.java -> Scope: Critical] [Function: RuntimeData(Object o) null address normalization] Can an attacker cause `((InetSocketAddress) ...).getAddress()` to itself return null (unresolved address) so that `s.getAddress().getHostAddress()` throws inside the try, is caught, and address remains its pre-existing default \

@@ -1,1 +1,0 @@
-[File: 'framework/src/main/java/org/tron/core/services/http/GetBurnTrxServlet.java' -> Scope: High.] [Function: DynamicPropertiesStore.getBurnTrxAmount] Can an unprivileged attacker trigger the IllegalArgumentException path in getBurnTrxAmount() (thrown via Optional.orElseThrow when BURN_TRX_AMOUNT is absent) repeatedly, forcing the servlet's catch block to call logger.error(\

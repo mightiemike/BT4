@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/program/listener/ProgramListener.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_01d6a51b-d644-4906-b33a-4b761bf18a50?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/program/listener/ProgramListenerAdaptor.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bfe9b3e0-255f-4bdc-b299-aa1c2eb292c1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/program/listener/ProgramListenerAware.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_86f11d8e-b6fd-498f-bfca-8aa2633d1fde?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/program/listener/ProgramStorageChangeListener.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f18b878f-2434-446d-be1a-67eb8414fda6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/repository/Key.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eb304953-5dd8-40e9-ab47-55db9b64640f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/repository/Repository.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_828a4f0c-d73e-426a-9912-e7ceb8a65012?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/repository/RepositoryImpl.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_195c2363-1bbb-408c-b5d2-935fbac1c268?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/repository/Type.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ee9e69a8-db61-405c-9fc7-4ee245a8b2ad?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/repository/Value.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9e6fa9b0-8aa3-49e7-98c6-690dbde9bf4d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/trace/Op.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6cabcf19-0134-4822-a8ba-fca0be376f84?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/trace/OpActions.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f59246fc-7435-48d9-afd3-30a3e75fcb51?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/trace/ProgramTrace.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4d9c5a60-4e40-4628-9028-ec623a216962?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/trace/ProgramTraceListener.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_42461c4b-99cb-43f2-b3e6-a1cad436886c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/trace/Serializers.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0dc06f11-ee7d-4040-9764-16873c2c0200?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/utils/FreezeV2Util.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_19108eb5-fa3b-41b4-a3b1-0faa415a366a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/utils/MUtil.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e22e44b0-0187-4116-aca8-c0065955851e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/utils/VoteRewardUtil.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f77ab5e8-5c9e-4e7d-9ead-1dfa7e47aa6d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/common/runtime/CallCreate.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7a148ec6-e1e7-4475-bf83-410081cb6574?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/common/runtime/InternalTransaction.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f5ac3468-0319-4f99-913f-a0efae93c90f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/common/runtime/ProgramResult.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_32ef46d3-4b16-430e-b710-506261b4fe83?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/common/runtime/Runtime.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cfe8458b-d896-48a8-8469-f3c6b2930e41?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/common/utils/Commons.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c1994782-b659-405f-b649-9a0443527492?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/common/utils/WalletUtil.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eebd4cec-4d71-46e2-8f2b-8ba50e0e1dc3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/common/zksnark/IncrementalMerkleTreeContainer.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e15a9e75-17d7-4090-b0bf-d74b03f60993?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/common/zksnark/IncrementalMerkleVoucherContainer.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9edc9627-73e8-4f73-b54a-e4901009ca2d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/common/zksnark/JLibrustzcash.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0f72c55c-f0ae-4521-ad1e-121280e593c1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/common/zksnark/JLibsodium.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dede45eb-1d00-47f2-9838-a86052a2b8c7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/common/zksnark/JLibsodiumParam.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_222d4d17-8e3f-4c23-a2ba-1c548eebda44?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/common/zksnark/LibrustzcashParam.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_74252281-2803-4d4d-9945-3dc1940c23d3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/common/zksnark/MerkleContainer.java -> Scope: Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_62af7c40-e099-48c8-8195-47e7e534b403?mode=deep",
+    "questions_generated": false
+  }
+]

@@ -1,0 +1,1 @@
+[File: GetEnergyPricesServlet.java -> Scope: Critical] [Function: GetEnergyPricesServlet.doGet null-handling] Can an unprivileged attacker trigger `wallet.getEnergyPrices()` to return null (by forcing DynamicPropertiesStore.getEnergyPriceHistory() to throw, e.g. via node state not yet initialized) causing the servlet to fall back to literal string \

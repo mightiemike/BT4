@@ -1,1 +1,0 @@
-[File: 'File Name: framework/src/main/java/org/tron/core/services/filter/HttpApiAccessFilter.java -> Scope: High.'] [Function: HttpApiAccessFilter.doFilter/isDisabled] Can an unprivileged attacker craft a servletPath containing double-encoded slashes (e.g. '/wallet%2F%2Fundelegateresource') so that isDisabled's endpoint.split(\

@@ -1,0 +1,77 @@
+[
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/ratelimiter/strategy/QpsStrategy.java -> Scope: Critical. An unprivileged attacker can replay or double-apply a transaction, approval, withdrawal, market fill, exchange settlement, reward claim, shielded spend, nullifier, or resource transition so one logical action settles more than once.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_528f194f-85df-4513-a882-a7d48717b422?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/ratelimiter/strategy/Strategy.java -> Scope: Critical. An unprivileged attacker can replay or double-apply a transaction, approval, withdrawal, market fill, exchange settlement, reward claim, shielded spend, nullifier, or resource transition so one logical action settles more than once.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_46e1d22d-6c51-430c-9863-102c796393d9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/zen/ShieldedTRC20ParametersBuilder.java -> Scope: Critical. An unprivileged attacker can replay or double-apply a transaction, approval, withdrawal, market fill, exchange settlement, reward claim, shielded spend, nullifier, or resource transition so one logical action settles more than once.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_382aa62f-85da-4357-987f-13ac1d2fe8be?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/zen/ZenTransactionBuilder.java -> Scope: Critical. An unprivileged attacker can replay or double-apply a transaction, approval, withdrawal, market fill, exchange settlement, reward claim, shielded spend, nullifier, or resource transition so one logical action settles more than once.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_087e5058-6531-4ede-8bc1-ed1c8b68c01f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/zen/ZksnarkInitService.java -> Scope: Critical. An unprivileged attacker can replay or double-apply a transaction, approval, withdrawal, market fill, exchange settlement, reward claim, shielded spend, nullifier, or resource transition so one logical action settles more than once.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aefb366c-ddf4-4b1f-8ba8-3483ed107aa3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/zen/address/DiversifierT.java -> Scope: Critical. An unprivileged attacker can replay or double-apply a transaction, approval, withdrawal, market fill, exchange settlement, reward claim, shielded spend, nullifier, or resource transition so one logical action settles more than once.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8f0dcac5-9770-48f7-b70b-8ebdb6c660ab?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/zen/address/ExpandedSpendingKey.java -> Scope: Critical. An unprivileged attacker can replay or double-apply a transaction, approval, withdrawal, market fill, exchange settlement, reward claim, shielded spend, nullifier, or resource transition so one logical action settles more than once.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_21f34e73-bc9d-492e-a9e2-108e9d2d4dcf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/zen/address/FullViewingKey.java -> Scope: Critical. An unprivileged attacker can replay or double-apply a transaction, approval, withdrawal, market fill, exchange settlement, reward claim, shielded spend, nullifier, or resource transition so one logical action settles more than once.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_46087f9e-7cca-4b12-bec9-eecbf17460da?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/zen/address/IncomingViewingKey.java -> Scope: Critical. An unprivileged attacker can replay or double-apply a transaction, approval, withdrawal, market fill, exchange settlement, reward claim, shielded spend, nullifier, or resource transition so one logical action settles more than once.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_022f8f1d-d7f9-4bd8-a8a6-7df84b991021?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/zen/address/KeyIo.java -> Scope: Critical. An unprivileged attacker can replay or double-apply a transaction, approval, withdrawal, market fill, exchange settlement, reward claim, shielded spend, nullifier, or resource transition so one logical action settles more than once.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aff96082-4fca-41c8-8ffc-bc22c2d9b61d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/zen/address/PaymentAddress.java -> Scope: Critical. An unprivileged attacker can replay or double-apply a transaction, approval, withdrawal, market fill, exchange settlement, reward claim, shielded spend, nullifier, or resource transition so one logical action settles more than once.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3ced06ff-3e07-4574-98b8-e2860b8bf968?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/zen/address/SpendingKey.java -> Scope: Critical. An unprivileged attacker can replay or double-apply a transaction, approval, withdrawal, market fill, exchange settlement, reward claim, shielded spend, nullifier, or resource transition so one logical action settles more than once.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_76abd74d-be02-4c7c-9a7f-016807ef8cef?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/zen/note/Note.java -> Scope: Critical. An unprivileged attacker can replay or double-apply a transaction, approval, withdrawal, market fill, exchange settlement, reward claim, shielded spend, nullifier, or resource transition so one logical action settles more than once.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_788c8c9b-8128-4d4f-b601-c54d812e6931?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/zen/note/NoteEncryption.java -> Scope: Critical. An unprivileged attacker can replay or double-apply a transaction, approval, withdrawal, market fill, exchange settlement, reward claim, shielded spend, nullifier, or resource transition so one logical action settles more than once.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e9ee7d46-838c-423d-b6b4-d8e67d5f57cd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/zen/note/OutgoingPlaintext.java -> Scope: Critical. An unprivileged attacker can replay or double-apply a transaction, approval, withdrawal, market fill, exchange settlement, reward claim, shielded spend, nullifier, or resource transition so one logical action settles more than once.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_02a26c8f-6469-4e9e-89b1-030b28569ff1?mode=deep",
+    "questions_generated": false
+  }
+]

@@ -1,0 +1,1 @@
+Now I need to find where `keep_or_discard` is called with this boolean to check if it's derived from consensus-agreed feature flags or from a local node config.

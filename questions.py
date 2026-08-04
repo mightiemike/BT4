@@ -1,29 +1,31 @@
 import json
 import os
 
-MAX_REPO = 25
-SOURCE_REPO = 'aptos-labs/aptos-core'
-REPO_NAME = 'aptos-core'
-run_number = os.environ.get("GITHUB_RUN_NUMBER") or os.environ.get(
-    "CI_PIPELINE_IID", "0"
-)
+from decouple import config
+
+# todo: if scope_files is: 500 > 50, 300 > 30 , 100 > 10
+MAX_REPO = 20
+# todo: the GitLab namespace/project path, for example group/project
+SOURCE_REPO = "tronprotocol/java-tron"
+# todo: the name of the repository
+REPO_NAME = "java-tron"
+
+run_number = os.environ.get('GITHUB_RUN_NUMBER', '0')
 
 
 def get_cyclic_index(run_number, max_index=100):
-    """Convert run number to a cyclic index between 1 and max_index."""
+    """Convert run number to a cyclic index between 1 and max_index"""
     return (int(run_number) - 1) % max_index + 1
 
 
 def load_repository_urls():
     """Load repository URLs from repositories.json."""
-    repo_file = os.path.join(
-        os.path.dirname(os.path.abspath(__file__)), "repositories.json"
-    )
+    repo_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "repositories.json")
     if not os.path.exists(repo_file):
         return []
 
     try:
-        with open(repo_file, "r", encoding="utf-8") as f:
+        with open(repo_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
     except (json.JSONDecodeError, OSError):
         return []
@@ -45,1080 +47,680 @@ else:
         BASE_URL = f"https://deepwiki.com/{SOURCE_REPO}"
 
 scope_files = [
-    'api/src/accept_type.rs',
-    'api/src/accounts.rs',
-    'api/src/basic.rs',
-    'api/src/bcs_payload.rs',
-    'api/src/blocks.rs',
-    'api/src/check_size.rs',
-    'api/src/context.rs',
-    'api/src/error_converter.rs',
-    'api/src/events.rs',
-    'api/src/headers_sanity_check.rs',
-    'api/src/index.rs',
-    'api/src/page.rs',
-    'api/src/response.rs',
-    'api/src/runtime.rs',
-    'api/src/state.rs',
-    'api/src/transactions.rs',
-    'api/src/view_function.rs',
-    'api/types/src/account.rs',
-    'api/types/src/address.rs',
-    'api/types/src/block.rs',
-    'api/types/src/bytecode.rs',
-    'api/types/src/convert.rs',
-    'api/types/src/error.rs',
-    'api/types/src/hash.rs',
-    'api/types/src/headers.rs',
-    'api/types/src/index.rs',
-    'api/types/src/ledger_info.rs',
-    'api/types/src/move_types.rs',
-    'api/types/src/state.rs',
-    'api/types/src/table.rs',
-    'api/types/src/transaction.rs',
-    'api/types/src/view.rs',
-    'api/types/src/wrappers.rs',
-    'aptos-move/aptos-aggregator/src/aggregator_v1_extension.rs',
-    'aptos-move/aptos-aggregator/src/bounded_math.rs',
-    'aptos-move/aptos-aggregator/src/delayed_change.rs',
-    'aptos-move/aptos-aggregator/src/delayed_field_extension.rs',
-    'aptos-move/aptos-aggregator/src/delta_change_set.rs',
-    'aptos-move/aptos-aggregator/src/delta_math.rs',
-    'aptos-move/aptos-aggregator/src/resolver.rs',
-    'aptos-move/aptos-aggregator/src/types.rs',
-    'aptos-move/aptos-gas-algebra/src/abstract_algebra.rs',
-    'aptos-move/aptos-gas-algebra/src/algebra.rs',
-    'aptos-move/aptos-gas-meter/src/algebra.rs',
-    'aptos-move/aptos-gas-meter/src/meter.rs',
-    'aptos-move/aptos-gas-meter/src/traits.rs',
-    'aptos-move/aptos-gas-schedule/src/gas_schedule/aptos_framework.rs',
-    'aptos-move/aptos-gas-schedule/src/gas_schedule/instr.rs',
-    'aptos-move/aptos-gas-schedule/src/gas_schedule/macros.rs',
-    'aptos-move/aptos-gas-schedule/src/gas_schedule/misc.rs',
-    'aptos-move/aptos-gas-schedule/src/gas_schedule/move_stdlib.rs',
-    'aptos-move/aptos-gas-schedule/src/gas_schedule/table.rs',
-    'aptos-move/aptos-gas-schedule/src/gas_schedule/transaction.rs',
-    'aptos-move/aptos-gas-schedule/src/traits.rs',
-    'aptos-move/aptos-gas-schedule/src/ver.rs',
-    'aptos-move/aptos-native-interface/src/builder.rs',
-    'aptos-move/aptos-native-interface/src/context.rs',
-    'aptos-move/aptos-native-interface/src/errors.rs',
-    'aptos-move/aptos-native-interface/src/helpers.rs',
-    'aptos-move/aptos-native-interface/src/native.rs',
-    'aptos-move/aptos-native-interface/src/rayon_pool.rs',
-    'aptos-move/aptos-native-interface/src/reexports.rs',
-    'aptos-move/aptos-vm-environment/src/environment.rs',
-    'aptos-move/aptos-vm-environment/src/gas.rs',
-    'aptos-move/aptos-vm-environment/src/natives.rs',
-    'aptos-move/aptos-vm-environment/src/prod_configs.rs',
-    'aptos-move/aptos-vm-types/src/abstract_write_op.rs',
-    'aptos-move/aptos-vm-types/src/change_set.rs',
-    'aptos-move/aptos-vm-types/src/module_and_script_storage/code_storage.rs',
-    'aptos-move/aptos-vm-types/src/module_and_script_storage/module_storage.rs',
-    'aptos-move/aptos-vm-types/src/module_and_script_storage/read_recording.rs',
-    'aptos-move/aptos-vm-types/src/module_and_script_storage/state_view_adapter.rs',
-    'aptos-move/aptos-vm-types/src/module_write_set.rs',
-    'aptos-move/aptos-vm-types/src/output.rs',
-    'aptos-move/aptos-vm-types/src/resolver.rs',
-    'aptos-move/aptos-vm-types/src/resource_group_adapter.rs',
-    'aptos-move/aptos-vm-types/src/storage/change_set_configs.rs',
-    'aptos-move/aptos-vm-types/src/storage/io_pricing.rs',
-    'aptos-move/aptos-vm-types/src/storage/space_pricing.rs',
-    'aptos-move/aptos-vm/src/aptos_vm.rs',
-    'aptos-move/aptos-vm/src/block_executor/vm_wrapper.rs',
-    'aptos-move/aptos-vm/src/data_cache.rs',
-    'aptos-move/aptos-vm/src/errors.rs',
-    'aptos-move/aptos-vm/src/gas.rs',
-    'aptos-move/aptos-vm/src/move_vm_ext/resolver.rs',
-    'aptos-move/aptos-vm/src/move_vm_ext/session/respawned_session.rs',
-    'aptos-move/aptos-vm/src/move_vm_ext/session/session_id.rs',
-    'aptos-move/aptos-vm/src/move_vm_ext/session/user_transaction_sessions/abort_hook.rs',
-    'aptos-move/aptos-vm/src/move_vm_ext/session/user_transaction_sessions/epilogue.rs',
-    'aptos-move/aptos-vm/src/move_vm_ext/session/user_transaction_sessions/prologue.rs',
-    'aptos-move/aptos-vm/src/move_vm_ext/session/user_transaction_sessions/session_change_sets.rs',
-    'aptos-move/aptos-vm/src/move_vm_ext/session/user_transaction_sessions/user.rs',
-    'aptos-move/aptos-vm/src/move_vm_ext/session/view_with_change_set.rs',
-    'aptos-move/aptos-vm/src/move_vm_ext/vm.rs',
-    'aptos-move/aptos-vm/src/move_vm_ext/write_op_converter.rs',
-    'aptos-move/aptos-vm/src/natives.rs',
-    'aptos-move/aptos-vm/src/sharded_block_executor/aggr_overridden_state_view.rs',
-    'aptos-move/aptos-vm/src/sharded_block_executor/coordinator_client.rs',
-    'aptos-move/aptos-vm/src/sharded_block_executor/cross_shard_client.rs',
-    'aptos-move/aptos-vm/src/sharded_block_executor/cross_shard_state_view.rs',
-    'aptos-move/aptos-vm/src/sharded_block_executor/executor_client.rs',
-    'aptos-move/aptos-vm/src/sharded_block_executor/global_executor.rs',
-    'aptos-move/aptos-vm/src/sharded_block_executor/local_executor_shard.rs',
-    'aptos-move/aptos-vm/src/sharded_block_executor/messages.rs',
-    'aptos-move/aptos-vm/src/sharded_block_executor/remote_state_value.rs',
-    'aptos-move/aptos-vm/src/sharded_block_executor/sharded_aggregator_service.rs',
-    'aptos-move/aptos-vm/src/sharded_block_executor/sharded_executor_service.rs',
-    'aptos-move/aptos-vm/src/system_module_names.rs',
-    'aptos-move/aptos-vm/src/transaction_metadata.rs',
-    'aptos-move/aptos-vm/src/transaction_validation.rs',
-    'aptos-move/aptos-vm/src/transaction_validation_versioned.rs',
-    'aptos-move/aptos-vm/src/validator_txns/chunky_dkg.rs',
-    'aptos-move/aptos-vm/src/validator_txns/dkg.rs',
-    'aptos-move/aptos-vm/src/validator_txns/jwk.rs',
-    'aptos-move/aptos-vm/src/verifier/event_validation.rs',
-    'aptos-move/aptos-vm/src/verifier/module_init.rs',
-    'aptos-move/aptos-vm/src/verifier/native_validation.rs',
-    'aptos-move/aptos-vm/src/verifier/resource_groups.rs',
-    'aptos-move/aptos-vm/src/verifier/transaction_arg_validation.rs',
-    'aptos-move/aptos-vm/src/verifier/view_function.rs',
-    'aptos-move/block-executor/src/captured_reads.rs',
-    'aptos-move/block-executor/src/code_cache.rs',
-    'aptos-move/block-executor/src/code_cache_global.rs',
-    'aptos-move/block-executor/src/code_cache_global_manager.rs',
-    'aptos-move/block-executor/src/cold_validation.rs',
-    'aptos-move/block-executor/src/errors.rs',
-    'aptos-move/block-executor/src/executor.rs',
-    'aptos-move/block-executor/src/executor_utilities.rs',
-    'aptos-move/block-executor/src/explicit_sync_wrapper.rs',
-    'aptos-move/block-executor/src/hot_state_op_accumulator.rs',
-    'aptos-move/block-executor/src/limit_processor.rs',
-    'aptos-move/block-executor/src/scheduler.rs',
-    'aptos-move/block-executor/src/scheduler_status.rs',
-    'aptos-move/block-executor/src/scheduler_v2.rs',
-    'aptos-move/block-executor/src/scheduler_wrapper.rs',
-    'aptos-move/block-executor/src/task.rs',
-    'aptos-move/block-executor/src/txn_commit_hook.rs',
-    'aptos-move/block-executor/src/txn_last_input_output.rs',
-    'aptos-move/block-executor/src/txn_provider/blocking_txns_provider.rs',
-    'aptos-move/block-executor/src/txn_provider/default.rs',
-    'aptos-move/block-executor/src/types.rs',
-    'aptos-move/block-executor/src/value_exchange.rs',
-    'aptos-move/block-executor/src/view.rs',
-    'aptos-move/block-executor/src/worker_pool.rs',
-    'aptos-move/framework/aptos-framework/sources/account/account.move',
-    'aptos-move/framework/aptos-framework/sources/account/auth_data.move',
-    'aptos-move/framework/aptos-framework/sources/account/rate_limiter.move',
-    'aptos-move/framework/aptos-framework/sources/aggregator/aggregator.move',
-    'aptos-move/framework/aptos-framework/sources/aggregator/aggregator_factory.move',
-    'aptos-move/framework/aptos-framework/sources/aggregator/optional_aggregator.move',
-    'aptos-move/framework/aptos-framework/sources/aggregator_v2/aggregator_v2.move',
-    'aptos-move/framework/aptos-framework/sources/aptos_account.move',
-    'aptos-move/framework/aptos-framework/sources/aptos_coin.move',
-    'aptos-move/framework/aptos-framework/sources/aptos_governance.move',
-    'aptos-move/framework/aptos-framework/sources/block.move',
-    'aptos-move/framework/aptos-framework/sources/chain_id.move',
-    'aptos-move/framework/aptos-framework/sources/chain_status.move',
-    'aptos-move/framework/aptos-framework/sources/chunky_dkg.move',
-    'aptos-move/framework/aptos-framework/sources/code.move',
-    'aptos-move/framework/aptos-framework/sources/coin.move',
-    'aptos-move/framework/aptos-framework/sources/confidential_asset/confidential_amount.move',
-    'aptos-move/framework/aptos-framework/sources/confidential_asset/confidential_asset.move',
-    'aptos-move/framework/aptos-framework/sources/confidential_asset/confidential_balance.move',
-    'aptos-move/framework/aptos-framework/sources/confidential_asset/confidential_range_proofs.move',
-    'aptos-move/framework/aptos-framework/sources/confidential_asset/sigma_protocols/proofs/sigma_protocol_key_rotation.move',
-    'aptos-move/framework/aptos-framework/sources/confidential_asset/sigma_protocols/proofs/sigma_protocol_registration.move',
-    'aptos-move/framework/aptos-framework/sources/confidential_asset/sigma_protocols/proofs/sigma_protocol_transfer.move',
-    'aptos-move/framework/aptos-framework/sources/confidential_asset/sigma_protocols/proofs/sigma_protocol_withdraw.move',
-    'aptos-move/framework/aptos-framework/sources/confidential_asset/sigma_protocols/sigma_protocol.move',
-    'aptos-move/framework/aptos-framework/sources/confidential_asset/sigma_protocols/sigma_protocol_fiat_shamir.move',
-    'aptos-move/framework/aptos-framework/sources/confidential_asset/sigma_protocols/sigma_protocol_homomorphism.move',
-    'aptos-move/framework/aptos-framework/sources/confidential_asset/sigma_protocols/sigma_protocol_proof.move',
-    'aptos-move/framework/aptos-framework/sources/confidential_asset/sigma_protocols/sigma_protocol_representation.move',
-    'aptos-move/framework/aptos-framework/sources/confidential_asset/sigma_protocols/sigma_protocol_representation_vec.move',
-    'aptos-move/framework/aptos-framework/sources/confidential_asset/sigma_protocols/sigma_protocol_statement.move',
-    'aptos-move/framework/aptos-framework/sources/confidential_asset/sigma_protocols/sigma_protocol_statement_builder.move',
-    'aptos-move/framework/aptos-framework/sources/confidential_asset/sigma_protocols/sigma_protocol_utils.move',
-    'aptos-move/framework/aptos-framework/sources/confidential_asset/sigma_protocols/sigma_protocol_witness.move',
-    'aptos-move/framework/aptos-framework/sources/configs/chunky_dkg_config.move',
-    'aptos-move/framework/aptos-framework/sources/configs/chunky_dkg_config_seqnum.move',
-    'aptos-move/framework/aptos-framework/sources/configs/config_buffer.move',
-    'aptos-move/framework/aptos-framework/sources/configs/consensus_config.move',
-    'aptos-move/framework/aptos-framework/sources/configs/epoch_timeout_config.move',
-    'aptos-move/framework/aptos-framework/sources/configs/execution_config.move',
-    'aptos-move/framework/aptos-framework/sources/configs/gas_schedule.move',
-    'aptos-move/framework/aptos-framework/sources/configs/jwk_consensus_config.move',
-    'aptos-move/framework/aptos-framework/sources/configs/randomness_api_v0_config.move',
-    'aptos-move/framework/aptos-framework/sources/configs/randomness_config.move',
-    'aptos-move/framework/aptos-framework/sources/configs/randomness_config_seqnum.move',
-    'aptos-move/framework/aptos-framework/sources/configs/staking_config.move',
-    'aptos-move/framework/aptos-framework/sources/configs/version.move',
-    'aptos-move/framework/aptos-framework/sources/create_signer.move',
-    'aptos-move/framework/aptos-framework/sources/datastructures/big_ordered_map.move',
-    'aptos-move/framework/aptos-framework/sources/datastructures/ordered_map.move',
-    'aptos-move/framework/aptos-framework/sources/datastructures/storage_slot.move',
-    'aptos-move/framework/aptos-framework/sources/datastructures/storage_slot_or_inline.move',
-    'aptos-move/framework/aptos-framework/sources/decryption.move',
-    'aptos-move/framework/aptos-framework/sources/delegation_pool.move',
-    'aptos-move/framework/aptos-framework/sources/dispatchable_fungible_asset.move',
-    'aptos-move/framework/aptos-framework/sources/dkg.move',
-    'aptos-move/framework/aptos-framework/sources/event.move',
-    'aptos-move/framework/aptos-framework/sources/function_info.move',
-    'aptos-move/framework/aptos-framework/sources/fungible_asset.move',
-    'aptos-move/framework/aptos-framework/sources/genesis.move',
-    'aptos-move/framework/aptos-framework/sources/governance_proposal.move',
-    'aptos-move/framework/aptos-framework/sources/guid.move',
-    'aptos-move/framework/aptos-framework/sources/jwks.move',
-    'aptos-move/framework/aptos-framework/sources/managed_coin.move',
-    'aptos-move/framework/aptos-framework/sources/multisig_account.move',
-    'aptos-move/framework/aptos-framework/sources/nonce_validation.move',
-    'aptos-move/framework/aptos-framework/sources/object.move',
-    'aptos-move/framework/aptos-framework/sources/object_code_deployment.move',
-    'aptos-move/framework/aptos-framework/sources/primary_fungible_store.move',
-    'aptos-move/framework/aptos-framework/sources/randomness.move',
-    'aptos-move/framework/aptos-framework/sources/reconfiguration.move',
-    'aptos-move/framework/aptos-framework/sources/reconfiguration_state.move',
-    'aptos-move/framework/aptos-framework/sources/reconfiguration_with_dkg.move',
-    'aptos-move/framework/aptos-framework/sources/resource_account.move',
-    'aptos-move/framework/aptos-framework/sources/stake.move',
-    'aptos-move/framework/aptos-framework/sources/staking_contract.move',
-    'aptos-move/framework/aptos-framework/sources/staking_proxy.move',
-    'aptos-move/framework/aptos-framework/sources/state_storage.move',
-    'aptos-move/framework/aptos-framework/sources/storage_gas.move',
-    'aptos-move/framework/aptos-framework/sources/system_addresses.move',
-    'aptos-move/framework/aptos-framework/sources/timestamp.move',
-    'aptos-move/framework/aptos-framework/sources/transaction_context.move',
-    'aptos-move/framework/aptos-framework/sources/transaction_fee.move',
-    'aptos-move/framework/aptos-framework/sources/transaction_limits.move',
-    'aptos-move/framework/aptos-framework/sources/transaction_validation.move',
-    'aptos-move/framework/aptos-framework/sources/util.move',
-    'aptos-move/framework/aptos-framework/sources/validator_consensus_info.move',
-    'aptos-move/framework/aptos-framework/sources/vesting.move',
-    'aptos-move/framework/aptos-framework/sources/voting.move',
-    'aptos-move/framework/aptos-stdlib/sources/any.move',
-    'aptos-move/framework/aptos-stdlib/sources/bcs_stream.move',
-    'aptos-move/framework/aptos-stdlib/sources/capability.move',
-    'aptos-move/framework/aptos-stdlib/sources/comparator.move',
-    'aptos-move/framework/aptos-stdlib/sources/copyable_any.move',
-    'aptos-move/framework/aptos-stdlib/sources/cryptography/bls12381.move',
-    'aptos-move/framework/aptos-stdlib/sources/cryptography/bls12381_algebra.move',
-    'aptos-move/framework/aptos-stdlib/sources/cryptography/bn254_algebra.move',
-    'aptos-move/framework/aptos-stdlib/sources/cryptography/crypto_algebra.move',
-    'aptos-move/framework/aptos-stdlib/sources/cryptography/ed25519.move',
-    'aptos-move/framework/aptos-stdlib/sources/cryptography/multi_ed25519.move',
-    'aptos-move/framework/aptos-stdlib/sources/cryptography/multi_key.move',
-    'aptos-move/framework/aptos-stdlib/sources/cryptography/ristretto255.move',
-    'aptos-move/framework/aptos-stdlib/sources/cryptography/ristretto255_bulletproofs.move',
-    'aptos-move/framework/aptos-stdlib/sources/cryptography/ristretto255_elgamal.move',
-    'aptos-move/framework/aptos-stdlib/sources/cryptography/ristretto255_pedersen.move',
-    'aptos-move/framework/aptos-stdlib/sources/cryptography/secp256k1.move',
-    'aptos-move/framework/aptos-stdlib/sources/cryptography/secp256r1.move',
-    'aptos-move/framework/aptos-stdlib/sources/cryptography/single_key.move',
-    'aptos-move/framework/aptos-stdlib/sources/data_structures/big_vector.move',
-    'aptos-move/framework/aptos-stdlib/sources/data_structures/smart_table.move',
-    'aptos-move/framework/aptos-stdlib/sources/data_structures/smart_vector.move',
-    'aptos-move/framework/aptos-stdlib/sources/data_structures/storage_slots_allocator.move',
-    'aptos-move/framework/aptos-stdlib/sources/debug.move',
-    'aptos-move/framework/aptos-stdlib/sources/fixed_point64.move',
-    'aptos-move/framework/aptos-stdlib/sources/from_bcs.move',
-    'aptos-move/framework/aptos-stdlib/sources/hash.move',
-    'aptos-move/framework/aptos-stdlib/sources/math128.move',
-    'aptos-move/framework/aptos-stdlib/sources/math64.move',
-    'aptos-move/framework/aptos-stdlib/sources/math_fixed.move',
-    'aptos-move/framework/aptos-stdlib/sources/math_fixed64.move',
-    'aptos-move/framework/aptos-stdlib/sources/pool_u64.move',
-    'aptos-move/framework/aptos-stdlib/sources/pool_u64_unbound.move',
-    'aptos-move/framework/aptos-stdlib/sources/simple_map.move',
-    'aptos-move/framework/aptos-stdlib/sources/string_utils.move',
-    'aptos-move/framework/aptos-stdlib/sources/table.move',
-    'aptos-move/framework/aptos-stdlib/sources/table_with_length.move',
-    'aptos-move/framework/aptos-stdlib/sources/type_info.move',
-    'aptos-move/framework/aptos-token-objects/sources/aptos_token.move',
-    'aptos-move/framework/aptos-token-objects/sources/collection.move',
-    'aptos-move/framework/aptos-token-objects/sources/property_map.move',
-    'aptos-move/framework/aptos-token-objects/sources/royalty.move',
-    'aptos-move/framework/aptos-token-objects/sources/token.move',
-    'aptos-move/framework/aptos-token/sources/property_map.move',
-    'aptos-move/framework/aptos-token/sources/token.move',
-    'aptos-move/framework/aptos-token/sources/token_coin_swap.move',
-    'aptos-move/framework/aptos-token/sources/token_event_store.move',
-    'aptos-move/framework/aptos-token/sources/token_transfers.move',
-    'aptos-move/framework/move-stdlib/sources/acl.move',
-    'aptos-move/framework/move-stdlib/sources/bcs.move',
-    'aptos-move/framework/move-stdlib/sources/bit_vector.move',
-    'aptos-move/framework/move-stdlib/sources/cmp.move',
-    'aptos-move/framework/move-stdlib/sources/configs/features.move',
-    'aptos-move/framework/move-stdlib/sources/error.move',
-    'aptos-move/framework/move-stdlib/sources/fixed_point32.move',
-    'aptos-move/framework/move-stdlib/sources/hash.move',
-    'aptos-move/framework/move-stdlib/sources/mem.move',
-    'aptos-move/framework/move-stdlib/sources/option.move',
-    'aptos-move/framework/move-stdlib/sources/reflect.move',
-    'aptos-move/framework/move-stdlib/sources/result.move',
-    'aptos-move/framework/move-stdlib/sources/signer.move',
-    'aptos-move/framework/move-stdlib/sources/string.move',
-    'aptos-move/framework/move-stdlib/sources/vector.move',
-    'aptos-move/framework/natives/src/account.rs',
-    'aptos-move/framework/natives/src/aggregator_natives/aggregator.rs',
-    'aptos-move/framework/natives/src/aggregator_natives/aggregator_factory.rs',
-    'aptos-move/framework/natives/src/aggregator_natives/aggregator_v2.rs',
-    'aptos-move/framework/natives/src/aggregator_natives/context.rs',
-    'aptos-move/framework/natives/src/aggregator_natives/helpers_v1.rs',
-    'aptos-move/framework/natives/src/aggregator_natives/helpers_v2.rs',
-    'aptos-move/framework/natives/src/code.rs',
-    'aptos-move/framework/natives/src/consensus_config.rs',
-    'aptos-move/framework/natives/src/create_signer.rs',
-    'aptos-move/framework/natives/src/cryptography/algebra/arithmetics/add.rs',
-    'aptos-move/framework/natives/src/cryptography/algebra/arithmetics/div.rs',
-    'aptos-move/framework/natives/src/cryptography/algebra/arithmetics/double.rs',
-    'aptos-move/framework/natives/src/cryptography/algebra/arithmetics/inv.rs',
-    'aptos-move/framework/natives/src/cryptography/algebra/arithmetics/mul.rs',
-    'aptos-move/framework/natives/src/cryptography/algebra/arithmetics/neg.rs',
-    'aptos-move/framework/natives/src/cryptography/algebra/arithmetics/scalar_mul.rs',
-    'aptos-move/framework/natives/src/cryptography/algebra/arithmetics/sqr.rs',
-    'aptos-move/framework/natives/src/cryptography/algebra/arithmetics/sub.rs',
-    'aptos-move/framework/natives/src/cryptography/algebra/casting.rs',
-    'aptos-move/framework/natives/src/cryptography/algebra/constants.rs',
-    'aptos-move/framework/natives/src/cryptography/algebra/eq.rs',
-    'aptos-move/framework/natives/src/cryptography/algebra/hash_to_structure.rs',
-    'aptos-move/framework/natives/src/cryptography/algebra/new.rs',
-    'aptos-move/framework/natives/src/cryptography/algebra/pairing.rs',
-    'aptos-move/framework/natives/src/cryptography/algebra/rand.rs',
-    'aptos-move/framework/natives/src/cryptography/algebra/serialization.rs',
-    'aptos-move/framework/natives/src/cryptography/bls12381.rs',
-    'aptos-move/framework/natives/src/cryptography/bulletproofs.rs',
-    'aptos-move/framework/natives/src/cryptography/ed25519.rs',
-    'aptos-move/framework/natives/src/cryptography/helpers.rs',
-    'aptos-move/framework/natives/src/cryptography/multi_ed25519.rs',
-    'aptos-move/framework/natives/src/cryptography/ristretto255.rs',
-    'aptos-move/framework/natives/src/cryptography/ristretto255_point.rs',
-    'aptos-move/framework/natives/src/cryptography/ristretto255_scalar.rs',
-    'aptos-move/framework/natives/src/cryptography/secp256k1.rs',
-    'aptos-move/framework/natives/src/debug.rs',
-    'aptos-move/framework/natives/src/dispatchable_fungible_asset.rs',
-    'aptos-move/framework/natives/src/event.rs',
-    'aptos-move/framework/natives/src/function_info.rs',
-    'aptos-move/framework/natives/src/hash.rs',
-    'aptos-move/framework/natives/src/object.rs',
-    'aptos-move/framework/natives/src/object_code_deployment.rs',
-    'aptos-move/framework/natives/src/randomness.rs',
-    'aptos-move/framework/natives/src/state_storage.rs',
-    'aptos-move/framework/natives/src/storage_slot.rs',
-    'aptos-move/framework/natives/src/string_utils.rs',
-    'aptos-move/framework/natives/src/transaction_context.rs',
-    'aptos-move/framework/natives/src/type_info.rs',
-    'aptos-move/framework/natives/src/util.rs',
-    'aptos-move/mvhashmap/src/registered_dependencies.rs',
-    'aptos-move/mvhashmap/src/types.rs',
-    'aptos-move/mvhashmap/src/unsync_map.rs',
-    'aptos-move/mvhashmap/src/versioned_data.rs',
-    'aptos-move/mvhashmap/src/versioned_delayed_fields.rs',
-    'aptos-move/mvhashmap/src/versioned_group_data.rs',
-    'aptos-move/vm-genesis/src/genesis_context.rs',
-    'crates/aptos-crypto-derive/src/hasher.rs',
-    'crates/aptos-crypto-derive/src/unions.rs',
-    'crates/aptos-crypto/src/arkworks/differentiate.rs',
-    'crates/aptos-crypto/src/arkworks/hashing.rs',
-    'crates/aptos-crypto/src/arkworks/msm.rs',
-    'crates/aptos-crypto/src/arkworks/random.rs',
-    'crates/aptos-crypto/src/arkworks/scrape.rs',
-    'crates/aptos-crypto/src/arkworks/serialization.rs',
-    'crates/aptos-crypto/src/arkworks/shamir.rs',
-    'crates/aptos-crypto/src/arkworks/srs.rs',
-    'crates/aptos-crypto/src/arkworks/vanishing_poly.rs',
-    'crates/aptos-crypto/src/arkworks/weighted_sum.rs',
-    'crates/aptos-crypto/src/asymmetric_encryption/elgamal_curve25519_aes256_gcm.rs',
-    'crates/aptos-crypto/src/bls12381/bls12381_keys.rs',
-    'crates/aptos-crypto/src/bls12381/bls12381_pop.rs',
-    'crates/aptos-crypto/src/bls12381/bls12381_sigs.rs',
-    'crates/aptos-crypto/src/bls12381/bls12381_validatable.rs',
-    'crates/aptos-crypto/src/blstrs/evaluation_domain.rs',
-    'crates/aptos-crypto/src/blstrs/fft.rs',
-    'crates/aptos-crypto/src/blstrs/lagrange.rs',
-    'crates/aptos-crypto/src/blstrs/polynomials.rs',
-    'crates/aptos-crypto/src/blstrs/random.rs',
-    'crates/aptos-crypto/src/blstrs/scalar_secret_key.rs',
-    'crates/aptos-crypto/src/blstrs/threshold_config.rs',
-    'crates/aptos-crypto/src/compat.rs',
-    'crates/aptos-crypto/src/constant_time/blstrs_scalar_mul.rs',
-    'crates/aptos-crypto/src/constant_time/zkcrypto_scalar_mul.rs',
-    'crates/aptos-crypto/src/ed25519/ed25519_keys.rs',
-    'crates/aptos-crypto/src/ed25519/ed25519_sigs.rs',
-    'crates/aptos-crypto/src/elgamal/curve25519.rs',
-    'crates/aptos-crypto/src/encoding_type.rs',
-    'crates/aptos-crypto/src/hash.rs',
-    'crates/aptos-crypto/src/hkdf.rs',
-    'crates/aptos-crypto/src/input_secret.rs',
-    'crates/aptos-crypto/src/multi_ed25519.rs',
-    'crates/aptos-crypto/src/noise.rs',
-    'crates/aptos-crypto/src/player.rs',
-    'crates/aptos-crypto/src/poseidon_bn254/alt_fr.rs',
-    'crates/aptos-crypto/src/poseidon_bn254/constants.rs',
-    'crates/aptos-crypto/src/secp256k1_ecdsa.rs',
-    'crates/aptos-crypto/src/secp256r1_ecdsa/secp256r1_ecdsa_keys.rs',
-    'crates/aptos-crypto/src/secp256r1_ecdsa/secp256r1_ecdsa_sigs.rs',
-    'crates/aptos-crypto/src/slh_dsa_sha2_128s/slh_dsa_keys.rs',
-    'crates/aptos-crypto/src/slh_dsa_sha2_128s/slh_dsa_sigs.rs',
-    'crates/aptos-crypto/src/utils.rs',
-    'crates/aptos-crypto/src/validatable.rs',
-    'crates/aptos-crypto/src/weighted_config.rs',
-    'crates/aptos-crypto/src/x25519.rs',
-    'crates/aptos-dkg/src/dlog/bsgs.rs',
-    'crates/aptos-dkg/src/dlog/table.rs',
-    'crates/aptos-dkg/src/fiat_shamir.rs',
-    'crates/aptos-dkg/src/pcs/shplonked.rs',
-    'crates/aptos-dkg/src/pcs/shplonked_sigma.rs',
-    'crates/aptos-dkg/src/pcs/traits.rs',
-    'crates/aptos-dkg/src/pcs/univariate_hiding_kzg.rs',
-    'crates/aptos-dkg/src/pcs/univariate_kzg.rs',
-    'crates/aptos-dkg/src/pcs/zeromorph.rs',
-    'crates/aptos-dkg/src/pvss/chunky/chunked_elgamal.rs',
-    'crates/aptos-dkg/src/pvss/chunky/chunked_elgamal_pp.rs',
-    'crates/aptos-dkg/src/pvss/chunky/chunked_scalar_mul.rs',
-    'crates/aptos-dkg/src/pvss/chunky/chunks.rs',
-    'crates/aptos-dkg/src/pvss/chunky/hkzg_chunked_elgamal.rs',
-    'crates/aptos-dkg/src/pvss/chunky/hkzg_chunked_elgamal_commit.rs',
-    'crates/aptos-dkg/src/pvss/chunky/input_secret.rs',
-    'crates/aptos-dkg/src/pvss/chunky/keys.rs',
-    'crates/aptos-dkg/src/pvss/chunky/public_parameters.rs',
-    'crates/aptos-dkg/src/pvss/chunky/subtranscript.rs',
-    'crates/aptos-dkg/src/pvss/chunky/verify_common.rs',
-    'crates/aptos-dkg/src/pvss/chunky/weighted_transcript.rs',
-    'crates/aptos-dkg/src/pvss/chunky/weighted_transcript_v2.rs',
-    'crates/aptos-dkg/src/pvss/contribution.rs',
-    'crates/aptos-dkg/src/pvss/das/enc.rs',
-    'crates/aptos-dkg/src/pvss/das/input_secret.rs',
-    'crates/aptos-dkg/src/pvss/das/public_parameters.rs',
-    'crates/aptos-dkg/src/pvss/das/unweighted_protocol.rs',
-    'crates/aptos-dkg/src/pvss/das/weighted_protocol.rs',
-    'crates/aptos-dkg/src/pvss/dealt_pub_key.rs',
-    'crates/aptos-dkg/src/pvss/dealt_pub_key_share.rs',
-    'crates/aptos-dkg/src/pvss/dealt_secret_key.rs',
-    'crates/aptos-dkg/src/pvss/dealt_secret_key_share.rs',
-    'crates/aptos-dkg/src/pvss/encryption_dlog.rs',
-    'crates/aptos-dkg/src/pvss/encryption_elgamal.rs',
-    'crates/aptos-dkg/src/pvss/insecure_field/transcript.rs',
-    'crates/aptos-dkg/src/pvss/schnorr.rs',
-    'crates/aptos-dkg/src/pvss/signed/generic_signing.rs',
-    'crates/aptos-dkg/src/pvss/traits/transcript.rs',
-    'crates/aptos-dkg/src/pvss/weighted/generic_weighting.rs',
-    'crates/aptos-dkg/src/range_proofs/dekart_univariate_v2.rs',
-    'crates/aptos-dkg/src/range_proofs/scalars_to_bits.rs',
-    'crates/aptos-dkg/src/range_proofs/traits.rs',
-    'crates/aptos-dkg/src/sigma_protocol/homomorphism/fixed_base_msms.rs',
-    'crates/aptos-dkg/src/sigma_protocol/homomorphism/tuple.rs',
-    'crates/aptos-dkg/src/sigma_protocol/proof.rs',
-    'crates/aptos-dkg/src/sigma_protocol/traits.rs',
-    'crates/aptos-dkg/src/utils/parallel_multi_pairing.rs',
-    'crates/aptos-dkg/src/utils/random.rs',
-    'crates/aptos-dkg/src/weighted_vuf/traits.rs',
-    'dkg/src/agg_trx_producer.rs',
-    'dkg/src/chunky/agg_subtrx_producer.rs',
-    'dkg/src/chunky/common.rs',
-    'dkg/src/chunky/missing_transcript_fetcher.rs',
-    'dkg/src/chunky/subtrx_cert_producer.rs',
-    'dkg/src/chunky/types.rs',
-    'dkg/src/epoch_manager.rs',
-    'dkg/src/network.rs',
-    'dkg/src/network_interface.rs',
-    'dkg/src/types.rs',
-    'execution/block-partitioner/src/main.rs',
-    'execution/block-partitioner/src/pre_partition/connected_component/config.rs',
-    'execution/block-partitioner/src/pre_partition/uniform_partitioner/config.rs',
-    'execution/block-partitioner/src/sharded_block_partitioner/config.rs',
-    'execution/block-partitioner/src/v2/build_edge.rs',
-    'execution/block-partitioner/src/v2/config.rs',
-    'execution/block-partitioner/src/v2/conflicting_txn_tracker.rs',
-    'execution/block-partitioner/src/v2/init.rs',
-    'execution/block-partitioner/src/v2/load_balance.rs',
-    'execution/block-partitioner/src/v2/partition_to_matrix.rs',
-    'execution/block-partitioner/src/v2/state.rs',
-    'execution/block-partitioner/src/v2/types.rs',
-    'execution/block-partitioner/src/v2/union_find.rs',
-    'execution/executor-types/src/error.rs',
-    'execution/executor-types/src/execution_output.rs',
-    'execution/executor-types/src/ledger_update_output.rs',
-    'execution/executor-types/src/planned.rs',
-    'execution/executor-types/src/state_checkpoint_output.rs',
-    'execution/executor-types/src/state_compute_result.rs',
-    'execution/executor-types/src/transactions_with_output.rs',
-    'execution/executor/src/chunk_executor/chunk_commit_queue.rs',
-    'execution/executor/src/chunk_executor/chunk_result_verifier.rs',
-    'execution/executor/src/chunk_executor/transaction_chunk.rs',
-    'execution/executor/src/logging.rs',
-    'execution/executor/src/types/executed_chunk.rs',
-    'execution/executor/src/types/partial_state_compute_result.rs',
-    'execution/executor/src/workflow/do_get_execution_output.rs',
-    'execution/executor/src/workflow/do_ledger_update.rs',
-    'execution/executor/src/workflow/do_state_checkpoint.rs',
-    'mempool/src/core_mempool/index.rs',
-    'mempool/src/core_mempool/mempool.rs',
-    'mempool/src/core_mempool/transaction.rs',
-    'mempool/src/core_mempool/transaction_store.rs',
-    'mempool/src/logging.rs',
-    'mempool/src/shared_mempool/coordinator.rs',
-    'mempool/src/shared_mempool/network.rs',
-    'mempool/src/shared_mempool/priority.rs',
-    'mempool/src/shared_mempool/runtime.rs',
-    'mempool/src/shared_mempool/tasks.rs',
-    'mempool/src/shared_mempool/types.rs',
-    'mempool/src/shared_mempool/use_case_history.rs',
-    'storage/aptosdb/src/common.rs',
-    'storage/aptosdb/src/db/aptosdb_internal.rs',
-    'storage/aptosdb/src/db/aptosdb_native_position.rs',
-    'storage/aptosdb/src/db/aptosdb_reader.rs',
-    'storage/aptosdb/src/db/aptosdb_writer.rs',
-    'storage/aptosdb/src/db_options.rs',
-    'storage/aptosdb/src/fast_sync_storage_wrapper.rs',
-    'storage/aptosdb/src/get_restore_handler.rs',
-    'storage/aptosdb/src/ledger_db/event_db.rs',
-    'storage/aptosdb/src/ledger_db/ledger_metadata_db.rs',
-    'storage/aptosdb/src/ledger_db/persisted_auxiliary_info_db.rs',
-    'storage/aptosdb/src/ledger_db/transaction_accumulator_db.rs',
-    'storage/aptosdb/src/ledger_db/transaction_auxiliary_data_db.rs',
-    'storage/aptosdb/src/ledger_db/transaction_db.rs',
-    'storage/aptosdb/src/ledger_db/transaction_info_db.rs',
-    'storage/aptosdb/src/ledger_db/write_set_db.rs',
-    'storage/aptosdb/src/lru_node_cache.rs',
-    'storage/aptosdb/src/native_state_committer.rs',
-    'storage/aptosdb/src/position_buffered_state.rs',
-    'storage/aptosdb/src/position_db.rs',
-    'storage/aptosdb/src/position_merkle_batch_committer.rs',
-    'storage/aptosdb/src/position_merkle_db.rs',
-    'storage/aptosdb/src/position_pruner.rs',
-    'storage/aptosdb/src/position_snapshot_committer.rs',
-    'storage/aptosdb/src/position_state_store.rs',
-    'storage/aptosdb/src/position_state_sync.rs',
-    'storage/aptosdb/src/pruner/db_pruner.rs',
-    'storage/aptosdb/src/pruner/db_sub_pruner.rs',
-    'storage/aptosdb/src/pruner/ledger_pruner/event_store_pruner.rs',
-    'storage/aptosdb/src/pruner/ledger_pruner/ledger_metadata_pruner.rs',
-    'storage/aptosdb/src/pruner/ledger_pruner/ledger_pruner_manager.rs',
-    'storage/aptosdb/src/pruner/ledger_pruner/persisted_auxiliary_info_pruner.rs',
-    'storage/aptosdb/src/pruner/ledger_pruner/transaction_accumulator_pruner.rs',
-    'storage/aptosdb/src/pruner/ledger_pruner/transaction_auxiliary_data_pruner.rs',
-    'storage/aptosdb/src/pruner/ledger_pruner/transaction_info_pruner.rs',
-    'storage/aptosdb/src/pruner/ledger_pruner/transaction_pruner.rs',
-    'storage/aptosdb/src/pruner/ledger_pruner/write_set_pruner.rs',
-    'storage/aptosdb/src/pruner/pruner_manager.rs',
-    'storage/aptosdb/src/pruner/pruner_utils.rs',
-    'storage/aptosdb/src/pruner/pruner_worker.rs',
-    'storage/aptosdb/src/pruner/state_kv_pruner/generics.rs',
-    'storage/aptosdb/src/pruner/state_kv_pruner/state_kv_metadata_pruner.rs',
-    'storage/aptosdb/src/pruner/state_kv_pruner/state_kv_pruner_manager.rs',
-    'storage/aptosdb/src/pruner/state_kv_pruner/state_kv_shard_pruner.rs',
-    'storage/aptosdb/src/pruner/state_merkle_pruner/generics.rs',
-    'storage/aptosdb/src/pruner/state_merkle_pruner/leaked_stale_node_cleaner.rs',
-    'storage/aptosdb/src/pruner/state_merkle_pruner/state_merkle_metadata_pruner.rs',
-    'storage/aptosdb/src/pruner/state_merkle_pruner/state_merkle_pruner_manager.rs',
-    'storage/aptosdb/src/pruner/state_merkle_pruner/state_merkle_shard_pruner.rs',
-    'storage/aptosdb/src/rocksdb_property_reporter.rs',
-    'storage/aptosdb/src/sharded_jmt_merkle_db.rs',
-    'storage/aptosdb/src/sharded_kv_db.rs',
-    'storage/aptosdb/src/state_kv_db.rs',
-    'storage/aptosdb/src/state_merkle_db.rs',
-    'storage/aptosdb/src/state_store/buffered_state.rs',
-    'storage/aptosdb/src/state_store/hot_state.rs',
-    'storage/aptosdb/src/state_store/persisted_state.rs',
-    'storage/aptosdb/src/state_store/state_merkle_batch_committer.rs',
-    'storage/aptosdb/src/state_store/state_snapshot_committer.rs',
-    'storage/aptosdb/src/state_value_chunk.rs',
-    'storage/aptosdb/src/trading_native.rs',
-    'storage/aptosdb/src/utils/iterators.rs',
-    'storage/aptosdb/src/utils/truncation_helper.rs',
-    'storage/aptosdb/src/versioned_node_cache.rs',
-    'storage/schemadb/src/batch.rs',
-    'storage/schemadb/src/iterator.rs',
-    'storage/schemadb/src/schema.rs',
-    'storage/scratchpad/src/sparse_merkle/dropper.rs',
-    'storage/scratchpad/src/sparse_merkle/node.rs',
-    'storage/scratchpad/src/sparse_merkle/updater.rs',
-    'storage/scratchpad/src/sparse_merkle/utils.rs',
-    'storage/storage-interface/src/block_info.rs',
-    'storage/storage-interface/src/chunk_to_commit.rs',
-    'storage/storage-interface/src/errors.rs',
-    'storage/storage-interface/src/ledger_summary.rs',
-    'storage/storage-interface/src/state_store/hot_state.rs',
-    'storage/storage-interface/src/state_store/leaf_entry.rs',
-    'storage/storage-interface/src/state_store/sharded_jmt_state.rs',
-    'storage/storage-interface/src/state_store/state.rs',
-    'storage/storage-interface/src/state_store/state_delta.rs',
-    'storage/storage-interface/src/state_store/state_summary.rs',
-    'storage/storage-interface/src/state_store/state_update_refs.rs',
-    'storage/storage-interface/src/state_store/state_view/cached_state_view.rs',
-    'storage/storage-interface/src/state_store/state_view/db_state_view.rs',
-    'storage/storage-interface/src/state_store/state_view/hot_state_view.rs',
-    'storage/storage-interface/src/state_store/state_with_summary.rs',
-    'storage/storage-interface/src/state_store/versioned_state_value.rs',
-    'third_party/move/move-binary-format/src/access.rs',
-    'third_party/move/move-binary-format/src/binary_views.rs',
-    'third_party/move/move-binary-format/src/builders.rs',
-    'third_party/move/move-binary-format/src/check_bounds.rs',
-    'third_party/move/move-binary-format/src/check_complexity.rs',
-    'third_party/move/move-binary-format/src/compatibility.rs',
-    'third_party/move/move-binary-format/src/constant.rs',
-    'third_party/move/move-binary-format/src/control_flow_graph.rs',
-    'third_party/move/move-binary-format/src/deserializer.rs',
-    'third_party/move/move-binary-format/src/errors.rs',
-    'third_party/move/move-binary-format/src/file_format.rs',
-    'third_party/move/move-binary-format/src/file_format_common.rs',
-    'third_party/move/move-binary-format/src/internals.rs',
-    'third_party/move/move-binary-format/src/module_script_conversion.rs',
-    'third_party/move/move-binary-format/src/serializer.rs',
-    'third_party/move/move-binary-format/src/views.rs',
-    'third_party/move/move-bytecode-verifier/src/absint.rs',
-    'third_party/move/move-bytecode-verifier/src/acquires_list_verifier.rs',
-    'third_party/move/move-bytecode-verifier/src/check_duplication.rs',
-    'third_party/move/move-bytecode-verifier/src/code_unit_verifier.rs',
-    'third_party/move/move-bytecode-verifier/src/constants.rs',
-    'third_party/move/move-bytecode-verifier/src/control_flow.rs',
-    'third_party/move/move-bytecode-verifier/src/control_flow_v5.rs',
-    'third_party/move/move-bytecode-verifier/src/dependencies.rs',
-    'third_party/move/move-bytecode-verifier/src/features.rs',
-    'third_party/move/move-bytecode-verifier/src/friends.rs',
-    'third_party/move/move-bytecode-verifier/src/instantiation_loops.rs',
-    'third_party/move/move-bytecode-verifier/src/instruction_consistency.rs',
-    'third_party/move/move-bytecode-verifier/src/limits.rs',
-    'third_party/move/move-bytecode-verifier/src/locals_safety/abstract_state.rs',
-    'third_party/move/move-bytecode-verifier/src/loop_summary.rs',
-    'third_party/move/move-bytecode-verifier/src/meter.rs',
-    'third_party/move/move-bytecode-verifier/src/reference_safety/abstract_state.rs',
-    'third_party/move/move-bytecode-verifier/src/regression_tests/bounds_check.rs',
-    'third_party/move/move-bytecode-verifier/src/regression_tests/reference_analysis.rs',
-    'third_party/move/move-bytecode-verifier/src/regression_tests/struct_api.rs',
-    'third_party/move/move-bytecode-verifier/src/script_signature.rs',
-    'third_party/move/move-bytecode-verifier/src/signature_v2.rs',
-    'third_party/move/move-bytecode-verifier/src/stack_usage_verifier.rs',
-    'third_party/move/move-bytecode-verifier/src/struct_api_checker.rs',
-    'third_party/move/move-bytecode-verifier/src/struct_defs.rs',
-    'third_party/move/move-bytecode-verifier/src/type_safety.rs',
-    'third_party/move/move-bytecode-verifier/src/verifier.rs',
-    'third_party/move/move-core/types/src/abi.rs',
-    'third_party/move/move-core/types/src/ability.rs',
-    'third_party/move/move-core/types/src/account_address.rs',
-    'third_party/move/move-core/types/src/diag_writer.rs',
-    'third_party/move/move-core/types/src/effects.rs',
-    'third_party/move/move-core/types/src/errmap.rs',
-    'third_party/move/move-core/types/src/function.rs',
-    'third_party/move/move-core/types/src/gas_algebra.rs',
-    'third_party/move/move-core/types/src/identifier.rs',
-    'third_party/move/move-core/types/src/int256.rs',
-    'third_party/move/move-core/types/src/language_storage.rs',
-    'third_party/move/move-core/types/src/metadata.rs',
-    'third_party/move/move-core/types/src/move_resource.rs',
-    'third_party/move/move-core/types/src/parser.rs',
-    'third_party/move/move-core/types/src/safe_serialize.rs',
-    'third_party/move/move-core/types/src/state.rs',
-    'third_party/move/move-core/types/src/transaction_argument.rs',
-    'third_party/move/move-core/types/src/value.rs',
-    'third_party/move/move-core/types/src/vm_status.rs',
-    'third_party/move/move-vm/runtime/src/config.rs',
-    'third_party/move/move-vm/runtime/src/data_cache.rs',
-    'third_party/move/move-vm/runtime/src/debug.rs',
-    'third_party/move/move-vm/runtime/src/execution_tracing/recorders.rs',
-    'third_party/move/move-vm/runtime/src/execution_tracing/trace.rs',
-    'third_party/move/move-vm/runtime/src/frame.rs',
-    'third_party/move/move-vm/runtime/src/frame_type_cache.rs',
-    'third_party/move/move-vm/runtime/src/interpreter.rs',
-    'third_party/move/move-vm/runtime/src/interpreter_caches.rs',
-    'third_party/move/move-vm/runtime/src/loader/function.rs',
-    'third_party/move/move-vm/runtime/src/loader/modules.rs',
-    'third_party/move/move-vm/runtime/src/loader/script.rs',
-    'third_party/move/move-vm/runtime/src/loader/single_signature_loader.rs',
-    'third_party/move/move-vm/runtime/src/loader/type_loader.rs',
-    'third_party/move/move-vm/runtime/src/logging.rs',
-    'third_party/move/move-vm/runtime/src/module_traversal.rs',
-    'third_party/move/move-vm/runtime/src/move_vm.rs',
-    'third_party/move/move-vm/runtime/src/native_extensions.rs',
-    'third_party/move/move-vm/runtime/src/native_functions.rs',
-    'third_party/move/move-vm/runtime/src/native_models_for_runtime_ref_checks.rs',
-    'third_party/move/move-vm/runtime/src/reentrancy_checker.rs',
-    'third_party/move/move-vm/runtime/src/runtime_ref_checks.rs',
-    'third_party/move/move-vm/runtime/src/runtime_type_checks.rs',
-    'third_party/move/move-vm/runtime/src/runtime_type_checks_async.rs',
-    'third_party/move/move-vm/runtime/src/source_locator.rs',
-    'third_party/move/move-vm/runtime/src/storage/code_storage.rs',
-    'third_party/move/move-vm/runtime/src/storage/dependencies_gas_charging.rs',
-    'third_party/move/move-vm/runtime/src/storage/environment.rs',
-    'third_party/move/move-vm/runtime/src/storage/implementations/unsync_code_storage.rs',
-    'third_party/move/move-vm/runtime/src/storage/implementations/unsync_module_storage.rs',
-    'third_party/move/move-vm/runtime/src/storage/layout_cache.rs',
-    'third_party/move/move-vm/runtime/src/storage/loader/eager.rs',
-    'third_party/move/move-vm/runtime/src/storage/loader/lazy.rs',
-    'third_party/move/move-vm/runtime/src/storage/loader/traits.rs',
-    'third_party/move/move-vm/runtime/src/storage/module_storage.rs',
-    'third_party/move/move-vm/runtime/src/storage/publishing.rs',
-    'third_party/move/move-vm/runtime/src/storage/ty_depth_checker.rs',
-    'third_party/move/move-vm/runtime/src/storage/ty_layout_converter.rs',
-    'third_party/move/move-vm/runtime/src/storage/ty_tag_converter.rs',
-    'third_party/move/move-vm/runtime/src/storage/verified_module_cache.rs',
-    'third_party/move/move-vm/runtime/src/tracing.rs',
-    'third_party/move/move-vm/types/src/code/cache/module_cache.rs',
-    'third_party/move/move-vm/types/src/code/cache/script_cache.rs',
-    'third_party/move/move-vm/types/src/code/cache/test_types.rs',
-    'third_party/move/move-vm/types/src/code/cache/types.rs',
-    'third_party/move/move-vm/types/src/code/errors.rs',
-    'third_party/move/move-vm/types/src/code/storage.rs',
-    'third_party/move/move-vm/types/src/delayed_values/delayed_field_id.rs',
-    'third_party/move/move-vm/types/src/delayed_values/derived_string_snapshot.rs',
-    'third_party/move/move-vm/types/src/delayed_values/error.rs',
-    'third_party/move/move-vm/types/src/gas.rs',
-    'third_party/move/move-vm/types/src/instr.rs',
-    'third_party/move/move-vm/types/src/interner.rs',
-    'third_party/move/move-vm/types/src/limits.rs',
-    'third_party/move/move-vm/types/src/loaded_data/runtime_types.rs',
-    'third_party/move/move-vm/types/src/loaded_data/struct_name_indexing.rs',
-    'third_party/move/move-vm/types/src/module_id_interner.rs',
-    'third_party/move/move-vm/types/src/natives/function.rs',
-    'third_party/move/move-vm/types/src/resolver.rs',
-    'third_party/move/move-vm/types/src/ty_interner.rs',
-    'third_party/move/move-vm/types/src/value_serde.rs',
-    'third_party/move/move-vm/types/src/value_traversal.rs',
-    'third_party/move/move-vm/types/src/values/function_values_impl.rs',
-    'third_party/move/move-vm/types/src/values/values_impl.rs',
-    'third_party/move/move-vm/types/src/views.rs',
-    'types/src/access_path.rs',
-    'types/src/account_address.rs',
-    'types/src/account_config/constants/account.rs',
-    'types/src/account_config/constants/addresses.rs',
-    'types/src/account_config/events/burn.rs',
-    'types/src/account_config/events/burn_event.rs',
-    'types/src/account_config/events/burn_token.rs',
-    'types/src/account_config/events/burn_token_event.rs',
-    'types/src/account_config/events/cancel_offer.rs',
-    'types/src/account_config/events/claim.rs',
-    'types/src/account_config/events/coin_deposit.rs',
-    'types/src/account_config/events/coin_register.rs',
-    'types/src/account_config/events/coin_register_event.rs',
-    'types/src/account_config/events/coin_withdraw.rs',
-    'types/src/account_config/events/collection_description_mutate.rs',
-    'types/src/account_config/events/collection_description_mutate_event.rs',
-    'types/src/account_config/events/collection_maximum_mutate.rs',
-    'types/src/account_config/events/collection_maximum_mutate_event.rs',
-    'types/src/account_config/events/collection_mutation.rs',
-    'types/src/account_config/events/collection_mutation_event.rs',
-    'types/src/account_config/events/collection_uri_mutate.rs',
-    'types/src/account_config/events/collection_uri_mutate_event.rs',
-    'types/src/account_config/events/create_collection.rs',
-    'types/src/account_config/events/create_collection_event.rs',
-    'types/src/account_config/events/create_token_data_event.rs',
-    'types/src/account_config/events/default_property_mutate.rs',
-    'types/src/account_config/events/default_property_mutate_event.rs',
-    'types/src/account_config/events/deposit_event.rs',
-    'types/src/account_config/events/description_mutate.rs',
-    'types/src/account_config/events/description_mutate_event.rs',
-    'types/src/account_config/events/fungible_asset.rs',
-    'types/src/account_config/events/key_rotation.rs',
-    'types/src/account_config/events/key_rotation_event.rs',
-    'types/src/account_config/events/maximum_mutate.rs',
-    'types/src/account_config/events/maximum_mutate_event.rs',
-    'types/src/account_config/events/mint.rs',
-    'types/src/account_config/events/mint_event.rs',
-    'types/src/account_config/events/mint_token.rs',
-    'types/src/account_config/events/mint_token_event.rs',
-    'types/src/account_config/events/mutate_property_map.rs',
-    'types/src/account_config/events/mutate_token_property_map_event.rs',
-    'types/src/account_config/events/new_block.rs',
-    'types/src/account_config/events/new_epoch.rs',
-    'types/src/account_config/events/offer.rs',
-    'types/src/account_config/events/opt_in_transfer.rs',
-    'types/src/account_config/events/opt_in_transfer_event.rs',
-    'types/src/account_config/events/randomness_event.rs',
-    'types/src/account_config/events/royalty_mutate.rs',
-    'types/src/account_config/events/royalty_mutate_event.rs',
-    'types/src/account_config/events/token_cancel_offer_event.rs',
-    'types/src/account_config/events/token_claim_event.rs',
-    'types/src/account_config/events/token_data_creation.rs',
-    'types/src/account_config/events/token_deposit.rs',
-    'types/src/account_config/events/token_deposit_event.rs',
-    'types/src/account_config/events/token_mutation.rs',
-    'types/src/account_config/events/token_mutation_event.rs',
-    'types/src/account_config/events/token_offer_event.rs',
-    'types/src/account_config/events/token_withdraw.rs',
-    'types/src/account_config/events/token_withdraw_event.rs',
-    'types/src/account_config/events/transfer.rs',
-    'types/src/account_config/events/transfer_event.rs',
-    'types/src/account_config/events/uri_mutation.rs',
-    'types/src/account_config/events/uri_mutation_event.rs',
-    'types/src/account_config/events/withdraw_event.rs',
-    'types/src/account_config/resources/aggregator.rs',
-    'types/src/account_config/resources/any.rs',
-    'types/src/account_config/resources/chain_id.rs',
-    'types/src/account_config/resources/challenge.rs',
-    'types/src/account_config/resources/coin_info.rs',
-    'types/src/account_config/resources/coin_store.rs',
-    'types/src/account_config/resources/collection.rs',
-    'types/src/account_config/resources/collections.rs',
-    'types/src/account_config/resources/core_account.rs',
-    'types/src/account_config/resources/fixed_supply.rs',
-    'types/src/account_config/resources/fungible_asset_metadata.rs',
-    'types/src/account_config/resources/fungible_store.rs',
-    'types/src/account_config/resources/object.rs',
-    'types/src/account_config/resources/pending_claims.rs',
-    'types/src/account_config/resources/token.rs',
-    'types/src/account_config/resources/token_event_store_v1.rs',
-    'types/src/account_config/resources/token_store.rs',
-    'types/src/account_config/resources/type_info.rs',
-    'types/src/account_config/resources/unlimited_supply.rs',
-    'types/src/aggregate_signature.rs',
-    'types/src/block_executor/config.rs',
-    'types/src/block_executor/output.rs',
-    'types/src/block_executor/partitioner.rs',
-    'types/src/block_executor/transaction_slice_metadata.rs',
-    'types/src/block_executor/value.rs',
-    'types/src/block_info.rs',
-    'types/src/block_metadata.rs',
-    'types/src/block_metadata_ext.rs',
-    'types/src/bytes.rs',
-    'types/src/chain_id.rs',
-    'types/src/contract_event.rs',
-    'types/src/decryption.rs',
-    'types/src/delayed_fields.rs',
-    'types/src/dkg/chunky_dkg.rs',
-    'types/src/dkg/randomness_dkg.rs',
-    'types/src/epoch_change.rs',
-    'types/src/epoch_state.rs',
-    'types/src/error.rs',
-    'types/src/event.rs',
-    'types/src/executable.rs',
-    'types/src/fee_statement.rs',
-    'types/src/function_info.rs',
-    'types/src/governance.rs',
-    'types/src/lazy_bls.rs',
-    'types/src/ledger_info.rs',
-    'types/src/mempool_status.rs',
-    'types/src/move_any.rs',
-    'types/src/move_fixed_point.rs',
-    'types/src/move_utils/as_move_value.rs',
-    'types/src/move_utils/move_event_v1.rs',
-    'types/src/move_utils/move_event_v2.rs',
-    'types/src/object_address.rs',
-    'types/src/on_chain_config/approved_execution_hashes.rs',
-    'types/src/on_chain_config/aptos_features.rs',
-    'types/src/on_chain_config/aptos_version.rs',
-    'types/src/on_chain_config/chain_id.rs',
-    'types/src/on_chain_config/chunky_dkg_config.rs',
-    'types/src/on_chain_config/commit_history.rs',
-    'types/src/on_chain_config/consensus_config.rs',
-    'types/src/on_chain_config/epoch_timeout_config.rs',
-    'types/src/on_chain_config/execution_config.rs',
-    'types/src/on_chain_config/gas_schedule.rs',
-    'types/src/on_chain_config/jwk_consensus_config.rs',
-    'types/src/on_chain_config/randomness_api_v0_config.rs',
-    'types/src/on_chain_config/randomness_config.rs',
-    'types/src/on_chain_config/timed_features.rs',
-    'types/src/on_chain_config/timestamp.rs',
-    'types/src/on_chain_config/transaction_fee.rs',
-    'types/src/on_chain_config/validator_set.rs',
-    'types/src/proof/definition.rs',
-    'types/src/randomness.rs',
-    'types/src/secret_sharing.rs',
-    'types/src/serde_helper/bcs_utils.rs',
-    'types/src/serde_helper/vec_bytes.rs',
-    'types/src/stake_pool.rs',
-    'types/src/staking_contract.rs',
-    'types/src/state_proof.rs',
-    'types/src/state_store/errors.rs',
-    'types/src/state_store/hot_state.rs',
-    'types/src/state_store/native_position.rs',
-    'types/src/state_store/state_key/inner.rs',
-    'types/src/state_store/state_key/prefix.rs',
-    'types/src/state_store/state_key/registry.rs',
-    'types/src/state_store/state_slot.rs',
-    'types/src/state_store/state_storage_usage.rs',
-    'types/src/state_store/state_value.rs',
-    'types/src/state_store/table.rs',
-    'types/src/timestamp.rs',
-    'types/src/transaction/analyzed_transaction.rs',
-    'types/src/transaction/authenticator.rs',
-    'types/src/transaction/block_epilogue.rs',
-    'types/src/transaction/block_output.rs',
-    'types/src/transaction/change_set.rs',
-    'types/src/transaction/encrypted_payload.rs',
-    'types/src/transaction/module.rs',
-    'types/src/transaction/multisig.rs',
-    'types/src/transaction/script.rs',
-    'types/src/transaction/signature_verified_transaction.rs',
-    'types/src/transaction/use_case.rs',
-    'types/src/transaction/user_transaction_context.rs',
-    'types/src/transaction/webauthn.rs',
-    'types/src/trusted_state.rs',
-    'types/src/utility_coin.rs',
-    'types/src/validator_config.rs',
-    'types/src/validator_info.rs',
-    'types/src/validator_performances.rs',
-    'types/src/validator_signer.rs',
-    'types/src/validator_txn.rs',
-    'types/src/validator_verifier.rs',
-    'types/src/vesting.rs',
-    'types/src/vm/code.rs',
-    'types/src/vm/module_metadata.rs',
-    'types/src/vm/modules.rs',
-    'types/src/vm_status.rs',
-    'types/src/waypoint.rs',
-    'types/src/write_set.rs',
-    'vm-validator/src/vm_validator.rs',
+    # =================================================================================
+    # Transaction, permission, and VM execution
+    # =================================================================================
+    "actuator/src/main/java/org/tron/core/actuator/AbstractActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/AbstractExchangeActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/AccountPermissionUpdateActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/ActuatorConstant.java",
+    "actuator/src/main/java/org/tron/core/actuator/ActuatorCreator.java",
+    "actuator/src/main/java/org/tron/core/actuator/ActuatorFactory.java",
+    "actuator/src/main/java/org/tron/core/actuator/AssetIssueActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/CancelAllUnfreezeV2Actuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/ClearABIContractActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/CreateAccountActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/DelegateResourceActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/ExchangeCreateActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/ExchangeInjectActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/ExchangeTransactionActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/ExchangeWithdrawActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/FreezeBalanceActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/FreezeBalanceV2Actuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/MarketCancelOrderActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/MarketSellAssetActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/ParticipateAssetIssueActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/ProposalApproveActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/ProposalCreateActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/ProposalDeleteActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/SetAccountIdActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/ShieldedTransferActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/TransferActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/TransferAssetActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/UnDelegateResourceActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/UnfreezeAssetActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/UnfreezeBalanceActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/UnfreezeBalanceV2Actuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/UpdateAccountActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/UpdateAssetActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/UpdateBrokerageActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/UpdateEnergyLimitContractActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/UpdateSettingContractActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/VMActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/VoteWitnessActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/WithdrawBalanceActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/WithdrawExpireUnfreezeActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/WitnessCreateActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/WitnessUpdateActuator.java",
+    "actuator/src/main/java/org/tron/core/utils/ProposalUtil.java",
+    "actuator/src/main/java/org/tron/core/utils/TransactionRegister.java",
+    "actuator/src/main/java/org/tron/core/utils/TransactionUtil.java",
+    "actuator/src/main/java/org/tron/core/utils/ZenChainParams.java",
+    "actuator/src/main/java/org/tron/core/vm/ChainParameterEnum.java",
+    "actuator/src/main/java/org/tron/core/vm/EnergyCost.java",
+    "actuator/src/main/java/org/tron/core/vm/JumpTable.java",
+    "actuator/src/main/java/org/tron/core/vm/LogInfoTriggerParser.java",
+    "actuator/src/main/java/org/tron/core/vm/MessageCall.java",
+    "actuator/src/main/java/org/tron/core/vm/Op.java",
+    "actuator/src/main/java/org/tron/core/vm/Operation.java",
+    "actuator/src/main/java/org/tron/core/vm/OperationActions.java",
+    "actuator/src/main/java/org/tron/core/vm/OperationRegistry.java",
+    "actuator/src/main/java/org/tron/core/vm/PrecompiledContracts.java",
+    "actuator/src/main/java/org/tron/core/vm/VM.java",
+    "actuator/src/main/java/org/tron/core/vm/VMConstant.java",
+    "actuator/src/main/java/org/tron/core/vm/VMUtils.java",
+    "actuator/src/main/java/org/tron/core/vm/config/ConfigLoader.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/CancelAllUnfreezeV2Processor.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/DelegateResourceProcessor.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/FreezeBalanceProcessor.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/FreezeBalanceV2Processor.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/UnDelegateResourceProcessor.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/UnfreezeBalanceProcessor.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/UnfreezeBalanceV2Processor.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/VoteWitnessProcessor.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/WithdrawExpireUnfreezeProcessor.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/WithdrawRewardProcessor.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/param/CancelAllUnfreezeV2Param.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/param/DelegateResourceParam.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/param/FreezeBalanceParam.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/param/FreezeBalanceV2Param.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/param/UnDelegateResourceParam.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/param/UnfreezeBalanceParam.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/param/UnfreezeBalanceV2Param.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/param/VoteWitnessParam.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/param/WithdrawExpireUnfreezeParam.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/param/WithdrawRewardParam.java",
+    "actuator/src/main/java/org/tron/core/vm/program/ContractState.java",
+    "actuator/src/main/java/org/tron/core/vm/program/Memory.java",
+    "actuator/src/main/java/org/tron/core/vm/program/Program.java",
+    "actuator/src/main/java/org/tron/core/vm/program/ProgramPrecompile.java",
+    "actuator/src/main/java/org/tron/core/vm/program/Stack.java",
+    "actuator/src/main/java/org/tron/core/vm/program/Storage.java",
+    "actuator/src/main/java/org/tron/core/vm/program/invoke/ProgramInvoke.java",
+    "actuator/src/main/java/org/tron/core/vm/program/invoke/ProgramInvokeFactory.java",
+    "actuator/src/main/java/org/tron/core/vm/program/invoke/ProgramInvokeImpl.java",
+    "actuator/src/main/java/org/tron/core/vm/program/listener/CompositeProgramListener.java",
+    "actuator/src/main/java/org/tron/core/vm/program/listener/ProgramListener.java",
+    "actuator/src/main/java/org/tron/core/vm/program/listener/ProgramListenerAdaptor.java",
+    "actuator/src/main/java/org/tron/core/vm/program/listener/ProgramListenerAware.java",
+    "actuator/src/main/java/org/tron/core/vm/program/listener/ProgramStorageChangeListener.java",
+    "actuator/src/main/java/org/tron/core/vm/repository/Key.java",
+    "actuator/src/main/java/org/tron/core/vm/repository/Repository.java",
+    "actuator/src/main/java/org/tron/core/vm/repository/RepositoryImpl.java",
+    "actuator/src/main/java/org/tron/core/vm/repository/Type.java",
+    "actuator/src/main/java/org/tron/core/vm/repository/Value.java",
+    "actuator/src/main/java/org/tron/core/vm/trace/Op.java",
+    "actuator/src/main/java/org/tron/core/vm/trace/OpActions.java",
+    "actuator/src/main/java/org/tron/core/vm/trace/ProgramTrace.java",
+    "actuator/src/main/java/org/tron/core/vm/trace/ProgramTraceListener.java",
+    "actuator/src/main/java/org/tron/core/vm/trace/Serializers.java",
+    "actuator/src/main/java/org/tron/core/vm/utils/FreezeV2Util.java",
+    "actuator/src/main/java/org/tron/core/vm/utils/MUtil.java",
+    "actuator/src/main/java/org/tron/core/vm/utils/VoteRewardUtil.java",
+
+    # =================================================================================
+    # State, accounting, and storage
+    # =================================================================================
+    "chainbase/src/main/java/org/tron/common/runtime/CallCreate.java",
+    "chainbase/src/main/java/org/tron/common/runtime/InternalTransaction.java",
+    "chainbase/src/main/java/org/tron/common/runtime/ProgramResult.java",
+    "chainbase/src/main/java/org/tron/common/runtime/Runtime.java",
+    "chainbase/src/main/java/org/tron/common/utils/Commons.java",
+    "chainbase/src/main/java/org/tron/common/utils/WalletUtil.java",
+    "chainbase/src/main/java/org/tron/common/zksnark/IncrementalMerkleTreeContainer.java",
+    "chainbase/src/main/java/org/tron/common/zksnark/IncrementalMerkleVoucherContainer.java",
+    "chainbase/src/main/java/org/tron/common/zksnark/JLibrustzcash.java",
+    "chainbase/src/main/java/org/tron/common/zksnark/JLibsodium.java",
+    "chainbase/src/main/java/org/tron/common/zksnark/JLibsodiumParam.java",
+    "chainbase/src/main/java/org/tron/common/zksnark/LibrustzcashParam.java",
+    "chainbase/src/main/java/org/tron/common/zksnark/MerkleContainer.java",
+    "chainbase/src/main/java/org/tron/common/zksnark/MerklePath.java",
+    "chainbase/src/main/java/org/tron/common/zksnark/ZksnarkUtils.java",
+    "chainbase/src/main/java/org/tron/core/ChainBaseManager.java",
+    "chainbase/src/main/java/org/tron/core/actuator/Actuator.java",
+    "chainbase/src/main/java/org/tron/core/actuator/Actuator2.java",
+    "chainbase/src/main/java/org/tron/core/actuator/TransactionFactory.java",
+    "chainbase/src/main/java/org/tron/core/capsule/AbiCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/AccountCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/AccountTraceCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/AssetIssueCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/BlockBalanceTraceCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/BlockCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/BytesCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/CodeCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/ContractCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/ContractStateCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/DelegatedResourceAccountIndexCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/DelegatedResourceCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/ExchangeCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/ExchangeProcessor.java",
+    "chainbase/src/main/java/org/tron/core/capsule/IncrementalMerkleTreeCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/IncrementalMerkleVoucherCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/MarketAccountOrderCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/MarketOrderCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/MarketOrderIdListCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/MarketPriceCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/PbftSignCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/PedersenHashCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/ProposalCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/ProtoCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/ReceiptCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/SafeExchangeProcessor.java",
+    "chainbase/src/main/java/org/tron/core/capsule/StorageRowCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/TransactionCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/TransactionInfoCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/TransactionResultCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/TransactionRetCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/VotesCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/WitnessCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/utils/AssetUtil.java",
+    "chainbase/src/main/java/org/tron/core/capsule/utils/BlockUtil.java",
+    "chainbase/src/main/java/org/tron/core/capsule/utils/MarketUtils.java",
+    "chainbase/src/main/java/org/tron/core/capsule/utils/MerkleTree.java",
+    "chainbase/src/main/java/org/tron/core/capsule/utils/TransactionUtil.java",
+    "chainbase/src/main/java/org/tron/core/db/BandwidthProcessor.java",
+    "chainbase/src/main/java/org/tron/core/db/BlockIndexStore.java",
+    "chainbase/src/main/java/org/tron/core/db/BlockStore.java",
+    "chainbase/src/main/java/org/tron/core/db/CommonDataBase.java",
+    "chainbase/src/main/java/org/tron/core/db/CommonStore.java",
+    "chainbase/src/main/java/org/tron/core/db/EnergyProcessor.java",
+    "chainbase/src/main/java/org/tron/core/db/KhaosDatabase.java",
+    "chainbase/src/main/java/org/tron/core/db/PbftSignDataStore.java",
+    "chainbase/src/main/java/org/tron/core/db/RecentBlockStore.java",
+    "chainbase/src/main/java/org/tron/core/db/RecentTransactionItem.java",
+    "chainbase/src/main/java/org/tron/core/db/RecentTransactionStore.java",
+    "chainbase/src/main/java/org/tron/core/db/ResourceProcessor.java",
+    "chainbase/src/main/java/org/tron/core/db/RevokingDatabase.java",
+    "chainbase/src/main/java/org/tron/core/db/TransactionCache.java",
+    "chainbase/src/main/java/org/tron/core/db/TransactionContext.java",
+    "chainbase/src/main/java/org/tron/core/db/TransactionStore.java",
+    "chainbase/src/main/java/org/tron/core/db/TransactionTrace.java",
+    "chainbase/src/main/java/org/tron/core/db/TronDatabase.java",
+    "chainbase/src/main/java/org/tron/core/db/TronStoreWithRevoking.java",
+    "chainbase/src/main/java/org/tron/core/db/accountstate/AccountStateCallBackUtils.java",
+    "chainbase/src/main/java/org/tron/core/db/accountstate/AccountStateEntity.java",
+    "chainbase/src/main/java/org/tron/core/db2/core/AbstractSnapshot.java",
+    "chainbase/src/main/java/org/tron/core/db2/core/Chainbase.java",
+    "chainbase/src/main/java/org/tron/core/db2/core/ITronChainBase.java",
+    "chainbase/src/main/java/org/tron/core/db2/core/Snapshot.java",
+    "chainbase/src/main/java/org/tron/core/db2/core/SnapshotImpl.java",
+    "chainbase/src/main/java/org/tron/core/db2/core/SnapshotManager.java",
+    "chainbase/src/main/java/org/tron/core/db2/core/SnapshotRoot.java",
+    "chainbase/src/main/java/org/tron/core/service/MortgageService.java",
+    "chainbase/src/main/java/org/tron/core/service/RewardViCalService.java",
+    "chainbase/src/main/java/org/tron/core/store/AbiStore.java",
+    "chainbase/src/main/java/org/tron/core/store/AccountAssetStore.java",
+    "chainbase/src/main/java/org/tron/core/store/AccountIdIndexStore.java",
+    "chainbase/src/main/java/org/tron/core/store/AccountIndexStore.java",
+    "chainbase/src/main/java/org/tron/core/store/AccountStore.java",
+    "chainbase/src/main/java/org/tron/core/store/AccountTraceStore.java",
+    "chainbase/src/main/java/org/tron/core/store/AssetIssueStore.java",
+    "chainbase/src/main/java/org/tron/core/store/AssetIssueV2Store.java",
+    "chainbase/src/main/java/org/tron/core/store/BalanceTraceStore.java",
+    "chainbase/src/main/java/org/tron/core/store/CheckPointV2Store.java",
+    "chainbase/src/main/java/org/tron/core/store/CheckTmpStore.java",
+    "chainbase/src/main/java/org/tron/core/store/CodeStore.java",
+    "chainbase/src/main/java/org/tron/core/store/ContractStateStore.java",
+    "chainbase/src/main/java/org/tron/core/store/ContractStore.java",
+    "chainbase/src/main/java/org/tron/core/store/DelegatedResourceAccountIndexStore.java",
+    "chainbase/src/main/java/org/tron/core/store/DelegatedResourceStore.java",
+    "chainbase/src/main/java/org/tron/core/store/DelegationStore.java",
+    "chainbase/src/main/java/org/tron/core/store/DynamicPropertiesStore.java",
+    "chainbase/src/main/java/org/tron/core/store/ExchangeStore.java",
+    "chainbase/src/main/java/org/tron/core/store/ExchangeV2Store.java",
+    "chainbase/src/main/java/org/tron/core/store/IncrementalMerkleTreeStore.java",
+    "chainbase/src/main/java/org/tron/core/store/MarketAccountStore.java",
+    "chainbase/src/main/java/org/tron/core/store/MarketOrderStore.java",
+    "chainbase/src/main/java/org/tron/core/store/MarketPairPriceToOrderStore.java",
+    "chainbase/src/main/java/org/tron/core/store/MarketPairToPriceStore.java",
+    "chainbase/src/main/java/org/tron/core/store/NullifierStore.java",
+    "chainbase/src/main/java/org/tron/core/store/ProposalStore.java",
+    "chainbase/src/main/java/org/tron/core/store/RewardViStore.java",
+    "chainbase/src/main/java/org/tron/core/store/SectionBloomStore.java",
+    "chainbase/src/main/java/org/tron/core/store/StorageRowStore.java",
+    "chainbase/src/main/java/org/tron/core/store/StoreFactory.java",
+    "chainbase/src/main/java/org/tron/core/store/TransactionHistoryStore.java",
+    "chainbase/src/main/java/org/tron/core/store/TransactionRetStore.java",
+    "chainbase/src/main/java/org/tron/core/store/TreeBlockIndexStore.java",
+    "chainbase/src/main/java/org/tron/core/store/VotesStore.java",
+    "chainbase/src/main/java/org/tron/core/store/WitnessScheduleStore.java",
+    "chainbase/src/main/java/org/tron/core/store/WitnessStore.java",
+    "chainbase/src/main/java/org/tron/core/store/ZKProofStore.java",
+
+    # =================================================================================
+    # Shared runtime and crypto primitives
+    # =================================================================================
+    "common/src/main/java/org/tron/common/runtime/vm/DataWord.java",
+    "common/src/main/java/org/tron/common/runtime/vm/LogInfo.java",
+    "common/src/main/java/org/tron/common/utils/Base58.java",
+    "common/src/main/java/org/tron/common/utils/Bech32.java",
+    "common/src/main/java/org/tron/common/utils/ByteArray.java",
+    "common/src/main/java/org/tron/common/utils/ByteArrayMap.java",
+    "common/src/main/java/org/tron/common/utils/ByteArraySet.java",
+    "common/src/main/java/org/tron/common/utils/ByteUtil.java",
+    "common/src/main/java/org/tron/common/utils/CollectionUtils.java",
+    "common/src/main/java/org/tron/common/utils/CompactEncoder.java",
+    "common/src/main/java/org/tron/common/utils/DecodeUtil.java",
+    "common/src/main/java/org/tron/common/utils/FastByteComparisons.java",
+    "common/src/main/java/org/tron/common/utils/MerkleRoot.java",
+    "common/src/main/java/org/tron/common/utils/Pair.java",
+    "common/src/main/java/org/tron/common/utils/Sha256Hash.java",
+    "common/src/main/java/org/tron/common/utils/StringUtil.java",
+    "common/src/main/java/org/tron/common/utils/Time.java",
+    "common/src/main/java/org/tron/common/utils/TypeConversion.java",
+    "common/src/main/java/org/tron/common/utils/Utils.java",
+    "common/src/main/java/org/tron/core/vm/config/VMConfig.java",
+    "crypto/src/main/java/org/tron/common/crypto/Blake2bfMessageDigest.java",
+    "crypto/src/main/java/org/tron/common/crypto/ECKey.java",
+    "crypto/src/main/java/org/tron/common/crypto/Hash.java",
+    "crypto/src/main/java/org/tron/common/crypto/Rsv.java",
+    "crypto/src/main/java/org/tron/common/crypto/SignInterface.java",
+    "crypto/src/main/java/org/tron/common/crypto/SignUtils.java",
+    "crypto/src/main/java/org/tron/common/crypto/SignatureInterface.java",
+    "crypto/src/main/java/org/tron/common/crypto/cryptohash/Digest.java",
+    "crypto/src/main/java/org/tron/common/crypto/cryptohash/DigestEngine.java",
+    "crypto/src/main/java/org/tron/common/crypto/cryptohash/Keccak256.java",
+    "crypto/src/main/java/org/tron/common/crypto/cryptohash/Keccak512.java",
+    "crypto/src/main/java/org/tron/common/crypto/cryptohash/KeccakCore.java",
+    "crypto/src/main/java/org/tron/common/crypto/jce/ECAlgorithmParameters.java",
+    "crypto/src/main/java/org/tron/common/crypto/jce/ECKeyAgreement.java",
+    "crypto/src/main/java/org/tron/common/crypto/jce/ECKeyFactory.java",
+    "crypto/src/main/java/org/tron/common/crypto/jce/ECKeyPairGenerator.java",
+    "crypto/src/main/java/org/tron/common/crypto/jce/ECSignatureFactory.java",
+    "crypto/src/main/java/org/tron/common/crypto/jce/TronCastleProvider.java",
+    "crypto/src/main/java/org/tron/common/crypto/sm2/SM2.java",
+    "crypto/src/main/java/org/tron/common/crypto/sm2/SM2Signer.java",
+    "crypto/src/main/java/org/tron/common/crypto/zksnark/BN128.java",
+    "crypto/src/main/java/org/tron/common/crypto/zksnark/BN128Fp.java",
+    "crypto/src/main/java/org/tron/common/crypto/zksnark/BN128Fp2.java",
+    "crypto/src/main/java/org/tron/common/crypto/zksnark/BN128G1.java",
+    "crypto/src/main/java/org/tron/common/crypto/zksnark/BN128G2.java",
+    "crypto/src/main/java/org/tron/common/crypto/zksnark/Field.java",
+    "crypto/src/main/java/org/tron/common/crypto/zksnark/Fp.java",
+    "crypto/src/main/java/org/tron/common/crypto/zksnark/Fp12.java",
+    "crypto/src/main/java/org/tron/common/crypto/zksnark/Fp2.java",
+    "crypto/src/main/java/org/tron/common/crypto/zksnark/Fp6.java",
+    "crypto/src/main/java/org/tron/common/crypto/zksnark/PairingCheck.java",
+    "crypto/src/main/java/org/tron/common/crypto/zksnark/Params.java",
+
+    # =================================================================================
+    # Wallet, API, and shielded entrypoints
+    # =================================================================================
+    "framework/src/main/java/org/tron/common/runtime/RuntimeImpl.java",
+    "framework/src/main/java/org/tron/common/zksnark/ZksnarkClient.java",
+    "framework/src/main/java/org/tron/core/Wallet.java",
+    "framework/src/main/java/org/tron/core/capsule/ReceiveDescriptionCapsule.java",
+    "framework/src/main/java/org/tron/core/capsule/SpendDescriptionCapsule.java",
+    "framework/src/main/java/org/tron/core/capsule/TxInputCapsule.java",
+    "framework/src/main/java/org/tron/core/capsule/TxOutputCapsule.java",
+    "framework/src/main/java/org/tron/core/capsule/utils/DecodeResult.java",
+    "framework/src/main/java/org/tron/core/capsule/utils/FastByteComparisons.java",
+    "framework/src/main/java/org/tron/core/capsule/utils/RLP.java",
+    "framework/src/main/java/org/tron/core/capsule/utils/RLPElement.java",
+    "framework/src/main/java/org/tron/core/capsule/utils/RLPItem.java",
+    "framework/src/main/java/org/tron/core/capsule/utils/RLPList.java",
+    "framework/src/main/java/org/tron/core/capsule/utils/TxInputUtil.java",
+    "framework/src/main/java/org/tron/core/capsule/utils/TxOutputUtil.java",
+    "framework/src/main/java/org/tron/core/db/Manager.java",
+    "framework/src/main/java/org/tron/core/db/PendingManager.java",
+    "framework/src/main/java/org/tron/core/db/accountstate/AccountStateEntity.java",
+    "framework/src/main/java/org/tron/core/db/accountstate/TrieService.java",
+    "framework/src/main/java/org/tron/core/db/accountstate/callback/AccountStateCallBack.java",
+    "framework/src/main/java/org/tron/core/db/accountstate/storetrie/AccountStateStoreTrie.java",
+    "framework/src/main/java/org/tron/core/services/RpcApiService.java",
+    "framework/src/main/java/org/tron/core/services/WalletOnCursor.java",
+    "framework/src/main/java/org/tron/core/services/filter/HttpApiAccessFilter.java",
+    "framework/src/main/java/org/tron/core/services/filter/HttpInterceptor.java",
+    "framework/src/main/java/org/tron/core/services/filter/LiteFnQueryGrpcInterceptor.java",
+    "framework/src/main/java/org/tron/core/services/filter/LiteFnQueryHttpFilter.java",
+    "framework/src/main/java/org/tron/core/services/http/AccountPermissionUpdateServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/BroadcastHexServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/BroadcastServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/CancelAllUnfreezeV2Servlet.java",
+    "framework/src/main/java/org/tron/core/services/http/ClearABIServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/CreateAccountServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/CreateAssetIssueServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/CreateCommonTransactionServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/CreateShieldNullifierServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/CreateShieldedContractParametersServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/CreateShieldedContractParametersWithoutAskServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/CreateShieldedTransactionServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/CreateShieldedTransactionWithoutSpendAuthSigServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/CreateSpendAuthSigServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/CreateWitnessServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/DelegateResourceServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/DeployContractServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/EstimateEnergyServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/ExchangeCreateServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/ExchangeInjectServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/ExchangeTransactionServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/ExchangeWithdrawServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/FreezeBalanceServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/FreezeBalanceV2Servlet.java",
+    "framework/src/main/java/org/tron/core/services/http/FullNodeHttpApiService.java",
+    "framework/src/main/java/org/tron/core/services/http/GetAccountBalanceServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetAccountByIdServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetAccountNetServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetAccountResourceServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetAccountServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetAkFromAskServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetAssetIssueByAccountServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetAssetIssueByIdServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetAssetIssueByNameServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetAssetIssueListByNameServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetAssetIssueListServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetAvailableUnfreezeCountServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetBandwidthPricesServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetBlockBalanceServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetBlockByIdServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetBlockByLatestNumServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetBlockByLimitNextServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetBlockByNumServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetBlockServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetBrokerageServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetBurnTrxServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetCanDelegatedMaxSizeServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetCanWithdrawUnfreezeAmountServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetChainParametersServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetContractInfoServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetContractServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetDelegatedResourceAccountIndexServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetDelegatedResourceAccountIndexV2Servlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetDelegatedResourceServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetDelegatedResourceV2Servlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetDiversifierServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetEnergyPricesServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetExchangeByIdServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetExpandedSpendingKeyServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetIncomingViewingKeyServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetMarketOrderByAccountServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetMarketOrderByIdServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetMarketOrderListByPairServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetMarketPairListServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetMarketPriceByPairServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetMemoFeePricesServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetMerkleTreeVoucherInfoServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetNewShieldedAddressServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetNextMaintenanceTimeServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetNkFromNskServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetNodeInfoServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetNowBlockServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetPaginatedAssetIssueListServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetPaginatedExchangeListServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetPaginatedNowWitnessListServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetPaginatedProposalListServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetPendingSizeServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetProposalByIdServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetRcmServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetRewardServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetShieldTransactionHashServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetSpendingKeyServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetTransactionApprovedListServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetTransactionByIdServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetTransactionCountByBlockNumServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetTransactionFromPendingServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetTransactionInfoByBlockNumServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetTransactionInfoByIdServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetTransactionListFromPendingServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetTransactionReceiptByIdServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetTransactionSignWeightServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetTriggerInputForShieldedTRC20ContractServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetZenPaymentAddressServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/HttpSelfFormatFieldName.java",
+    "framework/src/main/java/org/tron/core/services/http/IsShieldedTRC20ContractNoteSpentServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/IsSpendServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/JsonFormat.java",
+    "framework/src/main/java/org/tron/core/services/http/ListExchangesServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/ListNodesServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/ListProposalsServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/ListWitnessesServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/MarketCancelOrderServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/MarketSellAssetServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/MetricsServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/ParticipateAssetIssueServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/PostParams.java",
+    "framework/src/main/java/org/tron/core/services/http/ProposalApproveServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/ProposalCreateServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/ProposalDeleteServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/RateLimiterServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/ScanAndMarkNoteByIvkServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/ScanNoteByIvkServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/ScanNoteByOvkServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/ScanShieldedTRC20NotesByIvkServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/ScanShieldedTRC20NotesByOvkServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/SetAccountIdServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/TotalTransactionServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/TransferAssetServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/TransferServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/TriggerConstantContractServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/TriggerSmartContractServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/UnDelegateResourceServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/UnFreezeAssetServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/UnFreezeBalanceServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/UnFreezeBalanceV2Servlet.java",
+    "framework/src/main/java/org/tron/core/services/http/UpdateAccountServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/UpdateAssetServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/UpdateBrokerageServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/UpdateEnergyLimitServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/UpdateSettingServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/UpdateWitnessServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/Util.java",
+    "framework/src/main/java/org/tron/core/services/http/ValidateAddressServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/VoteWitnessAccountServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/WithdrawBalanceServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/WithdrawExpireUnfreezeServlet.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/FullNodeJsonRpcHttpService.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/JsonRpcApiUtil.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/JsonRpcErrorResolver.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/JsonRpcServlet.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/TronJsonRpc.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/TronJsonRpcImpl.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/filters/BlockFilterAndResult.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/filters/FilterResult.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/filters/LogBlockQuery.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/filters/LogFilter.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/filters/LogFilterAndResult.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/filters/LogFilterWrapper.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/filters/LogMatch.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/interceptor/MetricInterceptor.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/types/BlockResult.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/types/BuildArguments.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/types/CallArguments.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/types/TransactionReceipt.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/types/TransactionResult.java",
+    "framework/src/main/java/org/tron/core/services/ratelimiter/GlobalRateLimiter.java",
+    "framework/src/main/java/org/tron/core/services/ratelimiter/PrometheusInterceptor.java",
+    "framework/src/main/java/org/tron/core/services/ratelimiter/RateLimiterContainer.java",
+    "framework/src/main/java/org/tron/core/services/ratelimiter/RateLimiterInterceptor.java",
+    "framework/src/main/java/org/tron/core/services/ratelimiter/RpcApiAccessInterceptor.java",
+    "framework/src/main/java/org/tron/core/services/ratelimiter/RuntimeData.java",
+    "framework/src/main/java/org/tron/core/services/ratelimiter/adapter/DefaultBaseQqsAdapter.java",
+    "framework/src/main/java/org/tron/core/services/ratelimiter/adapter/GlobalPreemptibleAdapter.java",
+    "framework/src/main/java/org/tron/core/services/ratelimiter/adapter/IPQPSRateLimiterAdapter.java",
+    "framework/src/main/java/org/tron/core/services/ratelimiter/adapter/IPreemptibleRateLimiter.java",
+    "framework/src/main/java/org/tron/core/services/ratelimiter/adapter/IRateLimiter.java",
+    "framework/src/main/java/org/tron/core/services/ratelimiter/adapter/QpsRateLimiterAdapter.java",
+    "framework/src/main/java/org/tron/core/services/ratelimiter/strategy/GlobalPreemptibleStrategy.java",
+    "framework/src/main/java/org/tron/core/services/ratelimiter/strategy/IPQpsStrategy.java",
+    "framework/src/main/java/org/tron/core/services/ratelimiter/strategy/QpsStrategy.java",
+    "framework/src/main/java/org/tron/core/services/ratelimiter/strategy/Strategy.java",
+    "framework/src/main/java/org/tron/core/zen/ShieldedTRC20ParametersBuilder.java",
+    "framework/src/main/java/org/tron/core/zen/ZenTransactionBuilder.java",
+    "framework/src/main/java/org/tron/core/zen/ZksnarkInitService.java",
+    "framework/src/main/java/org/tron/core/zen/address/DiversifierT.java",
+    "framework/src/main/java/org/tron/core/zen/address/ExpandedSpendingKey.java",
+    "framework/src/main/java/org/tron/core/zen/address/FullViewingKey.java",
+    "framework/src/main/java/org/tron/core/zen/address/IncomingViewingKey.java",
+    "framework/src/main/java/org/tron/core/zen/address/KeyIo.java",
+    "framework/src/main/java/org/tron/core/zen/address/PaymentAddress.java",
+    "framework/src/main/java/org/tron/core/zen/address/SpendingKey.java",
+    "framework/src/main/java/org/tron/core/zen/note/Note.java",
+    "framework/src/main/java/org/tron/core/zen/note/NoteEncryption.java",
+    "framework/src/main/java/org/tron/core/zen/note/OutgoingPlaintext.java",
 ]
+
 
 target_scopes = [
-    'Critical. Unprivileged input can cause committed state to differ from the VM output that honest validators should derive.',
-    'Critical. Unprivileged input can yield a wrong accumulator root, transaction proof, event proof, or state proof that appears valid to clients or validators.',
-    'High. Unprivileged input can corrupt write-set serialization, transaction info, or versioned state reads across storage boundaries.',
-    'Critical. Unprivileged committed data can trigger hard-fork-only divergence across validators during commit, replay, restore, or proof verification.',
-    'High. Unprivileged input can make an authenticated response bind the wrong ledger object, version, or proof context.',
+    "Critical. An unprivileged attacker can bypass signature recovery, permission-id, multisig threshold, operations mask, account ownership, or transaction authorization checks and execute transfers, contract calls, votes, or account changes as another user.",
+    "Critical. An unprivileged attacker can steal, mint, duplicate, unlock, withdraw, redirect, or misaccount TRX, TRC10, TRC20, shielded value, delegated resources, exchange liquidity, market inventory, or rewards they do not own.",
+    "Critical. An unprivileged attacker can replay or double-apply a transaction, approval, withdrawal, market fill, exchange settlement, reward claim, shielded spend, nullifier, or resource transition so one logical action settles more than once.",
+    "Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.",
+    "High. An unprivileged attacker can permanently lock user funds, delegated resources, market orders, exchange balances, shielded notes, rewards, or withdrawals by breaking cleanup, settlement ordering, note handling, nullifier handling, or beneficiary accounting.",
+    "High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.",
 ]
 
-APTOS_ALLOWED_IMPACT_SCOPE = """## State-Integrity Gate
-Accept only state-commitment and proof-integrity impacts that matter on mainnet:
-Out of scope remains: malicious peer or node behavior."""
 
-APTOS_AUDIT_PIVOTS = """## Proof And Storage Pivots
-- VM outputs, transaction infos, events, and write sets must survive executor-to-storage handoff unchanged.
-- Accumulators, Jellyfish Merkle structures, versioned state views, and restore paths must preserve deterministic proof binding.
-- Storage schemas, replay paths, and restore helpers must not reinterpret committed data into a different ledger state.
-- Authenticated API and proof-bearing responses must stay bound to the right ledger version, root, and object."""
-
+scope_scan = [
+]
 def question_generator(target_file: str) -> str:
     """
-    Generate security questions for one Aptos Core target.
+    Generate exploit-focused audit and fuzzing questions for one java-tron target.
+
+    ```
+    target_file format:
+    "'File Name: actuator/src/main/java/org/tron/core/actuator/TransferActuator.java -> Scope: Critical. ...'"
     """
 
     prompt = f"""
-    Compose 18 to 24 Aptos state-integrity questions for this exact file:
+    ```
+    
+    Generate exploit-focused security audit and fuzzing questions for this exact java-tron target:
+    
     {target_file}
-
-    Focus:
-    Focus on write sets, proofs, accumulators, storage schemas, replay or restore paths, and proof-bearing API or state-view boundaries exposed to unprivileged input.
-
-    {APTOS_ALLOWED_IMPACT_SCOPE}
-
-    {APTOS_AUDIT_PIVOTS}
+    
+    Project focus:
+    This repo defines java-tron full-node transaction execution, account permissions, TVM execution, native contracts, market/exchange settlement, delegated resources, shielded transfers, wallet entrypoints, and public HTTP/gRPC/JSON-RPC surfaces. The main bounty focus is bugs that compromise intended node behaviour, especially auth, accounting, one-time settlement, deterministic execution, and public resource-cost controls.
 
     Rules:
-    * `File Name:` must be this file and `Scope:` must be one `target_scopes` item only.
-    * Use the repository context already available. Do not ask for more code.
-    * The attacker is strictly unprivileged. Do not assume validator, peer, node, admin, governance, signer, leaked key, database, or infra control.
-    * Do not assume the attacker already owns storage, restore tooling, proof material, or any privileged replay capability.
-    * Reject malicious-peer ideas, generic DoS, Consensus Observer-only effects, `consensus/src/dag`, `experimental`, `keyless/pepper`, AIP-103, and AIP-104.
-    * Reject questions based only on large proofs, long histories, or unbounded data size unless they create a concrete in-scope high or critical integrity break.
-    * Exclude tests, mocks, fixtures, benches, examples, docs, readmes, generated or build files, `.toml`, event-only mismatches, minor rounding, style, and dependency-only behavior.
-    * Generate 18 to 24 distinct, high-signal questions.
-    * Name the exact corrupted value: write set, state value, transaction info, event proof, state proof, Merkle node, accumulator root, ledger version, or API response object.
-    * Every question must be testable with a Rust or Move unit, integration, property, or fuzz-style test.
+    * Treat `File Name:` as the exact file/module.
+    * Treat `Scope:` as the ONLY impact to target.
+    * Assume full repo context is accessible.
+    * Do not ask for code or say anything is missing.
+    * Use exact Java symbols when possible.
+    * Attacker is unprivileged only: a normal external user using transaction broadcast, contract deploy/call, shielded inputs, or public HTTP/gRPC/JSON-RPC requests.
+    * Never assume admin, governance, witness/SR control, node/peer control, local keystore access, or leaked keys.
+    * Do not rely on mocked paths, handcrafted internal helpers, direct storage writes, or off-repo infrastructure assumptions.
+    * Generate 12 to 18 high-signal questions.
+    * At least 70% must be multi-step auth, accounting, replay, settlement, deterministic-execution, or public-cost questions.
+    * Every question must be testable by unit test, integration test, fuzz test, invariant test, or differential test.
+    * Avoid generic checklist questions and repeated root causes.
 
-    Each question must include target symbol, attacker input, required state, commit or proof path, broken invariant, corrupted value, scoped impact, and proof idea.
+    Core invariants:
+    * No unprivileged user can authorize actions for another account or bypass permission masks or signer thresholds.
+    * No unprivileged user can mint, unlock, move, or burn value they do not control.
+    * One logical spend, withdrawal, claim, fill, vote, or nullifier must settle exactly once.
+    * TVM, precompiles, fees, refunds, and state commits must stay deterministic across honest nodes for the same public input.
+    * Public HTTP/gRPC/JSON-RPC and estimate/call paths must not bypass validation or expose materially underpriced work.
+    * Crafted but valid user input must not permanently halt production flows or freeze user funds.
 
-    Return Python only.
+    Each question must include:
+    1. target function/module;
+    2. attacker action;
+    3. preconditions;
+    4. call sequence;
+    5. invariant tested;
+    6. scoped impact;
+    7. proof idea.
+
+    Output only valid Python. No markdown. No explanations.
 
     questions = [
-    "[File: {target_file}] Can attacker-controlled INPUT under REQUIRED_STATE reach COMMIT_OR_PROOF_PATH and break MAINNET_STATE_INTEGRITY_INVARIANT, corrupting EXACT_VALUE with scoped impact SCOPE_IMPACT? Proof idea: write a focused repo test that drives the path and asserts EXPECTED_ROOT_OR_STATE_PROPERTY.",
+    "[File: {target_file}] [Function: symbol_or_module] Can an unprivileged ATTACKER_ACTION under PRECONDITIONS trigger CALL_SEQUENCE, violating INVARIANT, causing scoped impact: SCOPE_IMPACT? Proof idea: test/fuzz PARAMETERS and assert AUTH, ACCOUNTING, ONE_TIME_SETTLEMENT, or DETERMINISTIC_EXECUTION_PROPERTY.",
     ]
     """
     return prompt
 
-
-def audit_format(question: str) -> str:
+def audit_format(security_question: str) -> str:
     """
-    Generate a focused Aptos exploit-question validation prompt.
+    Generate a focused java-tron exploit-validation prompt.
     """
-    return f"""# APTOS STATE-INTEGRITY REVIEW
 
-## Exploit Question
-{question}
+    prompt = f"""# SECURITY AUDIT PROMPT
 
-## Scope Rules
-- Review Aptos production commit, proof, storage, restore, and authenticated-response logic only.
-- The path must begin from unprivileged transaction, package, API, view, bytecode, or proof input.
-- Ignore malicious peers, generic DoS, and excluded scope areas.
+## Question
+{security_question}
 
-## Decision Standard
-Accept it only if unprivileged input can corrupt committed state, corrupt proof material, misbind an authenticated response, or create hard-fork-only divergence. Reject anything that depends on trusted operator mistakes alone or only changes presentation without corrupting authenticated state.
+## Rules
+- Use existing repo context only. Analyze only this question and scoped impact.
+- Attacker is unprivileged only: real transaction, contract, shielded, or public API input.
+- Reject admin/governance/node/peer/leaked-key/local-keystore/mocked-path/direct-storage/off-repo/best-practice issues.
 
-## Required Impacts
-{APTOS_ALLOWED_IMPACT_SCOPE}
-
-{APTOS_AUDIT_PIVOTS}
-
-## Review Path
-1. Trace the exact path from input to transaction output, storage commit, proof construction, or authenticated response.
-2. Compare the correct VM or ledger result to the stored, returned, or verified result.
-3. Name the wrong write set, proof node, root, version, or object.
-4. Reject if storage, proof, and response layers remain correctly bound end to end.
+## Validate
+- Trace the exact reachable Java path and attacker entrypoint.
+- Check whether auth, accounting, replay, settlement, fee, or cost guards already stop it.
+- Accept only real unauthorized execution, value theft/duplication/freeze, replay/double-settlement, invalid state/divergence/halt, or materially underpriced public work.
+- Require exact file/function support and a reproducible Java unit/integration/fuzz/invariant PoC.
 
 ## Output
-If valid:
+If valid, output exactly:
 
 ### Title
-[Clear vulnerability statement] - ([File: file_path])
+[Bug statement] - ([File: file_path])
 
 ### Summary
+[2-3 sentences]
+
 ### Finding Description
+[Code path, root cause, attacker inputs, exploit flow, and why checks fail]
+
 ### Impact Explanation
+[Concrete scoped impact]
+
 ### Likelihood Explanation
+[Preconditions, feasibility, repeatability]
+
 ### Recommendation
+[Specific fix]
+
 ### Proof of Concept
+[Java unit/integration test or fuzz/invariant test plan with expected assertions]
 
 If invalid, output exactly:
 #NoVulnerability found for this question.
-"""
 
-
-def scan_format(report: str) -> str:
-    """
-    Generate a cross-project analog scan prompt for Aptos issues.
-    """
-    prompt = f"""# STATE-INTEGRITY ANALOG SCAN
-
-## External Report
-{report}
-
-## Task
-Use the external report only as a bug-class seed. Search for a new Aptos-native integrity analog in write-set conversion, transaction info construction, storage commit, accumulators, Merkle proofs, restore flows, or authenticated API responses.
-
-## Required Impacts
-{APTOS_ALLOWED_IMPACT_SCOPE}
-
-{APTOS_AUDIT_PIVOTS}
-
-Internally generate 2 to 4 candidate integrity paths, keep the strongest one, and report it only if local code proves its own unprivileged root cause, broken state or proof invariant, exact corrupted value, and high or critical impact. Do not restate the external report without local proof.
-
-## Search Steps
-1. Reduce the external bug to one proof, commitment, or authenticated-response invariant.
-2. Generate 2 to 4 local candidate paths in scoped code.
-3. Keep only the strongest candidate with exact file and function support.
-4. Trace input -> integrity break -> wrong write set, state value, proof field, version, or root -> impact.
-5. If the local path does not independently hold, return `#NoVulnerability found for this question.`
-
-## Output (Strict)
-If valid analog exists, output:
-
-### Title
-[Clear vulnerability statement] - ([File: file_path])
-
-### Summary
-### Finding Description
-### Impact Explanation
-### Likelihood Explanation
-### Recommendation
-### Proof of Concept
-
-If not, output exactly:
-#NoVulnerability found for this question.
+No extra text.
 """
     return prompt
 
+
 def validation_format(report: str) -> str:
     """
-    Generate a strict Aptos validation prompt for security claims.
+    Generate a strict bounty-style validation prompt for java-tron security claims.
     """
-    prompt = f"""# STATE-INTEGRITY CLAIM VALIDATION
+    prompt = f"""# VALIDATION PROMPT
 
 ## Security Claim
 {report}
 
 ## Rules
-- Validate only the submitted claim against Aptos production commit, proof, storage, or authenticated-response logic in this repo.
-- Do not broaden the claim, shift target scope, or upgrade severity without evidence.
-- A valid issue must come from an unprivileged external attacker using transaction, package, view, API, bytecode, or proof inputs exposed by scoped code.
-- Reject malicious peer or node behavior, generic network DoS, Consensus Observer-only impact, `consensus/src/dag`, `experimental`, `keyless/pepper`, AIP-103 Permissioned Signer, and AIP-104 Account Abstraction.
-- Reject leaked keys, privileged governance or validator powers, off-repo infra control, config-only mistakes, operator-only restore abuse, and non-production artifacts.
-- The final impact must match one `target_scopes` item or the state-integrity gate below and must name the exact corrupted value.
+- Validate only the submitted claim.
+- Check SECURITY.md and Researcher.Md for scope, exclusions, and valid impact classes.
+- Do not create a new vulnerability if the submitted claim is weak or invalid.
+- Do not upgrade severity unless the provided evidence proves the higher impact.
+- Reject admin-only, governance-only, node-only, peer-only, leaked-key, local-keystore, best-practice, docs/style, gas-only, mocked-path, and purely theoretical issues.
+- Reject if the exploit requires unrealistic assumptions, victim mistakes, direct storage mutation, mocked paths, or unsupported protocol behavior.
+- A valid report must be triggerable by an unprivileged user, unless the claim proves privilege escalation from a user path.
+- The final impact must match an in-scope bounty impact for java-tron production code, not just a generic code bug.
+- Prefer #NoVulnerability over speculative reports.
 
-## Required Impacts
-{APTOS_ALLOWED_IMPACT_SCOPE}
+## Required Validation Checks
+All must pass:
+1. Exact in-scope file, function, and line/code references.
+2. Clear root cause and broken security/accounting assumption.
+3. Reachable exploit path: preconditions -> attacker action -> trigger -> bad result.
+4. Existing checks/guards reviewed and shown insufficient.
+5. Concrete in-scope impact with realistic likelihood.
+6. Reproducible proof path: unit PoC, fork test, invariant/fuzz test, or exact manual steps.
+7. No obvious rejection reason from SECURITY.md, known issues, privileges, or scope exclusions.
 
-{APTOS_AUDIT_PIVOTS}
-
-## Required Checks
-1. Exact file and function references in scoped code.
-2. A clear integrity invariant tied to committed state, proofs, authenticated responses, or replay/restore determinism.
-3. A reachable path from attacker input to a bad write set, proof, version, or root.
-4. Existing guards reviewed and shown insufficient.
-5. Exact wrong value named: write set, state value, transaction info, event proof, state proof, Merkle node, accumulator root, ledger version, or API object.
-6. A reproducible proof path via Rust or Move unit, integration, property, or fuzz-style testing.
+## Silent Triage Questions
+Before output, internally answer:
+- Can a normal external user trigger this through a real transaction, contract, shielded, or public API path?
+- Does the code actually behave as claimed?
+- Is the impact caused by the code, not by a malicious node, peer, or external dependency alone?
+- Is the loss/freeze/insolvency concrete, not hypothetical?
+- Would a bounty triager accept the proof?
+- What exact test would prove it?
 
 ## Output
 If valid, output exactly:
@@ -1135,7 +737,7 @@ Audit Report
 [Exact code path, root cause, exploit flow, and why existing checks fail]
 
 ## Impact Explanation
-[Concrete allowed repository impact and severity rationale]
+[Concrete in-scope impact and severity rationale]
 
 ## Likelihood Explanation
 [Attacker capability, required conditions, feasibility, repeatability]
@@ -1144,11 +746,52 @@ Audit Report
 [Specific fix guidance]
 
 ## Proof of Concept
-[Minimal reproducible steps or test plan]
+[Minimal reproducible steps or fuzz/invariant/fork test plan]
 
 If invalid, output exactly:
 #NoVulnerability found for this question.
 
 Output only one of the two outcomes above. No extra text.
+"""
+    return prompt
+
+
+def scan_format(report: str) -> str:
+    """
+    Generate a short cross-project analog scan prompt for java-tron.
+    """
+    prompt = f"""# ANALOG SCAN PROMPT
+
+## External Report
+{report}
+
+## Rules
+- Use in-scope production repo context only. Do not ask for code or claim missing files.
+- Use the external report only as a bug-class hint, not as proof.
+- Keep only unprivileged-user analogs in actuators, TVM, wallet/API, market/exchange, resources, shielded flows, or state/accounting code.
+- Reject trusted-role, mocked/internal-only, theoretical-only, or no-impact analogs.
+
+## Validate
+- Map the bug class to the strongest reachable java-tron path.
+- Prove root cause with exact file/function support.
+- Accept only concrete auth, accounting, replay, settlement, invalid-state/divergence/halt, or underpriced-public-work impact.
+
+## Output (Strict)
+If valid analog exists, output:
+
+### Title
+[Clear vulnerability statement] - ([File: file_path])
+
+### Summary
+### Finding Description
+### Impact Explanation
+### Likelihood Explanation
+### Recommendation
+### Proof of Concept
+
+If not, output exactly:
+#NoVulnerability found for this question.
+
+No extra text.
 """
     return prompt

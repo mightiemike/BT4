@@ -1,0 +1,13 @@
+# Q3304: serialization collision in AccountStateEntity.getAccount
+
+## Question
+Can an unprivileged attacker craft values through /wallet/transferasset -> sign -> /wallet/broadcasttransaction so framework/src/main/java/org/tron/core/db/accountstate/AccountStateEntity.java::getAccount serializes two distinct logical objects to the same internal key or byte layout, causing wrong-object reads/writes and leading to Unauthorized transfer or minting of TRX/TRC10 value?
+
+## Target
+- File/function: framework/src/main/java/org/tron/core/db/accountstate/AccountStateEntity.java::getAccount
+- Entrypoint: /wallet/transferasset -> sign -> /wallet/broadcasttransaction
+- Attacker controls: owner/to addresses, amount, asset id, permission_id, signatures, and visible/base58/hex encoding
+- Exploit idea: Probe padding, truncation, version bytes, composite keys, and alternate encodings of the same public identifier.
+- Invariant to test: Every logical object must serialize to one unique key and deserialize back to the same object without aliasing.
+- Expected Immunefi impact: Unauthorized transfer or minting of TRX/TRC10 value
+- Fast validation: Generate colliding candidate identifiers via /wallet/transferasset -> sign -> /wallet/broadcasttransaction; assert they never read or overwrite another live record.

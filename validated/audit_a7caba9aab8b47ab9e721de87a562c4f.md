@@ -1,1 +1,0 @@
-Now let's find where `verify_ephemeral_signature` / actual verification call site is (in keyless_validation.rs or verify.rs) to see if `verify` (using signing_message with domain-separated CryptoHash) vs `verify_arbitrary_msg` is used for the `TransactionAndProof` binding.

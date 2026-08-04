@@ -1,0 +1,13 @@
+# Q1414: large-iteration underpricing in DelegatedResourceAccountIndexCapsule.getFromAccountsList
+
+## Question
+Can an unprivileged attacker use /wallet/votewitnessaccount -> sign -> /wallet/broadcasttransaction so chainbase/src/main/java/org/tron/core/capsule/DelegatedResourceAccountIndexCapsule.java::getFromAccountsList performs large iterator walks, pagination scans, or reconstruction passes over frozen balances, delegated resources, or reward state/withdrawable amounts, vote weight, or receiver entitlements below true cost and reaches Materially underpriced public resource-accounting work?
+
+## Target
+- File/function: chainbase/src/main/java/org/tron/core/capsule/DelegatedResourceAccountIndexCapsule.java::getFromAccountsList
+- Entrypoint: /wallet/votewitnessaccount -> sign -> /wallet/broadcasttransaction
+- Attacker controls: owner/receiver addresses, resource type, amount, unfreeze or withdraw indexes, permission_id, and signatures
+- Exploit idea: Target account-wide order lists, price indexes, reward histories, note windows, and block/transaction ranges that may require full-store traversal.
+- Invariant to test: Publicly reachable iterations over stores and indexes must be bounded and proportionate to the cost or limits exposed to the attacker.
+- Expected Immunefi impact: Materially underpriced public resource-accounting work
+- Fast validation: Measure scan cost versus returned work for large but valid inputs via /wallet/votewitnessaccount -> sign -> /wallet/broadcasttransaction; flag any case with attacker-controlled superlinear or large-linear amplification.

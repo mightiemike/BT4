@@ -1,1 +1,0 @@
-[File: same] [Function: RuntimeData(Object o) constructor, gRPC branch] Can an unprivileged attacker craft a gRPC call whose ServerCall.getAttributes().get(Grpc.TRANSPORT_ATTR_REMOTE_ADDR) throws/returns null (triggering the caught NullPointerException) so that RuntimeData.address stays the default empty string \

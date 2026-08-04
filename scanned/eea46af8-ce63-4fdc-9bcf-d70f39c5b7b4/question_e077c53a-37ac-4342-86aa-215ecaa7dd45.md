@@ -1,1 +1,0 @@
-[File: 'ParticipateAssetIssueActuator.java' -> Scope: Critical] [Function: Commons.getAssetIssueStoreFinal + validate()'s commented-out TransactionUtil.validAssetName check] Can an unprivileged attacker craft an asset_name byte string that collides with a numeric token ID (e.g., asset_name = \

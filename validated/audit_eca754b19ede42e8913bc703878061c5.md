@@ -1,0 +1,1 @@
+This confirms the JMT construction is fully deterministic by design. Let me verify how the tree is built and where sorting happens before this recursion.

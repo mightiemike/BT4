@@ -1,0 +1,1 @@
+Now let's find `scan_shard_range` to check the actual version comparison logic.

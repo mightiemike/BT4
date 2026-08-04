@@ -1,1 +1,0 @@
-[File: GetAssetIssueByIdServlet.java -> Scope: Critical] [Function: doPost -> PostParams.getPostParams / JSONObject.parseObject] Can an unprivileged attacker send a POST body where 'value' is a JSON object/array/number instead of a string (e.g. {\

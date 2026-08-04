@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/AbstractActuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a62b848c-e901-4501-8468-7a19a0c88d23?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/AbstractExchangeActuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d12cefba-da57-43ee-aaec-a0607e007f5c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/AccountPermissionUpdateActuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7e318a67-45b6-4832-9b7d-1820e9839c23?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/ActuatorConstant.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6c8ea5c2-4fc1-4a28-a006-17604ab53bca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/ActuatorCreator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_12b89927-27b0-4f8f-b6cb-fd6382d077d8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/ActuatorFactory.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_38b5bb46-cb29-4cab-853b-d7c1b8c24386?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/AssetIssueActuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bf3740e1-cf88-4117-83b5-775758d92b29?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/CancelAllUnfreezeV2Actuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2f6c5df9-84eb-4e72-b34b-861cc4f08b2b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/ClearABIContractActuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_77064819-cfe7-4034-b822-b589d3cc3936?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/CreateAccountActuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_471f06e5-67e2-4d11-b1ee-0eecf88b291c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/DelegateResourceActuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fa28d27c-28bd-4b4d-b2a9-7054e371960a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/ExchangeCreateActuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ee055e5e-47d1-4c34-834b-d07fd8db3522?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/ExchangeInjectActuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9f15dfe3-6e81-493a-b7fb-1fb5f223f077?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/ExchangeTransactionActuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2de6b8fa-0a68-427d-af4f-7ae67cb49fe5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/ExchangeWithdrawActuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_21007d2a-2d53-43c2-a1db-f29447c28d67?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/FreezeBalanceActuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_047370c1-bff0-481e-94d2-a8113351aa88?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/FreezeBalanceV2Actuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9659ddf9-5df2-46db-82dc-6e22d03c49e5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/MarketCancelOrderActuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b0bd0f8a-d4b7-4d60-9a31-c7363ba0208d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/MarketSellAssetActuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d44bfadd-a43e-40c1-8f37-e1734d6e91c6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/ParticipateAssetIssueActuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_79f5eb3b-19d0-4d44-8bf5-119598fd1b3c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/ProposalApproveActuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_54695d7d-51ef-481a-a51e-4ff44dff8d68?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/ProposalCreateActuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_067c4297-0455-4fea-a4b1-77f7c0cd3a78?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/ProposalDeleteActuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_74557bef-0903-4706-a1f5-54d12d1e3cef?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/SetAccountIdActuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3608555d-8a77-446d-b1c0-c07e0184f957?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/ShieldedTransferActuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ac7ace90-6b79-44c2-966e-093e0898ecca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/TransferActuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_32cc894b-fbf8-4ca7-a661-c5b7ccde184c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/TransferAssetActuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_26b082e2-7343-4fde-b804-4be154864a27?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/UnDelegateResourceActuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c5d4637c-8650-4852-9f8d-236bb5c4316e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/UnfreezeAssetActuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b5a63b55-fd7e-4c45-baa2-3879d34f87eb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/actuator/UnfreezeBalanceActuator.java -> Scope: High. An unprivileged attacker can use public HTTP, gRPC, JSON-RPC, estimate/call paths, or transaction execution to trigger materially underpriced CPU, memory, disk, or state-iteration work and degrade or crash production nodes below true cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c95673af-3c7f-49f8-95ae-23b489c194d1?mode=deep",
+    "questions_generated": false
+  }
+]

@@ -1,1 +1,0 @@
-[File: JsonFormat.java Scope: Critical] [Function: JsonFormat.escapeBytesSelfType 'Normal String' branch with JSON.parseObject validation fallback] Can an unprivileged attacker craft a bytes field value (e.g. an account 'name' or 'url' used in vote/witness-adjacent flows, or a contract memo) that fails the JSON.parseObject(\

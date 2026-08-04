@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/sm2/SM2.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_91e36575-06ce-4dcc-b9e7-4820468e6892?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/sm2/SM2Signer.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_654b15a2-8b3d-44c5-b765-ca4691a8c622?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/zksnark/BN128.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_51b5649e-aa82-43da-95c8-d3250e03ffdc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/zksnark/BN128Fp.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a72776f9-49a0-4308-be88-606921dc2df5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/zksnark/BN128Fp2.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cc25a03f-6ece-4e70-ab21-3316ba4efdb2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/zksnark/BN128G1.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a133b667-25f6-4e56-91cc-385d3f77f46d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/zksnark/BN128G2.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9e314f89-d315-4f62-bc03-30bde0bb4161?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/zksnark/Field.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8f50a632-4505-416f-94f8-8e0a2a40fb6e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/zksnark/Fp.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_19c19b51-e4db-485e-a711-b4285e18dd66?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/zksnark/Fp12.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d6f92485-619b-46c4-bd91-f0865fb2184a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/zksnark/Fp2.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_01596068-53ff-4554-89c6-67d2d10bf3f7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/zksnark/Fp6.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e1750335-143c-451c-87a5-a0ac789958bd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/zksnark/PairingCheck.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_66d7f00b-ea77-4548-9f3d-556252ba5b26?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/zksnark/Params.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8111c2db-ee16-4596-bf90-cd71a3026cc6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/common/runtime/RuntimeImpl.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_344dc444-e35e-4004-a763-e60f2b9ff925?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/common/zksnark/ZksnarkClient.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5b441350-735d-4d0f-9346-5d80d4a4f581?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/Wallet.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6ce35ef6-8068-4da2-9630-ce72c7440738?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/capsule/ReceiveDescriptionCapsule.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_096ff64f-c406-4787-aebf-5170e26fdc02?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/capsule/SpendDescriptionCapsule.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ffea63eb-5610-4d4b-a5c8-0bc08c5d7aca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/capsule/TxInputCapsule.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a91dc70e-0b01-4481-acb2-f30be7bec849?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/capsule/TxOutputCapsule.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_36afbbe2-be9a-4086-b29e-238846c96b40?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/capsule/utils/DecodeResult.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7d2bcdec-5bfb-431b-a769-cd81d9f6ea77?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/capsule/utils/FastByteComparisons.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8f5f16dd-ae91-4d8b-b5b4-0e3319bbcafe?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/capsule/utils/RLP.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aafe6a08-c53d-4517-aa11-b378c65ebcc3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/capsule/utils/RLPElement.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7f18745e-f2ad-4625-a376-6bc7d1eb5afb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/capsule/utils/RLPItem.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e3082fcc-92fb-4807-b107-ef87161f33bf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/capsule/utils/RLPList.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b085d5c1-2cdf-4a0e-bbd3-9255f7dcc40d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/capsule/utils/TxInputUtil.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bea1f461-b922-45a6-bcff-961ad4315015?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/capsule/utils/TxOutputUtil.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_58fc3bad-2345-42c1-9ade-97f0c3ef78db?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/db/Manager.java -> Scope: Critical. An unprivileged attacker can submit a crafted transaction, contract bytecode, or RPC input that makes honest java-tron nodes commit invalid state, diverge on TVM execution or accounting, or deterministically halt on public chain input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d8cc8637-77c7-445b-8b86-9249469ad190?mode=deep",
+    "questions_generated": false
+  }
+]

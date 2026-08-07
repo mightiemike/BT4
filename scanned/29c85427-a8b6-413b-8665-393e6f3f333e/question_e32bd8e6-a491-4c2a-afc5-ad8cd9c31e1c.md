@@ -1,1 +1,0 @@
-[File: 'runtime/src/snapshot_bank_utils.rs -> verify_slot_deltas / bank_from_snapshot_dir panic path'] Can an attacker-induced state (via normal transaction/slot activity, not file tampering) cause bank.verify_snapshot_bank(...) to return false at runtime/src/snapshot_bank_utils.rs:450-458, hitting `panic!(\

@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: ledger/src/sigverify_shreds.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_95b303d5-a14c-4885-bd53-bc31e4f95970?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: ledger/src/slot_stats.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9f6abeb1-2fa2-42a9-b9c7-7dcb9713fedd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: ledger/src/staking_utils.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6f27f9aa-82d4-45d8-b7c6-42fdadb5f0aa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: ledger/src/transaction_address_lookup_table_scanner.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_76a00d76-a51b-43ab-a345-a2d2cb26c292?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: ledger/src/use_snapshot_archives_at_startup.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_366916ba-78c2-4f4b-95f4-2400b4a69bb6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: turbine/src/addr_cache.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_23b79bf2-2b7b-46f8-b5d1-01442e609876?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: turbine/src/broadcast_stage/broadcast_duplicates_run.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8b32af17-de11-4d23-bf39-dfca1c31ea01?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: turbine/src/broadcast_stage/broadcast_metrics.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2b390c02-96d3-4755-8a43-af25fe7af762?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: turbine/src/broadcast_stage/broadcast_utils.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_24216314-060d-4ae7-ba0e-218273ad46aa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: turbine/src/broadcast_stage/standard_broadcast_run.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8eab6755-6659-49ee-a2fb-efbab85ea62a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: turbine/src/broadcast_stage.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_27d8c0c9-96ad-4c27-af7a-8a680e222d80?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: turbine/src/cluster_nodes.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_932484ba-afe5-45a2-b8b7-d5cd8ebfcae7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: turbine/src/lib.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cd1d8603-3edf-4de2-acd7-8a82e5d88c68?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: turbine/src/retransmit_stage.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c9012337-d345-4a55-ac2d-bb4db2ef91c7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: turbine/src/sigverify_shreds.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3ccbc8e2-ec91-47d3-ab4b-4e695208364b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: builtins/src/core_bpf_migration.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_feeee35c-2753-46c5-8275-5c00415e5748?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: builtins/src/lib.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6a423413-15cb-4e8b-b18f-06262f929590?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: builtins/src/prototype.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6986b00f-2b8e-46d5-acf2-520b9aad2641?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: leader-schedule/src/lib.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1a2af41e-97ea-4f14-beff-f72a110bcc64?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: leader-schedule/src/vote_keyed.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a9525a41-8efc-43d9-bb97-1c2b19000c14?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/bpf_loader/src/lib.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ec1c76b6-d8bc-4318-b05c-16c64f34122b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/compute-budget/src/lib.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_68dfa3b4-2bce-4bf5-b3ee-3febec814c0a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/system/src/lib.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7c9c3686-1969-4e2a-b894-9085cb0295bd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/system/src/system_instruction.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7a72c617-1391-4e38-9fc4-a473e39fe528?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/system/src/system_processor.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_561834cb-2f00-4126-9214-602a97c4043f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/vote/src/lib.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3c0bff99-2fcf-482c-84c9-9e1678476b05?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/vote/src/vote_processor.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d00e1876-9ed2-4e55-a8e7-7fefba00ec19?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/vote/src/vote_state/handler.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e6208457-96a8-451e-b807-e8299ce30023?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/vote/src/vote_state/mod.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_db3800ba-a8ba-420e-996d-dfa0bcf5ffea?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/zk-elgamal-proof/src/lib.rs -> Scope: High. An unprivileged attacker can cheaply create accounts or writes that force disproportionate storage, index, scan, hashing, or background-cleanup work and exhaust node memory or disk below true transaction cost.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_984a3f20-3a7f-4a97-a200-72417955631c?mode=deep",
+    "questions_generated": false
+  }
+]

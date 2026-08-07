@@ -1,0 +1,1 @@
+[File: 'File Name: ledger/src/shred/stats.rs -> Scope: High. ...'] [Function: reconstruct_accountsdb_from_fields] Can an unprivileged attacker's account layout (extreme append-vec fragmentation from many small resizes/closes before a snapshot is taken) cause a validator restarting from that self-produced snapshot to violate `assert!(!storage.is_empty(), \

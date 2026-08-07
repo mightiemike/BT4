@@ -1,0 +1,1 @@
+[File: 'File Name: ledger/src/shred/stats.rs -> Scope: High. ...'] [Function: AccountsDb::update_candidate_after_reclaims] Can an unprivileged attacker who rapidly creates duplicate rooted writes to the same pubkey across many slots (to inflate ref_count) then triggers clean such that reclaims.len() exceeds candidate_info.ref_count cause the `.expect(\

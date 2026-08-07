@@ -1,0 +1,1 @@
+[File: 'File Name: ledger/src/entry_notifier_interface.rs -> Scope: High.'] [Function: AccountsDb::next_id] Can an attacker who forces extremely high account-storage churn (via rapid resize/close/rewrite cycles generating new AppendVec/storage entries per slot) exhaust `AccountsFileId` space and hit the `assert!(next_id != AccountsFileId::MAX, \

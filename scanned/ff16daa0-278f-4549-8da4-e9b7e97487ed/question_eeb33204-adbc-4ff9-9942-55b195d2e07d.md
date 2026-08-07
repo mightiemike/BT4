@@ -1,0 +1,1 @@
+[File: 'File Name: gossip/src/contact_info.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'] [Function: AccountsDb::get_and_then / accounts_index verify (\

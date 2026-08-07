@@ -1,0 +1,1 @@
+[File: 'cost-model/src/lib.rs -> Scope: High.'] [Function: bucket_map::Bucket::batch_insert_non_duplicates] Can an attacker force enough unique pubkeys through startup index generation (post-restart replay) that the disk bucket assert!(!self.at_least_one_entry_deleted, \

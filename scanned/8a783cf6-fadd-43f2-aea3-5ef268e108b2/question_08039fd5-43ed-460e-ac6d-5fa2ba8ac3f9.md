@@ -1,0 +1,1 @@
+[File: 'File Name: rpc/src/rpc_pubsub.rs -> Scope: High.'] [Function: AccountsDb::remove_dead_accounts / accounts_index corrupted assert] Can an unprivileged attacker who repeatedly resizes an account's data (changing its stored size) across rooted slots induce two different storage entries to claim the same slot, tripping the `assert_eq!(slot, store.slot(), \

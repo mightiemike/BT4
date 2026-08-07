@@ -1,0 +1,1 @@
+[File: 'cost-model/src/lib.rs -> Scope: High.'] [Function: reconstruct_accountsdb_from_fields] Can an attacker who creates and rewrites accounts at extremely high frequency over a long validator lifetime drive next_append_vec_id close to AccountsFileId::MAX/2, so that after a snapshot round-trip the assert!(max_append_vec_id <= AccountsFileId::MAX / 2, \

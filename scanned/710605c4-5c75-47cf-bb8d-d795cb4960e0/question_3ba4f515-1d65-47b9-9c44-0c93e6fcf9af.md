@@ -1,0 +1,1 @@
+[File: 'File Name: ledger/src/shred/stats.rs -> Scope: High. ...'] [Function: PackedAncientStorage::pack] Can an unprivileged attacker who creates one account whose stored size exceeds the configured `ideal_storage_size` for ancient packing (via maximum permitted account data size) cause `pack()` to produce a packed storage violating `assert!(packed.bytes > 0, \

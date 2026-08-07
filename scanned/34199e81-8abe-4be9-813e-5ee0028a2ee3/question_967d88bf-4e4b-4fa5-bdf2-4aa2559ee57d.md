@@ -1,0 +1,1 @@
+[File: 'File Name: ledger/src/lib.rs -> Scope: High.'] [Function: AccountsDb::remove_dead_accounts / offsets-based removal (accounts-db/src/accounts_db.rs:5066-5149)] Can an attacker cause the `assert_eq!(slot, store.slot(), \

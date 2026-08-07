@@ -1,1 +1,0 @@
-[File: 'File Name: runtime/src/bank/builtins/mod.rs -> Scope: High.'] [Function: accounts_db::AccountsDb::remove_dead_accounts] Can an unprivileged attacker, by closing and reopening the same pubkey across many slots faster than the background clean interval, produce a storage/index mismatch that trips the `assert_eq!(slot, store.slot(), \

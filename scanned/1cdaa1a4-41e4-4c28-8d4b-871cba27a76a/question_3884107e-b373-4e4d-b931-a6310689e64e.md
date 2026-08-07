@@ -1,0 +1,1 @@
+[File: fs/src/dirs.rs -> Scope: High.] [Function: dirs::remove_dir_all panic path in accounts_db::utils::move_and_async_delete_path] Can an unprivileged attacker who fills disk space cheaply with many small attacker-authored accounts (driving ENOSPC or EIO during recursive deletion) cause the background delete thread's `panic!(\

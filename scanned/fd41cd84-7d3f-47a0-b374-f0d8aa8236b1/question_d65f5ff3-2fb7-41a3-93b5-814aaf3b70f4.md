@@ -1,0 +1,1 @@
+[File: 'File Name: precompiles/src/secp256k1.rs -> Scope: High. ...'] [Function: AccountsDb::do_load / retry_to_get_account_accessor] Can an attacker who alternates remove_unrooted_slots and store_for_tests on the same (slot, pubkey) pair at high frequency, mimicking bank-purge/banking-stage races, drive `retry_to_get_account_accessor` into the `panic!(\

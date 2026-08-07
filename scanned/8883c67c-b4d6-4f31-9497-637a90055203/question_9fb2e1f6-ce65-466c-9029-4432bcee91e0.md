@@ -1,1 +1,0 @@
-[File: 'File Name: programs/zk-token-proof/src/lib.rs -> Scope: High.'] [Function: DeserializableBankSnapshot::into_fields / accounts_lt_hash canary] Can an attacker influence account layout/count (via large numbers of created/closed accounts) enough to change serialization size/ordering so that `ExtraFieldsToDeserialize` parsing misaligns and `accounts_lt_hash.expect(\

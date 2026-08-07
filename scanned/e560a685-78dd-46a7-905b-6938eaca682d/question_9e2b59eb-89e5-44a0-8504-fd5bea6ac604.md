@@ -1,1 +1,0 @@
-[File: 'ledger/src/rooted_slot_iterator.rs' -> Scope: High.] [Function: RootedSlotIterator::next, slot_skipped path] When a rooted SlotMeta is concurrently purged between the is_root check and self.blockstore.meta(r) fetch (triggering the warn!(\

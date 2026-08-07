@@ -1,1 +1,0 @@
-[File: 'File Name: gossip/src/harness.rs -> Scope: High.'] [Function: AccountsDb::remove_dead_accounts / assert_eq! at accounts_db.rs:5087-5094] Can an unprivileged attacker, by rapidly closing and reopening accounts across many concurrent forks so multiple `store.slot()` values race with concurrent clean scans, trigger the `assert_eq!(slot, store.slot(), \

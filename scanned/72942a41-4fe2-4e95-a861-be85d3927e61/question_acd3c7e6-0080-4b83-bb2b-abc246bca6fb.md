@@ -1,1 +1,0 @@
-[File: runtime/src/serde_snapshot.rs -> reconstruct_accountsdb_from_fields / AccountsDb::generate_index] Can an attacker who creates and rewrites accounts to maximize AppendVec/storage id churn drive `next_append_vec_id` past `AccountsFileId::MAX / 2`, tripping `assert!(max_append_vec_id <= AccountsFileId::MAX / 2, \

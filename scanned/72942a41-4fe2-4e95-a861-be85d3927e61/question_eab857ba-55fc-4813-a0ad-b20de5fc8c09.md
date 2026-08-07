@@ -1,1 +1,0 @@
-[File: bucket_map/src/bucket.rs -> Bucket::batch_insert_non_duplicates / batch_insert_non_duplicates_internal] Can an attacker who creates enough unique on-disk-index-bound accounts to force repeated `BucketMapError::IndexNoSpace` resizes cause `assert!(!self.at_least_one_entry_deleted, \

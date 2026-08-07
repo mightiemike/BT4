@@ -1,1 +1,0 @@
-[File: 'File Name: syscalls/src/sysvar.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'] [Function: accounts_index::AccountsIndex::insert_new_if_missing_into_primary_index -> assert_ne!(next_pubkey, last_pubkey, \

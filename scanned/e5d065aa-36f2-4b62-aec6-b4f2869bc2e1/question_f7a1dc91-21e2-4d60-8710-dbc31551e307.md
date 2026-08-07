@@ -1,1 +1,0 @@
-[File: 'File Name: send-transaction-service/src/lib.rs -> Scope: High.'] [Function: reconstruct_accountsdb_from_fields (runtime/src/serde_snapshot.rs:1150-1216)] Can an attacker cause `assert!(!storage.is_empty(), \

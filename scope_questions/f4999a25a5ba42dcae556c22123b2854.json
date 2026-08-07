@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: validator/src/commands/run/args/rpc_bigtable_config.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3bf720a4-68c6-4369-947b-bd63ff94bc56?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: validator/src/commands/run/args/rpc_bootstrap_config.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_53fb8f62-67fd-418c-a818-a67a574c59e4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: validator/src/commands/run/args/send_transaction_config.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5ec4e3ca-249d-4a66-a6ad-c664cdbdda66?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: validator/src/commands/run/args.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6054f949-d67b-48c0-925b-3589483fc42b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: validator/src/commands/run/execute.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b095eee7-4108-45d0-88cc-ddbbfea424dd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: validator/src/commands/run/mod.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0e4a9a61-673f-4b56-a1cd-1ba56b961d3f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: validator/src/commands/set_identity/mod.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7132d326-c555-4208-9766-f96b2002d4a5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: validator/src/commands/set_log_filter/mod.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ad3c6852-f1be-413e-9433-435770829fbe?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: validator/src/commands/set_public_address/mod.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b23f34c5-cca7-4ad6-8cbd-1fa415cc1e71?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: validator/src/commands/staked_nodes_overrides/mod.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_41993f4e-3691-4eda-aab5-f82dbc1e22dd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: validator/src/commands/wait_for_restart_window/mod.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2a15db31-4975-4bae-a080-7f660e8be874?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: validator/src/dashboard.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7b4c1877-df04-46f8-885a-8bc8b9045148?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: validator/src/lib.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7f6db650-fd3e-4eaf-8254-da603d1b33d6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: validator/src/main.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_84d3fe6a-466b-43e0-8756-2c16c2f441b8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: version/src/client_ids.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1324de9a-52a9-4dfc-a3bd-650248243041?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: version/src/lib.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f6968a29-e33f-4a36-93aa-295b20731e27?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: version/src/v3.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_76352a4f-9336-48c8-b1ca-21d22fafe71a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: version/src/v4.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eb9e79e1-5e6c-482f-b5d4-4fe7449819b4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: builtins-default-costs/src/lib.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cbbe2a9e-00ac-4560-bea8-1a3f87963976?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: compute-budget/src/compute_budget.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5042f587-e056-441a-b357-8e882698b90b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: compute-budget/src/compute_budget_limits.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_201628b6-0253-42cc-a8dc-183357e282ec?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: compute-budget/src/lib.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c5161bdf-d500-419a-94da-b0fff886d1db?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: compute-budget-instruction/src/builtin_programs_filter.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5485adb8-39cb-4bf4-8d58-a80528f182db?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: compute-budget-instruction/src/compute_budget_instruction_details.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c6d49ecb-d60e-420a-a146-2d5ed2a10171?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: compute-budget-instruction/src/compute_budget_program_id_filter.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e266f977-5473-4246-abf1-9ecfc3eb92d2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: compute-budget-instruction/src/instructions_processor.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7ac54c63-3da8-4720-90d1-815df1148c83?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: compute-budget-instruction/src/lib.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2be99ed3-ca23-4006-98ea-71cec41f06f5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cost-model/src/block_cost_limits.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b5ecb291-a749-4208-b25f-e761869b23f0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cost-model/src/cost_model.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_073d6b59-13e2-4b22-9745-f7e2e4b82a3d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cost-model/src/cost_tracker.rs -> Scope: Critical. An unprivileged attacker can craft account writes that make AccountsDB return stale, wrong-slot, or wrong-owner account state to execution, letting a later transaction spend or overwrite value it does not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8efc4861-aa6b-40c2-b1a6-e09ae288f919?mode=deep",
+    "questions_generated": false
+  }
+]

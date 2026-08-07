@@ -1,1 +1,0 @@
-[File: 'runtime/src/bank_utils.rs -> Scope: High'] [Function: AppendVec::append_accounts / next_account_offset] Can an attacker submit an account whose `data_len` combined with `STORE_META_OVERHEAD` and existing `offset` overflows `usize` on a 32-bit-like boundary condition (or approaches `MAXIMUM_APPEND_VEC_FILE_SIZE`), tripping the `.expect(\

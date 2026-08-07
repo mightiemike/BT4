@@ -1,0 +1,1 @@
+[File: 'File Name: tls-utils/src/skip_server_verification.rs -> Scope: Critical...'] [Function: AccountsDb::next_id / AtomicAccountsFileId] Can an unprivileged attacker who repeatedly closes and reopens many small accounts (maximizing store/shrink/flush churn) drive next_id() to approach AccountsFileId::MAX and panic with \

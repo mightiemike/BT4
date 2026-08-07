@@ -1,0 +1,1 @@
+[File: 'accounts-db/src/sorted_storages.rs -> Scope: High'] [Function: SortedStorages::new (calls new_with_slots)] Precondition: attacker controls `AccountStorageEntry::slot()` values indirectly by rooting many small transactions across distinct slots. Can duplicate-slot detection (`assert!(storages.insert(slot, original_storages).is_none(), \

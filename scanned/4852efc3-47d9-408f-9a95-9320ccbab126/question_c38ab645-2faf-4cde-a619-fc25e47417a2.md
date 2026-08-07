@@ -1,0 +1,1 @@
+[File: vote/src/vote_account.rs -> Scope: High] [Function: VoteAccounts::do_add_node_stake / do_sub_node_stake] Can an attacker sequence vote-account creation, node_pubkey changes via re-insert, and stake add/sub calls such that do_sub_node_stake's `expect(\

@@ -1,0 +1,1 @@
+[File: 'File Name: precompiles/src/secp256k1.rs -> Scope: High. ...'] [Function: AccountsDb::generate_index -> total_accum.capitalization checked_add] Can an attacker who funds many accounts to values summing close to u64::MAX in a single slot's storage cause `capitalization = capitalization.checked_add(account.lamports()).expect(\

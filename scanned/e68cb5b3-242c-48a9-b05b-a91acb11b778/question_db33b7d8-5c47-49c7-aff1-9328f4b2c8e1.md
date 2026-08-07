@@ -1,0 +1,1 @@
+[File: 'transaction-status/src/parse_vote.rs' -> Scope: High] [Function: parse_vote / VoteInstruction::Vote and VoteSwitch 'slots' field] Can an attacker submit a Vote or VoteSwitch instruction whose Vote.slots Vec<Slot> is populated at or near the maximum length permitted by the transaction size limit, and does json!({

@@ -1,1 +1,0 @@
-[File: 'runtime/src/epoch_stakes.rs -> Scope: High.'] [Function: AccountsDb::visit_duplicate_pubkeys_during_startup] Can an attacker who produces many duplicate-pubkey entries across slots (by repeatedly rewriting the same account with different data sizes) cause the `capitalization_from_duplicates.checked_add(u128::from(lamports)).expect(\

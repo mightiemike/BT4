@@ -1,1 +1,0 @@
-[File: 'runtime/src/epoch_stakes.rs -> Scope: High.'] [Function: AppendVec::next_account_offset / append_accounts] Can an attacker submit an account whose `data.len()` is crafted such that `STORE_META_OVERHEAD.checked_add(stored_meta.data_len as usize)` overflows or, when read back from a corrupted/replayed append vec, `next_account_offset` panics via `.expect(\

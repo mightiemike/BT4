@@ -1,1 +1,0 @@
-[File: 'runtime/src/epoch_stakes.rs -> Scope: High.'] [Function: AccountsDb::exhaustively_verify_refcounts] Can an attacker who creates accounts touching many index bins with carefully timed clean/shrink cycles cause `exhaustively_verify_refcounts` (accounts-db/src/accounts_db.rs ~1864) to detect a refcount mismatch and `panic!(\

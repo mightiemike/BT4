@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: accounts-db/src/is_loadable.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_afdb9d9e-67c6-4fd1-8003-71abd16129ca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/is_zero_lamport.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a9f242e0-4448-4eee-b6d4-58b85f3f2325?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/lib.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8fb3e3ab-4bad-45cd-a54d-2eddcb0ab66d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/obsolete_accounts.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_87c3bd3c-19a5-45e2-bc27-d747fc4b85ea?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/partitioned_rewards.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d8c7d7c6-1e71-4bad-ac61-e9d1670194c1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/pubkey_bins.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d4c79596-b361-410a-b0c8-0b72da1187d9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/read_only_accounts_cache.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c3b8f10f-02fc-4c61-b9bc-6c99c6911164?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/rolling_bit_field/iterators.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5e1d4f8c-cccd-4f27-a632-b2bad0876146?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/rolling_bit_field.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_66a2d201-b803-4120-a596-98e314566e88?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/sorted_storages.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_92e12844-3b96-407e-bef4-3f7c76ca5cc3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/stake_rewards.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_73cb9513-8159-48e0-be0c-1fed0a0bf607?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/storable_accounts.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0d046269-e7a2-4788-87f8-02e8a33d059c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/utils.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_732deb1f-1e17-4405-aa28-3b77aba545b4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/waitable_condvar.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c246c6e0-489a-40b8-be66-7d115155809c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/store-histogram/src/main.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_77420a3a-baf5-4c83-90c0-c04f96c77053?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/store-tool/src/main.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0704f539-e8cc-41b3-8da3-73f39bf50a01?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: bloom/src/bloom.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_085aa718-e0ec-4c66-bdee-dbbbd051e8d8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: bloom/src/lib.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0c57f55c-243c-4f3a-bf7b-a5e332b81adb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: bucket_map/src/bucket.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d6dbc9e8-49ad-4d5f-a9ce-1fa79ecf948f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: bucket_map/src/bucket_api.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3029762a-8aa1-420a-a26a-912424c7e51e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: bucket_map/src/bucket_item.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ee313189-8d3b-49df-bf3a-d10a2dd2ad0d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: bucket_map/src/bucket_map.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_95d448fd-8893-4f3d-b618-ce33e34e82eb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: bucket_map/src/bucket_stats.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b737d9ba-2bda-4e95-a31e-494c3ccc6b1a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: bucket_map/src/bucket_storage.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e3b8ab5a-f66e-4596-9bb3-83e96977f008?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: bucket_map/src/index_entry.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ed85ffd7-7fea-4bee-84c0-7b0fe6fe4a0d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: bucket_map/src/lib.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d8da9302-dd71-4ee1-9532-ef37bb4e658f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: bucket_map/src/restart.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_75df23c9-2e5a-4ac2-a8ba-15250c3fa2ea?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: fs/src/buffered_reader.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6b8b72b7-a464-4f20-b8d6-77a36a2cb1b2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: fs/src/buffered_writer.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1c4298b0-25ad-4303-92c4-392206f719ca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: fs/src/dirs.rs -> Scope: Critical. An unprivileged attacker can author on-chain account state that makes an honest node's own snapshot generation, packaging, or rebuild produce a bank disagreeing with full ledger replay, so restarted validators diverge from the cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_da0e3db9-d95e-413e-a33a-aa5b94b8631f?mode=deep",
+    "questions_generated": false
+  }
+]

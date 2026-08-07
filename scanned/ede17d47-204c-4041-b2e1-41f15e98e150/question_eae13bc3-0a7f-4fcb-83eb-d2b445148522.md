@@ -1,1 +1,0 @@
-[File: 'File Name: runtime/src/stakes/serde_stakes.rs -> Scope: High.'] [Function: DeserializableDelegationStakes / Stakes::load_from_deserialized_delegations] Can an unprivileged attacker who churns many stake accounts (create/close/resize) across a slot range cause `Stakes::load_from_deserialized_delegations` in `bank.rs::new_from_snapshot` to hit its `.expect(\

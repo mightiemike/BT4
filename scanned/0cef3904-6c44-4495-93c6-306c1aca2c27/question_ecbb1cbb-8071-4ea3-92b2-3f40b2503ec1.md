@@ -1,0 +1,1 @@
+[File: 'File Name: measure/src/macros.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'] [Function: reconstruct_accountsdb_from_fields] Since `assert!(!storage.is_empty(), \

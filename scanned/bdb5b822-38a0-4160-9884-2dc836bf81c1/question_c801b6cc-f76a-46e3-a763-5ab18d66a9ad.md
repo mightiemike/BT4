@@ -1,0 +1,1 @@
+[File: 'accounts-db/src/sorted_storages.rs' -> Scope: Critical] [Function: SortedStorages::new_with_slots] Can an unprivileged attacker who repeatedly creates and closes accounts across many slots cause storage entries with duplicate Slot keys to reach new_with_slots, and if the internal `assert!(storages.insert(slot, original_storages).is_none(), \

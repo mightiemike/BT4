@@ -1,1 +1,0 @@
-[File: fs/src/io_uring/sequential_file_reader.rs + memory.rs] [Function: SequentialFileReaderBuilder::build_with_buffer] Can an attacker author an account whose stored size, after `calculate_stored_size`, makes `buf_capacity = buffer.len() / read_capacity * read_capacity` equal to 0 for a legitimately-sized-but-small configured read buffer, tripping `assert_ne!(buf_capacity, 0, \

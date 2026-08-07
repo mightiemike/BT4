@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: tpu-client-next/src/node_address_service/leader_tpu_cache_service.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_52e7b216-963f-4d38-922b-cbd57f18b041?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: tpu-client-next/src/node_address_service/recent_leader_slots.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ebbf5733-90ed-47a7-931f-3167c8dc956e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: tpu-client-next/src/node_address_service/slot_event.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f328326a-c880-43ec-9339-abf219712ed9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: tpu-client-next/src/node_address_service/slot_receiver.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_149f76a0-254a-46fd-bdb1-d9ab0ca708ae?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: tpu-client-next/src/node_address_service/slot_update_service.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2e85fbea-1447-4c56-a862-ee70033bbb31?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: tpu-client-next/src/node_address_service.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c242b780-0c5f-4975-8e0d-e1d8af0fb8e9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: tpu-client-next/src/quic_networking/error.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_03719d85-93f9-474e-b308-b6120243cda6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: tpu-client-next/src/quic_networking.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_414d0aa9-fdde-4e2b-97e0-4887fe4e1fdb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: tpu-client-next/src/send_transaction_stats.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c084e534-4f0e-4401-9d4e-fb032acbed47?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: tpu-client-next/src/websocket_node_address_service.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b58a32b6-720f-4c9a-876e-d10f4d332ea0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: tpu-client-next/src/workers_cache.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_859524b9-411a-46b9-ac14-a2d8ccb706de?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: udp-client/src/lib.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_12d1a76f-3b26-41c8-975b-efd73c32050b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: udp-client/src/nonblocking/mod.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_687e43f7-bed9-4f63-ae55-e3b98b3ca423?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: udp-client/src/nonblocking/udp_client.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e1e6ccd3-b2af-47df-aa2d-a24dfc52db44?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: udp-client/src/udp_client.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2ec3b5fa-66f6-46e0-a8ed-f96f5ec21d97?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: unified-scheduler-logic/src/lib.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4c3bd699-8a03-4c2e-b16e-40d0c8002cd1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: unified-scheduler-pool/src/lib.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_20db0cbb-2d56-486e-ba89-ac33b920dbc1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: xdp/src/device.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e3630d32-6223-4fde-8be2-bcac5f53c74e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: xdp/src/ecn_codepoint.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9ead8e87-42e6-4528-83ea-7bef9a40e219?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: xdp/src/gre/mod.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a3b0c7ea-b9a1-4d16-909f-310fb7f62a69?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: xdp/src/gre/packet.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a211e819-ed89-4fde-ad83-c95672058383?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: xdp/src/lib.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_52f5dc0e-db55-4cb5-8f84-583d98c74ec5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: xdp/src/lpm.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eebdfab9-4a75-4a88-9ded-4bfbf47e3232?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: xdp/src/netlink.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5f295d38-8022-419a-baee-18190116c512?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: xdp/src/packet.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_04cc340f-7133-455e-b729-4fdfd20babc2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: xdp/src/program.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_90c151df-9d77-48b2-b8ee-53b019e58efa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: xdp/src/route.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3aec9080-847a-4238-b61a-64b32526312b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: xdp/src/route_monitor.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7a8ab24a-d5cd-4873-ab97-ebd1fe667719?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: xdp/src/socket.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_67c31a19-2c03-4802-bf6c-486a4b6073a3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: xdp/src/transmitter.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d78d93cb-e911-431f-b091-60e8c2451332?mode=deep",
+    "questions_generated": false
+  }
+]

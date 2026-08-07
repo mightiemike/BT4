@@ -1,0 +1,1 @@
+[File: 'File Name: transaction-status/src/extract_memos.rs -> Scope: High.'] [Function: reconstruct_accountsdb_from_fields / AccountsDb::generate_index in serde_snapshot.rs & accounts_db.rs] Can an unprivileged attacker who creates accounts producing capitalization that sums close to u64::MAX (via many large-lamport accounts across slots) trigger the `panic!(\

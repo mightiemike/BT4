@@ -1,0 +1,1 @@
+[File: 'transaction-status/src/parse_stake.rs' -> Scope: resource exhaustion below true tx cost] [Function: parse_stake, StakeInstruction::AuthorizeWithSeed branch] Can an unprivileged attacker submit a stake AuthorizeWithSeed instruction whose authority_seed string is close to the max instruction-data size (~1232 bytes) so that parse_stake's json!({\

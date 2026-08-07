@@ -1,0 +1,1 @@
+[File: 'File Name: runtime/src/epoch_stakes.rs -> Scope: Critical.'] [Function: BLSPubkeyToRankMap::new] Can an attacker create exactly one vote account per node_pubkey but with all-zero stake so that `NonZero::new(*stake)` filters every candidate out, driving `total_stake` fold to 0 and the subsequent `NonZero::new(total_stake).expect(\

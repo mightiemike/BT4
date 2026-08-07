@@ -1,0 +1,1 @@
+[File: transaction-status/src/parse_accounts.rs -> Scope: High] [Function: AccountsDb::next_id] Can an unprivileged attacker who repeatedly creates, resizes, and closes accounts across many slots (each write funded by normal fees) drive AtomicAccountsFileId allocation in next_id() to approach AccountsFileId::MAX, and does the assert!(next_id != AccountsFileId::MAX, \

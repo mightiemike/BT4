@@ -1,0 +1,1 @@
+[File: 'File Name: core/src/consensus/tower1_7_14.rs -> Scope: High.'] [Function: AccountsDb::generate_index / IndexGenerationAccumulator::capitalization] Can an attacker who accumulates many accounts whose lamport sum across duplicate index entries approaches u64::MAX cause `capitalization = capitalization.checked_add(...).expect(\

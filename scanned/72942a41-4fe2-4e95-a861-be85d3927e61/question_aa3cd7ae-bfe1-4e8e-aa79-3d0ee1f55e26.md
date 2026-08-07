@@ -1,0 +1,1 @@
+[File: bucket_map/src/index_entry.rs -> IndexEntryPlaceInBucket::occupy_if_matches] Can an attacker who reuses/recreates the same pubkey with different account data (churn: create, close, recreate) exploit the disk-index-reuse fast path so that `assert_eq!(enum_tag, OccupiedEnumTag::Free, \

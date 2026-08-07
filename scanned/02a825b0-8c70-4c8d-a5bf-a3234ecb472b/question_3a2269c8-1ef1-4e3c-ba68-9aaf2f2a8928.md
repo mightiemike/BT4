@@ -1,0 +1,1 @@
+[File: accounts-db/src/append_vec.rs -> Function: append_accounts / append_ptrs_locked] Can an attacker submitting many accounts whose cumulative aligned size lands exactly at the AppendVec capacity boundary cause append_ptrs_locked's .expect(\

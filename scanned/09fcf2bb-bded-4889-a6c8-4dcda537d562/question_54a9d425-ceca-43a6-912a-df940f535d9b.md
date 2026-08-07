@@ -1,0 +1,1 @@
+[File: 'core/src/banking_stage.rs -> Scope: High'] [Function: bucket_map::index_entry::IndexEntry::read_value] Can a race between an attacker's high-frequency account writes (forcing bucket resize/occupy churn) and a concurrent index flush cause `read_value` to observe a freed data-bucket slot and hit `panic!(\

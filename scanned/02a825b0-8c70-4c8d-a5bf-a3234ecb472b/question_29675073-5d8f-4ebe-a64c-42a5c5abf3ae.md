@@ -1,0 +1,1 @@
+[File: accounts-db/src/accounts_index/bucket_map_holder.rs -> Function: BucketMapHolder::new / threshold_entries_per_bin computation] Can an attacker who inflates the number of distinct pubkeys enough to approach a configured accounts-index-limit cause the checked_sub().expect(\

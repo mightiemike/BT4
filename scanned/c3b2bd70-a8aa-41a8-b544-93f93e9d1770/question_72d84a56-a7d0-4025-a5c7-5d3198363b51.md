@@ -1,0 +1,1 @@
+[File: transaction-status/src/parse_accounts.rs -> Scope: High] [Function: AccountsDb::update_candidate_after_reclaims (ref_count checked_sub)] Can an attacker construct a sequence of resurrect/close/rewrite operations on one pubkey so that reclaims.len() exceeds candidate_info.ref_count at clean time, causing the .expect(\

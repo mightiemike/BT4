@@ -1,0 +1,1 @@
+[File: 'core/src/banking_stage.rs -> Scope: High'] [Function: accounts_db::AccountsDb::remove_dead_accounts / handle_reclaims] Can an attacker who writes and closes many small accounts in the same slot trigger the `assert_eq!(slot, store.slot(), \

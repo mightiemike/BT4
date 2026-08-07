@@ -1,0 +1,1 @@
+[File: 'File Name: account-decoder/src/validator_info.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'] [Function: AccountsIndex::insert_new_if_missing_into_primary_index (accounts-db/src/accounts_index.rs), panic \

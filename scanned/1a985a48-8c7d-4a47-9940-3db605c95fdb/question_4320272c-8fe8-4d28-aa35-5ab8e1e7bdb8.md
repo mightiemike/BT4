@@ -1,0 +1,1 @@
+[File: 'programs/bpf_loader/src/lib.rs' -> Scope: index corruption/panic in AccountsDB] [Function: MultipleSlots::set_storage_offset in bucket_map/src/index_entry.rs] Can an attacker who forces enough data-bucket growth (by writing/resizing many accounts) grow a data bucket's `capacity_pow2` beyond 56 (7 bytes), causing `set_offset_checked` to return an error and the `.expect(\

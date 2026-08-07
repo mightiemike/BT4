@@ -1,0 +1,1 @@
+[File: 'storage-proto/src/convert.rs' -> Scope: lifecycle/state-consistency] [Function: impl TryFrom<generated::ConfirmedTransaction> for TransactionWithStatusMeta, `meta.is_none()` fallback to legacy transaction] Can an attacker submit a versioned transaction that mutates their own account data such that when `meta` is `None`, the `expect(\

@@ -1,0 +1,1 @@
+[File: 'bucket_map/src/index_entry.rs' -> Scope: Critical bank-hash divergence] [Function: MultipleSlots::set_storage_offset / PackedStorage::set_offset_checked] Can an unprivileged attacker, by creating enough accounts/slot-list entries in a single bucket to force the data bucket storage_offset to approach 2^56, trigger the `expect(\

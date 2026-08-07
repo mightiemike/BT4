@@ -1,0 +1,1 @@
+[File: 'runtime/src/epoch_stakes.rs -> Scope: High.'] [Function: AccountsDb::handle_reclaims -> store.remove_accounts / mark_accounts_obsolete] Can an attacker who causes many accounts within one slot to be reclaimed simultaneously (via mass zero-lamport writes) trigger the `assert_eq!(slot, store.slot(), \

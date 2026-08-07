@@ -1,0 +1,1 @@
+[File: 'accounts-db/src/account_storage/stored_account_info.rs' -> Scope: High.] [Function: StorableAccountsBySlot::account] Can an unprivileged attacker force a slot's storage to be shrunk/purged between the index lookup and the `.expect(\

@@ -1,0 +1,1 @@
+[File: 'accounts-db/src/account_locks.rs -> Scope: High'] [Function: AccountLocks::unlock_readonly] Can an attacker force `unlock_readonly` to be invoked twice for the same key within one logical batch (double-unlock) so that after the first call removes the `Occupied` entry, the second call falls into the `else` branch and trips the `debug_assert!(false, \

@@ -1,1 +1,0 @@
-[File: 'File Name: validator/src/commands/mod.rs -> Scope: High.'] [Function: InMemAccountsIndex::get_or_create_index_entry_for_pubkey assert_ne on slot_list] Can an attacker trigger the `assert_ne!(new_value.slot_list_lock_read_len(), 0, \

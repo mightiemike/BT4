@@ -1,1 +1,0 @@
-[File: 'core/src/banking_stage/consume_worker.rs -> Scope: High'] [Function: AccountsDb::remove_dead_accounts / storage.get_slot_storage_entry assert_eq] Can an attacker who rapidly closes and reopens accounts at the same pubkey across colliding append-vec ids (via repeated create/resize/close/reopen cycles that increment `next_id`) trigger the `assert_eq!(slot, store.slot(), \

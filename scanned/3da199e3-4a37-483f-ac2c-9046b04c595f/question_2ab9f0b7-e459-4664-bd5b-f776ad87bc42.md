@@ -1,1 +1,0 @@
-[File: 'runtime/src/serde_snapshot.rs -> fn reconstruct_accountsdb_from_fields (assert!(!storage.is_empty()))'] Can an attacker construct a bank state (via zero-lamport churn causing every storage in a slot range to be purged before a full snapshot is taken) such that a validator's own live-replay snapshot ends up with zero storage entries, tripping `assert!(!storage.is_empty(),

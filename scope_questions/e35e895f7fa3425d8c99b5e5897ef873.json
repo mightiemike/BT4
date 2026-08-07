@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: banks-interface/src/lib.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b55ab8b8-5c0a-4f82-ae5c-5594862a117c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: banks-server/src/banks_server.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_68eac157-8654-4fec-8d1e-b5d24b16fe9b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: banks-server/src/lib.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_16a0128f-1de7-4390-9179-0012b584accf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: pubsub-client/src/lib.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eb236c90-9599-4be3-a52c-2f851f340c1b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: pubsub-client/src/nonblocking/mod.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_70069e3f-5a85-4d22-a920-cd025cd571fa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: pubsub-client/src/nonblocking/pubsub_client.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_383abc59-1186-4e74-acfa-8e9a2534ef68?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: pubsub-client/src/pubsub_client.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fb4eba79-a054-4844-b040-2b88dc5c7096?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/cluster_tpu_info.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dae360bd-20b7-46b0-96d5-a07131816e58?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/filter.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f08cb88f-6646-40d0-b289-8d512f1f2aa3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/lib.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d64ecb60-3563-4fdc-96f0-e61025067902?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/max_slots.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_44b097ce-3419-410d-aa72-f47ffc1fe777?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/optimistically_confirmed_bank_tracker.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1d0166e1-e474-4c8e-8a6a-eb1d4697ff92?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/parsed_token_accounts.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_332570f5-8e9d-4f27-b8e2-888875ddb2b2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/rpc/account_resolver.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_97e0870f-53f5-41f3-8d29-cb7178c8f0ca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/rpc.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_58daeee7-2f0e-4579-a502-b60b01f401b2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/rpc_cache.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a9f81196-409c-468c-81c0-cbfe9b3950c4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/rpc_completed_slots_service.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5f6e7445-6f43-4c86-9154-6559b3359aee?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/rpc_health.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9c0711b0-13c7-46f6-a1b9-20b29ba2ad0f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/rpc_pubsub.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_66e679e9-22f3-4d57-874d-a1d8cd605eaa?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/rpc_pubsub_service.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_24ffa4ee-258c-48f1-ae5f-011f4aa4a535?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/rpc_service.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d79bd7ca-6e2e-455a-9d4a-c747b887f730?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/rpc_subscription_tracker.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_99cdffc8-926d-4e82-a2bc-281e7b5c700d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/rpc_subscriptions.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0d257014-7670-432c-860f-05b76e6e385c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/slot_status_notifier.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a1885fa9-b37c-43e3-9345-f68f6d1b0182?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/transaction_notifier_interface.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_673a0002-2526-4414-92f8-4b58a1568d7b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc/src/transaction_status_service.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6b769875-c1a4-406f-991a-7bd03b44e0e2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc-client/src/http_sender.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ad20c254-4110-4d09-b0ed-2cf8a4cea137?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc-client/src/lib.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0f823cb4-8f96-4ad5-b5f2-b62247e9965b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc-client/src/nonblocking/mod.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e6c77394-f900-4efb-9f16-557117782e09?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: rpc-client/src/nonblocking/rpc_client.rs -> Scope: Critical. An unprivileged attacker can cause account state to be silently lost, duplicated, or resurrected across cache flush, shrink, ancient-append-vec packing, clean, or purge, changing user balances without a transaction.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d5f5bb38-3db7-44bc-b3a3-03f8390897cf?mode=deep",
+    "questions_generated": false
+  }
+]

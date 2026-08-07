@@ -1,0 +1,1 @@
+[File: 'gossip/src/node.rs' -> Scope: AccountsDB/bucket map/snapshot panic->halt] [Function: AccountsDb::generate_index / visit_duplicate_pubkeys_during_startup] Can an attacker who writes the same pubkey across many slots (to maximize duplicate index entries) followed by a snapshot+restart force `total_accum.capitalization.checked_sub(capitalization_from_duplicates).expect(\

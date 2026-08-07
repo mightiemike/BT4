@@ -1,0 +1,1 @@
+[File: 'core/src/gen_keys.rs -> Scope: High'] [Function: AccountsDb::remove_dead_accounts] Can an attacker who closes (zero-lamports) all accounts in a slot, then reopens a subset in the same slot before clean runs, trigger the assert_eq!(slot, store.slot(), \

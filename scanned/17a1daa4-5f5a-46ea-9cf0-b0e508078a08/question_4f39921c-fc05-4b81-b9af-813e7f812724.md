@@ -1,0 +1,1 @@
+[File: 'File Name: genesis/src/unlocks.rs -> Scope: Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.'] [Function: AccountsDb::generate_index capitalization overflow path (`expect(\

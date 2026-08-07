@@ -1,0 +1,1 @@
+[File: 'File Name: core/src/repair/malicious_repair_handler.rs -> Scope: High.'] [Function: reconstruct_accountsdb_from_fields] Can an unprivileged attacker's account lifecycle (repeated create/close cycles) produce a bank state whose snapshot contains zero storages for a slot, tripping `assert!(!storage.is_empty(), \

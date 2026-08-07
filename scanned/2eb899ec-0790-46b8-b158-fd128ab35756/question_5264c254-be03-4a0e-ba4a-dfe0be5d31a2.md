@@ -1,0 +1,1 @@
+[File: 'File Name: ledger/src/bank_forks_utils.rs -> Scope: High'] [Function: try_load_bank_forks_from_snapshot / reconstruct_accountsdb_from_fields] Can an unprivileged attacker who creates and closes many accounts across multiple slots before a full snapshot is taken cause `assert!(!storage.is_empty(), \

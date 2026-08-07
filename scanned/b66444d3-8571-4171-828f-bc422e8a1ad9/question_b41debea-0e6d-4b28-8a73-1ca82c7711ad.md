@@ -1,0 +1,1 @@
+[File: 'File Name: unified-scheduler-logic/src/lib.rs -> Scope: High.'] [Function: accounts_db::AccountsDb::hash_account_helper / lt_hash_account -> capitalization checked_add] Can an unprivileged attacker create many accounts whose lamports sum, when combined at genesis or via repeated small transfers, causes `capitalization.checked_add(account.lamports()).expect(\

@@ -1,0 +1,1 @@
+[File: ledger/src/bit_vec.rs -> Scope: High] [Function: BitVec::<NUM_BITS>::SchemaRead::read vs BitVecRef::<NUM_BITS>::SchemaRead::read] Do the owned BitVec::read (which silently vec.resize()s truncating or zero-padding mismatched lengths) and the borrowed BitVecRef::read (which returns ReadError::Custom(\

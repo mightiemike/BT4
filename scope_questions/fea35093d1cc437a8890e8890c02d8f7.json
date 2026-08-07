@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: transaction-status/src/parse_token/extension/scaled_ui_amount.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0f046dfb-660d-4246-9af1-39372b6e7deb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: transaction-status/src/parse_token/extension/token_group.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_73c07ddc-cd4b-4926-967d-c5aeb636c2f0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: transaction-status/src/parse_token/extension/token_metadata.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dd2e23d3-01b0-466c-ad86-710d0579e2a5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: transaction-status/src/parse_token/extension/transfer_fee.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cd8350ba-a2ad-4f1e-bfbf-6e38234ec478?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: transaction-status/src/parse_token/extension/transfer_hook.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_42a7da8f-43d5-4b3a-b1ca-64ade554a0a5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: transaction-status/src/parse_token.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3c492da4-b6ce-47b6-a57f-028fc2393edc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: transaction-status/src/parse_vote.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0291f47f-a5f4-42a7-9bb4-6f5e4e9b7180?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: transaction-status/src/token_balances.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a7e4e94f-6862-4aee-b3ad-48fc304c39db?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: transaction-status-client-types/src/lib.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_944f2490-f92e-48aa-b6a8-237649e4de3a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: transaction-status-client-types/src/option_serializer.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d9d22c96-037a-4187-8a9a-3b241f66ee62?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: banking-stage-ingress-types/src/lib.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7c7b0a94-70a2-407f-9c2e-b8e9d70a1501?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: connection-cache/src/client_connection.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_32009523-51df-4e4a-a357-6d0baf6d1934?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: connection-cache/src/connection_cache.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e54a9358-9964-422d-89fe-c691468c1696?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: connection-cache/src/connection_cache_stats.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_311a9135-5181-45d8-aa7c-bf34406bec7e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: connection-cache/src/lib.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9661002b-af67-4d3b-bd19-b0ed0bc69b1b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: connection-cache/src/nonblocking/client_connection.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_107fdbfd-6e28-4d95-89cf-7c18e7bfd7f4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: connection-cache/src/nonblocking/mod.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a2b3f5d4-fbfc-4d3e-b7b6-0919c846d010?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: entry/src/block_component.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f5be2536-0c93-4bab-9396-23c36620fe4c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: entry/src/entry.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_88c39449-fed1-4b74-a30b-d6045efba23c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: entry/src/entry_or_marker.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f1ace2f3-70c8-477b-9553-52f24c5a41a6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: entry/src/lib.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6ea3c06d-6777-40db-834c-16a30c782e96?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: entry/src/poh.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2018f133-631b-4dac-93e9-f22562ee0123?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: net-utils/src/banlist.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2bab06b5-afaf-4538-9640-9c88dfd285c8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: net-utils/src/ip_echo_client.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_90f8adfd-0caf-4023-a3e8-afe8cd2d2503?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: net-utils/src/ip_echo_server.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0095c4c2-aba8-48d1-8fa6-5071e07e720b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: net-utils/src/lib.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1ed387ff-a485-4d6f-a64a-aa85c3a64a52?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: net-utils/src/multihomed_sockets.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3724809d-0c25-4d24-a529-c587178cd09f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: net-utils/src/pinned_xdp_sender.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ca55f3e2-41b6-4166-b70c-5d088b335d5e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: net-utils/src/socket_addr_space.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_007c7da6-7643-45f2-b56f-0ec11b63b9ef?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: net-utils/src/sockets.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e387957a-d18c-46aa-a546-7feca3ec9a52?mode=deep",
+    "questions_generated": false
+  }
+]

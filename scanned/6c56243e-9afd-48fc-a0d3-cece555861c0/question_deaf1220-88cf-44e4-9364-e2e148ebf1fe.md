@@ -1,1 +1,0 @@
-[File: 'program-runtime/src/loaded_programs.rs' -> Scope: High.'] [Function: InMemAccountsIndex::get_or_create_index_entry_for_pubkey] Can an attacker who churns many unique pubkeys rapidly (to force `should_evict_based_on_count`) trigger the `debug_assert!(self.load_from_disk(&key).is_some(),

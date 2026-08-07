@@ -1,0 +1,18 @@
+# Q1369: increment_newly_buffered_packets_count result depends on batch ordering (leader_slot_metrics.rs)
+
+## Question
+Can an unprivileged attacker entering through a transaction that lands in a block and is replayed by every node on the cluster reach `increment_newly_buffered_packets_count` in `core/src/banking_stage/leader_slot_metrics.rs` with an instruction sequence that re-enters the same code path within one transaction, and make the committed result depend on the scheduler's internal ordering rather than the block order, so that the invariant "Committed state is a function of the block's transaction order, not the scheduler's internal order." breaks and the result is Consensus/Safety Violation?
+
+## Target
+- File/function: `core/src/banking_stage/leader_slot_metrics.rs` -> `increment_newly_buffered_packets_count()` (around line 674)
+- Entrypoint: a transaction that lands in a block and is replayed by every node on the cluster
+- Attacker controls: an instruction sequence that re-enters the same code path within one transaction
+- Exploit idea: Submit conflicting transactions in one batch so `increment_newly_buffered_packets_count` produces a different commit depending on scheduling order that is not fixed by the block.
+- Invariant to test: Committed state is a function of the block's transaction order, not the scheduler's internal order.
+- Expected Immunefi impact: Consensus/Safety Violation - honest nodes commit different state, bank-hash mismatch or fork (3,125-12,500 SOL)
+- Fast validation: Execute the same batch under several scheduler orderings and assert one identical resulting bank hash.
+
+## Bounty scope note
+In-scope target per anza-xyz/agave SECURITY.md. Assumes no validator, leader,
+staked-node, peer, gossip, operator, or leaked-key capability. Folder scope:
+Critical. An unprivileged attacker can create account data that makes accounts-hash, lattice-hash, or capitalization accounting diverge between honest nodes, producing a bank-hash mismatch and a fork or stalled cluster.

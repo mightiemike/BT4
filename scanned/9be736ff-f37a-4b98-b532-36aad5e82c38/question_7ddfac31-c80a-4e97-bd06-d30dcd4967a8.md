@@ -1,1 +1,0 @@
-[File: 'core/src/cluster_slots_service/cluster_slots.rs' -> Scope: panic/assertion halting validators] [Function: ClusterSlots::roll_cluster_slots] Can repeated root advancement by exactly 1 slot at a time, driven by an attacker's low-value but high-frequency transactions that force frequent bank-freeze/root cycles, cause the `assert!(slot_range.start > current_slot, \

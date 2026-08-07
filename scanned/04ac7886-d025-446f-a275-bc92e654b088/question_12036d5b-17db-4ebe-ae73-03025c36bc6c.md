@@ -1,1 +1,0 @@
-[File: 'programs/system/src/system_instruction.rs' -> Scope: High] [Function: AccountsDb::write_through_pubkeys / accounts_cache::remove_slot] Can an attacker who churns many ephemeral accounts (create in slot N, close before slot N is rooted, i.e., only ever touching the write cache) cause `self.accounts_cache.remove_slot(slot).expect(\

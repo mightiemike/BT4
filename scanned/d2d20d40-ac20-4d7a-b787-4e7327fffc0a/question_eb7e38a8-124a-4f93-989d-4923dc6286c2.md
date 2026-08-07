@@ -1,0 +1,1 @@
+[File: 'accounts-db/src/accounts_db.rs -> fn generate_index / do_generate_index_for_slot'] Can an attacker submit an account whose lamports, summed across all attacker-controlled accounts in one slot, cause `capitalization.checked_add(account.lamports()).expect(\

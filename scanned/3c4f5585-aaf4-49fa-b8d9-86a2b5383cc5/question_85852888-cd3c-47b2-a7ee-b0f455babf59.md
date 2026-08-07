@@ -1,0 +1,1 @@
+[File: 'File Name: runtime/src/bank/metrics.rs -> Scope: High.'] [Function: AccountsDb::generate_index -> capitalization overflow] Can an unprivileged attacker who creates many accounts whose lamports sum near u64::MAX (e.g., many accounts each holding close to u64::MAX/n) cause the `capitalization.checked_add(account.lamports()).expect(\

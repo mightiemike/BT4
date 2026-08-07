@@ -1,0 +1,1 @@
+[File: 'accounts-db/src/accounts_db.rs -> fn generate_index (total_accum.capitalization u64::try_from)'] Can an attacker whose accounts sum to > u64::MAX in u128 accumulator terms (via duplicate-key handling before dedup) trigger the `panic!(\

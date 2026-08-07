@@ -1,0 +1,1 @@
+[File: 'accounts-db/src/accounts_index.rs -> fn insert_new_if_missing_into_primary_index'] Can an attacker submit two writes to the same pubkey within a single slot (violating the 'once per slot' precondition assumed by the runtime) that survive into AccountsDb's startup insertion path and trigger `assert_ne!(next_pubkey, last_pubkey, \

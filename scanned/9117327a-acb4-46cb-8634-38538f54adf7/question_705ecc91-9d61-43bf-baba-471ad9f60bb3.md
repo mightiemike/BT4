@@ -1,0 +1,1 @@
+[File: 'runtime/src/account_saver.rs -> Scope: Critical'] [Function: collect_accounts_to_store] Can an attacker use `Option<Vec<impl Borrow<SanitizedTransaction>>>` (`txs_refs`) code path in combination with a specific processing-result mix to trigger the `.expect(\

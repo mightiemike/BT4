@@ -1,1 +1,0 @@
-Now let's look at `Program.freeze` and `Program.unfreeze` to check accounting logic and whether double-unfreeze is possible.

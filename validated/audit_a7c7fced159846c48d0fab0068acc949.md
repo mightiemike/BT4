@@ -1,1 +1,0 @@
-functions.grep_search:7{"pattern": "getTotalEnergyLimit|getTotalEnergyCurrentLimit|getBlockEnergyUsage|saveBlockEnergyUsage|adaptiveEnergyLimit", "repo_name": "Oyahkilomeikhide/java-tron--018"}

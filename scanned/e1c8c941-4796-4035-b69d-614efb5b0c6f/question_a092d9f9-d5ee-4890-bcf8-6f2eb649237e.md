@@ -1,1 +1,0 @@
-[File: 'ledger/src/blockstore/cleanup_service.rs'] [Function: BlockstoreCleanupService::maybe_generate_automatic_cleanup_request] Can an unprivileged attacker who causes `blockstore.live_files_metadata()` to return zero live SST files matching known column names (e.g., by triggering compaction that merges/renames files) make `.expect(\

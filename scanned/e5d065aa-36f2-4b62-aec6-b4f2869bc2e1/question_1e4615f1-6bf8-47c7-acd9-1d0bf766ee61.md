@@ -1,0 +1,1 @@
+[File: 'accounts-db/src/accounts_index/in_mem_accounts_index.rs -> Scope: High. Startup duplicate-key assertion.'] [Function: insert_new_if_missing_into_primary_index] Can an attacker's account layout at startup/snapshot-rebuild time cause the same pubkey to appear twice within a single slot's batch-insert bin, tripping assert_ne!(next_pubkey, last_pubkey, \

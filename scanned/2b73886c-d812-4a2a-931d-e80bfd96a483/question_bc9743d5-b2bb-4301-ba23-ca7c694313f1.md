@@ -1,0 +1,1 @@
+[File: 'svm-timings/src/lib.rs -> Scope: High'] [Function: AccountsDb::calculate_capitalization_at_startup_from_index / IndexGenerationAccumulator::accumulate] Can an unprivileged attacker who repeatedly creates accounts summing lamports near u64::MAX within a single slot, or across duplicate-pubkey slots processed during index generation, trigger the `expect(\

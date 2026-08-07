@@ -1,1 +1,0 @@
-[File: accounts-db/src/account_info.rs -> Scope: Critical] [Function: AccountInfo::new 'illegal offset' assert] Can an unprivileged attacker who controls data_len (up to MAX_PERMITTED_DATA_LENGTH) and write frequency drive AppendVec::calculate_stored_size(data_len) accumulation to an offset that is not a multiple of ALIGN_BOUNDARY_OFFSET, triggering the `assert_eq!(..., \

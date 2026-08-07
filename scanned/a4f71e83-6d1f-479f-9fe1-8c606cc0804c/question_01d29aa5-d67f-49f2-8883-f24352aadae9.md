@@ -1,0 +1,1 @@
+[File: same scope] [Function: ancient_append_vecs::AccountsDb::write_ancient_accounts -> get_store_for_shrink] Can an unprivileged attacker who forces an ancient-eligible slot's storage to be shrinking-in-progress at the exact moment combine_ancient_slots_packed_internal calls self.storage.get_slot_storage_entry_shrinking_in_progress_ok(target_slot).expect(\

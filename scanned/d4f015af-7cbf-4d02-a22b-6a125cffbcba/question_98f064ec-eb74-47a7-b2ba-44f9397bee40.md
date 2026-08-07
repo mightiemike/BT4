@@ -1,0 +1,1 @@
+[File: 'send-transaction-service/src/send_transaction_service_stats.rs -> Scope: High.'] [Function: verify_snapshot_bank / bank.verify_snapshot_bank panic path] Can an attacker whose account writes are entirely fee-paid but adversarially patterned (e.g., maximal duplicate-slot fan-out) cause `panic!(\

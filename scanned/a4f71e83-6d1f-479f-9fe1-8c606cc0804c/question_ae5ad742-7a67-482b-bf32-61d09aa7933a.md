@@ -1,0 +1,1 @@
+[File: same scope] [Function: in_mem_accounts_index::InMemAccountsIndex::get_or_create_index_entry_for_pubkey] Can an unprivileged attacker who closes an account (zero-lamport) then immediately reopens it before cache eviction completes, under preconditions that should_write_through eviction races with insertion, trigger the assert_ne!(new_value.slot_list_lock_read_len(), 0, \

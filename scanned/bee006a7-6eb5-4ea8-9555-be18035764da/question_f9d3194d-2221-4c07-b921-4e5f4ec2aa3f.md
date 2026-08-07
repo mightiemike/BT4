@@ -1,0 +1,1 @@
+[File: 'svm-timings/src/lib.rs -> Scope: High'] [Function: AccountsDb::mark_dirty_dead_stores / remove_old_stores_shrink assert] Can an attacker who forces two independent 'remaining_accounts == 0' computations to race (via interleaved store closes and shrink starts on the same slot) trigger the `assert_eq!(slot, store.slot(), \

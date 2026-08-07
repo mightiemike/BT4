@@ -1,0 +1,1 @@
+[File: 'send-transaction-service/src/transaction_client.rs -> Scope: High'] [Function: AccountsDb::generate_index / IndexGenerationAccumulator::accumulate] Can an unprivileged attacker who funds many accounts across many slots, each contributing lamports summed via `self.capitalization.checked_add(other.capitalization).expect(\

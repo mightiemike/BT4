@@ -1,0 +1,1 @@
+[File: 'File Name: core/src/lib.rs -> Scope: High.'] [Function: AccountsDb::visit_duplicate_pubkeys_during_startup / generate_index] Can an attacker who repeatedly overwrites the same pubkey across many rooted slots before a snapshot is taken cause `capitalization_from_duplicates.checked_add(u128::from(lamports)).expect(

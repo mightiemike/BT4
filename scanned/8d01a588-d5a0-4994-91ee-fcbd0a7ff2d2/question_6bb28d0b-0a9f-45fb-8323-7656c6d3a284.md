@@ -1,0 +1,1 @@
+[File: 'File Name: ledger/src/ancestor_iterator.rs -> Scope: High. An unprivileged attacker can trigger a panic, unwrap, assertion, index corruption, or unrecoverable I/O error inside AccountsDB, the bucket map, or snapshot handling and halt validators.'] [Function: InMemAccountsIndex::write_startup_info -> assert!(map_internal.is_empty(), \

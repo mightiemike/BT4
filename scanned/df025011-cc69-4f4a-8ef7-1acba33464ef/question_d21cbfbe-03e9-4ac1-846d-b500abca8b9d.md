@@ -1,0 +1,1 @@
+[File: 'File Name: ledger/src/bank_forks_utils.rs -> Scope: High'] [Function: AccountsDb::generate_index via reconstruct_accountsdb_from_fields] Can an unprivileged attacker who writes the same pubkey in two different slots within the window covered by a single incremental snapshot cause `assert_ne!(next_pubkey, last_pubkey, \

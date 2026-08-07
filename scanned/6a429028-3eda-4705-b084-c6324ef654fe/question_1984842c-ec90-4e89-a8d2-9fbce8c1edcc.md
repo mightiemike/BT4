@@ -1,0 +1,1 @@
+[File: 'File Name: core/src/lib.rs -> Scope: High.'] [Function: AppendVec::append_accounts / get_stored_account_meta_callback] Can an attacker who creates an account with `data_len` at or near `MAX_PERMITTED_DATA_LENGTH` combined with adversarial write timing trigger the `assert!(data_len <= MAX_PERMITTED_DATA_LENGTH,

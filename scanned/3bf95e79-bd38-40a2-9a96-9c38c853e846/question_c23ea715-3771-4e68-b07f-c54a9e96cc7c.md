@@ -1,1 +1,0 @@
-[File: 'bucket_map/src/index_entry.rs' -> Scope: High] [Function: IndexEntryPlaceInBucket::occupy_if_matches] Can an attacker, by re-submitting a pubkey with identical data twice during the batch-insert-reusing-file startup/reload path (`Bucket::batch_insert_non_duplicates_reusing_file`), reach the `assert_eq!(enum_tag, OccupiedEnumTag::Free, \

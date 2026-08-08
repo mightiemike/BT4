@@ -1,1 +1,0 @@
-[File: 'rpc-client/src/nonblocking/mod.rs -> Scope: High.'] [Function: reconstruct_accountsdb_from_fields] Can an attacker's account layout (many small accounts vs few large ones, controlling `next_append_vec_id`-consuming rewrites) cause `assert!(max_append_vec_id <= AccountsFileId::MAX / 2, \

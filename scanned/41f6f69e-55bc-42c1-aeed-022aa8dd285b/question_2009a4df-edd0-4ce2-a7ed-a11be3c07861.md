@@ -1,1 +1,0 @@
-[File: 'validator/src/commands/plugin/mod.rs -> Scope: High'] [Function: InMemAccountsIndex::get_or_create_index_entry_for_pubkey] Can an attacker-driven callback path (e.g., a scan or update triggered purely by attacker account writes) fail to insert a slot-list item for a newly vacant entry, triggering `assert_ne!(new_value.slot_list_lock_read_len(), 0, \

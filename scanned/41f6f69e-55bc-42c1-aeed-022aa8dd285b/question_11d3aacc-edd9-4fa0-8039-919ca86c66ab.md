@@ -1,1 +1,0 @@
-[File: 'validator/src/commands/plugin/mod.rs -> Scope: High'] [Function: Bucket::batch_insert_non_duplicates] Can an attacker who forces the on-disk index to undergo a delete (via account close) before more writes are batched next startup cause `assert!(!self.at_least_one_entry_deleted, \

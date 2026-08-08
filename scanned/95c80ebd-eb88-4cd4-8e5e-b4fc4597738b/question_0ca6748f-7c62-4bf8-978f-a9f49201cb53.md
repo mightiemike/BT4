@@ -1,1 +1,0 @@
-[File: 'File Name: core/src/repair/malicious_repair_handler.rs -> Scope: High.'] [Function: AccountsDb::collect_reclaims / update_candidate_after_reclaims] Can an unprivileged attacker who writes many rooted versions of one pubkey across forks cause `collect_reclaims`'s `assert!(!removed_from_index)` or the `ref_count.checked_sub(...).expect(\

@@ -1,1 +1,0 @@
-[File: 'File Name: core/src/banking_stage/consumer.rs -> Scope: High. ...'] [Function: AccountsIndex::insert_new_if_missing_into_primary_index] Can an attacker submit two transactions in the same slot that (through a race condition exercised via banking-stage batch construction) attempt to write the same pubkey twice, tripping the assert_ne!(next_pubkey, last_pubkey, \

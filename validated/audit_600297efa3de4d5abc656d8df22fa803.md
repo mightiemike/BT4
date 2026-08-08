@@ -1,0 +1,5 @@
+### Title
+Ancient-storage pack feasibility check (`many_ref_accounts_can_be_moved`) underestimates bin count vs. actual `PackedAncientStorage::pack` bin-packing, allowing ref-count>1 accounts to be rewritten to a slot below their original slot - (File: accounts-db/src/ancient_append_vecs.rs)
+
+### Summary
+`AccountsDb::many_ref_accounts_can_be_moved` decides which target slots are "safe" for multi-ref accounts by computing an idealized bin count `required_ideal_packed = ceil(total_many_ref_bytes / ideal_storage_size)`, but the actual bin-packing performed later by `PackedAncientStorage::pack` can require strictly more bins because it packs each `AliveAccounts` group (one per source slot) without splitting mid-group unless necessary, wasting up to almost one account's worth of space per bin boundary. When this fragmentation pushes many-ref data into a bin beyond the "guaranteed-safe" `required_ideal_packed` bins, `write_packed_storages` (via `target_slots_sorted.iter().rev().zip(packed_contents)`) can map that spillover bin to a

@@ -1,1 +1,0 @@
-[File: 'File Name: ledger/src/bank_forks_utils.rs -> Scope: High'] [Function: try_load_bank_forks_from_snapshot -> bank.verify_snapshot_bank] Can an unprivileged attacker craft account lamport/data patterns such that `Bank::verify_snapshot_bank` (runtime/src/bank.rs) returns false, causing the `panic!(\

@@ -1,1 +1,0 @@
-[File: 'bucket_map/src/index_entry.rs -> Scope: High'] [Function: PackedStorage::offset (B56) / MultipleSlots::set_storage_offset] Can an attacker force `best_bucket` capacity growth in `try_write` past 2^56 elements (or otherwise exercise the 56-bit offset boundary) purely through account write volume, hitting the `.expect(\

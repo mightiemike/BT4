@@ -1,1 +1,0 @@
-[File: 'accounts-db/src/accounts_index.rs -> AccountsIndex::insert_new_if_missing_into_primary_index'] Can an unprivileged attacker whose account writes get replayed/deduplicated incorrectly during index generation cause two entries for the same pubkey in the same slot, tripping 'assert_ne!(next_pubkey, last_pubkey, \

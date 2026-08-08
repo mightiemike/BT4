@@ -1,1 +1,0 @@
-[File: 'validator/src/main.rs -> Scope: High'] [Function: AccountsDb::write_ancient_accounts / get_store_for_shrink (accounts-db/src/ancient_append_vecs.rs:543-579)] Can an attacker interleave account resizing so that an ancient target slot's storage is expected (`.expect(\

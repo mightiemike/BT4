@@ -1,1 +1,0 @@
-[File: 'core/bridges/bridge_type.go'] [Function: incomingTokenHash / fmt.Sprintf delimiter injection] Can an unprivileged attacker who can influence the incoming token string (e.g. via a webhook client presenting a crafted Authorization/token header value containing a literal '-') cause incomingTokenHash's input = fmt.Sprintf(\

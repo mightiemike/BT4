@@ -1,1 +1,0 @@
-[File: core/sessions/localauth/orm.go -> Scope: High] [Function: CreateSession, sessions.BeginWebAuthnLogin] Can an unprivileged attacker who knows a victim's email but not password exploit the MFA challenge branch (`sr.WebAuthnData == \

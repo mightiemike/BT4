@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: core/sessions/ldapauth/sync.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2e0d1c5c-a96f-427c-bf1f-d77a93baa57c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/bridges/bridge_type.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_63b2d5e5-ec7b-465b-8147-20b14ffb78f3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/bridges/external_initiator.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cff1a375-f5c4-4234-8501-ddcf93ee589f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/bridges/orm.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_af1ca5a2-3a98-475f-b8f4-c6e507d53952?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/functions/external_adapter_client.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_81f3e79f-13d3-4f30-abae-08cf2018f139?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/functions/request.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4c94970d-9987-4d65-8843-ac8117e7d8ad?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/functions/listener.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_39197960-04c6-45c3-90dc-e1ddbb305bdd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/functions/connector_handler.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eb4ca40b-c533-4f2c-82fb-54e0a66b4601?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/job/orm.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_80025d1e-0950-4122-99ef-fe1daa034b30?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/job/spawner.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_643708e5-d7c0-4ef8-b07f-de88c0664db9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/job/validate.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_091964fd-7bba-46b6-969d-4f86c078a2c2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/job/workflow_spec_factory.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_85884b57-5a27-40a2-85ca-c2da200eeb9a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/job/yaml_spec_factory.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6527ba41-1ea5-4d14-9e99-58c9f0902a1a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/job/wasm_file_spec_factory.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_28cbdf6c-afe3-4de3-8667-fdae34e0ffe3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: plugins/cmd.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dcea5337-5745-4df8-b0bd-916db95ca7b6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: plugins/env.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_95a66bea-4bb0-4a57-bc7a-4a199c6108ad?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: plugins/loop_registry.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ed2f5c4e-c22e-4898-a190-f13242547f36?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: plugins/registrar.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_94a8ea51-ff06-4441-9e87-fe97a2c55f42?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handler_factory.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bdb8a0a7-5f1b-4494-a197-25cb4b7eee95?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/common/requestcache.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_205b0d86-8f5d-4cf3-9efa-c3bbba962856?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/handler.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e6910035-8c6d-4560-b7bf-16b614c6cd1b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/http_handler.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5e1d4654-4caa-4fbf-a484-5eea5152f6f8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/http_trigger_handler.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9a0744eb-3dcb-4e35-acf0-2a61ac7b7324?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/response_cache.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_67f60992-af37-4744-aba5-719d70700c57?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/confidentialrelay/handler.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a5e1e6e5-b74d-4dee-bb38-856dd316be49?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/functions/handler.functions.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9db4355f-216f-4609-95b2-531dbce1fed8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/functions/api.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9dc00adf-6cd7-4bb7-a3d3-f9f38f3526d3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/vault/handler.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b0ad5d04-ac09-4482-833d-b05bbb6b7722?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/network/httpserver.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ab5b133a-68f2-4c07-9638-945077a0c8cc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/network/wsserver.go -> Scope: Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bdd7ce14-e147-405c-a1d3-6a5505ecdb85?mode=deep",
+    "questions_generated": false
+  }
+]

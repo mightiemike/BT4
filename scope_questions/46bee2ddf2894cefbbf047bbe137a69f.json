@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: core/sessions/ldapauth/sync.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d6303ade-b6e1-466f-909f-5dc03a004ea1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/bridges/bridge_type.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5c2af805-ea61-4e04-a36f-ec1c77ab0275?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/bridges/external_initiator.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3d11c0f0-6d5a-448a-b1b1-b8090f92a025?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/bridges/orm.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_92a79d55-0b67-4770-8bf0-8da4a6af0987?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/functions/external_adapter_client.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8ae8716a-ad95-45c7-b589-6aafc9861896?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/functions/request.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_54e31e4f-d050-4a79-bcf5-263108b87ec8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/functions/listener.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_679ce882-a013-4d39-86a2-3ebab1e5c21a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/functions/connector_handler.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_13ae5668-9f21-4147-b989-6b6482b69807?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/job/orm.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8a7fb15e-4339-48ca-98f4-db501abd1351?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/job/spawner.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b57e2ce0-f0cf-429b-919b-454611c821c9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/job/validate.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5fc292e2-9740-4f26-8609-03f10158cffc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/job/workflow_spec_factory.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f4e96819-d105-4655-9fdb-ee1c11f82823?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/job/yaml_spec_factory.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bae27382-2ba4-4f7c-a4a2-01e135a0f85c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/job/wasm_file_spec_factory.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8409077e-7b61-44e0-aeae-9b79817a6e88?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: plugins/cmd.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e0d16233-e809-4af9-9a75-d12a547560a5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: plugins/env.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8b03a8ed-13b1-468f-8277-580e478f1302?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: plugins/loop_registry.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c676b58d-6699-40d0-bd75-bfd5cc43609c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: plugins/registrar.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_418f1ca5-29e7-4bdb-9b39-de4c4ded43d7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handler_factory.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_09d88e7a-fb67-471d-ba2f-8673f9e84c3e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/common/requestcache.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fdcc0dc8-ed58-4213-91c4-19334fda2bfc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/handler.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5ca62027-6d19-425e-b316-b0c94422c5f5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/http_handler.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5fbf60d5-511a-4e80-8fd4-e4687916d4a0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/http_trigger_handler.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cc42d1fc-a920-4a25-aa76-b4e5afeea7ca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/response_cache.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_10da76be-38c0-4344-9f72-1d3ecf966894?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/confidentialrelay/handler.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4306ea75-122a-4386-ba23-9f4165f172ec?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/functions/handler.functions.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0fa1352e-56ec-4e32-ad3b-a808912dc229?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/functions/api.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3c98fc5e-f211-4909-9677-d0a2e2a0d06d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/vault/handler.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_755fa444-6be0-4786-aaa3-8657a619b192?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/network/httpserver.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6125394c-3a72-426c-8bfa-8a72c325a3b8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/network/wsserver.go -> Scope: Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_902c8ea5-7c2c-477f-be80-6da3d8a91970?mode=deep",
+    "questions_generated": false
+  }
+]

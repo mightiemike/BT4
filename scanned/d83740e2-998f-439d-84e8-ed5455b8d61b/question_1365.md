@@ -1,0 +1,13 @@
+# Q1365: Unauthorized key export through getChain
+
+## Question
+Can an unprivileged attacker use key IDs, addresses, import blobs, and current auth context at `/v2/keys/evm controller path` so `getChain` exports, reveals, or derives protected key material for the wrong caller, leading to unauthorized access to blockchain keys or export artifacts and violating key import/export/delete actions must stay bound to the intended role, chain, and key identifier?
+
+## Target
+- File/function: core/web/eth_keys_controller.go::getChain
+- Entrypoint: /v2/keys/evm controller path
+- Attacker controls: key IDs, addresses, import blobs, and current auth context
+- Exploit idea: Exercise import/export/delete/create against the real controller and keystore boundary to prove whether protected key state leaks or mutates across roles/chains.
+- Invariant to test: key import/export/delete actions must stay bound to the intended role, chain, and key identifier
+- Expected Immunefi impact: unauthorized access to blockchain keys or export artifacts
+- Fast validation: Exercise the controller plus keystore with crafted IDs/import blobs and mixed auth; assert no unauthorized export, delete, or chain rebinding occurs.

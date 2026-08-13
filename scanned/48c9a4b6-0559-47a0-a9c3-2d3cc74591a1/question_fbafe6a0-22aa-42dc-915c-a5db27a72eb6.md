@@ -1,1 +1,0 @@
-[File: 'core/sessions/webauthn.go' -> WebAuthnSessionStore.SaveWebauthnSession/BeginWebAuthnLogin] Can an unauthenticated attacker who only knows a victim's email (no password) repeatedly POST /sessions with that email to force sessions.BeginWebAuthnLogin to overwrite the victim's in-progress login challenge keyed by userLoginIndexKey := user.Email + \

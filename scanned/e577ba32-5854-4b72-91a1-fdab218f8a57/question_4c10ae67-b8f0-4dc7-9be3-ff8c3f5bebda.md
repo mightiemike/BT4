@@ -1,1 +1,0 @@
-[File: 'plugins/loop_registry.go' -> Scope: Critical owner-scoping bypass on delete/list] [Function: validateSecretOwnersMatchAuthorized] Can an attacker send MethodSecretsList with Params.Owner omitted (empty string) so that vaultutils.NormalizeOwner(\

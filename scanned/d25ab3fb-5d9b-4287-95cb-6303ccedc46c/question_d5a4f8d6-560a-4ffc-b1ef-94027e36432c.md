@@ -1,1 +1,0 @@
-[File: 'core/sessions/user.go' Scope: Critical] [Function: core/services/gateway/handlers/vault/aggregator.go baseAggregator.validateUsingSignatures / vaultutils.SignedPayloadRequestID] Can an unprivileged attacker exploit the documented temporary tolerance for vault nodes 'that have not upgraded to include requestId in the signed payload' (`payloadRequestID != \

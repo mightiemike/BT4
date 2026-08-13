@@ -1,1 +1,0 @@
-[File: 'core/sessions/user.go' Scope: Critical] [Function: vault.authorizer.validateSecretOwnersMatchAuthorized default case] Can an unprivileged attacker invoke a vault method not covered by the `switch req.Method` in `validateSecretOwnersMatchAuthorized` (e.g., a newly-added or v2/alias method name for get/list secrets) so it falls into the `default: return fmt.Errorf(\

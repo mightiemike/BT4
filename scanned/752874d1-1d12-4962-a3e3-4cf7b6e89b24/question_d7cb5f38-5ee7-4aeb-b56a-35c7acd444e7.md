@@ -1,1 +1,0 @@
-[File: 'core/services/gateway/handlers/capabilities/v2/http_trigger_handler.go' -> Scope: Critical] [Function: httpTriggerHandler.validateRequestID] Can an unprivileged attacker submit a requestID containing URL-encoded or unicode-normalized variants of '/' (e.g., '%2F', fullwidth slash) that bypass the literal strings.Contains(requestID, \

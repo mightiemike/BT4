@@ -1,1 +1,0 @@
-[File: 'core/capabilities/vault/workflow_owner_derivation.go' -> Scope: High] [Function: DeriveJWTAuthorizedVaultWorkflowOwner] If workflows.GenerateWorkflowOwnerAddress returns a non-nil error for some malformed-but-attacker-reachable orgID/tenantID combinations, does DeriveJWTAuthorizedVaultWorkflowOwner's error wrapping leak internal information (e.g. via fmt.Errorf(\

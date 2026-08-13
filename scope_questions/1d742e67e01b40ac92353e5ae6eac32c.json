@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: core/web/router.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aaffa412-fbe1-4452-b22e-8b77eb52c6b9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/middleware.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_93cc1965-c7de-4bf6-843c-323256efe408?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/auth/auth.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_be278ebc-9d9f-4c4d-ba9c-cfcb7a86a2a3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/auth/gql.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bf8c9a3d-736f-4cdd-a380-2754ae98b9d4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/auth/helpers.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8c455e11-ee7a-4a02-bdcf-c40325667d77?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/api.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ef15f612-83ed-49d0-9a63-c00df37a73df?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/sessions_controller.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7465f23f-27c1-4bdc-8845-2f6c67ddba98?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/webauthn_controller.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f91539fe-27f0-4648-8dd3-dbf2c7e88f72?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/user_controller.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2bf52b36-8208-4faa-8f24-6d17d23fb9ad?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/jobs_controller.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e8ab1038-f8ec-4e06-9704-e5550ff4c0c2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/pipeline_runs_controller.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9d6a9942-5c28-4054-a981-daf2df4abb74?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/pipeline_job_spec_errors_controller.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f3655d6a-9686-46cb-b35d-43b6eb9e9c5d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/bridge_types_controller.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f7db8d0c-74fb-4294-abed-bd68dcfd54fe?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/external_initiators_controller.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c0ae3f41-2994-431e-baaa-e7a69b367922?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/capability_controller.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3a13a7af-1642-49b1-ab92-45f7024566cf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/vault_controller.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1030456b-4575-4e63-ad15-bc5ad83fabe3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/config_controller.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7d35e545-eb8a-43cd-a280-a8e735b7fe25?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/replay_controller.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_30251147-8238-45a3-82c2-3614abdfe13d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/evm_transactions_controller.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a8f1bd4c-5c27-4eb1-a3e3-265e9d9d196e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/evm_transfer_controller.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fc7eb311-3b9b-4fb3-a4a6-be4122062b66?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/chains_controller.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b7420839-e8a1-42a6-a51e-60fa1d107d8b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/web/loop_registry.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d5fe8555-0a08-4920-bbf0-d5cb5e9537b7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/auth/auth.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2d28eb99-89b9-4227-bfa1-7d61c3873380?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/authentication.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6e5d0bd8-46f0-46be-a4d9-de0864c160f8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/session.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2dab4b8b-fc65-4cff-a916-4eb75f71d590?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/user.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cb1b841d-b786-4a30-8a94-2d416c8d1fe5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/webauthn.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_10e5ac59-c214-4298-a052-88022ee8536e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/localauth/orm.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cb75c366-6a61-4217-ba15-c2cf9d8b2330?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/oidcauth/oidc.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fbfe03af-b03a-44b3-9a43-c3666afce7d6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/sessions/ldapauth/client.go -> Scope: High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f7cb3cd7-6e5e-41a2-8cea-ce6e3dfec6c4?mode=deep",
+    "questions_generated": false
+  }
+]

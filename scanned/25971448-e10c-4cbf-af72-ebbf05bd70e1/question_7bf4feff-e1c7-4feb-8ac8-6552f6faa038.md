@@ -1,1 +1,0 @@
-[File: 'core/capabilities/ccip/ocrimpls/contract_transmitter.go' -> Scope: Critical] [Function: (c *ccipTransmitter) Transmit -> uuid.NewRandom / SubmitTransaction dedup key] Can an attacker exploit the transaction ID format 'fmt.Sprintf(\

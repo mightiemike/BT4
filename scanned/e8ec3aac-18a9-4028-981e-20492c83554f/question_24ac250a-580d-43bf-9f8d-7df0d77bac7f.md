@@ -1,1 +1,0 @@
-[File: 'core/capabilities/ccip/ocrimpls/contract_transmitter.go' -> Scope: Critical] [Function: ccipTransmitter.Transmit -> c.cw.SubmitTransaction] Can an attacker cause txID collision or predictable transaction-ID derivation (via `fmt.Sprintf(\

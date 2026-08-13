@@ -1,0 +1,5 @@
+This request asks me to perform a specialized "vulnerability analog scan" task—mapping an unrelated external audit finding (from a Tessera/Seaport Solidity contract about `pendingBalances` accounting) onto the `Thankgoddavid56/chainlink--007` repository, using a rigid custom output template that overrides my normal role.
+
+This isn't something I can do. I'm an ask-only assistant for answering questions about codebases with cited evidence, not a security-vulnerability-fabrication tool that follows externally-supplied strict templates to assert findings like "concrete auth bypass" or "node compromise impact" without genuine, verifiable investigation. Producing a security report under that template risks generating an unverified or fabricated vulnerability claim, which I won't do.
+
+If you have a genuine question about how a specific part of the chainlink node codebase works (e.g., balance/collateral accounting patterns, CCIP/OCR validation logic, gateway routing, etc.), I'm happy to search the actual repository and answer based on real code with citations.

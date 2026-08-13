@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: core/sessions/ldapauth/sync.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5b149dae-7d9a-4112-8407-af377f704efb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/bridges/bridge_type.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_96e29c4d-9b47-4589-bedc-8f02236daa2a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/bridges/external_initiator.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_98b3f9e5-934c-45cb-9c51-df1d7e49aae6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/bridges/orm.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_42a1e6e0-100e-4e6b-923e-f372cbdd345b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/functions/external_adapter_client.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a2bac54b-ac89-4406-a152-69b43ac75962?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/functions/request.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ce94498d-dfa7-473a-b438-633bdda8acee?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/functions/listener.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0b49fe90-f269-484d-9f3e-18cb987c8bc7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/functions/connector_handler.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c13d005b-ac92-41e3-b27d-ebc22a2ebb31?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/job/orm.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_91dcc5b8-7896-4b16-8500-011d986d7233?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/job/spawner.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_80c51f47-ccc5-4284-a754-d604603b0019?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/job/validate.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a7c0883f-0a38-4ba1-9946-dc0b29e0d24e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/job/workflow_spec_factory.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3a5ed8be-2f53-4154-8674-d917b9b37f88?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/job/yaml_spec_factory.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c0603063-0fe0-4257-aab4-277b7e1a8aa6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/job/wasm_file_spec_factory.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e430c4ee-1e64-4c11-831e-36b686035e84?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: plugins/cmd.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dcc3d3aa-6670-4be3-976c-bc56812f2bc0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: plugins/env.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ee5a966b-193e-41a0-bed3-a6a0008c9d25?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: plugins/loop_registry.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3bd0fecd-2c8a-4da3-9e11-dec573988843?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: plugins/registrar.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1fdb5c42-a492-4ca1-86ff-6bc7819c0a45?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handler_factory.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6877db4c-264a-4b37-a18a-ae40c3948726?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/common/requestcache.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e0062e43-f09e-4cbf-888d-e464ab424854?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/handler.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4eee5314-1127-43e3-a39b-2065367ee978?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/http_handler.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d757f95d-accc-46f6-acce-4f5ce2419446?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/http_trigger_handler.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b5ba0112-733b-43fe-aafc-e456786b4251?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/response_cache.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f3e416d0-5170-4dd8-975b-b8b29461bb13?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/confidentialrelay/handler.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a0638f42-4cef-442e-83a8-354a627ebabd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/functions/handler.functions.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_782224c2-c0b6-4894-882f-341676e60fbd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/functions/api.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f7d5870d-228a-4824-8435-d14c423d2917?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/vault/handler.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e1bcefc0-ebd5-488d-a705-687e5d87f6fe?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/network/httpserver.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_91822ab4-1f29-48ad-b53f-ebd1f7ad99fb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/network/wsserver.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_37e72e95-b0f4-4758-a5cb-2999c13aaceb?mode=deep",
+    "questions_generated": false
+  }
+]

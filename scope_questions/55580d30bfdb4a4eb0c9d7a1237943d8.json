@@ -1,0 +1,67 @@
+[
+  {
+    "question": "'File Name: core/capabilities/ccip/ccipevm/commitcodec.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_95634d2e-fbb4-4ec3-abe4-4d7087fc15d8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/capabilities/ccip/ccipevm/executecodec.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dbff9b55-2c59-41e3-b802-0189df45d3e7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/capabilities/ccip/ccipevm/extradatacodec.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3ffaa321-1558-430d-88e3-0536d5187d17?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/capabilities/ccip/ccipevm/pluginconfig.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_de5d8089-bd04-4cad-8970-d2a6e2b67032?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/capabilities/ccip/ccipevm/manualexeclib/exec.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aad024b1-261f-4c74-874b-f5aeba5ae666?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/capabilities/ccip/ccipsolana/commitcodec.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0dc867e5-f819-494d-8174-3e38143681b1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/capabilities/ccip/ccipsolana/executecodec.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c200a4a1-4382-4bf8-945e-194b419b271e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/capabilities/ccip/ccipsolana/extradatacodec.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9fd21e96-6bd9-46c9-8df5-82558109d0df?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/capabilities/ccip/ccipsolana/pluginconfig.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5d57f6dc-1d8a-46d0-b00e-bec52a018190?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/capabilities/ccip/ccipaptos/commitcodec.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5ef16b45-bab4-418a-a1df-b7fc244b6eaf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/capabilities/ccip/ccipaptos/executecodec.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_445d30a3-5c0c-4bb4-ae5a-fc8249562012?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/capabilities/ccip/ccipaptos/pluginconfig.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ce329a52-572a-41ba-a020-62633a210464?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/capabilities/ccip/ccipsui/executecodec.go -> Scope: High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5d3ebcb4-45fd-4db7-a787-81d0cb9f27a9?mode=deep",
+    "questions_generated": false
+  }
+]

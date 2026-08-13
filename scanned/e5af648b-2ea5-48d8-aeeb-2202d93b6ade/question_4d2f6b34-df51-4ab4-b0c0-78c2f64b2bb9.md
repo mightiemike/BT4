@@ -1,1 +1,0 @@
-[File: core/web/loop_registry.go -> Scope: High] [Function: LoopRegistryServer.doRequest error handling] When the upstream LOOP plugin at `l.loopHostName:port` is unreachable or slow, does `doRequest`'s error path (`l.logger.Errorw(msg, \

@@ -1,1 +1,0 @@
-[File: 'core/services/job/orm.go' -> Function: orm.CreateJob, case OffchainReporting2 -> ValidateKeyStoreMatch] Can an attacker specify `PluginType: types.LLO` in an OCR2 job spec together with a `TransmitterID` string that matches another job owner's CSA key ID (enumerable via error message content, e.g. \

@@ -1,1 +1,0 @@
-[File: core/bridges/external_initiator.go -> AuthenticateExternalInitiator] Can an attacker send an EI authentication request with an empty or missing Secret header (X-Chainlink-EA-Secret) combined with a valid AccessKey to produce a HashedSecret computation on an empty string that, due to auth.HashedSecret's deterministic `fmt.Appendf(nil, \

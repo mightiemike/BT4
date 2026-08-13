@@ -1,0 +1,1 @@
+[File: 'core/capabilities/ccip/ocrimpls/svm_contract_transmitter.go' -> Scope: High] [Function: NewSVMCommitCalldataFunc] Can an attacker-influenced ccipocr3.CommitReportInfo (embedded in report.Info) with an empty MerkleRoots but crafted TokenPriceUpdates/GasPriceUpdates cause the method-selection logic (`if priceOnlyMethod != \

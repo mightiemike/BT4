@@ -1,0 +1,1 @@
+[File: 'core/services/gateway/handlers/capabilities/v2/http_trigger_handler.go'] [Function: httpTriggerHandler.resolveWorkflowID + normalizeHex] Can an unprivileged attacker supply a WorkflowOwner/WorkflowID hex string that, after normalizeHex's zero-padding (strings.Repeat(

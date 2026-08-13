@@ -1,0 +1,1 @@
+[File: core/services/job/validate.go -> Scope: Critical] [Function: ValidateSpec] Can an unprivileged attacker who only controls TOML job spec content submitted via the /v2/jobs HTTP endpoint craft a spec where `jb.Type` collides with an unintended entry in the `jobTypes` map (e.g. submitting type=\

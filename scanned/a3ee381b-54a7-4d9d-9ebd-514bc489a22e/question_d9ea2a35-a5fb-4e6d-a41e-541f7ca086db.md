@@ -1,0 +1,1 @@
+[File: 'core/services/workflows/v2/secrets.go'] [Function: secretsFetcher.vaultGetSecretsMetadata / keyFor] Can an attacker-controlled workflow choose owner/namespace/id strings containing the '::' delimiter used by keyFor(owner, namespace, id) (line 116-118) to construct a key that collides with another tenant's legitimately-formed key (e.g. owner=\

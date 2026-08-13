@@ -1,0 +1,1 @@
+[File: core/sessions/webauthn.go -> Scope: High] [Function: WebAuthnSessionStore.GetWebauthnSession / take] Can an attacker exploit the fact that inProgressRegistrations is keyed only by `user.Email + \

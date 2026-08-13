@@ -1,0 +1,1 @@
+[File: core/web/loop_registry.go -> Scope: High] [Function: LoopRegistryServer.pluginMetricHandler / pluginPPROFHandler 404 branch] Does the not-found branch (`gc.Data(http.StatusNotFound, ..., fmt.Appendf(nil, \

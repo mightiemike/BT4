@@ -1,0 +1,1 @@
+[File: core/sessions/ldapauth/sync.go] [Function: LDAPServerStateSyncer.Work SQL CASE builder] Can a crafted sessions.UserRole value (if ever derived indirectly from attacker-influenced LDAP group CN data) reach the fmt.Fprintf(&queryWhenClause, \

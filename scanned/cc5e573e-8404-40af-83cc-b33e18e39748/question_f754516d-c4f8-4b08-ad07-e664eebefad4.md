@@ -1,0 +1,1 @@
+[File: 'core/capabilities/vault/gateway_vault_request_processor.go' -> Scope: Critical secret disclosure] [Function: processListSecretIdentifiersRequest] Can an unprivileged attacker who legitimately controls owner O request vault.secrets.list with an empty Namespace field (relying on the post-authorization default `if listReq.Namespace == \

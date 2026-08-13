@@ -1,0 +1,1 @@
+[File: 'core/capabilities/ccip/ocrimpls/aptos_contract_transmitter.go'] [Function: ccipTransmitter.Transmit error wrapping bug] Can an attacker trigger the mismatched error variable bug at `return fmt.Errorf(\

@@ -1,0 +1,1 @@
+[File: 'core/bridges/bridge_type.go'] [Function: AuthenticateBridgeType / incomingTokenHash] Can an unprivileged attacker who only knows a bridge's name (not its IncomingToken) use timing variance in AuthenticateBridgeType's call to utils.Sha256 (input = fmt.Sprintf(\

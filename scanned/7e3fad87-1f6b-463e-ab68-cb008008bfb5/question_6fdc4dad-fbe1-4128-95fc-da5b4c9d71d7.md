@@ -1,0 +1,1 @@
+[File: core/capabilities/ccip/validate/validate.go -> Scope: Critical] [Function: ValidatedCCIPSpec] Can an unprivileged attacker bypass the empty-string checks on CapabilityLabelledName/CapabilityVersion/P2PKeyID by supplying whitespace-only, unicode-normalized, or control-character strings that pass `!=

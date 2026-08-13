@@ -1,0 +1,1 @@
+[File: core/web/pipeline_job_spec_errors_controller.go] [Function: PipelineJobSpecErrorsController.Destroy / job.SpecError.SetID] Can a fuzzed `:ID` path parameter (non-numeric, negative, overflow, or SQL-metacharacter payloads) passed to `jobSpec.SetID(c.Param(\

@@ -1,0 +1,1 @@
+[File: 'core/capabilities/vault/validator.go'] [Function: RequestValidator.validateWriteRequest -> req.Id nil / EncryptedValue empty checks order] Can an attacker send an EncryptedSecret with Id set but with a crafted Id.Key/Owner that is empty after implicit conversion (e.g. whitespace-only strings that pass Go's `==

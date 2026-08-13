@@ -1,0 +1,1 @@
+[File: core/web/jobs_controller.go] [Function: JobsController.Update] Can an attacker with a valid edit-role session invoke PUT /v2/jobs/:ID with a TOML body specifying a completely different job type or externalJobID than the target :ID's original spec, given Update calls DeleteJob(ctx, jb.ID) then AddJobV2 using only the ID parsed from jb.SetID(c.Param(\

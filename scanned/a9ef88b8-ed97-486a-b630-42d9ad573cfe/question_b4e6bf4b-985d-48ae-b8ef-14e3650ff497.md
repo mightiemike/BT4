@@ -1,0 +1,1 @@
+[File: core/web/pipeline_job_spec_errors_controller.go -> Scope: Critical auth bypass/privesc on privileged node actions] [Function: PipelineJobSpecErrorsController.Destroy] Given the route registration `authv2.DELETE(\

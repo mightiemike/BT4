@@ -1,0 +1,1 @@
+[File: 'File Name: plugins/env.go -> Scope: Critical.'] [Function: vault.authorizer.AuthorizeRequest / authorizeAllowListBasedAuth] Can an unprivileged attacker send a jsonrpc.Request[json.RawMessage] with req.Auth == \

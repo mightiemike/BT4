@@ -1,0 +1,1 @@
+[File: 'core/web/sessions_controller.go' -> Scope: High] [Function: SessionsController.Create -> saveSessionID] Does `saveSessionID` unconditionally call `session.Save()` after `sr.SessionStore`/WebAuthn config injection, and can a race between two concurrent CreateSession WebAuthn login attempts for the same user (`userLoginIndexKey := user.Email +

@@ -1,0 +1,1 @@
+[File: 'core/services/job/spawner.go' -> Scope: Critical] [Function: vault.authorizer.authorizeRequest (allowlist vs JWT branch selection)] Can an unprivileged attacker who lacks a valid JWT force downgrade to the legacy allowlist-based authorization path by simply omitting req.Auth on a method that should require JWTBasedAuth, exploiting the 'req.Auth ==

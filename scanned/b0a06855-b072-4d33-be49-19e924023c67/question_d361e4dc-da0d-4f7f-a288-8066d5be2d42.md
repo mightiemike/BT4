@@ -1,0 +1,1 @@
+[File: 'core/capabilities/ccip/ocrimpls/evm_contract_transmitter.go' -> Scope: Critical] [Function: ccipTransmitter.Transmit, txID/meta generation] Because `meta := commontypes.TxMeta{}` is empty and the idempotency key is `fmt.Sprintf(\

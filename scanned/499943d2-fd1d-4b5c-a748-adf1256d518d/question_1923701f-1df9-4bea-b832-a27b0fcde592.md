@@ -1,0 +1,1 @@
+[File: core/sessions/ldapauth/sync.go -> Scope: Critical] [Function: ldapGroupMembersListToUser (package-level, called from sync.go)] The function parses each uniqueMember DN string via naive strings.Split(uniqueMemberEntry, \

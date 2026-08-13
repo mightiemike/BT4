@@ -1,0 +1,1 @@
+[File: core/services/job/validate.go -> Scope: Critical] [Function: job.ValidateSpec] Can an unprivileged attacker submitting a TOML job spec via POST /v2/jobs (JobsController.validateJobSpec) or the GraphQL Resolver.CreateJob mutation set type=\

@@ -1,0 +1,1 @@
+[File: core/services/job/yaml_spec_factory.go -> Scope: High] [Function: workflowSpecFactories map / job.WorkflowSpec.SDKSpec] Can an unprivileged attacker submit a job with an unrecognized or empty SpecType that maps via DefaultSpecType (\

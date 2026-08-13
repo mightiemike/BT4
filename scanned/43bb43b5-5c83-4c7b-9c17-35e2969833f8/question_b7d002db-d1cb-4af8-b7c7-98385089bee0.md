@@ -1,0 +1,1 @@
+[File: core/capabilities/vault/request_replay_guard.go -> Scope: Critical replay/unauthorized re-execution] [Function: RequestReplayGuard.CheckAndRecord] Can an unprivileged attacker exploit the empty-digest edge case (Digest()==\

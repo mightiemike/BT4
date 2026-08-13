@@ -1,0 +1,1 @@
+[File: core/sessions/webauthn.go -> Scope: High] [Function: FinishWebAuthnRegistration] Can an unprivileged attacker who has obtained a valid session for a low-privilege user race the registration flow to attach their own hardware credential's public key material to another user's account by manipulating the `userRegistrationIndexKey := user.Email + \

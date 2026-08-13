@@ -1,0 +1,1 @@
+[File: 'core/web/evm_transactions_controller.go' -> Scope: High] [Function: router.go unauthedv2 group vs authv2 group ordering] Can an attacker exploit gin route-group precedence where 'unauthedv2 := r.Group(\

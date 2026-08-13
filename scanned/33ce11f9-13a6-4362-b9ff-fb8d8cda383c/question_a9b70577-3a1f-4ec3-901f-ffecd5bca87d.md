@@ -1,0 +1,1 @@
+[File: 'core/capabilities/ccip/oraclecreator/plugin.go' -> Scope: Critical] [Function: pluginOracleCreator.getTransmitterFromPublicConfig] Can an attacker who controls publicConfig.OracleIdentities (via a malicious/duplicated OCR config) cause peer-ID string matching (strings.TrimPrefix(i.p2pID.PeerID().String(), \

@@ -1,0 +1,1 @@
+[File: core/capabilities/remote/executable/hasher.go -> Function: getWriteReportFamily] Can an unprivileged attacker submit a MessageBody with a crafted CapabilityId (e.g. missing ':' separator, empty string, or an unexpected family prefix like 'evm2') to writeReportExcludeSignaturesHasher.Hash such that strings.Split(msg.CapabilityId, \

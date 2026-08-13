@@ -1,0 +1,1 @@
+[File: 'core/web/router.go' -> v2Routes] [Function: userOrEI group construction] Can an attacker holding only an External Initiator (EI) token (auth.AuthenticateExternalInitiator) reach POST /v2/jobs/:ID/runs (auth.RequiresRunRole(prc.Create)) for a job/run ID they do not own, since userOrEI := r.Group(\

@@ -1,1 +1,0 @@
-[File: core/sessions/ldapauth/sync.go -> Scope: Critical] [Function: LDAPServerStateSyncer.Work] Can a crafted sessions.UserRole value reaching the CASE clause built via fmt.Fprintf(&queryWhenClause, \

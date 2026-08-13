@@ -1,1 +1,0 @@
-[File: 'core/web/pipeline_runs_controller.go' -> Scope: High] [Function: PipelineRunsController.Index -> App.JobORM().PipelineRuns] Can an attacker manipulate the `size`/`offset` query parameters on GET /v2/jobs/:ID/runs, given the temporary override 'if c.Query(\

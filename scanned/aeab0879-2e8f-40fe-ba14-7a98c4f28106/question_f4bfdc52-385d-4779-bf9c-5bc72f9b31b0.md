@@ -1,1 +1,0 @@
-[File: core/web/jobs_controller.go -> Scope: High] [Function: JobsController.Update] Can an unprivileged attacker exploit the Update flow where request.TOML is validated by validateJobSpec (deriving jb.Type/spec from body) but jb.ID is only set afterward via jb.SetID(c.Param(\

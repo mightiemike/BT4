@@ -1,1 +1,0 @@
-[File: 'core/sessions/ldapauth/ldap.go -> FindUser'] [Function: ldapAuthenticator.FindUser] Can an unprivileged attacker supply crafted email strings to /sessions login (forwarded into ldap.EscapeFilter(email) then into filterQuery := fmt.Sprintf(\

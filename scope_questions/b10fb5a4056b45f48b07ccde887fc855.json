@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: core/sessions/ldapauth/sync.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_71ddeb4d-c451-4d3f-86ac-9dc09d60ecc9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/bridges/bridge_type.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2f343b93-dd5e-40b2-bc03-8402099d5298?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/bridges/external_initiator.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a2f0d3c7-37bc-4f81-9b0a-c8bacb44a48f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/bridges/orm.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_69d3cd83-3468-4385-a0e6-d6de2e034938?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/functions/external_adapter_client.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_95425bf2-2049-44da-a31d-6c81b92c74d6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/functions/request.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_945ab74f-a42b-4272-9c51-3a862f2d87ab?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/functions/listener.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4215310f-7ff1-48a4-951e-2386322c2ab4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/functions/connector_handler.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b9f323b2-5910-4b37-b013-88bee93346cb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/job/orm.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0dbe7b2a-577e-49cf-bcdc-76fa8c0a34c9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/job/spawner.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_52f20235-b5d5-45a1-a351-6a86f59baf62?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/job/validate.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a1edc092-5d74-4ff6-8be2-1119f86e1f96?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/job/workflow_spec_factory.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4f155109-3d89-4084-b6cb-78aa0c04e69d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/job/yaml_spec_factory.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0c2a2684-f457-4cf4-b243-71f6bfa4dd27?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/job/wasm_file_spec_factory.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3bccde05-acd3-49c6-b4e8-514eb80be1a4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: plugins/cmd.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_918cfef0-5ddf-41ee-93d3-6c654e9cf285?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: plugins/env.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bc7e27d7-27e0-42ec-880d-4bff55021dc6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: plugins/loop_registry.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_01068e5d-aabb-4bad-b9d2-e8a0d6b6f410?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: plugins/registrar.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f10d1044-e2fe-476c-baad-81ffce7e234f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handler_factory.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c1318e7f-27a6-4d23-b187-d285314211b2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/common/requestcache.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1f8af198-910e-4b06-ac80-618ebdba1629?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/handler.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5ff66d6e-b8b1-4555-85e7-5fdbaace86fd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/http_handler.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9951028b-f4f8-4b1f-9da2-f77f063e73d0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/http_trigger_handler.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_07a737c6-dc83-4a34-bd6c-9e123add34a5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/capabilities/v2/response_cache.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f0305926-322d-45c2-a7a1-9bcf57a172ff?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/confidentialrelay/handler.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7073c657-38cf-49c9-989e-a17324cbea5b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/functions/handler.functions.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e6f49b21-a719-4f75-87c6-574d14be1747?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/functions/api.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_36a976c4-88da-45c6-be8f-12160c46ff0d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/handlers/vault/handler.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_46d52d4c-42a1-4f18-b396-6c029f3f77c9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/network/httpserver.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0079b95d-be89-4e77-8b8e-c3539ae3fb38?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: core/services/gateway/network/wsserver.go -> Scope: Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_00bd7423-ef80-459a-ae30-8e727b3fc4f6?mode=deep",
+    "questions_generated": false
+  }
+]

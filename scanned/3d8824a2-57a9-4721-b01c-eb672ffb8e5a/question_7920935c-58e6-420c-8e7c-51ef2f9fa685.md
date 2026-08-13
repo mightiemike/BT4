@@ -1,1 +1,0 @@
-[File: core/services/job/models.go -> Scope: Critical] [Function: WorkflowSpec.Validate] Does WorkflowSpec.Validate fail to bind `w.WorkflowOwner` to any authenticated caller identity when `s.Owner+s.Name == \

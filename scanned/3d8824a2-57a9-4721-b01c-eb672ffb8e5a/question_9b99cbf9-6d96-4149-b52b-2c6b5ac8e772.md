@@ -1,1 +1,0 @@
-[File: core/services/workflows/syncer/v2/centralized_owner_verification.go -> Scope: Critical] [Function: verifyCentralizedOwnerOrgMapping / isCentralizedWorkflowSource] Can an attacker who controls a workflow source string that does not start with \

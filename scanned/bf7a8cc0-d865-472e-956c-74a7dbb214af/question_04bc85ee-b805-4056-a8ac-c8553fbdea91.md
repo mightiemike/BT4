@@ -1,1 +1,0 @@
-[File: core/services/job/validate.go -> Scope: High] [Function: ValidateSpec ErrNoPipelineSpec / RequiresPipelineSpec bypass via whitespace-only pipeline] Can an unprivileged attacker bypass the jb.Type.RequiresPipelineSpec() && (jb.Pipeline.Source == \

@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/JsonRpcApiUtil.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_42c29924-df37-4ab7-b251-a1cae314101a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/FullNodeJsonRpcHttpService.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c1fa31fd-bb55-41d1-94fe-56b9a717fb36?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/filters/LogFilter.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c624d016-567c-4412-93ed-c68bccabc44d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/filters/LogFilterWrapper.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fd8bfa7f-1506-4bf1-bfee-86fb53e0bfd2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/filters/LogBlockQuery.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3c30fe61-b05d-41af-9206-0276fd84740b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/filters/LogMatch.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c9cc1546-9983-43c3-94eb-263013dbd0a3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/types/BuildArguments.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e789639d-a55c-4304-a072-e9c60ee7a957?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/types/CallArguments.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_de77e2ee-e624-4bca-86a1-6d94fe34bacb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/types/BlockResult.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_32d4ffa9-8ea2-451e-b373-1ec906405849?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/RpcApiService.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bc282a5a-f430-4e56-be5e-1a686086bdf0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/Wallet.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dbe2e39c-3a70-4483-bf85-e28e16e9ae52?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/ratelimiter/RateLimiterInterceptor.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_275e4905-d1b2-4ea8-98a2-280fd5a4f86b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/ratelimiter/RpcApiAccessInterceptor.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9e50d7a4-83de-4909-828b-d456eaad557d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/ratelimiter/GlobalRateLimiter.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_acf3be56-b490-488e-abd7-1473da819947?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/ratelimiter/RateLimiterContainer.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c7e3076f-c5a4-424d-a82d-ba48333fd1c7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/ratelimiter/adapter/IPQPSRateLimiterAdapter.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_244f4236-7417-4027-b7b8-75a81b16f3e1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/ratelimiter/adapter/QpsRateLimiterAdapter.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f8d8d9dd-812f-4b50-9e03-84fe355a173d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/ratelimiter/adapter/GlobalPreemptibleAdapter.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0f0420b7-fc75-40bf-994b-62647c6618a9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/filter/HttpApiAccessFilter.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3b4dbb6b-c89a-4cca-a047-6bb462f4356c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/filter/LiteFnQueryHttpFilter.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eb11695b-35dd-414b-a858-e4d9b40d2483?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/filter/LiteFnQueryGrpcInterceptor.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8b9969d7-f597-4e24-8de6-b9b1964aa319?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/filter/CachedBodyRequestWrapper.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ab0dd0ad-d069-4232-b2dc-b2fd0578481f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/common/application/HttpService.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_349da15c-863c-45ef-8d47-29ca5da37d75?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/common/application/RpcService.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3c4ac6cb-cefe-4ccf-b1fe-4499e2ce3387?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/TransactionCapsule.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2567b385-3479-4bfa-9d96-15500d46139e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/utils/TransactionUtil.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e23b5847-2ad9-47fb-8e53-631452a1815f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/utils/TransactionRegister.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_21c70f35-609e-4185-b04f-b15925fb0562?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/AccountCapsule.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4a4597c6-8220-4263-b75a-ff4ceec03145?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/db/Manager.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a7be3681-92c1-4f1e-81fe-d64f8f5744b1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/db/PendingManager.java -> Scope: Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cba0db99-c11a-4edf-acd5-0c82e26ad11c?mode=deep",
+    "questions_generated": false
+  }
+]

@@ -1,1 +1,0 @@
-[File: 'framework/src/main/java/org/tron/core/db/Manager.java -> Manager.processBlock(BlockCapsule block, List<TransactionCapsule> txs)'] Can an unprivileged attacker, by submitting a block/transaction sequence that throws InterruptedException from preValidateTransactionSign(txs), trigger `logger.error(\

@@ -1,0 +1,1 @@
+[File: TriggerSmartContractServlet.java -> Scope: Fatal key/secret disclosure] [Function: TriggerSmartContractServlet.doPost -> Wallet.createTransactionCapsule] Can an unprivileged attacker exercise a `feeLimit` value (raw long overflow, e.g. `Long.MIN_VALUE` or negative) set via `Util.getJsonLongValue(jsonObject, \

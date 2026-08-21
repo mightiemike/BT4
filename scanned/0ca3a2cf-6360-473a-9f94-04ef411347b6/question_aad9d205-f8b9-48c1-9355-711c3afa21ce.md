@@ -1,0 +1,1 @@
+[File: 'File Name: chainbase/src/main/java/org/tron/core/db/EnergyProcessor.java -> Scope: Fatal.'] [Function: EnergyProcessor.updateAdaptiveTotalEnergyLimit logger.debug] Can an unprivileged attacker, by triggering specific AccountCapsule/DynamicPropertiesStore states through ordinary transactions, cause EnergyProcessor's 'logger.debug(\

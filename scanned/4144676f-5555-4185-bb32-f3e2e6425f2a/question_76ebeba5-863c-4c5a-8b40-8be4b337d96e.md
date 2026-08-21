@@ -1,0 +1,1 @@
+[File: GetDelegatedResourceAccountIndexServlet.java -> Scope: Fatal secret disclosure] [Function: GetDelegatedResourceAccountIndexServlet.fillResponse] If wallet.getDelegatedResourceAccountIndex(address) returns null for an address, the servlet writes literal \

@@ -1,0 +1,1 @@
+[File: MaintenanceManager.java] [Function: MaintenanceManager.doMaintenance -> logger.info] Can an unprivileged attacker who triggers doMaintenance() indirectly (via normal chain progression they can force by timestamp-adjacent transactions) rely on 'logger.info(\

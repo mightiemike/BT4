@@ -1,0 +1,1 @@
+[File: EstimateEnergyServlet.java] [Function: RpcApiService$WalletApi.estimateEnergy / RpcApiServiceOnSolidity] For the equivalent gRPC and JSON-RPC (TronJsonRpcImpl.estimateGas) code paths that call the same Wallet.estimateEnergy, can a crafted 'data' payload cause a RuntimeException whose message concatenates 'e.getClass() + \

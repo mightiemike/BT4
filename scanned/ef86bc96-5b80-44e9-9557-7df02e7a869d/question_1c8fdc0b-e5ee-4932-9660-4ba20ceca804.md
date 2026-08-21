@@ -1,0 +1,1 @@
+[File: 'framework/src/main/java/org/tron/core/services/http/GetTransactionApprovedListServlet.java' -> Wallet.getTransactionApprovedList account existence oracle] Function: Wallet.getTransactionApprovedList, PermissionException(\

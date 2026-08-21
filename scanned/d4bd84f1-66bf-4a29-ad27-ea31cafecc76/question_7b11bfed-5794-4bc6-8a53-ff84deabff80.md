@@ -1,0 +1,1 @@
+[File: UpdateEnergyLimitContractActuator.java -> Scope: Fatal secret disclosure] [Function: UpdateEnergyLimitContractActuator.validate()] Can an unprivileged attacker submit a contract whose ownerAddress fails DecodeUtil.addressValid, triggering 'throw new ContractValidateException(\

@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/keystore/Credentials.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b90a09eb-bfb8-4176-9ffd-4c9f403b7d8b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/src/main/java/org/tron/common/utils/ByteArray.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_675bf8e0-4e34-47cd-abfa-d1d72e96cde7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/src/main/java/org/tron/common/utils/ByteUtil.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9791fef0-5403-4f1f-ba0e-a9a5486784d8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/src/main/java/org/tron/common/utils/DecodeUtil.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7744635c-fdff-4e6b-81c1-b07f0cc4df31?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/src/main/java/org/tron/common/utils/Base58.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_328ca014-48b3-4f00-bd84-e6f0290facd9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/src/main/java/org/tron/common/utils/Bech32.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c17ac0b7-d8a3-49e8-9fd2-5f8f294f995f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/src/main/java/org/tron/common/utils/Sha256Hash.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_613f8467-ff45-4af4-9c9a-866f11f8d82b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/src/main/java/org/tron/common/utils/MerkleRoot.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b50b49d6-c7aa-406e-84ac-ade5b69f461d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/src/main/java/org/tron/common/utils/StringUtil.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2c270e10-63fc-47c8-aae1-f29ad13ae655?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/src/main/java/org/tron/common/utils/BIUtil.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0c2b3296-7a03-43e8-b018-757be498579b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/src/main/java/org/tron/common/math/Maths.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_95c7a35f-212c-4403-b1d6-674408d3df87?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/src/main/java/org/tron/common/math/StrictMathWrapper.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_029b4651-d231-47a1-91a6-56b429949a43?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/src/main/java/org/tron/common/utils/CompactEncoder.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f01c9bdd-2ebb-4055-9774-9bf8856db16e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: common/src/main/java/org/tron/common/parameter/CommonParameter.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3fc22796-5492-460d-bd0d-90f47ef85698?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/capsule/utils/RLP.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4c29e8f9-bb5d-4ded-a798-2c3bd27139ec?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/common/utils/WalletUtil.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b5280109-4975-417b-bdac-97aa246d66ae?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/common/zksnark/MerkleContainer.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0715d081-5d18-4e58-a8b8-92ff5c4f1715?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/common/zksnark/IncrementalMerkleTreeContainer.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ed9124fa-d009-49c5-be7a-f0ee04cee9cf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/common/zksnark/IncrementalMerkleVoucherContainer.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_adbfd92c-614b-489a-84a0-d42909fabccc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/common/zksnark/LibrustzcashParam.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4de49401-b385-4002-9d46-ee64c6dcedb2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/common/zksnark/JLibrustzcash.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_65f220a0-c879-435b-86a4-824294d41014?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/common/zksnark/ZksnarkUtils.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b0e63970-3084-44cb-a8fc-5ea94c98567a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/zen/ZenTransactionBuilder.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5963170e-1a2b-494f-a169-c608b1989323?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/zen/ShieldedTRC20ParametersBuilder.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2cae5992-1947-406c-83d9-733df586270b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/zen/note/NoteEncryption.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4fc5936d-065c-4d05-80b5-66ba64ad4cab?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/zen/address/KeyIo.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_101c7ef2-b97a-4010-a1f8-8641148ec844?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: consensus/src/main/java/org/tron/consensus/dpos/MaintenanceManager.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b5ae48bc-2f8b-42e1-808a-3c4d7812fb3d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: consensus/src/main/java/org/tron/consensus/dpos/IncentiveManager.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7542c589-bb0e-4e6d-90a2-3eaad41f4349?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: consensus/src/main/java/org/tron/consensus/dpos/StatisticManager.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8328f1b3-8339-455d-a9f6-4d67339be99e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: consensus/src/main/java/org/tron/consensus/ConsensusDelegate.java -> Scope: Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_53070248-8329-4aca-b00d-faa4857ec652?mode=deep",
+    "questions_generated": false
+  }
+]

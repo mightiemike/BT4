@@ -1,1 +1,0 @@
-[File: 'framework/src/main/java/org/tron/core/services/http/GetTransactionApprovedListServlet.java' -> TransactionCapsule.checkWeight PermissionException message] Function: TransactionCapsule.checkWeight, PermissionException message format: hash-hex + \

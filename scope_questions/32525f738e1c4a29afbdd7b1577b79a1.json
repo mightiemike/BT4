@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/common/runtime/RuntimeImpl.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_49239118-7a4f-4219-9ba6-3ce6eb45c115?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/common/runtime/InternalTransaction.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4e64f1bd-702f-4acb-992d-f4a45fd9a8c1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/nativecontract/FreezeBalanceV2Processor.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_79ac5304-e7a1-448c-993e-6aec1518c80a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/nativecontract/UnfreezeBalanceV2Processor.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_304e22e1-ded4-4c4a-b52a-3b5748071550?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/nativecontract/DelegateResourceProcessor.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3c70449c-2457-4e43-ab5a-c33271165646?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/nativecontract/UnDelegateResourceProcessor.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_623098e8-5e09-46c2-88c1-14b882666f1b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/nativecontract/CancelAllUnfreezeV2Processor.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1ad555ec-de95-4fc6-b363-736c0ea2fceb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/nativecontract/WithdrawExpireUnfreezeProcessor.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_48a39613-0318-42e8-bc2f-2d21fa2d834b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/nativecontract/WithdrawRewardProcessor.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5bf7d2d4-ac79-43ea-872b-ee8ae8ef43e4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/nativecontract/VoteWitnessProcessor.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b45bdf21-3225-41bc-8d62-8877bdcf8022?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/nativecontract/FreezeBalanceProcessor.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9508dd61-c3ba-48e2-a845-a59ff09ba157?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/nativecontract/UnfreezeBalanceProcessor.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6358dd75-c8da-4f3a-b201-6803fefe9744?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/ResourceProcessor.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_52ff3b46-5e86-48d9-841d-f5d9687e584c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/BandwidthProcessor.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_75a07676-4623-4276-993d-0f52ea923fb3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/EnergyProcessor.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_55e8faf2-e400-4c07-94a6-10e36307a51d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/DelegationStore.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2db2b0f6-469c-40bc-96d5-232cfcc657e9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/DelegatedResourceStore.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a0576332-9c76-4c09-a274-3fdcb417c298?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/DelegatedResourceAccountIndexStore.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_79fb1c06-c0e4-409a-a0ae-6c5c992c0985?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/DynamicPropertiesStore.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_59ac944c-d31a-42e1-b29b-d7596bef6c90?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/DelegatedResourceCapsule.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_94873e5e-00c2-42fb-a2c3-efcf1e79a9ed?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/DelegatedResourceAccountIndexCapsule.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c2d5f708-2f8f-4afa-b1ac-97a51793299d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/VotesCapsule.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bcd78c5d-1953-4908-ab79-faf8ad2ab57b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/ExchangeProcessor.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1535f0c6-524f-41cf-8e47-63fba8cffe9d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/SafeExchangeProcessor.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_560fa881-e488-4463-b899-2e5c133ed31a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/MarketOrderCapsule.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2e1c87a1-a488-46f8-8ec9-2bfe0af64823?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/AssetIssueCapsule.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_21e46d08-3f96-407f-b355-7a6a61165b03?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/common/utils/Commons.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fe44907c-ac6e-47e0-b424-54cff810eb49?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/TronStoreWithRevoking.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0b0e39ed-9659-4b2f-a47b-72029cd37738?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/TronDatabase.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b83874b2-d772-4c73-9f69-31d95addb996?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/common/iterator/DBIterator.java -> Scope: Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_afa940d8-b483-4a9e-8faf-704095027a50?mode=deep",
+    "questions_generated": false
+  }
+]

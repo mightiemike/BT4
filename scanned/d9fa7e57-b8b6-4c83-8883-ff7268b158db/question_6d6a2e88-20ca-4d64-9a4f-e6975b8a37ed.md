@@ -1,1 +1,0 @@
-[File: 'RpcApiAccessInterceptor.java' -> Scope: Fatal key disclosure] [Function: RpcApiAccessInterceptor.interceptCall / isDisabled] Can an unprivileged attacker cause isDisabled(endpoint) to throw (e.g. by triggering a gRPC method name that produces an ArrayIndexOutOfBoundsException on endpoint.split(\

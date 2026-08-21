@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/common/iterator/RockStoreIterator.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_db66fdaa-dffe-4b34-9764-30c34567f1e0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/common/iterator/StoreIterator.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dc1fd317-016e-4938-b67c-23c7e1150189?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/AccountStore.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1a0440f5-97d9-41eb-bcd9-224c978ee485?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/AccountAssetStore.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_98b53630-6181-4d58-ac62-ac0565045c17?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/AccountIdIndexStore.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_07643670-a711-424f-9b1c-9c0a2397f5ad?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/AssetIssueV2Store.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b676adc5-1ff9-4e03-a46a-7963fc153ff7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/MarketOrderStore.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9560ff6b-0888-4dff-b1fa-31d167d55e41?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/MarketPairPriceToOrderStore.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9d8693c0-edd9-4027-877a-ad789e4f55b7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/MarketPairToPriceStore.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dacb7c41-615e-486e-b134-c36cc52bf0d7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/SectionBloomStore.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_77890b33-043d-4d5e-83a9-392ed19c650d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/StorageRowStore.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8ab1286b-2807-47ad-8378-4c572a3e5db0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/ContractStore.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2770930c-965d-4b2d-8114-1bf549593a85?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/CodeStore.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_18a6a44a-fd37-4fd4-a15a-b19f88439ddd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/ChainBaseManager.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7c38c8b5-2dc4-48df-983f-78fbd4dba12e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/ECKey.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b27588ee-068e-432a-b24f-cf0b0d3735bd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/Rsv.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_851980e9-1658-4f55-b94a-7c3b7c38c7ee?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/SignUtils.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9d521a82-0a7d-43da-83b0-485d86af8512?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/Hash.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3b588d59-dcde-4b0f-86bf-a1ef1d925022?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/Blake2bfMessageDigest.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_356f096a-b297-4d68-9a55-d3a71b04677a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/sm2/SM2.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4138b83c-a17c-48fb-b59b-6f442ffd58b0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/sm2/SM2Signer.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d7660fe9-8fc8-4a91-aba7-273adcfe2a80?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/zksnark/PairingCheck.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fc752703-89c4-4b77-b4ee-3245d37b01b2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/zksnark/BN128.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2776f712-d15d-4abb-b379-a7db63ebefe4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/zksnark/BN128Fp.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cbf50468-0e26-409a-9977-d7d674d5586c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/zksnark/BN128G1.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_808296d2-2c61-4751-92c5-ed46d5e1de0d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/zksnark/BN128G2.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bf1139a3-56b9-4f9c-b16e-92f8fa188555?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/zksnark/Fp.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4ad9f821-59f1-4764-aa05-057f4f0eca58?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/zksnark/Fp2.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_830a0884-d4b2-4d51-9a8d-c23fd25e574d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/keystore/Wallet.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3fed8c76-cea4-4c85-8179-df3cce3bc250?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/keystore/WalletUtils.java -> Scope: Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_10c15b5c-ba7b-426f-bb96-b08c8be4cf05?mode=deep",
+    "questions_generated": false
+  }
+]

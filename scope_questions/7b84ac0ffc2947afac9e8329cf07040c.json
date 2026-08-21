@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/common/runtime/RuntimeImpl.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5618034e-f1fc-4bc8-a860-3561eb1bbd0e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/common/runtime/InternalTransaction.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0876d585-8db6-4a14-bac5-d10228a9f73b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/nativecontract/FreezeBalanceV2Processor.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_17af1a1a-f5b2-408a-8f88-4120956ae6a6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/nativecontract/UnfreezeBalanceV2Processor.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f2e14838-f3c3-4ae6-bb31-1e1f0aa261d4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/nativecontract/DelegateResourceProcessor.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d4b4cecb-d73f-4086-9f14-0d52dd3b3884?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/nativecontract/UnDelegateResourceProcessor.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e1e5e4ba-4886-4887-bfd4-f372e87e533e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/nativecontract/CancelAllUnfreezeV2Processor.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3b1651d4-690e-4ac2-83fc-c62f88a2e2ac?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/nativecontract/WithdrawExpireUnfreezeProcessor.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f84f6f74-e639-4f20-b35b-71aa95c0fb72?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/nativecontract/WithdrawRewardProcessor.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dca6922d-0c78-4122-8622-d6322c2c7016?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/nativecontract/VoteWitnessProcessor.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4e98a1d1-eb1e-4257-b55c-3788979d63c2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/nativecontract/FreezeBalanceProcessor.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_72161d76-5beb-4832-a7aa-d02f105a54e5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/vm/nativecontract/UnfreezeBalanceProcessor.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_72cfe157-82f9-4ec4-a0a2-2982c208bed5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/ResourceProcessor.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d150b735-e5e0-453e-89f0-cb21659aa466?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/BandwidthProcessor.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0d3e54d5-d7d9-47c1-8a1b-7ab6470c0e2a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/EnergyProcessor.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4fc552ee-c6c8-4e2c-9fcd-a6d2be332614?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/DelegationStore.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_78b02951-bc16-4ffb-924a-7e7040398c07?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/DelegatedResourceStore.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_423f484b-ca12-4be5-a213-017cc59491f4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/DelegatedResourceAccountIndexStore.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_37603bae-1c1f-4b81-b905-180afea5e98e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/DynamicPropertiesStore.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5c397831-fcd2-46e6-805b-8c84d0a49abc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/DelegatedResourceCapsule.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_00ef50ab-73b8-4a0a-aa72-178a43aa9f99?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/DelegatedResourceAccountIndexCapsule.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_27575097-cb25-4a4f-abab-08a52ccbd1af?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/VotesCapsule.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_06eebfa9-8e6a-491d-86de-01586d87016d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/ExchangeProcessor.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d2d52491-01a5-4ec2-b7bf-7d535cbbb96f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/SafeExchangeProcessor.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1f34b670-61f2-4edd-afff-89ba2a01efd8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/MarketOrderCapsule.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_10fa9428-844c-4e02-96e6-6c6d759ab540?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/AssetIssueCapsule.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6ea5c619-698a-455c-9eb9-2074daa1200d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/common/utils/Commons.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ccaf09ac-53d7-45d6-8a4f-6d252a493631?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/TronStoreWithRevoking.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f887798b-8272-4a69-ad0e-a274c43f040d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/TronDatabase.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d7f58c1f-1e8c-4f75-9e0c-0fc5454358a3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/common/iterator/DBIterator.java -> Scope: Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f5fd84e8-a445-4f3d-8f92-8cb20be5a58f?mode=deep",
+    "questions_generated": false
+  }
+]

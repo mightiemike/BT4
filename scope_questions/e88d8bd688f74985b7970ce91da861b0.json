@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/JsonRpcApiUtil.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f644e96c-ef71-4763-be0d-959bac78345a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/FullNodeJsonRpcHttpService.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c55eee6e-6423-421a-852d-349fe2e2d47b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/filters/LogFilter.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_191d84ab-b510-47f0-9818-17192d8b1153?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/filters/LogFilterWrapper.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a58dcd09-a685-4760-af95-0736a3d6d30f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/filters/LogBlockQuery.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_86d33e10-ec75-47ab-819d-c2d9d611926e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/filters/LogMatch.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_91935d93-70f3-4f75-b011-3416375f1418?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/types/BuildArguments.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6de6599b-4210-44fd-bfd4-dbc5b3b26968?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/types/CallArguments.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_02480a04-9807-4664-881e-4f3361eee990?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/types/BlockResult.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2bf675d6-07f2-4c98-a686-63760a7472f3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/RpcApiService.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a6e5757d-164f-4ba3-a590-71b18cdbf3d0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/Wallet.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3a07dc75-be9f-4ee8-b0b4-98bb5855d502?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/ratelimiter/RateLimiterInterceptor.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bb7f7d6c-edfa-43d1-933f-dfa681f7519b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/ratelimiter/RpcApiAccessInterceptor.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cb565906-65d6-4b37-bd54-af5c2f45ce1d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/ratelimiter/GlobalRateLimiter.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a307b435-5c3c-4b75-9603-6142872bcab9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/ratelimiter/RateLimiterContainer.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fded2aea-3153-4d94-9b36-3191bd8c92b1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/ratelimiter/adapter/IPQPSRateLimiterAdapter.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8f1aa1ed-5c30-4353-aa67-9a42a2ce4488?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/ratelimiter/adapter/QpsRateLimiterAdapter.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8cc188d3-7115-4076-9e38-29f5549d7acc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/ratelimiter/adapter/GlobalPreemptibleAdapter.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_730255cc-6204-40bb-8cae-3e0094d9987e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/filter/HttpApiAccessFilter.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d611830b-3996-4de3-a86a-66191f14a964?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/filter/LiteFnQueryHttpFilter.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b83cad02-2715-4c90-bd80-482038310afe?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/filter/LiteFnQueryGrpcInterceptor.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_51d831ee-97a4-4761-8d11-50054cf75db3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/filter/CachedBodyRequestWrapper.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6a403fb9-5980-428c-a93f-ed8187c86a68?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/common/application/HttpService.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_13a86f67-d7d3-4905-b63f-6ea2bcb2642f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/common/application/RpcService.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fb0b32b4-c8ab-4da3-ad1a-956f744782be?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/TransactionCapsule.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8e99306c-d171-49ab-aa02-de0398d70a97?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/utils/TransactionUtil.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_01bc75d2-0b08-4d22-a271-6af81f051f68?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/utils/TransactionRegister.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_728da352-5b4d-4f0f-88ef-bff67ba7997d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/AccountCapsule.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_caf1a698-3a30-4870-a101-994b2eee1ebc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/db/Manager.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0902b246-028e-4a19-8cec-31bc14d362cd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/db/PendingManager.java -> Scope: Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_468a1dd8-377f-4da8-be8c-319910406518?mode=deep",
+    "questions_generated": false
+  }
+]

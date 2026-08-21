@@ -1,1 +1,0 @@
-[File: ContractEventParser.java -> Scope: Fatal] [Function: ContractEventParser.parseDataBytes exception swallowing, lines 49-52] Since `catch (OutputLengthException | ArithmeticException e)` swallows the specific exception and always re-throws a generic `UnsupportedOperationException(\

@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/common/iterator/RockStoreIterator.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7b835e56-ddd1-476c-b06b-13fd0f47ddcb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/db/common/iterator/StoreIterator.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_08611f2d-ffe5-468f-9aae-f5a47446c8df?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/AccountStore.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d3557177-a47e-4c19-9b2f-83296865b9c8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/AccountAssetStore.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ac45dc6a-8872-46b5-b90c-311881cb7e99?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/AccountIdIndexStore.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3b0700e9-807d-4f4b-a008-c9793e393515?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/AssetIssueV2Store.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9485817d-92f7-4c62-afb3-c8a547e2f141?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/MarketOrderStore.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9dc03f9c-4ec5-44de-9735-d838f32a1d5b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/MarketPairPriceToOrderStore.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_25bcc3b0-1b0e-4bb0-ae0d-fb6cc4097ee7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/MarketPairToPriceStore.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d146e93a-4472-4215-bd7a-18e50aec96e4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/SectionBloomStore.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6e873e31-e16a-40cb-b975-34a7cfaa6405?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/StorageRowStore.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_560e3106-5cdd-43c8-a2a6-6f204ea36f8a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/ContractStore.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_329a4fa6-9461-4b88-9411-9416b5e12cf2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/store/CodeStore.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c9519b33-5172-48c4-a2fc-f0c3863aa293?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/ChainBaseManager.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_052c2359-7e2d-4abe-9705-4364c91c0d1e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/ECKey.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_23e72537-a1d6-41aa-95cb-449fd9b93dbf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/Rsv.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3870d6f7-ff7f-4412-8d3c-f403ce21a497?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/SignUtils.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_41c1af41-edce-49ea-9b75-9b78d09b4bc6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/Hash.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e5110bea-e8b9-441d-90eb-c52521b96503?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/Blake2bfMessageDigest.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e3f56278-b2d2-48ca-8b2e-17925b7c93b3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/sm2/SM2.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f507a6f5-da90-4cfd-82c6-e5d2bb36b4f0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/sm2/SM2Signer.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bbda8a6f-4313-4f08-b3f1-ae900e16f2ed?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/zksnark/PairingCheck.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0105f282-a5da-472f-8f1f-81bdf26da758?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/zksnark/BN128.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8b4e7c94-52e3-4b74-8b20-c31815a35bb4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/zksnark/BN128Fp.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_37d13fc9-cc71-4cda-88f0-c5bcd466fa00?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/zksnark/BN128G1.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fa429f8d-79c6-4726-b390-583cca5114c7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/zksnark/BN128G2.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1addd2da-aa9b-4c1b-990d-d75c3d52e83f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/zksnark/Fp.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_530bb749-cbcd-430d-b72a-ccd2bd536095?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/common/crypto/zksnark/Fp2.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9d5526c4-ebc7-46f6-b84d-35cadc8787cc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/keystore/Wallet.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_39de6a58-0d23-4f90-b7c3-533e2c13afb5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: crypto/src/main/java/org/tron/keystore/WalletUtils.java -> Scope: Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_43352315-b146-42ae-a444-a5486e0e2cb2?mode=deep",
+    "questions_generated": false
+  }
+]

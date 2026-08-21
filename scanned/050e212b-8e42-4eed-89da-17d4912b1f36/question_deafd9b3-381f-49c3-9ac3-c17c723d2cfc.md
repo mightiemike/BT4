@@ -1,1 +1,0 @@
-[File: 'framework/src/main/java/org/tron/core/services/filter/HttpApiAccessFilter.java'] [Function: HttpApiAccessFilter.isDisabled(String)] Can an unprivileged attacker request an operator-disabled endpoint (listed in CommonParameter.getDisabledApiList()) using a path with fewer than 3 '/' segments (e.g. a servlet mapped directly under context root) so that endpoint.split(\

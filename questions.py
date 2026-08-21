@@ -4,11 +4,11 @@ import os
 from decouple import config
 
 # todo: if scope_files is: 500 > 50, 300 > 30 , 100 > 10
-MAX_REPO = 20
+MAX_REPO = 22
 # todo: the GitLab namespace/project path, for example group/project
-SOURCE_REPO = "smartcontractkit/chainlink"
+SOURCE_REPO = 'tronprotocol/java-tron'
 # todo: the name of the repository
-REPO_NAME = "chainlink"
+REPO_NAME = 'java-tron'
 
 run_number = os.environ.get('GITHUB_RUN_NUMBER', '0')
 
@@ -48,137 +48,297 @@ else:
 
 scope_files = [
     # =================================================================================
-    # Chainlink Core Node web/API auth, session, routing, and privileged action surfaces
+    # Public HTTP entrypoints: request parsing, param decoding, error handling
     # =================================================================================
-    "core/web/router.go",
-    "core/web/middleware.go",
-    "core/web/auth/auth.go",
-    "core/web/auth/gql.go",
-    "core/web/auth/helpers.go",
-    "core/web/api.go",
-    "core/web/sessions_controller.go",
-    "core/web/webauthn_controller.go",
-    "core/web/user_controller.go",
-    "core/web/jobs_controller.go",
-    "core/web/pipeline_runs_controller.go",
-    "core/web/pipeline_job_spec_errors_controller.go",
-    "core/web/bridge_types_controller.go",
-    "core/web/external_initiators_controller.go",
-    "core/web/capability_controller.go",
-    "core/web/vault_controller.go",
-    "core/web/config_controller.go",
-    "core/web/replay_controller.go",
-    "core/web/evm_transactions_controller.go",
-    "core/web/evm_transfer_controller.go",
-    "core/web/chains_controller.go",
-    "core/web/loop_registry.go",
+    "framework/src/main/java/org/tron/core/services/http/FullNodeHttpApiService.java",
+    "framework/src/main/java/org/tron/core/services/http/Util.java",
+    "framework/src/main/java/org/tron/core/services/http/PostParams.java",
+    "framework/src/main/java/org/tron/core/services/http/JsonFormat.java",
+    "framework/src/main/java/org/tron/core/services/http/HttpSelfFormatFieldName.java",
+    "framework/src/main/java/org/tron/core/services/http/BroadcastServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/BroadcastHexServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/TriggerSmartContractServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/TriggerConstantContractServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/EstimateEnergyServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/DeployContractServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/CreateCommonTransactionServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetTransactionSignWeightServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetTransactionApprovedListServlet.java",
 
     # =================================================================================
-    # Authentication, user/session lifecycle, and identity federation
+    # Unbounded / paginated read endpoints reachable by any anonymous RPC client
     # =================================================================================
-    "core/auth/auth.go",
-    "core/sessions/authentication.go",
-    "core/sessions/session.go",
-    "core/sessions/user.go",
-    "core/sessions/webauthn.go",
-    "core/sessions/localauth/orm.go",
-    "core/sessions/oidcauth/oidc.go",
-    "core/sessions/ldapauth/client.go",
-    "core/sessions/ldapauth/sync.go",
+    "framework/src/main/java/org/tron/core/services/http/GetPaginatedAssetIssueListServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetPaginatedExchangeListServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetPaginatedProposalListServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetPaginatedNowWitnessListServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetAssetIssueListServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetAssetIssueListByNameServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetDelegatedResourceAccountIndexServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetDelegatedResourceAccountIndexV2Servlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetMarketOrderListByPairServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetMarketOrderByAccountServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetBlockByLimitNextServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetBlockByLatestNumServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetTransactionInfoByBlockNumServlet.java",
+    "framework/src/main/java/org/tron/core/services/http/GetTransactionListFromPendingServlet.java",
 
     # =================================================================================
-    # External adapter, bridge, job, workflow, and plugin execution trust boundaries
+    # JSON-RPC surface: eth_* dispatch, filters, log queries, argument coercion
     # =================================================================================
-    "core/bridges/bridge_type.go",
-    "core/bridges/external_initiator.go",
-    "core/bridges/orm.go",
-    "core/services/functions/external_adapter_client.go",
-    "core/services/functions/request.go",
-    "core/services/functions/listener.go",
-    "core/services/functions/connector_handler.go",
-    "core/services/job/orm.go",
-    "core/services/job/spawner.go",
-    "core/services/job/validate.go",
-    "core/services/job/workflow_spec_factory.go",
-    "core/services/job/yaml_spec_factory.go",
-    "core/services/job/wasm_file_spec_factory.go",
-    "plugins/cmd.go",
-    "plugins/env.go",
-    "plugins/loop_registry.go",
-    "plugins/registrar.go",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/JsonRpcServlet.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/TronJsonRpcImpl.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/JsonRpcApiUtil.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/FullNodeJsonRpcHttpService.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/filters/LogFilter.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/filters/LogFilterWrapper.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/filters/LogBlockQuery.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/filters/LogMatch.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/types/BuildArguments.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/types/CallArguments.java",
+    "framework/src/main/java/org/tron/core/services/jsonrpc/types/BlockResult.java",
 
     # =================================================================================
-    # Gateway, remote execution, vault, and workflow capability enforcement
+    # gRPC surface and the query/limit gates every API path depends on
     # =================================================================================
-    "core/services/gateway/handler_factory.go",
-    "core/services/gateway/handlers/common/requestcache.go",
-    "core/services/gateway/handlers/capabilities/handler.go",
-    "core/services/gateway/handlers/capabilities/v2/http_handler.go",
-    "core/services/gateway/handlers/capabilities/v2/http_trigger_handler.go",
-    "core/services/gateway/handlers/capabilities/v2/response_cache.go",
-    "core/services/gateway/handlers/confidentialrelay/handler.go",
-    "core/services/gateway/handlers/functions/handler.functions.go",
-    "core/services/gateway/handlers/functions/api.go",
-    "core/services/gateway/handlers/vault/handler.go",
-    "core/services/gateway/network/httpserver.go",
-    "core/services/gateway/network/wsserver.go",
-    "core/capabilities/webapi/outgoing_connector_handler.go",
-    "core/capabilities/webapi/trigger/trigger.go",
-    "core/capabilities/webapi/target/target.go",
-    "core/capabilities/remote/executable/server.go",
-    "core/capabilities/remote/executable/client.go",
-    "core/capabilities/remote/executable/hasher.go",
-    "core/capabilities/remote/dispatcher.go",
-    "core/capabilities/remote/parallel_executor.go",
-    "core/capabilities/transmission/local_executable_capability.go",
-    "core/capabilities/vault/authorizer.go",
-    "core/capabilities/vault/jwt_based_auth.go",
-    "core/capabilities/vault/request_replay_guard.go",
-    "core/capabilities/vault/validator.go",
-    "core/capabilities/vault/gateway_vault_request_processor.go",
-    "core/capabilities/vault/gw_handler.go",
-    "core/capabilities/vault/verify.go",
-    "core/capabilities/vault/workflow_owner_derivation.go",
+    "framework/src/main/java/org/tron/core/services/RpcApiService.java",
+    "framework/src/main/java/org/tron/core/Wallet.java",
+    "framework/src/main/java/org/tron/core/services/ratelimiter/RateLimiterInterceptor.java",
+    "framework/src/main/java/org/tron/core/services/ratelimiter/RpcApiAccessInterceptor.java",
+    "framework/src/main/java/org/tron/core/services/ratelimiter/GlobalRateLimiter.java",
+    "framework/src/main/java/org/tron/core/services/ratelimiter/RateLimiterContainer.java",
+    "framework/src/main/java/org/tron/core/services/ratelimiter/adapter/IPQPSRateLimiterAdapter.java",
+    "framework/src/main/java/org/tron/core/services/ratelimiter/adapter/QpsRateLimiterAdapter.java",
+    "framework/src/main/java/org/tron/core/services/ratelimiter/adapter/GlobalPreemptibleAdapter.java",
+    "framework/src/main/java/org/tron/core/services/filter/HttpApiAccessFilter.java",
+    "framework/src/main/java/org/tron/core/services/filter/LiteFnQueryHttpFilter.java",
+    "framework/src/main/java/org/tron/core/services/filter/LiteFnQueryGrpcInterceptor.java",
+    "framework/src/main/java/org/tron/core/services/filter/CachedBodyRequestWrapper.java",
+    "framework/src/main/java/org/tron/common/application/HttpService.java",
+    "framework/src/main/java/org/tron/common/application/RpcService.java",
 
     # =================================================================================
-    # CCIP, OCR plugin, and cross-chain execution/validation surfaces in bounty scope
+    # Transaction admission: signature/permission verification, dedup, mempool
     # =================================================================================
-    "core/capabilities/ccip/delegate.go",
-    "core/capabilities/ccip/validate/validate.go",
-    "core/capabilities/ccip/oraclecreator/bootstrap.go",
-    "core/capabilities/ccip/oraclecreator/plugin.go",
-    "core/capabilities/ccip/oraclecreator/wrapped_oracle.go",
-    "core/capabilities/ccip/ocrimpls/config_tracker.go",
-    "core/capabilities/ccip/ocrimpls/config_digester.go",
-    "core/capabilities/ccip/ocrimpls/contract_transmitter.go",
-    "core/capabilities/ccip/ocrimpls/evm_contract_transmitter.go",
-    "core/capabilities/ccip/ocrimpls/svm_contract_transmitter.go",
-    "core/capabilities/ccip/ocrimpls/aptos_contract_transmitter.go",
-    "core/capabilities/ccip/ocrimpls/sui_contract_transmitter.go",
-    "core/capabilities/ccip/ocrimpls/keyring.go",
-    "core/capabilities/ccip/ccipevm/commitcodec.go",
-    "core/capabilities/ccip/ccipevm/executecodec.go",
-    "core/capabilities/ccip/ccipevm/extradatacodec.go",
-    "core/capabilities/ccip/ccipevm/pluginconfig.go",
-    "core/capabilities/ccip/ccipevm/manualexeclib/exec.go",
-    "core/capabilities/ccip/ccipsolana/commitcodec.go",
-    "core/capabilities/ccip/ccipsolana/executecodec.go",
-    "core/capabilities/ccip/ccipsolana/extradatacodec.go",
-    "core/capabilities/ccip/ccipsolana/pluginconfig.go",
-    "core/capabilities/ccip/ccipaptos/commitcodec.go",
-    "core/capabilities/ccip/ccipaptos/executecodec.go",
-    "core/capabilities/ccip/ccipaptos/pluginconfig.go",
-    "core/capabilities/ccip/ccipsui/executecodec.go",
+    "chainbase/src/main/java/org/tron/core/capsule/TransactionCapsule.java",
+    "actuator/src/main/java/org/tron/core/utils/TransactionUtil.java",
+    "actuator/src/main/java/org/tron/core/utils/TransactionRegister.java",
+    "chainbase/src/main/java/org/tron/core/capsule/AccountCapsule.java",
+    "framework/src/main/java/org/tron/core/db/Manager.java",
+    "framework/src/main/java/org/tron/core/db/PendingManager.java",
+    "chainbase/src/main/java/org/tron/core/db/TransactionCache.java",
+    "chainbase/src/main/java/org/tron/core/db/RecentTransactionStore.java",
+    "chainbase/src/main/java/org/tron/core/db/TransactionTrace.java",
+    "chainbase/src/main/java/org/tron/core/db/TransactionContext.java",
+    "chainbase/src/main/java/org/tron/core/capsule/ReceiptCapsule.java",
+
+    # =================================================================================
+    # Actuators: authorization and balance/state invariants of every user operation
+    # =================================================================================
+    "actuator/src/main/java/org/tron/core/actuator/AbstractActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/ActuatorCreator.java",
+    "actuator/src/main/java/org/tron/core/actuator/TransferActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/TransferAssetActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/AccountPermissionUpdateActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/UpdateAccountActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/SetAccountIdActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/CreateAccountActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/FreezeBalanceActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/FreezeBalanceV2Actuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/UnfreezeBalanceActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/UnfreezeBalanceV2Actuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/CancelAllUnfreezeV2Actuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/WithdrawExpireUnfreezeActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/DelegateResourceActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/UnDelegateResourceActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/WithdrawBalanceActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/VoteWitnessActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/AssetIssueActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/ParticipateAssetIssueActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/UpdateAssetActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/UnfreezeAssetActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/AbstractExchangeActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/ExchangeCreateActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/ExchangeInjectActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/ExchangeWithdrawActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/ExchangeTransactionActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/MarketSellAssetActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/MarketCancelOrderActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/ProposalApproveActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/UpdateSettingContractActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/UpdateEnergyLimitContractActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/ClearABIContractActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/ShieldedTransferActuator.java",
+    "actuator/src/main/java/org/tron/core/actuator/VMActuator.java",
+
+    # =================================================================================
+    # TVM: interpreter, gas/energy accounting, memory, storage, precompiles
+    # =================================================================================
+    "actuator/src/main/java/org/tron/core/vm/VM.java",
+    "actuator/src/main/java/org/tron/core/vm/JumpTable.java",
+    "actuator/src/main/java/org/tron/core/vm/OperationActions.java",
+    "actuator/src/main/java/org/tron/core/vm/OperationRegistry.java",
+    "actuator/src/main/java/org/tron/core/vm/EnergyCost.java",
+    "actuator/src/main/java/org/tron/core/vm/PrecompiledContracts.java",
+    "actuator/src/main/java/org/tron/core/vm/MessageCall.java",
+    "actuator/src/main/java/org/tron/core/vm/VMUtils.java",
+    "actuator/src/main/java/org/tron/core/vm/program/Program.java",
+    "actuator/src/main/java/org/tron/core/vm/program/Memory.java",
+    "actuator/src/main/java/org/tron/core/vm/program/Stack.java",
+    "actuator/src/main/java/org/tron/core/vm/program/Storage.java",
+    "actuator/src/main/java/org/tron/core/vm/program/ContractState.java",
+    "actuator/src/main/java/org/tron/core/vm/program/ProgramPrecompile.java",
+    "actuator/src/main/java/org/tron/core/vm/program/invoke/ProgramInvokeFactory.java",
+    "actuator/src/main/java/org/tron/core/vm/program/invoke/ProgramInvokeImpl.java",
+    "actuator/src/main/java/org/tron/core/vm/repository/RepositoryImpl.java",
+    "actuator/src/main/java/org/tron/core/vm/utils/MUtil.java",
+    "actuator/src/main/java/org/tron/core/vm/utils/FreezeV2Util.java",
+    "actuator/src/main/java/org/tron/core/vm/utils/VoteRewardUtil.java",
+    "framework/src/main/java/org/tron/common/runtime/RuntimeImpl.java",
+    "chainbase/src/main/java/org/tron/common/runtime/InternalTransaction.java",
+
+    # =================================================================================
+    # TVM native staking contracts callable from any attacker-deployed contract
+    # =================================================================================
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/FreezeBalanceV2Processor.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/UnfreezeBalanceV2Processor.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/DelegateResourceProcessor.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/UnDelegateResourceProcessor.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/CancelAllUnfreezeV2Processor.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/WithdrawExpireUnfreezeProcessor.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/WithdrawRewardProcessor.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/VoteWitnessProcessor.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/FreezeBalanceProcessor.java",
+    "actuator/src/main/java/org/tron/core/vm/nativecontract/UnfreezeBalanceProcessor.java",
+
+    # =================================================================================
+    # Resource model: bandwidth/energy metering, delegation and reward accounting
+    # =================================================================================
+    "chainbase/src/main/java/org/tron/core/db/ResourceProcessor.java",
+    "chainbase/src/main/java/org/tron/core/db/BandwidthProcessor.java",
+    "chainbase/src/main/java/org/tron/core/db/EnergyProcessor.java",
+    "chainbase/src/main/java/org/tron/core/store/DelegationStore.java",
+    "chainbase/src/main/java/org/tron/core/store/DelegatedResourceStore.java",
+    "chainbase/src/main/java/org/tron/core/store/DelegatedResourceAccountIndexStore.java",
+    "chainbase/src/main/java/org/tron/core/store/DynamicPropertiesStore.java",
+    "chainbase/src/main/java/org/tron/core/capsule/DelegatedResourceCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/DelegatedResourceAccountIndexCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/VotesCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/ExchangeProcessor.java",
+    "chainbase/src/main/java/org/tron/core/capsule/SafeExchangeProcessor.java",
+    "chainbase/src/main/java/org/tron/core/capsule/MarketOrderCapsule.java",
+    "chainbase/src/main/java/org/tron/core/capsule/AssetIssueCapsule.java",
+    "chainbase/src/main/java/org/tron/common/utils/Commons.java",
+
+    # =================================================================================
+    # Iteration and lookup layers behind account/asset/market queries
+    # =================================================================================
+    "chainbase/src/main/java/org/tron/core/db/TronStoreWithRevoking.java",
+    "chainbase/src/main/java/org/tron/core/db/TronDatabase.java",
+    "chainbase/src/main/java/org/tron/core/db/common/iterator/DBIterator.java",
+    "chainbase/src/main/java/org/tron/core/db/common/iterator/RockStoreIterator.java",
+    "chainbase/src/main/java/org/tron/core/db/common/iterator/StoreIterator.java",
+    "chainbase/src/main/java/org/tron/core/store/AccountStore.java",
+    "chainbase/src/main/java/org/tron/core/store/AccountAssetStore.java",
+    "chainbase/src/main/java/org/tron/core/store/AccountIdIndexStore.java",
+    "chainbase/src/main/java/org/tron/core/store/AssetIssueV2Store.java",
+    "chainbase/src/main/java/org/tron/core/store/MarketOrderStore.java",
+    "chainbase/src/main/java/org/tron/core/store/MarketPairPriceToOrderStore.java",
+    "chainbase/src/main/java/org/tron/core/store/MarketPairToPriceStore.java",
+    "chainbase/src/main/java/org/tron/core/store/SectionBloomStore.java",
+    "chainbase/src/main/java/org/tron/core/store/StorageRowStore.java",
+    "chainbase/src/main/java/org/tron/core/store/ContractStore.java",
+    "chainbase/src/main/java/org/tron/core/store/CodeStore.java",
+    "chainbase/src/main/java/org/tron/core/ChainBaseManager.java",
+
+    # =================================================================================
+    # Cryptographic primitives used for signature, hash and precompile verification
+    # =================================================================================
+    "crypto/src/main/java/org/tron/common/crypto/ECKey.java",
+    "crypto/src/main/java/org/tron/common/crypto/Rsv.java",
+    "crypto/src/main/java/org/tron/common/crypto/SignUtils.java",
+    "crypto/src/main/java/org/tron/common/crypto/Hash.java",
+    "crypto/src/main/java/org/tron/common/crypto/Blake2bfMessageDigest.java",
+    "crypto/src/main/java/org/tron/common/crypto/sm2/SM2.java",
+    "crypto/src/main/java/org/tron/common/crypto/sm2/SM2Signer.java",
+    "crypto/src/main/java/org/tron/common/crypto/zksnark/PairingCheck.java",
+    "crypto/src/main/java/org/tron/common/crypto/zksnark/BN128.java",
+    "crypto/src/main/java/org/tron/common/crypto/zksnark/BN128Fp.java",
+    "crypto/src/main/java/org/tron/common/crypto/zksnark/BN128G1.java",
+    "crypto/src/main/java/org/tron/common/crypto/zksnark/BN128G2.java",
+    "crypto/src/main/java/org/tron/common/crypto/zksnark/Fp.java",
+    "crypto/src/main/java/org/tron/common/crypto/zksnark/Fp2.java",
+    "crypto/src/main/java/org/tron/keystore/Wallet.java",
+    "crypto/src/main/java/org/tron/keystore/WalletUtils.java",
+    "crypto/src/main/java/org/tron/keystore/Credentials.java",
+
+    # =================================================================================
+    # Encoding, address and math helpers on every attacker-controlled input path
+    # =================================================================================
+    "common/src/main/java/org/tron/common/utils/ByteArray.java",
+    "common/src/main/java/org/tron/common/utils/ByteUtil.java",
+    "common/src/main/java/org/tron/common/utils/DecodeUtil.java",
+    "common/src/main/java/org/tron/common/utils/Base58.java",
+    "common/src/main/java/org/tron/common/utils/Bech32.java",
+    "common/src/main/java/org/tron/common/utils/Sha256Hash.java",
+    "common/src/main/java/org/tron/common/utils/MerkleRoot.java",
+    "common/src/main/java/org/tron/common/utils/StringUtil.java",
+    "common/src/main/java/org/tron/common/utils/BIUtil.java",
+    "common/src/main/java/org/tron/common/math/Maths.java",
+    "common/src/main/java/org/tron/common/math/StrictMathWrapper.java",
+    "common/src/main/java/org/tron/common/utils/CompactEncoder.java",
+    "common/src/main/java/org/tron/common/parameter/CommonParameter.java",
+    "framework/src/main/java/org/tron/core/capsule/utils/RLP.java",
+    "chainbase/src/main/java/org/tron/common/utils/WalletUtil.java",
+
+    # =================================================================================
+    # Zero-knowledge / shielded transaction verification reachable from transactions
+    # =================================================================================
+    "chainbase/src/main/java/org/tron/common/zksnark/MerkleContainer.java",
+    "chainbase/src/main/java/org/tron/common/zksnark/IncrementalMerkleTreeContainer.java",
+    "chainbase/src/main/java/org/tron/common/zksnark/IncrementalMerkleVoucherContainer.java",
+    "chainbase/src/main/java/org/tron/common/zksnark/LibrustzcashParam.java",
+    "chainbase/src/main/java/org/tron/common/zksnark/JLibrustzcash.java",
+    "chainbase/src/main/java/org/tron/common/zksnark/ZksnarkUtils.java",
+    "framework/src/main/java/org/tron/core/zen/ZenTransactionBuilder.java",
+    "framework/src/main/java/org/tron/core/zen/ShieldedTRC20ParametersBuilder.java",
+    "framework/src/main/java/org/tron/core/zen/note/NoteEncryption.java",
+    "framework/src/main/java/org/tron/core/zen/address/KeyIo.java",
+
+    # =================================================================================
+    # Reward, vote and parameter state transitions driven by user transactions
+    # =================================================================================
+    "consensus/src/main/java/org/tron/consensus/dpos/MaintenanceManager.java",
+    "consensus/src/main/java/org/tron/consensus/dpos/IncentiveManager.java",
+    "consensus/src/main/java/org/tron/consensus/dpos/StatisticManager.java",
+    "consensus/src/main/java/org/tron/consensus/ConsensusDelegate.java",
+    "framework/src/main/java/org/tron/core/consensus/ProposalService.java",
+    "actuator/src/main/java/org/tron/core/utils/ProposalUtil.java",
+    "chainbase/src/main/java/org/tron/common/utils/ForkController.java",
+    "actuator/src/main/java/org/tron/core/vm/config/ConfigLoader.java",
+
+    # =================================================================================
+    # Event and log emission driven by attacker-controlled contract data
+    # =================================================================================
+    "framework/src/main/java/org/tron/common/logsfilter/ContractEventParser.java",
+    "framework/src/main/java/org/tron/common/logsfilter/ContractEventParserAbi.java",
+    "framework/src/main/java/org/tron/common/logsfilter/capsule/ContractTriggerCapsule.java",
+    "framework/src/main/java/org/tron/common/logsfilter/capsule/TransactionLogTriggerCapsule.java",
+    "chainbase/src/main/java/org/tron/common/bloom/Bloom.java",
+    "framework/src/main/java/org/tron/core/services/NodeInfoService.java",
+    "framework/src/main/java/org/tron/core/metrics/MetricsApiService.java",
 ]
 
 
 target_scopes = [
-    "Critical. An unprivileged external attacker can reach Chainlink Core Node web, session, auth, GraphQL, bridge, external-initiator, gateway, vault, workflow, or capability endpoints and achieve authentication bypass, privilege escalation, or unauthorized execution of privileged node actions.",
-    "Critical. An unprivileged attacker can trigger arbitrary system command execution, arbitrary file read, sensitive local file disclosure, secret extraction, or unauthorized access to blockchain keys, database credentials, API tokens, or other confidential node material from a running Chainlink service.",
-    "Critical. An unprivileged attacker can exploit job specs, workflow specs, bridge adapters, plugin registration, CCIP/OCR request handling, or capability routing to inject unauthorized external calls, tamper with execution, or cause misreporting of prices/data or malicious cross-chain message handling.",
-    "Critical. An unprivileged attacker can abuse vault, gateway, remote executable, or workflow authorization flaws to bypass replay protection, request binding, owner scoping, or signature validation and gain access to protected secrets or privileged workflow actions.",
-    "High. An unprivileged attacker can cause permanent or repeated denial of key Chainlink node functions, unsafe transaction submission, unauthorized fund movement, or material rate-limit bypass with real security impact.",
-    "High. An unprivileged attacker can exploit parser, codec, request-binding, or chain-selection differentials in CCIP, OCR, gateway, or web handlers to make trusted validation logic accept attacker-controlled data differently from downstream execution.",
+    "Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.",
+    "Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.",
+    "Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.",
+    "Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.",
+    "Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.",
+    "Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.",
+    "Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.",
+    "Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.",
 ]
 
 
@@ -188,47 +348,47 @@ scope_scan = [
 
 def question_generator(target_file: str) -> str:
     """
-    Generate exploit-focused audit and fuzzing questions for one chainlink target.
+    Generate exploit-focused audit and fuzzing questions for one java-tron target.
 
     ```
     target_file format:
-    "'File Name: core/web/router.go -> Scope: Critical. ...'"
+    "'File Name: actuator/src/main/java/org/tron/core/actuator/TransferActuator.java -> Scope: Critical. ...'"
     """
 
     prompt = f"""
     ```
 
-    Generate exploit-focused security audit and fuzzing questions for this exact chainlink target:
+    Generate exploit-focused security audit and fuzzing questions for this exact java-tron target:
 
     {target_file}
 
     Project focus:
-    Chainlink is a production oracle and cross-chain infrastructure codebase. Focus on unauthenticated or low-privilege attack paths in Core Node web/API auth, sessions, bridges, external initiators, job/workflow ingestion, gateway/capability routing, vault secret flows, plugin loading, and CCIP/OCR request execution.
+    java-tron is the TRON full node. Focus on transaction validation and signature/permission checks, actuator state transitions, TVM execution and energy metering, precompiled contracts, bandwidth/energy/delegation and reward accounting, exchange and market math, store iteration behind queries, and the HTTP/gRPC/JSON-RPC handlers plus their rate limiters.
 
     Rules:
-    * Treat `File Name:` as the exact file/module.
+    * Treat `File Name:` as the exact file/class.
     * Treat `Scope:` as the ONLY impact to target.
     * Assume full repo context is accessible.
     * Do not ask for code or say anything is missing.
-    * Use exact Go symbols and real request/handler/spec names when possible.
-    * Attacker is unprivileged only: no node operator/admin, no leaked keys, no malicious node/peer, no social engineering, no governance control, and no privileged infrastructure access.
-    * Allowed attacker inputs are only normal external surfaces: HTTP/WebSocket/API requests, login/session flows, GraphQL queries, bridge or external-initiator interactions, job/workflow spec content, gateway/vault/capability messages, plugin/env inputs, and CCIP/OCR message or config data accepted by the node.
-    * Ignore tests, mocks, docs, generated files, config-only findings, and dependency-only issues.
-    * Do not rely on operator-only deployment mistakes, local shell access, or assumptions that a trusted DON participant is malicious.
+    * Use exact Java symbols (class, method, field, constant) when possible.
+    * Attacker is unprivileged only: an anonymous RPC/HTTP/JSON-RPC client, an ordinary funded TRON account broadcasting signed transactions, or anyone deploying and calling a smart contract.
+    * Attacker is NOT a witness/SR, node operator, committee member, or peer, holds no leaked keys, and cannot rely on malicious peers, malicious nodes, P2P message handling, or majority stake.
+    * Ignore test files, mocks, benchmarks, generated protobuf stubs, docs, build/CI config, and dependency-only issues.
+    * Ignore self-harm (attacker damaging only their own account) and economic-design critique.
     * Generate 12 to 16 high-signal questions.
-    * At least 70% must target auth bypass, privilege escalation, unauthorized job/workflow execution, arbitrary command/file access, secret disclosure, request replay/binding bypass, parser or codec differentials, or CCIP/OCR message-validation failures.
-    * Every question must be testable by unit test, integration test, fuzz test, invariant test, or differential test.
+    * At least 70% must target unauthorized account operations, asset or accounting corruption, signature/permission bypass, key or secret disclosure, node RCE, consensus divergence, or DoS via RPC-API or protocol implementation.
+    * Every question must be testable by a JUnit test, a crafted transaction/contract call, a raw RPC request, or a differential/fuzz test over encoded inputs.
     * Avoid generic checklist questions and repeated root causes.
 
     Core invariants:
-    * Authentication and authorization must bind every privileged action to the correct user, role, workflow owner, chain, job, and request.
-    * Untrusted external input must never become privileged job execution, remote capability execution, bridge calls, vault access, or CCIP/OCR side effects without the intended checks.
-    * Secrets stay secret: blockchain keys, database credentials, API tokens, session material, vault contents, and sensitive config must not become readable or exfiltratable.
-    * Replay, signature, ownership, and namespace checks must not be bypassable through ID rewriting, stale state, parser tricks, or cross-request confusion.
-    * Chain-specific message validation must not accept attacker-controlled data that can cause false reports, unsafe execution, or unauthorized fund movement.
+    * Authorization is exact: every balance, resource, asset, or contract mutation requires a signature that recovers to an address holding sufficient permission weight for that operation.
+    * Value is conserved: sum of balances, frozen/delegated resources, asset supply, exchange reserves, and rewards never increases except through defined issuance, and never underflows.
+    * Metering is faithful: consumed bandwidth and energy are charged before or exactly in step with the work performed, and no cheap input yields unbounded CPU, memory, disk, or iteration.
+    * Execution is deterministic: identical input yields identical state, receipts, and energy across nodes, JDKs, and fork-gate states.
+    * Secrets stay internal: private keys, spending keys, and keystore material never reach an RPC response, log line, event trigger, or error message.
 
     Each question must include:
-    1. target function/module;
+    1. target class/method;
     2. attacker action;
     3. preconditions;
     4. call sequence;
@@ -239,7 +399,7 @@ def question_generator(target_file: str) -> str:
     Output only valid Python. No markdown. No explanations.
 
     questions = [
-    "[File: {target_file}] [Function: symbol_or_module] Can an unprivileged ATTACKER_ACTION under PRECONDITIONS trigger CALL_SEQUENCE, violating INVARIANT, causing scoped impact: SCOPE_IMPACT? Proof idea: unit/integration/fuzz PARAMETERS and assert AUTHZ_BOUNDARY, SECRET_ISOLATION, REQUEST_BINDING, or CHAIN_EXECUTION_SAFETY.",
+    "[File: {target_file}] [Function: Class.method] Can an unprivileged ATTACKER_ACTION under PRECONDITIONS trigger CALL_SEQUENCE, violating INVARIANT, causing scoped impact: SCOPE_IMPACT? Proof idea: JUnit/transaction/RPC/fuzz INPUTS and assert AUTHORIZATION_ENFORCED, VALUE_CONSERVATION, FAITHFUL_METERING, DETERMINISM, or SECRET_CONFINEMENT.",
     ]
     """
     return prompt
@@ -247,7 +407,7 @@ def question_generator(target_file: str) -> str:
 
 def audit_format(security_question: str) -> str:
     """
-    Generate a focused chainlink exploit-validation prompt.
+    Generate a focused java-tron exploit-validation prompt.
     """
 
     prompt = f"""# SECURITY AUDIT PROMPT
@@ -257,15 +417,17 @@ def audit_format(security_question: str) -> str:
 
 ## Rules
 - Use existing repo context only. Analyze only this question and scoped impact.
-- Attacker is unprivileged only: no node-operator/admin privilege, no leaked keys, no social engineering, and no malicious node/peer/operator assumptions.
-- Reject anything that depends only on test/mock/config/docs/generated files, dependency bugs alone, direct store mutation from tests, or best-practice cleanup without exploitable impact.
-- Focus on real Chainlink compromise paths reachable from ordinary web/API requests, session/login flows, GraphQL, bridge and external-initiator input, job/workflow specs, gateway or vault messages, plugin/env input, and CCIP/OCR request paths.
+- Attacker is unprivileged only: an anonymous RPC/HTTP/JSON-RPC client, an ordinary funded account broadcasting signed transactions, or a smart contract deployer/caller. No witness/SR, committee, node-operator, or peer role. No leaked keys. No malicious-peer, malicious-node, P2P, or 51% assumptions.
+- Reject anything requiring privileged addresses, physical or local-network access, MITM, social engineering, or non-default node configuration.
+- Reject anything that depends only on test/mock/benchmark/docs/build files, dependency bugs alone, or best-practice cleanup without exploitable impact.
+- Focus on real compromise paths: node RCE, private-key disclosure, unauthorized account operations, asset/accounting corruption, consensus divergence, DoS via RPC-API, and DoS via the TRON protocol implementation.
 
 ## Validate
-- Trace the exact reachable path from the attacker input into auth/session handling, job/workflow execution, bridge/external adapter calls, gateway/capability handlers, vault secret flows, plugin registration, or CCIP/OCR execution.
-- Check whether existing authz, signature, replay, namespace, rate-limit, role, chain-binding, or parser/codec checks already stop it.
-- Accept only real auth bypass, privilege escalation, arbitrary command or file action, secret disclosure, unauthorized transaction or workflow execution, misreporting/data tampering, or direct node compromise behavior.
-- Require exact file/function support and a reproducible unit/integration/fuzz/invariant PoC.
+- Trace the exact reachable path from attacker input (HTTP/JSON-RPC/gRPC request, broadcast transaction, or contract call) into the affected method.
+- Check whether existing checks already stop it: `TransactionCapsule.validateSignature`, permission weight and owner-address checks, `DecodeUtil.addressValid`, actuator `validate()`, fork gates in `ForkController`, energy/bandwidth accounting, rate limiters, and query size limits.
+- Account for real chain economics: fees, energy and bandwidth cost, and transaction size limits the attacker must pay.
+- Accept only concrete impact: stolen or frozen assets, created or destroyed value, unauthorized state change, key/secret leak, node crash or stall, or divergent state.
+- Require exact file/method support and a reproducible JUnit or request-level PoC.
 
 ## Output
 If valid, output exactly:
@@ -280,16 +442,16 @@ If valid, output exactly:
 [Code path, root cause, attacker inputs, exploit flow, and why checks fail]
 
 ### Impact Explanation
-[Concrete scoped impact and matching Chainlink bounty impact]
+[Concrete scoped impact and matching TRON bounty impact class]
 
 ### Likelihood Explanation
-[Preconditions, feasibility, repeatability]
+[Preconditions, cost to attacker, feasibility, repeatability]
 
 ### Recommendation
 [Specific fix]
 
 ### Proof of Concept
-[Unit/integration test or fuzz/invariant test plan with expected assertions]
+[JUnit test, crafted transaction/contract call, or raw RPC sequence with expected assertions]
 
 If invalid, output exactly:
 #NoVulnerability found for this question.
@@ -301,7 +463,7 @@ No extra text.
 
 def validation_format(report: str) -> str:
     """
-    Generate a strict bounty-style validation prompt for chainlink security claims.
+    Generate a strict bounty-style validation prompt for java-tron security claims.
     """
     prompt = f"""# VALIDATION PROMPT
 
@@ -313,30 +475,31 @@ def validation_format(report: str) -> str:
 - Check SECURITY.md and Researcher.Md for scope, exclusions, and valid impact classes.
 - Do not create a new vulnerability if the submitted claim is weak or invalid.
 - Do not upgrade severity unless the provided evidence proves the higher impact.
-- Reject malicious-node, malicious-peer, operator-only, leaked-key, dependency-only, docs/style, generated-file, test/mock/config-only, self-XSS-only, and purely theoretical issues.
-- Reject if the exploit needs victim social engineering, impossible setup, or unsupported behavior outside normal Chainlink inputs.
-- Reject if the bug was fixed, acknowledged, or publicly disclosed already, per the eligibility rules.
-- A valid report must be triggerable by an unprivileged user, unless the claim proves privilege escalation from an unprivileged path.
-- The final impact must map to an in-scope Chainlink impact such as auth bypass, arbitrary system command execution, sensitive file or secret disclosure, unauthorized privileged node action, misreporting of prices/data, unsafe CCIP/OCR execution, or direct compromise of node or funds.
+- Reject privileged-actor (witness/SR, committee, node operator, peer), leaked-key, physical/local-network, MITM, social-engineering, dependency-only, docs/style, and test/mock/config-only issues.
+- Reject malicious-peer, malicious-node, P2P-message, Sybil, 51%, and pure-DDoS claims.
+- Reject self-harm, economic-design critique, scanner output, and theoretical claims with no demonstrated impact.
+- A valid report must be triggerable by an anonymous RPC client, an ordinary funded account, or a smart contract caller against a default full node.
+- The final impact must map to an in-scope class: RCE/node takeover, private-key disclosure, DoS via RPC-API, DoS via the TRON protocol implementation, unauthorized account operations, or asset/consensus integrity loss.
 - Prefer #NoVulnerability over speculative reports.
 
 ## Required Validation Checks
 All must pass:
-1. Exact in-scope file, function, and line/code references.
+1. Exact in-scope file, class, method, and line/code references.
 2. Clear root cause and broken security assumption.
-3. Reachable exploit path: preconditions -> attacker action -> trigger -> bad result.
-4. Existing checks/guards reviewed and shown insufficient.
-5. Concrete in-scope impact with realistic likelihood.
-6. Reproducible proof path: unit PoC, integration test, invariant/fuzz test, or exact manual steps.
+3. Reachable exploit path: preconditions -> attacker transaction/contract call/RPC request -> trigger -> bad result.
+4. Existing validation, permission checks, fork gates, metering, and rate limits reviewed and shown insufficient.
+5. Concrete in-scope impact with realistic likelihood and attacker cost.
+6. Reproducible proof path: JUnit PoC, crafted transaction, or exact RPC sequence against a default node.
 7. No obvious rejection reason from SECURITY.md, known issues, privilege assumptions, or scope exclusions.
 
 ## Silent Triage Questions
 Before output, internally answer:
-- Can a normal external user trigger this through real web/API, bridge, job/workflow, gateway, vault, plugin, or CCIP/OCR surfaces without privileged access?
-- Does the code actually behave as claimed?
-- Is the impact caused by this code, not by a malicious node, peer, repository operator already holding privileged machine access, or dependency alone?
-- Is the unauthorized execution, disclosure, bypass, or local/project compromise concrete, not hypothetical?
-- Would a Chainlink bounty triager accept the proof?
+- Can an anonymous RPC client or ordinary account trigger this with no privileged role and no leaked key?
+- Does the code actually behave as claimed on the current release version?
+- Is the impact caused by java-tron code, not by node configuration or a dependency alone?
+- Is the theft, accounting break, key leak, divergence, or crash concrete and not hypothetical?
+- Is the attacker's fee/energy cost low enough for the claimed impact to matter?
+- Would a TRON HackerOne triager accept the proof?
 - What exact test would prove it?
 
 ## Output
@@ -354,16 +517,16 @@ Audit Report
 [Exact code path, root cause, exploit flow, and why existing checks fail]
 
 ## Impact Explanation
-[Concrete in-scope impact, severity rationale, and Chainlink bounty category]
+[Concrete in-scope impact, severity rationale, and TRON bounty category]
 
 ## Likelihood Explanation
-[Attacker capability, required conditions, feasibility, repeatability]
+[Attacker capability, required conditions, cost, feasibility, repeatability]
 
 ## Recommendation
 [Specific fix guidance]
 
 ## Proof of Concept
-[Minimal reproducible steps or fuzz/invariant/integration test plan]
+[Minimal reproducible transaction/RPC sequence or JUnit test plan]
 
 If invalid, output exactly:
 #NoVulnerability found for this question.
@@ -375,7 +538,7 @@ Output only one of the two outcomes above. No extra text.
 
 def scan_format(report: str) -> str:
     """
-    Generate a short cross-project analog scan prompt for chainlink.
+    Generate a short cross-project analog scan prompt for java-tron.
     """
     prompt = f"""# ANALOG SCAN PROMPT
 
@@ -385,13 +548,13 @@ def scan_format(report: str) -> str:
 ## Rules
 - Use in-scope production repo context only. Do not ask for code or claim missing files.
 - Use the external report only as a bug-class hint, not as proof.
-- Keep only unprivileged-user analogs in auth/session bypass, bridge or external-adapter abuse, job/workflow ingestion, gateway/vault/capability routing, CCIP/OCR validation, arbitrary command execution, or secret disclosure trust boundaries.
-- Reject malicious-node/peer/operator analogs, mocked-only paths, dependency-only bugs, and no-impact or self-XSS-only analogs.
+- Keep only unprivileged analogs in transaction/signature/permission validation, actuator state transitions, TVM execution and energy metering, precompiled contracts, resource and reward accounting, exchange/market math, store iteration, or HTTP/gRPC/JSON-RPC handlers and rate limiters.
+- Reject privileged-actor, leaked-key, malicious-peer/node, P2P, dependency-only, test-only, and no-impact analogs.
 
 ## Validate
-- Map the bug class to the strongest reachable chainlink path.
-- Prove root cause with exact file/function support.
-- Accept only concrete auth bypass, unauthorized privileged node action, arbitrary shell/file action, secret disclosure, unsafe transaction/workflow execution, misreporting/data tampering, or direct node compromise impact.
+- Map the bug class to the strongest reachable java-tron path from an anonymous RPC request, a broadcast transaction, or a contract call.
+- Prove root cause with exact file/class/method support.
+- Accept only concrete node RCE, key disclosure, unauthorized account operation, asset or accounting corruption, consensus divergence, or DoS via RPC-API or protocol implementation.
 
 ## Output (Strict)
 If valid analog exists, output:

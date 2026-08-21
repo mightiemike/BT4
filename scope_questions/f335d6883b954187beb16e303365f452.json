@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/JsonRpcApiUtil.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aa62cb2e-8542-4a01-bcc1-d67ae7d87d43?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/FullNodeJsonRpcHttpService.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_04f3f3ee-c6b7-42f6-89de-e03eb6b91b4c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/filters/LogFilter.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6c6769a2-136a-43d7-bd03-180924e46cba?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/filters/LogFilterWrapper.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e7b1c33a-1516-48ee-8f5b-0d65874776e2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/filters/LogBlockQuery.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eccf0a4e-9fb5-450e-9ad1-654a5a59ca2f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/filters/LogMatch.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_01a28fec-eed9-4398-b63a-ef1cd675540a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/types/BuildArguments.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2582effa-c919-4a7b-8d00-40787e463e37?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/types/CallArguments.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4d1724b7-e2b1-41ee-92bf-9080d4422a02?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/jsonrpc/types/BlockResult.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c5a8b263-563e-4f8d-b6fc-15772b367f53?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/RpcApiService.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_778226a1-a435-4d94-81af-543e2c047707?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/Wallet.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ce618ca9-28f8-4452-9483-382d1e43e393?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/ratelimiter/RateLimiterInterceptor.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_af35590e-94d6-4c8a-96a7-5cf74d4b8e23?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/ratelimiter/RpcApiAccessInterceptor.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d14b2b4a-5e7d-4bdc-bc8f-63a97d1a1c94?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/ratelimiter/GlobalRateLimiter.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4979d35e-39b7-41bd-8784-e7f053ed2e9f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/ratelimiter/RateLimiterContainer.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fedc9c52-32ba-4b51-a70c-d1654939d8bd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/ratelimiter/adapter/IPQPSRateLimiterAdapter.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7530ff57-b3b9-409f-9829-1f6742667df1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/ratelimiter/adapter/QpsRateLimiterAdapter.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cf8161f0-d373-4366-a3ca-92fa3396c99e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/ratelimiter/adapter/GlobalPreemptibleAdapter.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4ad6209c-599b-425f-8e31-5e4947eed5a8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/filter/HttpApiAccessFilter.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_31e80370-6ffa-4c92-b8f5-4b6439d38bb8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/filter/LiteFnQueryHttpFilter.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_04ba7f2b-f0d4-4488-8672-21755ca20213?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/filter/LiteFnQueryGrpcInterceptor.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c7b5c558-5edf-44ce-bb47-fbae8124626a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/services/filter/CachedBodyRequestWrapper.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a21655a5-d7d2-4fe3-93dc-20f33d56a691?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/common/application/HttpService.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_38ac9bc3-ba93-4498-ad76-99b589c47408?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/common/application/RpcService.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a793a9ae-a62d-41e8-af46-186c2b1d6420?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/TransactionCapsule.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_42e10c20-23cd-4538-8424-e01ecdbf1f4f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/utils/TransactionUtil.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7bf42502-2710-40a2-bc3f-d2f47fefa2b2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: actuator/src/main/java/org/tron/core/utils/TransactionRegister.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8382ea0a-4181-4d64-b55f-0d8bcc433f8d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: chainbase/src/main/java/org/tron/core/capsule/AccountCapsule.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c6326a69-bdfa-48ab-b626-ebbf039ae034?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/db/Manager.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_18f041af-8bc5-43aa-8836-a04f91b2af09?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: framework/src/main/java/org/tron/core/db/PendingManager.java -> Scope: Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a82e024b-961c-4aca-baa3-759d26e25642?mode=deep",
+    "questions_generated": false
+  }
+]

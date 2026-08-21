@@ -1,0 +1,1 @@
+[File: 'Wallet.getMarketOrderById' -> 'MarketOrderStore.get'] When 'MarketOrderStore.get(byte[] key)' throws ItemNotFoundException for a well-formed but nonexistent orderId, Wallet.getMarketOrderById logs 'logger.warn(\

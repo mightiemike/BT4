@@ -1,0 +1,1 @@
+[File: 'DeployContractServlet.java' -> Scope: Advanced DoS] [Function: DeployContractServlet.doPost, ABI 'entrys' wrapping] Can an attacker supply an 'abi' value that is not a JSON array but a crafted string causing the manual string concatenation '{\

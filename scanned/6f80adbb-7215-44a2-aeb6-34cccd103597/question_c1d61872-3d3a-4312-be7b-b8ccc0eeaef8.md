@@ -1,0 +1,1 @@
+[File: 'common/src/main/java/org/tron/common/utils/Sha256Hash.java -> Scope: Intermediate'] [Function: TransactionCapsule.checkWeight PermissionException message] Does TransactionCapsule.checkWeight's PermissionException message construction, `ByteArray.toHexString(hash) + \

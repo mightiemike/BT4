@@ -1,0 +1,1 @@
+[File: 'RateLimiterServlet.java' vs historical Class.forName pattern] [Function: buildAdapter regression test] Given the code comment states this whitelist replaced a prior `Class.forName`-based dynamic loading pattern (per `testWhitelistRejectsUnknownAdapter` asserting `\

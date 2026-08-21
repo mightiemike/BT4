@@ -1,1 +1,0 @@
-[File: TriggerSmartContractServlet.java -> Scope: Fatal key/secret disclosure] [Function: TriggerSmartContractServlet.doPost] Can an unprivileged attacker send a malformed TriggerSmartContract JSON body (e.g. invalid function_selector/function_parameter hex) so that the generic `catch (Exception e)` block at lines 91-97 serializes `e.getClass() + \

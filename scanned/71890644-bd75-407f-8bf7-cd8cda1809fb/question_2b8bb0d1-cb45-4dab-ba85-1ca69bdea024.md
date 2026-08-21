@@ -1,1 +1,0 @@
-[File: 'File Name: actuator/src/main/java/org/tron/core/vm/repository/RepositoryImpl.java -> Scope: Intermediate.'] [Function: RepositoryImpl.updateDelegation/getDelegation (vote-reward cycle keys) + VoteRewardUtil.computeReward] Can an unprivileged attacker construct a vote_address or owner address whose hex encoding, when concatenated into the delegation key format '(cycle + \

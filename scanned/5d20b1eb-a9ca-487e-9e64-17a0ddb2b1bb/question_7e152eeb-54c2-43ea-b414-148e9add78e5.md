@@ -1,0 +1,1 @@
+[File: 'framework/src/main/java/org/tron/core/services/jsonrpc/TronJsonRpcImpl.java' -> Scope: Advanced DoS] [Function: TronJsonRpcImpl.ethGetBlockByNumber / getBlockResult -> BlockResult] Can an attacker repeatedly call eth_getBlockByNumber(

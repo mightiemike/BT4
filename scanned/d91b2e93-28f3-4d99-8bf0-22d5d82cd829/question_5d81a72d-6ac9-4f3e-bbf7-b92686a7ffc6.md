@@ -1,0 +1,1 @@
+[File: chainbase/src/main/java/org/tron/core/store/DelegationStore.java -> Scope: Fatal secret disclosure] [Function: MortgageService.withdrawReward logging DelegationStore.getAccountVote result] MortgageService.withdrawReward logs 'logger.info(\

@@ -1,0 +1,1 @@
+[File: JsonFormat.java -> Scope: Critical] [Function: JsonFormat.mergeField field-number fallback: type.findFieldByNumber(Integer.parseInt(name))] Can an unprivileged attacker send a JSON object whose keys are raw field numbers (\

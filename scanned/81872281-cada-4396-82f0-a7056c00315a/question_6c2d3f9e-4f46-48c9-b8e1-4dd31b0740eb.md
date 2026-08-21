@@ -1,0 +1,1 @@
+[File: HttpSelfFormatFieldName.java -> Scope: Critical] [Function: isNameStringFormat fallback try/catch swallowing JSON.parseObject exceptions in JsonFormat.escapeBytesSelfType (line ~868-876)] When printing a NameStringFormat field whose raw bytes contain invalid UTF-8 or characters that break the ad hoc '{\

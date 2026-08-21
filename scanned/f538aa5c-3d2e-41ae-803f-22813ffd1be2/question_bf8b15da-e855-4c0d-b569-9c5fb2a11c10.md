@@ -1,0 +1,1 @@
+[File: GlobalRateLimiter.java -> Scope: Critical unauthorized asset movement] [Function: RuntimeData(Object) via ServerCall path] Since RuntimeData derives the IP strictly from Grpc.TRANSPORT_ATTR_REMOTE_ADDR (not an HTTP header), can an unprivileged attacker still bypass per-IP throttling entirely by triggering the caught NullPointerException path (address stays \

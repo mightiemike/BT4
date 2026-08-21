@@ -1,0 +1,1 @@
+[File: MarketOrderStore.java -> Scope: Critical] [Function: MarketSellAssetActuator.transferBalanceOrToken / addTrxOrToken] Can an unprivileged attacker exploit the special-case token-ID check Arrays.equals(sellTokenID, \

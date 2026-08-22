@@ -1,1 +1,0 @@
-[File: JsonFormat.java -> Scope: Critical] [Function: JsonFormat.parseInteger(String,boolean,boolean) via Tokenizer.consumeInt64/consumeUInt64] Can an unprivileged attacker submitting an HTTP wallet/createtransaction-style JSON body with a numeric field written with a leading zero (e.g. \

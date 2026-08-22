@@ -1,1 +1,0 @@
-[File: ContractTriggerCapsule.java -> Scope: Critical] Target: ContractTriggerCapsule.processTrigger() fallback branch producing `ContractLogTrigger` when no ABI event matches (`eventSignatureFull = \

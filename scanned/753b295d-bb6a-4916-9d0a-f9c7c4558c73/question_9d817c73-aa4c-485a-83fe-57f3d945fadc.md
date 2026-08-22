@@ -1,1 +1,0 @@
-[File: TransactionUtil.java -> Scope: Critical] [Function: TransactionUtil.getTransactionSignWeight(Transaction) exception handling chain] Can an unprivileged attacker trigger the generic catch(Exception ex) branch (resultBuilder.setMessage(ex.getClass() + \

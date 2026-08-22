@@ -1,1 +1,0 @@
-[File: 'TransactionUtil.java' -> Scope: PermissionException message leakage to unauthenticated caller] [Function: TransactionUtil.getTransactionSignWeight(Transaction)] Can an attacker use the resultBuilder.setMessage(ex.getClass() + \

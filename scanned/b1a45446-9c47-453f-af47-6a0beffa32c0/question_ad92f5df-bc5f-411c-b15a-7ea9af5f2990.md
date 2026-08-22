@@ -1,1 +1,0 @@
-[File: 'framework/src/main/java/org/tron/core/services/http/GetRewardServlet.java -> GetRewardServlet.doGet'] Can an unprivileged HTTP client send a malformed 'address' parameter that triggers DecoderException/IllegalArgumentException, whose message (via Util.getAddress -> DecodeUtil-style validation) is echoed as '{\

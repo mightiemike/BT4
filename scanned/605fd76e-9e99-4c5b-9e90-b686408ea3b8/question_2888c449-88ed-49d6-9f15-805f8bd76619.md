@@ -1,1 +1,0 @@
-[File: VMUtils.java -> Scope: Fatal secret disclosure] [Function: VMUtils.createProgramTraceFile] Can an unprivileged attacker who fully controls the transaction bytes (and thus the resulting txHash string passed into `new File(new File(\

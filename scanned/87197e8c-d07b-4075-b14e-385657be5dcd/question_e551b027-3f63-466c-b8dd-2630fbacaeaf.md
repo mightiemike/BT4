@@ -1,1 +1,0 @@
-[File: 'actuator/src/main/java/org/tron/core/actuator/UpdateSettingContractActuator.java' -> Scope: Fatal secret disclosure] [Function: UpdateSettingContractActuator.validate] Can an unprivileged attacker craft an UpdateSettingContract with an invalid ownerAddress under preconditions that DecodeUtil.addressValid rejects it, triggering ContractValidateException(\

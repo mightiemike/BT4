@@ -1,1 +1,0 @@
-[File: 'RateLimiterInterceptor.java' -> Scope: Advanced DoS] [Function: RuntimeData(Object) + GlobalRateLimiter.tryAcquire/acquire] Can an unprivileged attacker cause `RuntimeData`'s constructor (lines 18-26) to catch the NPE when `Grpc.TRANSPORT_ATTR_REMOTE_ADDR` is absent/null (e.g. via a non-standard transport, proxy, or Netty channel edge case) and fall back to `address = \

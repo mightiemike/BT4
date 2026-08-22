@@ -1,1 +1,0 @@
-[File: HttpApiAccessFilter.java -> Scope: Critical] [Function: HttpApiAccessFilter.isDisabled(String)] Can an unprivileged client send a request whose path has fewer than 2 '/' segments (e.g. '/wallet' or '/') so that `endpoint.split(\

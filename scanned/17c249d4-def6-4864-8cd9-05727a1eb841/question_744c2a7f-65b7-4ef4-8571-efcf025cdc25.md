@@ -1,1 +1,0 @@
-[File: HttpApiAccessFilter.java -> Scope: Critical] [Function: HttpApiAccessFilter.isDisabled] Can an unprivileged client supply a servlet path containing raw or percent-encoded control characters (e.g. '%00', '%0d%0a') that survive `URI.create(endpoint).normalize()` without throwing, causing `endpoint.split(\

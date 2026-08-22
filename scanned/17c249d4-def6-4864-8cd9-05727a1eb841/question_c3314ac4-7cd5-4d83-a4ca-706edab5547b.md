@@ -1,1 +1,0 @@
-[File: HttpApiAccessFilter.java -> Scope: Critical] [Function: HttpApiAccessFilter.isDisabled(String)] Can an unprivileged HTTP client craft an endpoint path such as '/wallet//broadcasttransaction' or '/wallet/%2e%2e/broadcasttransaction' so that `URI.create(endpoint).normalize().toString()` does not collapse the duplicate/ encoded segments the same way `endpoint.split(\

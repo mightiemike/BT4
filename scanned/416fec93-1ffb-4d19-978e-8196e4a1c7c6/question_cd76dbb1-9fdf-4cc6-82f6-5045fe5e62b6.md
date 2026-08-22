@@ -1,1 +1,0 @@
-[File: 'framework/src/main/java/org/tron/core/db/Manager.java -> Manager.processBlock(BlockCapsule block, List<TransactionCapsule> txs) -> consensus.applyBlock(block)'] Can an unprivileged attacker submit a block-adjacent transaction sequence that causes BadBlockException(\

@@ -1,1 +1,0 @@
-[File: 'framework/src/main/java/org/tron/core/db/Manager.java -> Manager.postSolidityLogContractTrigger(Long blockNum, Long lastSolidityNum)'] Can an unprivileged attacker submit a crafted ContractLogTrigger via a fork-switch-inducing sequence of blocks (triggering reOrgContractTrigger/clearSolidityContractTriggerCache) so that `logger.error(\

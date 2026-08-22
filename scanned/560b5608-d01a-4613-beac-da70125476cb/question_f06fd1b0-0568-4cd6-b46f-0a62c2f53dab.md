@@ -1,1 +1,0 @@
-[File: 'BuildArguments.java' -> Scope: Critical] [Function: BuildArguments.getContractType(Wallet)] Can an unprivileged attacker send a JSON-RPC request with `to` omitted (null) and `data`/`input` both empty/null, deliberately probing the `throw new JsonRpcInvalidRequestException(\

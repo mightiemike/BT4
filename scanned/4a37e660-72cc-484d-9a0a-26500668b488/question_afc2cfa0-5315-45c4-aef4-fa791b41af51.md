@@ -1,1 +1,0 @@
-[File: 'GetPaginatedExchangeListServlet.java'] [Function: Wallet.getPaginatedExchangeList(long offset, long limit)] Given the method computes `long end = offset + limit;` without overflow checks, can an attacker submit offset and limit values near Long.MAX_VALUE (e.g., offset=Long.MAX_VALUE-5, limit=10) via doGet's `Long.parseLong(request.getParameter(\

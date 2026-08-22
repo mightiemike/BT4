@@ -1,1 +1,0 @@
-[File: 'File Name: actuator/src/main/java/org/tron/core/vm/repository/RepositoryImpl.java -> Scope: Fatal.'] [Function: RepositoryImpl.getDynamicProperty(byte[] word)] Can an unprivileged attacker who triggers a TVM call path that reads a crafted/missing dynamic-property key force the catch (BadItemException | ItemNotFoundException) branch to run `logger.warn(\

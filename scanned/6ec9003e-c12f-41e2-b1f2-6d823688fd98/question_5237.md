@@ -1,0 +1,13 @@
+# Q5237: src/mysql — query-cost DoS
+
+## Question
+Can an unprivileged attacker submit a session id with NUL or Unicode collation collisions to `storeSession` in `src/mysql.ts` such that storeSession runs unbounded/expensive query on a session id with NUL or Unicode collation collisions, breaking the invariant that query cost bounded and indexed, and leading to: dos of storage layer?
+
+## Target
+- File/function: `packages/apps/session-storage/shopify-app-session-storage-mysql/src/mysql.ts` -> `storeSession`
+- Entrypoint: Any request that causes a session id/shop to reach the datastore
+- Attacker controls: a session id with NUL or Unicode collation collisions
+- Exploit idea: storeSession runs unbounded/expensive query on a session id with NUL or Unicode collation collisions
+- Invariant to test: query cost bounded and indexed
+- Expected Immunefi impact: DoS of storage layer (In scope: SQL injection / cross-tenant session & token compromise. Note: shopify-app-js is covered under Shopify's HackerOne program, not Immunefi; SECURITY.md "Websites and Apps" exclusions apply.)
+- Fast validation: long-input timing test

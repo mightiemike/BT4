@@ -6,9 +6,9 @@ from decouple import config
 # todo: if scope_files is: 500 > 50, 300 > 30 , 100 > 10
 MAX_REPO = 22
 # todo: the GitLab namespace/project path, for example group/project
-SOURCE_REPO = 'tronprotocol/java-tron'
+SOURCE_REPO = 'Shopify/shopify-app-js'
 # todo: the name of the repository
-REPO_NAME = 'java-tron'
+REPO_NAME = 'shopify-app-js'
 
 run_number = os.environ.get('GITHUB_RUN_NUMBER', '0')
 
@@ -48,297 +48,105 @@ else:
 
 scope_files = [
     # =================================================================================
-    # Public HTTP entrypoints: request parsing, param decoding, error handling
+    # HMAC / signature verification: webhooks, request HMAC, app proxy, timing-safe compare
     # =================================================================================
-    "framework/src/main/java/org/tron/core/services/http/FullNodeHttpApiService.java",
-    "framework/src/main/java/org/tron/core/services/http/Util.java",
-    "framework/src/main/java/org/tron/core/services/http/PostParams.java",
-    "framework/src/main/java/org/tron/core/services/http/JsonFormat.java",
-    "framework/src/main/java/org/tron/core/services/http/HttpSelfFormatFieldName.java",
-    "framework/src/main/java/org/tron/core/services/http/BroadcastServlet.java",
-    "framework/src/main/java/org/tron/core/services/http/BroadcastHexServlet.java",
-    "framework/src/main/java/org/tron/core/services/http/TriggerSmartContractServlet.java",
-    "framework/src/main/java/org/tron/core/services/http/TriggerConstantContractServlet.java",
-    "framework/src/main/java/org/tron/core/services/http/EstimateEnergyServlet.java",
-    "framework/src/main/java/org/tron/core/services/http/DeployContractServlet.java",
-    "framework/src/main/java/org/tron/core/services/http/CreateCommonTransactionServlet.java",
-    "framework/src/main/java/org/tron/core/services/http/GetTransactionSignWeightServlet.java",
-    "framework/src/main/java/org/tron/core/services/http/GetTransactionApprovedListServlet.java",
+    "packages/apps/shopify-api/lib/utils/hmac-validator.ts",
+    "packages/apps/shopify-api/lib/utils/get-hmac-key.ts",
+    "packages/apps/shopify-api/lib/auth/oauth/safe-compare.ts",
+    "packages/apps/shopify-api/lib/webhooks/validate.ts",
+    "packages/apps/shopify-api/lib/webhooks/process.ts",
+    "packages/apps/shopify-api/lib/flow/validate.ts",
+    "packages/apps/shopify-api/lib/fulfillment-service/validate.ts",
+    "packages/apps/shopify-api/runtime/crypto/index.ts",
+    "packages/apps/shopify-api/runtime/crypto/utils.ts",
 
     # =================================================================================
-    # Unbounded / paginated read endpoints reachable by any anonymous RPC client
+    # Session token (JWT) decode & validation: signature, aud/iss/exp/dest claims
     # =================================================================================
-    "framework/src/main/java/org/tron/core/services/http/GetPaginatedAssetIssueListServlet.java",
-    "framework/src/main/java/org/tron/core/services/http/GetPaginatedExchangeListServlet.java",
-    "framework/src/main/java/org/tron/core/services/http/GetPaginatedProposalListServlet.java",
-    "framework/src/main/java/org/tron/core/services/http/GetPaginatedNowWitnessListServlet.java",
-    "framework/src/main/java/org/tron/core/services/http/GetAssetIssueListServlet.java",
-    "framework/src/main/java/org/tron/core/services/http/GetAssetIssueListByNameServlet.java",
-    "framework/src/main/java/org/tron/core/services/http/GetDelegatedResourceAccountIndexServlet.java",
-    "framework/src/main/java/org/tron/core/services/http/GetDelegatedResourceAccountIndexV2Servlet.java",
-    "framework/src/main/java/org/tron/core/services/http/GetMarketOrderListByPairServlet.java",
-    "framework/src/main/java/org/tron/core/services/http/GetMarketOrderByAccountServlet.java",
-    "framework/src/main/java/org/tron/core/services/http/GetBlockByLimitNextServlet.java",
-    "framework/src/main/java/org/tron/core/services/http/GetBlockByLatestNumServlet.java",
-    "framework/src/main/java/org/tron/core/services/http/GetTransactionInfoByBlockNumServlet.java",
-    "framework/src/main/java/org/tron/core/services/http/GetTransactionListFromPendingServlet.java",
+    "packages/apps/shopify-api/lib/session/decode-session-token.ts",
+    "packages/apps/shopify-api/lib/session/session-utils.ts",
+    "packages/apps/shopify-api/lib/session/session.ts",
+    "packages/apps/shopify-api/lib/session/classes.ts",
+    "packages/apps/shopify-app-remix/src/server/authenticate/helpers/validate-session-token.ts",
+    "packages/apps/shopify-app-remix/src/server/authenticate/helpers/get-session-token-header.ts",
+    "packages/apps/shopify-app-express/src/helpers/get-session-token.ts",
 
     # =================================================================================
-    # JSON-RPC surface: eth_* dispatch, filters, log queries, argument coercion
+    # OAuth flow: begin/callback, nonce (CSRF state), signed cookies, token grants
     # =================================================================================
-    "framework/src/main/java/org/tron/core/services/jsonrpc/JsonRpcServlet.java",
-    "framework/src/main/java/org/tron/core/services/jsonrpc/TronJsonRpcImpl.java",
-    "framework/src/main/java/org/tron/core/services/jsonrpc/JsonRpcApiUtil.java",
-    "framework/src/main/java/org/tron/core/services/jsonrpc/FullNodeJsonRpcHttpService.java",
-    "framework/src/main/java/org/tron/core/services/jsonrpc/filters/LogFilter.java",
-    "framework/src/main/java/org/tron/core/services/jsonrpc/filters/LogFilterWrapper.java",
-    "framework/src/main/java/org/tron/core/services/jsonrpc/filters/LogBlockQuery.java",
-    "framework/src/main/java/org/tron/core/services/jsonrpc/filters/LogMatch.java",
-    "framework/src/main/java/org/tron/core/services/jsonrpc/types/BuildArguments.java",
-    "framework/src/main/java/org/tron/core/services/jsonrpc/types/CallArguments.java",
-    "framework/src/main/java/org/tron/core/services/jsonrpc/types/BlockResult.java",
+    "packages/apps/shopify-api/lib/auth/oauth/oauth.ts",
+    "packages/apps/shopify-api/lib/auth/oauth/nonce.ts",
+    "packages/apps/shopify-api/lib/auth/oauth/create-session.ts",
+    "packages/apps/shopify-api/lib/auth/oauth/token-exchange.ts",
+    "packages/apps/shopify-api/lib/auth/oauth/client-credentials.ts",
+    "packages/apps/shopify-api/lib/auth/oauth/refresh-token.ts",
+    "packages/apps/shopify-app-remix/src/server/authenticate/admin/strategies/auth-code-flow.ts",
+    "packages/apps/shopify-app-remix/src/server/authenticate/admin/strategies/token-exchange.ts",
+    "packages/apps/shopify-app-remix/src/server/authenticate/admin/strategies/merchant-custom-app.ts",
+    "packages/apps/shopify-app-express/src/auth/auth-callback.ts",
 
     # =================================================================================
-    # gRPC surface and the query/limit gates every API path depends on
+    # Shop/host sanitization, redirect and host decoding: open redirect, SSRF, allowlist bypass
     # =================================================================================
-    "framework/src/main/java/org/tron/core/services/RpcApiService.java",
-    "framework/src/main/java/org/tron/core/Wallet.java",
-    "framework/src/main/java/org/tron/core/services/ratelimiter/RateLimiterInterceptor.java",
-    "framework/src/main/java/org/tron/core/services/ratelimiter/RpcApiAccessInterceptor.java",
-    "framework/src/main/java/org/tron/core/services/ratelimiter/GlobalRateLimiter.java",
-    "framework/src/main/java/org/tron/core/services/ratelimiter/RateLimiterContainer.java",
-    "framework/src/main/java/org/tron/core/services/ratelimiter/adapter/IPQPSRateLimiterAdapter.java",
-    "framework/src/main/java/org/tron/core/services/ratelimiter/adapter/QpsRateLimiterAdapter.java",
-    "framework/src/main/java/org/tron/core/services/ratelimiter/adapter/GlobalPreemptibleAdapter.java",
-    "framework/src/main/java/org/tron/core/services/filter/HttpApiAccessFilter.java",
-    "framework/src/main/java/org/tron/core/services/filter/LiteFnQueryHttpFilter.java",
-    "framework/src/main/java/org/tron/core/services/filter/LiteFnQueryGrpcInterceptor.java",
-    "framework/src/main/java/org/tron/core/services/filter/CachedBodyRequestWrapper.java",
-    "framework/src/main/java/org/tron/common/application/HttpService.java",
-    "framework/src/main/java/org/tron/common/application/RpcService.java",
+    "packages/apps/shopify-api/lib/utils/shop-validator.ts",
+    "packages/apps/shopify-api/lib/utils/shop-admin-url-helper.ts",
+    "packages/apps/shopify-api/lib/utils/domain-transformer.ts",
+    "packages/apps/shopify-api/lib/auth/decode-host.ts",
+    "packages/apps/shopify-api/lib/auth/get-embedded-app-url.ts",
+    "packages/apps/shopify-app-remix/src/server/authenticate/admin/helpers/validate-redirect-url.ts",
+    "packages/apps/shopify-app-remix/src/server/authenticate/admin/helpers/validate-shop-and-host-params.ts",
+    "packages/apps/shopify-app-remix/src/server/authenticate/helpers/get-shop-from-request.ts",
 
     # =================================================================================
-    # Transaction admission: signature/permission verification, dedup, mempool
+    # Unprivileged HTTP entry points: request authentication, app-proxy / public surfaces
     # =================================================================================
-    "chainbase/src/main/java/org/tron/core/capsule/TransactionCapsule.java",
-    "actuator/src/main/java/org/tron/core/utils/TransactionUtil.java",
-    "actuator/src/main/java/org/tron/core/utils/TransactionRegister.java",
-    "chainbase/src/main/java/org/tron/core/capsule/AccountCapsule.java",
-    "framework/src/main/java/org/tron/core/db/Manager.java",
-    "framework/src/main/java/org/tron/core/db/PendingManager.java",
-    "chainbase/src/main/java/org/tron/core/db/TransactionCache.java",
-    "chainbase/src/main/java/org/tron/core/db/RecentTransactionStore.java",
-    "chainbase/src/main/java/org/tron/core/db/TransactionTrace.java",
-    "chainbase/src/main/java/org/tron/core/db/TransactionContext.java",
-    "chainbase/src/main/java/org/tron/core/capsule/ReceiptCapsule.java",
+    "packages/apps/shopify-app-remix/src/server/authenticate/admin/authenticate.ts",
+    "packages/apps/shopify-app-remix/src/server/authenticate/webhooks/authenticate.ts",
+    "packages/apps/shopify-app-remix/src/server/authenticate/public/appProxy/authenticate.ts",
+    "packages/apps/shopify-app-remix/src/server/authenticate/public/checkout/authenticate.ts",
+    "packages/apps/shopify-app-remix/src/server/authenticate/public/customer-account/authenticate.ts",
+    "packages/apps/shopify-app-remix/src/server/authenticate/flow/authenticate.ts",
+    "packages/apps/shopify-app-remix/src/server/authenticate/fulfillment-service/authenticate.ts",
+    "packages/apps/shopify-app-remix/src/server/authenticate/helpers/reject-bot-request.ts",
+    "packages/apps/shopify-app-express/src/middlewares/validate-authenticated-session.ts",
+    "packages/apps/shopify-app-express/src/middlewares/ensure-installed-on-shop.ts",
+    "packages/apps/shopify-app-express/src/webhooks/process.ts",
 
     # =================================================================================
-    # Actuators: authorization and balance/state invariants of every user operation
+    # Cookies and low-level HTTP request/response handling shared by every entry point
     # =================================================================================
-    "actuator/src/main/java/org/tron/core/actuator/AbstractActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/ActuatorCreator.java",
-    "actuator/src/main/java/org/tron/core/actuator/TransferActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/TransferAssetActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/AccountPermissionUpdateActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/UpdateAccountActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/SetAccountIdActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/CreateAccountActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/FreezeBalanceActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/FreezeBalanceV2Actuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/UnfreezeBalanceActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/UnfreezeBalanceV2Actuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/CancelAllUnfreezeV2Actuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/WithdrawExpireUnfreezeActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/DelegateResourceActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/UnDelegateResourceActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/WithdrawBalanceActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/VoteWitnessActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/AssetIssueActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/ParticipateAssetIssueActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/UpdateAssetActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/UnfreezeAssetActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/AbstractExchangeActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/ExchangeCreateActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/ExchangeInjectActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/ExchangeWithdrawActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/ExchangeTransactionActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/MarketSellAssetActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/MarketCancelOrderActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/ProposalApproveActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/UpdateSettingContractActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/UpdateEnergyLimitContractActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/ClearABIContractActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/ShieldedTransferActuator.java",
-    "actuator/src/main/java/org/tron/core/actuator/VMActuator.java",
+    "packages/apps/shopify-api/runtime/http/cookies.ts",
+    "packages/apps/shopify-api/runtime/http/utils.ts",
+    "packages/apps/shopify-api/runtime/http/headers.ts",
+    "packages/apps/shopify-api/lib/utils/processed-query.ts",
 
     # =================================================================================
-    # TVM: interpreter, gas/energy accounting, memory, storage, precompiles
+    # Session storage: query construction where session id / shop reach the datastore
     # =================================================================================
-    "actuator/src/main/java/org/tron/core/vm/VM.java",
-    "actuator/src/main/java/org/tron/core/vm/JumpTable.java",
-    "actuator/src/main/java/org/tron/core/vm/OperationActions.java",
-    "actuator/src/main/java/org/tron/core/vm/OperationRegistry.java",
-    "actuator/src/main/java/org/tron/core/vm/EnergyCost.java",
-    "actuator/src/main/java/org/tron/core/vm/PrecompiledContracts.java",
-    "actuator/src/main/java/org/tron/core/vm/MessageCall.java",
-    "actuator/src/main/java/org/tron/core/vm/VMUtils.java",
-    "actuator/src/main/java/org/tron/core/vm/program/Program.java",
-    "actuator/src/main/java/org/tron/core/vm/program/Memory.java",
-    "actuator/src/main/java/org/tron/core/vm/program/Stack.java",
-    "actuator/src/main/java/org/tron/core/vm/program/Storage.java",
-    "actuator/src/main/java/org/tron/core/vm/program/ContractState.java",
-    "actuator/src/main/java/org/tron/core/vm/program/ProgramPrecompile.java",
-    "actuator/src/main/java/org/tron/core/vm/program/invoke/ProgramInvokeFactory.java",
-    "actuator/src/main/java/org/tron/core/vm/program/invoke/ProgramInvokeImpl.java",
-    "actuator/src/main/java/org/tron/core/vm/repository/RepositoryImpl.java",
-    "actuator/src/main/java/org/tron/core/vm/utils/MUtil.java",
-    "actuator/src/main/java/org/tron/core/vm/utils/FreezeV2Util.java",
-    "actuator/src/main/java/org/tron/core/vm/utils/VoteRewardUtil.java",
-    "framework/src/main/java/org/tron/common/runtime/RuntimeImpl.java",
-    "chainbase/src/main/java/org/tron/common/runtime/InternalTransaction.java",
+    "packages/apps/session-storage/shopify-app-session-storage-mysql/src/mysql.ts",
+    "packages/apps/session-storage/shopify-app-session-storage-postgresql/src/postgresql.ts",
+    "packages/apps/session-storage/shopify-app-session-storage-sqlite/src/sqlite.ts",
 
     # =================================================================================
-    # TVM native staking contracts callable from any attacker-deployed contract
+    # API clients & GraphQL proxy: outbound URL/host construction and credential handling
     # =================================================================================
-    "actuator/src/main/java/org/tron/core/vm/nativecontract/FreezeBalanceV2Processor.java",
-    "actuator/src/main/java/org/tron/core/vm/nativecontract/UnfreezeBalanceV2Processor.java",
-    "actuator/src/main/java/org/tron/core/vm/nativecontract/DelegateResourceProcessor.java",
-    "actuator/src/main/java/org/tron/core/vm/nativecontract/UnDelegateResourceProcessor.java",
-    "actuator/src/main/java/org/tron/core/vm/nativecontract/CancelAllUnfreezeV2Processor.java",
-    "actuator/src/main/java/org/tron/core/vm/nativecontract/WithdrawExpireUnfreezeProcessor.java",
-    "actuator/src/main/java/org/tron/core/vm/nativecontract/WithdrawRewardProcessor.java",
-    "actuator/src/main/java/org/tron/core/vm/nativecontract/VoteWitnessProcessor.java",
-    "actuator/src/main/java/org/tron/core/vm/nativecontract/FreezeBalanceProcessor.java",
-    "actuator/src/main/java/org/tron/core/vm/nativecontract/UnfreezeBalanceProcessor.java",
-
-    # =================================================================================
-    # Resource model: bandwidth/energy metering, delegation and reward accounting
-    # =================================================================================
-    "chainbase/src/main/java/org/tron/core/db/ResourceProcessor.java",
-    "chainbase/src/main/java/org/tron/core/db/BandwidthProcessor.java",
-    "chainbase/src/main/java/org/tron/core/db/EnergyProcessor.java",
-    "chainbase/src/main/java/org/tron/core/store/DelegationStore.java",
-    "chainbase/src/main/java/org/tron/core/store/DelegatedResourceStore.java",
-    "chainbase/src/main/java/org/tron/core/store/DelegatedResourceAccountIndexStore.java",
-    "chainbase/src/main/java/org/tron/core/store/DynamicPropertiesStore.java",
-    "chainbase/src/main/java/org/tron/core/capsule/DelegatedResourceCapsule.java",
-    "chainbase/src/main/java/org/tron/core/capsule/DelegatedResourceAccountIndexCapsule.java",
-    "chainbase/src/main/java/org/tron/core/capsule/VotesCapsule.java",
-    "chainbase/src/main/java/org/tron/core/capsule/ExchangeProcessor.java",
-    "chainbase/src/main/java/org/tron/core/capsule/SafeExchangeProcessor.java",
-    "chainbase/src/main/java/org/tron/core/capsule/MarketOrderCapsule.java",
-    "chainbase/src/main/java/org/tron/core/capsule/AssetIssueCapsule.java",
-    "chainbase/src/main/java/org/tron/common/utils/Commons.java",
-
-    # =================================================================================
-    # Iteration and lookup layers behind account/asset/market queries
-    # =================================================================================
-    "chainbase/src/main/java/org/tron/core/db/TronStoreWithRevoking.java",
-    "chainbase/src/main/java/org/tron/core/db/TronDatabase.java",
-    "chainbase/src/main/java/org/tron/core/db/common/iterator/DBIterator.java",
-    "chainbase/src/main/java/org/tron/core/db/common/iterator/RockStoreIterator.java",
-    "chainbase/src/main/java/org/tron/core/db/common/iterator/StoreIterator.java",
-    "chainbase/src/main/java/org/tron/core/store/AccountStore.java",
-    "chainbase/src/main/java/org/tron/core/store/AccountAssetStore.java",
-    "chainbase/src/main/java/org/tron/core/store/AccountIdIndexStore.java",
-    "chainbase/src/main/java/org/tron/core/store/AssetIssueV2Store.java",
-    "chainbase/src/main/java/org/tron/core/store/MarketOrderStore.java",
-    "chainbase/src/main/java/org/tron/core/store/MarketPairPriceToOrderStore.java",
-    "chainbase/src/main/java/org/tron/core/store/MarketPairToPriceStore.java",
-    "chainbase/src/main/java/org/tron/core/store/SectionBloomStore.java",
-    "chainbase/src/main/java/org/tron/core/store/StorageRowStore.java",
-    "chainbase/src/main/java/org/tron/core/store/ContractStore.java",
-    "chainbase/src/main/java/org/tron/core/store/CodeStore.java",
-    "chainbase/src/main/java/org/tron/core/ChainBaseManager.java",
-
-    # =================================================================================
-    # Cryptographic primitives used for signature, hash and precompile verification
-    # =================================================================================
-    "crypto/src/main/java/org/tron/common/crypto/ECKey.java",
-    "crypto/src/main/java/org/tron/common/crypto/Rsv.java",
-    "crypto/src/main/java/org/tron/common/crypto/SignUtils.java",
-    "crypto/src/main/java/org/tron/common/crypto/Hash.java",
-    "crypto/src/main/java/org/tron/common/crypto/Blake2bfMessageDigest.java",
-    "crypto/src/main/java/org/tron/common/crypto/sm2/SM2.java",
-    "crypto/src/main/java/org/tron/common/crypto/sm2/SM2Signer.java",
-    "crypto/src/main/java/org/tron/common/crypto/zksnark/PairingCheck.java",
-    "crypto/src/main/java/org/tron/common/crypto/zksnark/BN128.java",
-    "crypto/src/main/java/org/tron/common/crypto/zksnark/BN128Fp.java",
-    "crypto/src/main/java/org/tron/common/crypto/zksnark/BN128G1.java",
-    "crypto/src/main/java/org/tron/common/crypto/zksnark/BN128G2.java",
-    "crypto/src/main/java/org/tron/common/crypto/zksnark/Fp.java",
-    "crypto/src/main/java/org/tron/common/crypto/zksnark/Fp2.java",
-    "crypto/src/main/java/org/tron/keystore/Wallet.java",
-    "crypto/src/main/java/org/tron/keystore/WalletUtils.java",
-    "crypto/src/main/java/org/tron/keystore/Credentials.java",
-
-    # =================================================================================
-    # Encoding, address and math helpers on every attacker-controlled input path
-    # =================================================================================
-    "common/src/main/java/org/tron/common/utils/ByteArray.java",
-    "common/src/main/java/org/tron/common/utils/ByteUtil.java",
-    "common/src/main/java/org/tron/common/utils/DecodeUtil.java",
-    "common/src/main/java/org/tron/common/utils/Base58.java",
-    "common/src/main/java/org/tron/common/utils/Bech32.java",
-    "common/src/main/java/org/tron/common/utils/Sha256Hash.java",
-    "common/src/main/java/org/tron/common/utils/MerkleRoot.java",
-    "common/src/main/java/org/tron/common/utils/StringUtil.java",
-    "common/src/main/java/org/tron/common/utils/BIUtil.java",
-    "common/src/main/java/org/tron/common/math/Maths.java",
-    "common/src/main/java/org/tron/common/math/StrictMathWrapper.java",
-    "common/src/main/java/org/tron/common/utils/CompactEncoder.java",
-    "common/src/main/java/org/tron/common/parameter/CommonParameter.java",
-    "framework/src/main/java/org/tron/core/capsule/utils/RLP.java",
-    "chainbase/src/main/java/org/tron/common/utils/WalletUtil.java",
-
-    # =================================================================================
-    # Zero-knowledge / shielded transaction verification reachable from transactions
-    # =================================================================================
-    "chainbase/src/main/java/org/tron/common/zksnark/MerkleContainer.java",
-    "chainbase/src/main/java/org/tron/common/zksnark/IncrementalMerkleTreeContainer.java",
-    "chainbase/src/main/java/org/tron/common/zksnark/IncrementalMerkleVoucherContainer.java",
-    "chainbase/src/main/java/org/tron/common/zksnark/LibrustzcashParam.java",
-    "chainbase/src/main/java/org/tron/common/zksnark/JLibrustzcash.java",
-    "chainbase/src/main/java/org/tron/common/zksnark/ZksnarkUtils.java",
-    "framework/src/main/java/org/tron/core/zen/ZenTransactionBuilder.java",
-    "framework/src/main/java/org/tron/core/zen/ShieldedTRC20ParametersBuilder.java",
-    "framework/src/main/java/org/tron/core/zen/note/NoteEncryption.java",
-    "framework/src/main/java/org/tron/core/zen/address/KeyIo.java",
-
-    # =================================================================================
-    # Reward, vote and parameter state transitions driven by user transactions
-    # =================================================================================
-    "consensus/src/main/java/org/tron/consensus/dpos/MaintenanceManager.java",
-    "consensus/src/main/java/org/tron/consensus/dpos/IncentiveManager.java",
-    "consensus/src/main/java/org/tron/consensus/dpos/StatisticManager.java",
-    "consensus/src/main/java/org/tron/consensus/ConsensusDelegate.java",
-    "framework/src/main/java/org/tron/core/consensus/ProposalService.java",
-    "actuator/src/main/java/org/tron/core/utils/ProposalUtil.java",
-    "chainbase/src/main/java/org/tron/common/utils/ForkController.java",
-    "actuator/src/main/java/org/tron/core/vm/config/ConfigLoader.java",
-
-    # =================================================================================
-    # Event and log emission driven by attacker-controlled contract data
-    # =================================================================================
-    "framework/src/main/java/org/tron/common/logsfilter/ContractEventParser.java",
-    "framework/src/main/java/org/tron/common/logsfilter/ContractEventParserAbi.java",
-    "framework/src/main/java/org/tron/common/logsfilter/capsule/ContractTriggerCapsule.java",
-    "framework/src/main/java/org/tron/common/logsfilter/capsule/TransactionLogTriggerCapsule.java",
-    "chainbase/src/main/java/org/tron/common/bloom/Bloom.java",
-    "framework/src/main/java/org/tron/core/services/NodeInfoService.java",
-    "framework/src/main/java/org/tron/core/metrics/MetricsApiService.java",
+    "packages/apps/shopify-api/lib/clients/graphql_proxy/graphql_proxy.ts",
+    "packages/apps/shopify-api/lib/clients/common.ts",
+    "packages/apps/shopify-api/lib/utils/fetch-request.ts",
+    "packages/api-clients/admin-api-client/src/validations.ts",
+    "packages/api-clients/graphql-client/src/graphql-client/http-fetch.ts",
 ]
 
 
 target_scopes = [
-    "Fatal. An unprivileged attacker who can only broadcast a transaction or deploy/trigger a smart contract achieves remote code execution or full node takeover on a default full node, through native-library parameter handling, deserialization, reflection, file or process access reachable from transaction, TVM or RPC input.",
-    "Fatal. An unprivileged attacker recovers a node operator's or a user's private key, spending key, or keystore secret, through key material leaked into RPC responses, logs, error messages, event triggers, or through nonce/randomness reuse or a biased signing path in ECKey, SM2, or the keystore.",
-    "Critical. An unprivileged attacker moves, spends, freezes, or destroys assets of an account they do not control, by defeating signature recovery, multi-signature permission weight accounting, owner-address checks, or contract-caller identity in an actuator, TVM native contract, or precompiled contract.",
-    "Critical. An unprivileged attacker mints value out of nothing or corrupts global accounting — TRX/TRC10 balance, frozen or delegated resource, exchange or market order, withdrawn reward or brokerage — through integer overflow, sign confusion, rounding, unit mismatch, or a missing conservation check in an actuator, resource processor, reward calculation, or exchange/market math.",
-    "Critical. An unprivileged attacker makes a full node compute state that diverges from the rest of the network, or accept a transaction the network rejects, through non-deterministic math, fork-gate or version-condition mismatch, cache/store inconsistency, or an energy/bandwidth metering difference between execution and validation paths.",
-    "Advanced. A remote attacker with no privileges causes sustained denial of service on a node's RPC-API by sending crafted HTTP, JSON-RPC, or gRPC requests that bypass the rate limiter or trigger unbounded iteration, unbounded allocation, quadratic work, deadlock, or an uncaught fatal error inside a query handler.",
-    "Advanced. An unprivileged attacker halts, stalls, or crashes a node through the TRON protocol implementation itself, by broadcasting cheaply-constructed transactions or contract calls whose validation, TVM execution, resource metering, or persistence cost is disproportionate to the fee and energy actually charged.",
-    "Intermediate. An unprivileged attacker performs an account operation without the account owner's authorization, or blocks a legitimate owner's operation permanently, by abusing permission update, account-id, asset, vote, proposal-approve, delegation, or unfreeze logic to lock, squat, or overwrite state the owner controls.",
+    "Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.",
+    "Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.",
+    "Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.",
+    "Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.",
+    "Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.",
+    "Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.",
+    "Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.",
+    "Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.",
 ]
 
 
@@ -348,50 +156,50 @@ scope_scan = [
 
 def question_generator(target_file: str) -> str:
     """
-    Generate exploit-focused audit and fuzzing questions for one java-tron target.
+    Generate exploit-focused audit and fuzzing questions for one shopify-app-js target.
 
     ```
     target_file format:
-    "'File Name: actuator/src/main/java/org/tron/core/actuator/TransferActuator.java -> Scope: Critical. ...'"
+    "'File Name: packages/apps/shopify-api/lib/utils/hmac-validator.ts -> Scope: Critical. ...'"
     """
 
     prompt = f"""
     ```
 
-    Generate exploit-focused security audit and fuzzing questions for this exact java-tron target:
+    Generate exploit-focused security audit and fuzzing questions for this exact shopify-app-js target:
 
     {target_file}
 
     Project focus:
-    java-tron is the TRON full node. Focus on transaction validation and signature/permission checks, actuator state transitions, TVM execution and energy metering, precompiled contracts, bandwidth/energy/delegation and reward accounting, exchange and market math, store iteration behind queries, and the HTTP/gRPC/JSON-RPC handlers plus their rate limiters.
+    shopify-app-js is the official set of libraries (@shopify/shopify-api, shopify-app-remix, shopify-app-react-router, shopify-app-express, session-storage adapters, api-clients) that a Shopify app's backend uses to authenticate requests. Focus on session-token (JWT) verification, OAuth begin/callback nonce+HMAC+cookie handling, webhook/Flow/app-proxy HMAC verification, shop/host/redirect sanitization, session storage/lookup, and the code that builds authenticated outbound Admin/Storefront API requests.
 
     Rules:
-    * Treat `File Name:` as the exact file/class.
+    * Treat `File Name:` as the exact file/module.
     * Treat `Scope:` as the ONLY impact to target.
     * Assume full repo context is accessible.
     * Do not ask for code or say anything is missing.
-    * Use exact Java symbols (class, method, field, constant) when possible.
-    * Attacker is unprivileged only: an anonymous RPC/HTTP/JSON-RPC client, an ordinary funded TRON account broadcasting signed transactions, or anyone deploying and calling a smart contract.
-    * Attacker is NOT a witness/SR, node operator, committee member, or peer, holds no leaked keys, and cannot rely on malicious peers, malicious nodes, P2P message handling, or majority stake.
-    * Ignore test files, mocks, benchmarks, generated protobuf stubs, docs, build/CI config, and dependency-only issues.
-    * Ignore self-harm (attacker damaging only their own account) and economic-design critique.
+    * Use exact TypeScript symbols (function, class, method, constant, config field) when possible.
+    * Attacker is unprivileged only: an anonymous HTTP/webhook/app-proxy client, or a logged-in merchant/customer of ONE shop, sending crafted requests to an app built with these libraries.
+    * Attacker is NOT the app developer, a Shopify employee, or a privileged operator; does NOT possess the app's `apiSecretKey`, private keys, or any leaked secret; and cannot rely on MITM, local-network, physical access, or social engineering.
+    * Ignore test files, mocks, fixtures, docs/example files, generated code, and build/CI/config.
+    * Ignore self-harm (attacker affecting only their own shop) and pure best-practice/style critique.
     * Generate 12 to 16 high-signal questions.
-    * At least 70% must target unauthorized account operations, asset or accounting corruption, signature/permission bypass, key or secret disclosure, node RCE, consensus divergence, or DoS via RPC-API or protocol implementation.
-    * Every question must be testable by a JUnit test, a crafted transaction/contract call, a raw RPC request, or a differential/fuzz test over encoded inputs.
+    * At least 70% must target session-token/HMAC/signature forgery, OAuth CSRF or token theft, cross-tenant session access, injection into session storage, open redirect/SSRF, or DoS in an authentication handler.
+    * Every question must be testable by a Jest test, a crafted HTTP/webhook/app-proxy request, a forged JWT or HMAC payload, or a fuzz/differential test over encoded inputs.
     * Avoid generic checklist questions and repeated root causes.
 
     Core invariants:
-    * Authorization is exact: every balance, resource, asset, or contract mutation requires a signature that recovers to an address holding sufficient permission weight for that operation.
-    * Value is conserved: sum of balances, frozen/delegated resources, asset supply, exchange reserves, and rewards never increases except through defined issuance, and never underflows.
-    * Metering is faithful: consumed bandwidth and energy are charged before or exactly in step with the work performed, and no cheap input yields unbounded CPU, memory, disk, or iteration.
-    * Execution is deterministic: identical input yields identical state, receipts, and energy across nodes, JDKs, and fork-gate states.
-    * Secrets stay internal: private keys, spending keys, and keystore material never reach an RPC response, log line, event trigger, or error message.
+    * Authenticity is proven: a request is treated as coming from Shopify or an authenticated merchant only after its HMAC or JWT signature verifies against the app secret with a constant-time comparison, and all required claims (`aud`, `iss`, `dest`, `exp`, `nbf`) are checked.
+    * Sessions are tenant-isolated: a verified request resolves only to a session for the exact shop it authenticated as; storage lookups never return or overwrite another shop's session or access token.
+    * CSRF state is enforced: the OAuth callback is bound to the nonce/state and signed cookie issued at begin, and cannot be replayed or fixated by a third party.
+    * Destinations are constrained: any shop/host/redirect derived from request input is validated against the allowed-domain rules before it is used in a redirect, cookie, or outbound API URL.
+    * Secrets stay internal: the app secret, access tokens, and session material never reach a redirect target, response body, log line, or error surface an attacker can read.
 
     Each question must include:
-    1. target class/method;
+    1. target module/function;
     2. attacker action;
     3. preconditions;
-    4. call sequence;
+    4. request/call sequence;
     5. invariant tested;
     6. scoped impact;
     7. proof idea.
@@ -399,7 +207,7 @@ def question_generator(target_file: str) -> str:
     Output only valid Python. No markdown. No explanations.
 
     questions = [
-    "[File: {target_file}] [Function: Class.method] Can an unprivileged ATTACKER_ACTION under PRECONDITIONS trigger CALL_SEQUENCE, violating INVARIANT, causing scoped impact: SCOPE_IMPACT? Proof idea: JUnit/transaction/RPC/fuzz INPUTS and assert AUTHORIZATION_ENFORCED, VALUE_CONSERVATION, FAITHFUL_METERING, DETERMINISM, or SECRET_CONFINEMENT.",
+    "[File: {target_file}] [Function: module.function] Can an unprivileged ATTACKER_ACTION under PRECONDITIONS trigger REQUEST_SEQUENCE, violating INVARIANT, causing scoped impact: SCOPE_IMPACT? Proof idea: Jest/HTTP/webhook/forged-JWT/HMAC INPUTS and assert AUTHENTICITY, TENANT_ISOLATION, CSRF_STATE, DESTINATION_ALLOWLIST, or SECRET_CONFINEMENT.",
     ]
     """
     return prompt
@@ -407,7 +215,7 @@ def question_generator(target_file: str) -> str:
 
 def audit_format(security_question: str) -> str:
     """
-    Generate a focused java-tron exploit-validation prompt.
+    Generate a focused shopify-app-js exploit-validation prompt.
     """
 
     prompt = f"""# SECURITY AUDIT PROMPT
@@ -417,17 +225,17 @@ def audit_format(security_question: str) -> str:
 
 ## Rules
 - Use existing repo context only. Analyze only this question and scoped impact.
-- Attacker is unprivileged only: an anonymous RPC/HTTP/JSON-RPC client, an ordinary funded account broadcasting signed transactions, or a smart contract deployer/caller. No witness/SR, committee, node-operator, or peer role. No leaked keys. No malicious-peer, malicious-node, P2P, or 51% assumptions.
-- Reject anything requiring privileged addresses, physical or local-network access, MITM, social engineering, or non-default node configuration.
-- Reject anything that depends only on test/mock/benchmark/docs/build files, dependency bugs alone, or best-practice cleanup without exploitable impact.
-- Focus on real compromise paths: node RCE, private-key disclosure, unauthorized account operations, asset/accounting corruption, consensus divergence, DoS via RPC-API, and DoS via the TRON protocol implementation.
+- Attacker is unprivileged only: an anonymous HTTP/webhook/app-proxy client, or a single merchant/customer sending crafted requests to an app built with these libraries. No app-developer role, no Shopify-employee role, no `apiSecretKey` or leaked secret. No MITM, local-network, physical-access, or social-engineering assumptions.
+- Reject anything requiring privileged access, a stolen secret, non-default library configuration, or a bug in the host app rather than in this library.
+- Reject anything that depends only on test/mock/fixture/docs/example/build files, a dependency bug alone, or best-practice cleanup without exploitable impact.
+- Focus on real compromise paths: session-token/HMAC/signature forgery, OAuth CSRF or access-token theft, cross-tenant session access, injection into session storage, open redirect/SSRF, secret disclosure, and DoS in an authentication handler.
 
 ## Validate
-- Trace the exact reachable path from attacker input (HTTP/JSON-RPC/gRPC request, broadcast transaction, or contract call) into the affected method.
-- Check whether existing checks already stop it: `TransactionCapsule.validateSignature`, permission weight and owner-address checks, `DecodeUtil.addressValid`, actuator `validate()`, fork gates in `ForkController`, energy/bandwidth accounting, rate limiters, and query size limits.
-- Account for real chain economics: fees, energy and bandwidth cost, and transaction size limits the attacker must pay.
-- Accept only concrete impact: stolen or frozen assets, created or destroyed value, unauthorized state change, key/secret leak, node crash or stall, or divergent state.
-- Require exact file/method support and a reproducible JUnit or request-level PoC.
+- Trace the exact reachable path from attacker input (HTTP request, webhook/app-proxy payload, forged JWT, OAuth callback params) into the affected function.
+- Check whether existing checks already stop it: HMAC verification in `validateHmac`/`validateHmacFromRequestFactory`, `safeCompare`, JWT claim checks in `decodeSessionToken`, the OAuth nonce/cookie in the begin/callback flow, `sanitizeShop`/`sanitizeHost`/`validateRedirectUrl`, and session-storage parameterization.
+- Account for what the attacker actually controls versus what is signed by the app secret they do not have.
+- Accept only concrete impact: forged authenticated session, accepted forged webhook/proxy request, stolen or injected access token, cross-tenant data/state access, open redirect/SSRF with a real consequence, secret leak, or a crash/hang of an auth handler.
+- Require exact file/function support and a reproducible Jest test or request-level PoC.
 
 ## Output
 If valid, output exactly:
@@ -442,16 +250,16 @@ If valid, output exactly:
 [Code path, root cause, attacker inputs, exploit flow, and why checks fail]
 
 ### Impact Explanation
-[Concrete scoped impact and matching TRON bounty impact class]
+[Concrete scoped impact and matching Shopify bounty impact class]
 
 ### Likelihood Explanation
-[Preconditions, cost to attacker, feasibility, repeatability]
+[Preconditions, attacker capability, feasibility, repeatability]
 
 ### Recommendation
 [Specific fix]
 
 ### Proof of Concept
-[JUnit test, crafted transaction/contract call, or raw RPC sequence with expected assertions]
+[Jest test, crafted HTTP/webhook/app-proxy request, or forged JWT/HMAC sequence with expected assertions]
 
 If invalid, output exactly:
 #NoVulnerability found for this question.
@@ -463,7 +271,7 @@ No extra text.
 
 def validation_format(report: str) -> str:
     """
-    Generate a strict bounty-style validation prompt for java-tron security claims.
+    Generate a strict bounty-style validation prompt for shopify-app-js security claims.
     """
     prompt = f"""# VALIDATION PROMPT
 
@@ -475,31 +283,30 @@ def validation_format(report: str) -> str:
 - Check SECURITY.md and Researcher.Md for scope, exclusions, and valid impact classes.
 - Do not create a new vulnerability if the submitted claim is weak or invalid.
 - Do not upgrade severity unless the provided evidence proves the higher impact.
-- Reject privileged-actor (witness/SR, committee, node operator, peer), leaked-key, physical/local-network, MITM, social-engineering, dependency-only, docs/style, and test/mock/config-only issues.
-- Reject malicious-peer, malicious-node, P2P-message, Sybil, 51%, and pure-DDoS claims.
-- Reject self-harm, economic-design critique, scanner output, and theoretical claims with no demonstrated impact.
-- A valid report must be triggerable by an anonymous RPC client, an ordinary funded account, or a smart contract caller against a default full node.
-- The final impact must map to an in-scope class: RCE/node takeover, private-key disclosure, DoS via RPC-API, DoS via the TRON protocol implementation, unauthorized account operations, or asset/consensus integrity loss.
+- Reject privileged-actor (app developer, Shopify staff, operator), leaked-secret/`apiSecretKey`, physical/local-network, MITM, social-engineering, dependency-only, docs/style, and test/mock/config-only issues.
+- Reject reflected plain-text injection, self-XSS, logout/no-impact CSRF, missing-security-header claims, and pure-DDoS claims.
+- Reject self-harm, best-practice critique, scanner output, and theoretical claims with no demonstrated impact.
+- A valid report must be triggerable by an anonymous HTTP/webhook/app-proxy client or a single merchant/customer against an app running this library on default configuration.
+- The final impact must map to an in-scope class: forged authenticated session or accepted forged Shopify request, OAuth CSRF / access-token theft, cross-tenant session/data access, session-storage injection, open redirect/SSRF, secret disclosure, or DoS of an authentication handler.
 - Prefer #NoVulnerability over speculative reports.
 
 ## Required Validation Checks
 All must pass:
-1. Exact in-scope file, class, method, and line/code references.
+1. Exact in-scope file, function, and line/code references.
 2. Clear root cause and broken security assumption.
-3. Reachable exploit path: preconditions -> attacker transaction/contract call/RPC request -> trigger -> bad result.
-4. Existing validation, permission checks, fork gates, metering, and rate limits reviewed and shown insufficient.
-5. Concrete in-scope impact with realistic likelihood and attacker cost.
-6. Reproducible proof path: JUnit PoC, crafted transaction, or exact RPC sequence against a default node.
-7. No obvious rejection reason from SECURITY.md, known issues, privilege assumptions, or scope exclusions.
+3. Reachable exploit path: preconditions -> attacker request/payload -> trigger -> bad result.
+4. Existing HMAC/JWT/nonce/redirect/storage checks reviewed and shown insufficient.
+5. Concrete in-scope impact with realistic likelihood and attacker capability.
+6. Reproducible proof path: Jest PoC, crafted HTTP/webhook request, or forged JWT/HMAC sequence.
+7. No obvious rejection reason from SECURITY.md, privilege assumptions, or scope exclusions.
 
 ## Silent Triage Questions
 Before output, internally answer:
-- Can an anonymous RPC client or ordinary account trigger this with no privileged role and no leaked key?
-- Does the code actually behave as claimed on the current release version?
-- Is the impact caused by java-tron code, not by node configuration or a dependency alone?
-- Is the theft, accounting break, key leak, divergence, or crash concrete and not hypothetical?
-- Is the attacker's fee/energy cost low enough for the claimed impact to matter?
-- Would a TRON HackerOne triager accept the proof?
+- Can an anonymous client or a single merchant/customer trigger this with no privileged role and no `apiSecretKey`/leaked secret?
+- Does the code actually behave as claimed on the current release version and default config?
+- Is the impact caused by this library's code, not by the host app or a dependency alone?
+- Is the forged session, accepted forged request, token theft, cross-tenant access, redirect/SSRF, or crash concrete and not hypothetical?
+- Would a Shopify triager accept the proof?
 - What exact test would prove it?
 
 ## Output
@@ -517,16 +324,16 @@ Audit Report
 [Exact code path, root cause, exploit flow, and why existing checks fail]
 
 ## Impact Explanation
-[Concrete in-scope impact, severity rationale, and TRON bounty category]
+[Concrete in-scope impact, severity rationale, and Shopify bounty category]
 
 ## Likelihood Explanation
-[Attacker capability, required conditions, cost, feasibility, repeatability]
+[Attacker capability, required conditions, feasibility, repeatability]
 
 ## Recommendation
 [Specific fix guidance]
 
 ## Proof of Concept
-[Minimal reproducible transaction/RPC sequence or JUnit test plan]
+[Minimal reproducible request/JWT/HMAC sequence or Jest test plan]
 
 If invalid, output exactly:
 #NoVulnerability found for this question.
@@ -538,7 +345,7 @@ Output only one of the two outcomes above. No extra text.
 
 def scan_format(report: str) -> str:
     """
-    Generate a short cross-project analog scan prompt for java-tron.
+    Generate a short cross-project analog scan prompt for shopify-app-js.
     """
     prompt = f"""# ANALOG SCAN PROMPT
 
@@ -548,13 +355,13 @@ def scan_format(report: str) -> str:
 ## Rules
 - Use in-scope production repo context only. Do not ask for code or claim missing files.
 - Use the external report only as a bug-class hint, not as proof.
-- Keep only unprivileged analogs in transaction/signature/permission validation, actuator state transitions, TVM execution and energy metering, precompiled contracts, resource and reward accounting, exchange/market math, store iteration, or HTTP/gRPC/JSON-RPC handlers and rate limiters.
-- Reject privileged-actor, leaked-key, malicious-peer/node, P2P, dependency-only, test-only, and no-impact analogs.
+- Keep only unprivileged analogs in session-token/HMAC/signature verification, OAuth nonce/cookie/token handling, shop/host/redirect sanitization, session storage/lookup, request-authentication handlers, or outbound API URL/credential construction.
+- Reject privileged-actor, leaked-secret, MITM, dependency-only, test-only, and no-impact analogs.
 
 ## Validate
-- Map the bug class to the strongest reachable java-tron path from an anonymous RPC request, a broadcast transaction, or a contract call.
-- Prove root cause with exact file/class/method support.
-- Accept only concrete node RCE, key disclosure, unauthorized account operation, asset or accounting corruption, consensus divergence, or DoS via RPC-API or protocol implementation.
+- Map the bug class to the strongest reachable shopify-app-js path from an anonymous HTTP/webhook/app-proxy request or a single merchant/customer.
+- Prove root cause with exact file/module/function support.
+- Accept only concrete forged session, accepted forged Shopify request, OAuth CSRF/token theft, cross-tenant access, session-storage injection, open redirect/SSRF, secret disclosure, or DoS of an auth handler.
 
 ## Output (Strict)
 If valid analog exists, output:

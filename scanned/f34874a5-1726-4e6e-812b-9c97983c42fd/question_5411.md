@@ -1,0 +1,13 @@
+# Q5411: graphql_proxy/graphql_proxy — server-guard bypass
+
+## Question
+Can an unprivileged attacker submit a user-agent/host built from attacker-influenced config to `graphqlProxy` in `graphql_proxy/graphql_proxy.ts` such that validateServerSideUsage bypassed via a user-agent/host built from attacker-influenced config, breaking the invariant that server-only APIs unreachable from browser, and leading to: credential exposure?
+
+## Target
+- File/function: `packages/apps/shopify-api/lib/clients/graphql_proxy/graphql_proxy.ts` -> `graphqlProxy`
+- Entrypoint: Request that triggers an outbound Admin/Storefront API call
+- Attacker controls: a user-agent/host built from attacker-influenced config
+- Exploit idea: validateServerSideUsage bypassed via a user-agent/host built from attacker-influenced config
+- Invariant to test: server-only APIs unreachable from browser
+- Expected Immunefi impact: Credential exposure (In scope: SSRF with app credentials or access-token disclosure. Note: shopify-app-js is covered under Shopify's HackerOne program, not Immunefi; SECURITY.md "Websites and Apps" exclusions apply.)
+- Fast validation: browser-context test

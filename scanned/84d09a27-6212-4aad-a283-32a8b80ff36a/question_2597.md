@@ -1,0 +1,13 @@
+# Q2597: utils/shop-admin-url-helper — redirect protocol/relative
+
+## Question
+Can an unprivileged attacker submit a redirectUrl with '\\/\\/evil.com' or backslash tricks to `localAdminUrlToLegacyUrl` in `utils/shop-admin-url-helper.ts` such that sanitizeRedirectUrl/isSafe accepts a redirectUrl with '\\/\\/evil.com' or backslash tricks, breaking the invariant that only same-origin https redirects, and leading to: open redirect?
+
+## Target
+- File/function: `packages/apps/shopify-api/lib/utils/shop-admin-url-helper.ts` -> `localAdminUrlToLegacyUrl`
+- Entrypoint: Request with attacker-controlled shop/host/redirect params
+- Attacker controls: a redirectUrl with '\\/\\/evil.com' or backslash tricks
+- Exploit idea: sanitizeRedirectUrl/isSafe accepts a redirectUrl with '\\/\\/evil.com' or backslash tricks
+- Invariant to test: only same-origin https redirects
+- Expected Immunefi impact: Open redirect (In scope: open redirect leading to token theft, or SSRF. Note: shopify-app-js is covered under Shopify's HackerOne program, not Immunefi; SECURITY.md "Websites and Apps" exclusions apply.)
+- Fast validation: protocol-relative test

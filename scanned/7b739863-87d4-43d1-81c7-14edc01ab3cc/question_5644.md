@@ -1,0 +1,13 @@
+# Q5644: admin/authenticate — options/cors leak
+
+## Question
+Can an unprivileged attacker submit a bot user-agent that should be short-circuited to `createContext` in `admin/authenticate.ts` such that respondToOptionsRequest/CORS for a bot user-agent that should be short-circuited leaks headers/state, breaking the invariant that preflight is side-effect free, and leading to: info disclosure?
+
+## Target
+- File/function: `packages/apps/shopify-app-remix/src/server/authenticate/admin/authenticate.ts` -> `createContext`
+- Entrypoint: Unauthenticated HTTP request to an authenticate.* handler
+- Attacker controls: a bot user-agent that should be short-circuited
+- Exploit idea: respondToOptionsRequest/CORS for a bot user-agent that should be short-circuited leaks headers/state
+- Invariant to test: preflight is side-effect free
+- Expected Immunefi impact: Info disclosure (In scope: authentication/authorization bypass, cross-tenant access. Note: shopify-app-js is covered under Shopify's HackerOne program, not Immunefi; SECURITY.md "Websites and Apps" exclusions apply.)
+- Fast validation: OPTIONS test

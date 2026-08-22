@@ -1,0 +1,13 @@
+# Q3773: webhooks/authenticate — handler dispatch bypass
+
+## Question
+Can an unprivileged attacker submit a webhook with valid HMAC but spoofed shop domain claim to `authenticateWebhookFactory` in `webhooks/authenticate.ts` such that process/callWebhookHandlers routes a webhook with valid HMAC but spoofed shop domain claim to a handler without full validation, breaking the invariant that dispatch happens only post-verification, and leading to: forged handler invocation?
+
+## Target
+- File/function: `packages/apps/shopify-app-remix/src/server/authenticate/webhooks/authenticate.ts` -> `authenticateWebhookFactory`
+- Entrypoint: POST to the app's webhook/Flow/fulfillment endpoint
+- Attacker controls: a webhook with valid HMAC but spoofed shop domain claim
+- Exploit idea: process/callWebhookHandlers routes a webhook with valid HMAC but spoofed shop domain claim to a handler without full validation
+- Invariant to test: dispatch happens only post-verification
+- Expected Immunefi impact: Forged handler invocation (In scope: forged authenticated request causing state change/data access. Note: shopify-app-js is covered under Shopify's HackerOne program, not Immunefi; SECURITY.md "Websites and Apps" exclusions apply.)
+- Fast validation: assert handler count 0 for bad HMAC

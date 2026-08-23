@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/hmac-validator.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_142c1d5e-16ea-4802-b9fe-712666184d9a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/get-hmac-key.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_826cecff-ca1b-45e0-b48d-3985f877a5d4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/safe-compare.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7b1c601b-26f5-4cae-9791-7d4290d205f5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/webhooks/validate.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9b00540d-30c8-44e5-be92-883ec3a30b82?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/webhooks/process.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9ffbf747-382f-44f0-88a6-21ac8a1fc0fc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/flow/validate.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8ef94dc4-8de2-4d88-aafc-71e8edf99207?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/fulfillment-service/validate.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_97ca0575-cbe2-4d46-8362-40c49e34c3ef?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/runtime/crypto/index.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_294e7014-1792-418e-ad3f-9b93922fe62c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/runtime/crypto/utils.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b8eae81f-1ce4-4f18-91a6-5c1a2aaf5e4c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/session/decode-session-token.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3e39b4a0-4dd8-4bd2-98aa-2b138339b622?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/session/session-utils.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ea98f739-cf79-4340-8eca-2ba23cf18527?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/session/session.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5ff4f74b-c374-487d-9662-d9eaef7bcaf5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/session/classes.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fa59fe67-78d0-41a6-810e-ecd58f6d3061?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/helpers/validate-session-token.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_553eb01f-a787-46cf-b266-7b6f9263cf8c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/helpers/get-session-token-header.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9a50a7a5-6e9f-4551-b000-deedcf1b2e67?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-express/src/helpers/get-session-token.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7c18c70c-b6b8-49d1-9cc5-5abd4d50b06b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/oauth.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_27b474ab-2b6a-46e2-8c07-62e5795978ef?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/nonce.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a031d97d-a848-4c07-bfa4-86a027fa61e1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/create-session.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7e3c61ae-1df2-421b-a1ed-4959759991b9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/token-exchange.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_33f16186-663f-44b6-9893-12782b9066fd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/client-credentials.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c13afdf8-ac4b-4195-9cd0-8f02ab7a2e5f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/refresh-token.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c2785d6d-076a-45f3-a919-23d24792399b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/admin/strategies/auth-code-flow.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f31e6775-f510-4f8c-85e7-73c498f5dab8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/admin/strategies/token-exchange.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f9074b88-7e65-4eda-b1d2-ce3b12ba7d1c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/admin/strategies/merchant-custom-app.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d0b0076c-6564-41f2-b5d1-f700aad676db?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-express/src/auth/auth-callback.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_293c89a4-9cc4-4061-8f6e-de7123876b19?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/shop-validator.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_429f4639-9065-413d-9ead-a8bbb3541b5f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/shop-admin-url-helper.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f67de9e4-88d0-46c6-a2cb-7d7febdebf61?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/domain-transformer.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0ffd95a8-7ae5-480d-a8dc-d9a30f00b457?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/decode-host.ts -> Scope: Advanced. An unprivileged attacker turns the app into an open redirect or SSRF primitive, by smuggling an attacker-controlled shop/host/redirect value past sanitizeShop, sanitizeHost, decodeHost, validate-redirect-url, or the outbound URL construction in the API clients / graphqlProxy, redirecting an admin to attacker infrastructure (leaking session tokens) or aiming an authenticated Admin API request at an attacker host.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_187dcedc-07b8-4cc9-859a-176369cacbfb?mode=deep",
+    "questions_generated": false
+  }
+]

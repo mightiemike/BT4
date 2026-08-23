@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/hmac-validator.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ebefeb05-59c3-4fb8-9985-650ebeeac9dc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/get-hmac-key.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_02fc3c21-a0da-4194-aaf4-4962a1357f26?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/safe-compare.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3407c427-4a51-48e1-bb94-0305b6c4a597?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/webhooks/validate.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_005cca67-d904-426a-bce1-528a54e16426?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/webhooks/process.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_baf8c719-e75b-4f61-9c59-1e21cb543902?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/flow/validate.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1daa423f-b8bd-4b1f-8a72-8afdb7ef3f4b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/fulfillment-service/validate.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2d989c5e-5a40-4bc7-aa85-3b8f6c1a6f63?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/runtime/crypto/index.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_20a83caf-a3ee-4e52-bbd5-7816eb2b7da3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/runtime/crypto/utils.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a9d58fd4-8ee5-498b-a8ff-3b5d59a8a5e1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/session/decode-session-token.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b8686157-3f68-4f37-91c3-2c25b4804f9a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/session/session-utils.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_875cfc61-7b39-427f-b809-217478f4c4ca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/session/session.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f6930666-4268-481f-ba5c-e4a0c9076691?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/session/classes.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b16c74b3-2660-480f-8ea3-7e9fb0c058c3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/helpers/validate-session-token.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9126c11e-5805-406e-8cc8-5162754137b9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/helpers/get-session-token-header.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1a931aef-3d27-4c9c-ab1c-c3afb152b05d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-express/src/helpers/get-session-token.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_92a5b74a-12fd-42fb-b9af-e4b96f350f7a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/oauth.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e4c8f583-2ede-4378-b381-67a8bfea6859?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/nonce.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b7dec05d-ab68-4b89-b28d-cdbd6c73e3f7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/create-session.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ec1310a0-5d6a-476d-8bd1-3768738b706c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/token-exchange.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d3770dcd-8462-44f5-800b-39b8e32c2ee9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/client-credentials.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0bf2ae61-0caa-4eac-8a11-7c59f689736d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/refresh-token.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c5ca7358-811f-4fe0-adaa-0a196cb8a20b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/admin/strategies/auth-code-flow.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fb6840ce-eee9-4e8a-b45f-16a0ef37cc70?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/admin/strategies/token-exchange.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_506cded4-883c-46af-b155-5ef0d7414bb6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/admin/strategies/merchant-custom-app.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_38d6107b-f237-4afd-b210-4e9b265fcf2e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-express/src/auth/auth-callback.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_992eceff-76b3-4e28-91f6-54a8de699ced?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/shop-validator.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f719bf4d-d229-45bd-abd7-3bc96f7c3be6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/shop-admin-url-helper.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1db34e32-1539-4a15-bb56-51ee64e81b28?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/domain-transformer.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c7d6461b-4f51-4862-a6e4-b66eb6a5bf58?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/decode-host.ts -> Scope: Critical. An unprivileged attacker hijacks or fixates a merchant's OAuth install/authentication, by defeating the nonce/state CSRF check or the signed OAuth cookie in the begin/callback flow (oauth.ts, nonce.ts, create-session.ts), the callback HMAC, or the token-exchange/client-credentials grant, so the attacker binds their own session/token to a victim shop or obtains an access token for a shop they do not own.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3e26367e-8fab-46eb-8581-87d0b272f5a8?mode=deep",
+    "questions_generated": false
+  }
+]

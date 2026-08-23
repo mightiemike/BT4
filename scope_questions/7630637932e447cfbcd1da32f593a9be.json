@@ -1,0 +1,137 @@
+[
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/get-embedded-app-url.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ec7eacb9-eefb-42b5-b2b1-b97151ce6cb7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/admin/helpers/validate-redirect-url.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3d668e9f-4272-4352-8116-33e19e1d5e94?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/admin/helpers/validate-shop-and-host-params.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5162e03e-9b95-433c-a108-8b6d63dbd8f0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/helpers/get-shop-from-request.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b0acc6e6-b00d-40a8-9685-23b410a26c48?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/admin/authenticate.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9b57eeef-78d9-4a97-a7cb-1dc7439f067c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/webhooks/authenticate.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_30162f7d-736f-4b90-9c29-13169ab48cf6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/public/appProxy/authenticate.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bacf980c-49f5-4f22-8cb9-0af3da3fa608?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/public/checkout/authenticate.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f2130ffa-de60-4c54-a0b3-6abb341e4c51?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/public/customer-account/authenticate.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4c79b343-ef02-4270-bf96-5a3f61101009?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/flow/authenticate.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2edcde75-d203-462b-a093-0e2f0442b51f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/fulfillment-service/authenticate.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dfec103f-6f79-4676-9b45-fbd47d7ab7d7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/helpers/reject-bot-request.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2928b732-badb-4343-9513-603150b368f0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-express/src/middlewares/validate-authenticated-session.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_50368c81-a9f2-4050-a60e-1a65820b1bc1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-express/src/middlewares/ensure-installed-on-shop.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_741b02d8-f31d-4f37-a00a-6479bc84bd3c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-express/src/webhooks/process.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_864cf27e-c877-440a-b73f-ae058826cf78?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/runtime/http/cookies.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f2487569-5adf-496d-8b69-47f82de40cbd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/runtime/http/utils.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3c86a304-21dd-4fea-85a3-cd1f149a9a2e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/runtime/http/headers.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7be7bede-65a7-462e-bb15-f1be6ada7a8d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/processed-query.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bcb2d4fa-af98-465a-8af5-815fd4669047?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/session-storage/shopify-app-session-storage-mysql/src/mysql.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f8311b91-4125-4ea7-9fe1-417a1b1b9c04?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/session-storage/shopify-app-session-storage-postgresql/src/postgresql.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_48ede2ef-9dd9-4c83-a957-84f3a9b0edf5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/session-storage/shopify-app-session-storage-sqlite/src/sqlite.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5796770e-1adc-45fa-893a-9faab7a46dc9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/clients/graphql_proxy/graphql_proxy.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d2bdbb35-6a3e-4eaa-a254-a053d30660dd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/clients/common.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bde0bb7c-3f47-46b5-92a6-ddc8713662b2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/fetch-request.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e654ea7e-939f-4ea2-abaf-d3b4e0151559?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/api-clients/admin-api-client/src/validations.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6b4970c3-74a8-4997-912d-7149a8b84e89?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/api-clients/graphql-client/src/graphql-client/http-fetch.ts -> Scope: Advanced. A remote attacker with no credentials causes denial of service or an uncaught fatal error in a request-authentication path, by sending crafted headers, query strings, JWTs, HMAC payloads, or host/shop parameters that trigger unbounded work, catastrophic regex backtracking in the shop/host validators, or an unhandled exception inside an authenticate/validate handler on the default configuration.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_65d018bd-1e9a-4368-ad3f-75e055466bc7?mode=deep",
+    "questions_generated": false
+  }
+]

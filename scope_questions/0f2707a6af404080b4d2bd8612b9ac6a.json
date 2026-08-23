@@ -1,0 +1,137 @@
+[
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/get-embedded-app-url.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4064c86d-9af2-48ff-9dc6-c333681fb0ff?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/admin/helpers/validate-redirect-url.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fdfee6c7-f76b-43ab-ac08-c055fdf71031?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/admin/helpers/validate-shop-and-host-params.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_062cf67d-714f-48a1-ba18-77e9b5c43022?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/helpers/get-shop-from-request.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_39d44755-4381-4c4d-9b5a-5fd0c55f0d58?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/admin/authenticate.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a1226f95-2301-4514-bf3d-fb1da7c55e8e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/webhooks/authenticate.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fa0c2e46-2caf-4452-b137-7f3417bfdc3e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/public/appProxy/authenticate.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ea601c9e-a87e-44d7-bada-b3dddd622ea5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/public/checkout/authenticate.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6b21b1fb-c968-4d60-ab6b-8940b05ace15?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/public/customer-account/authenticate.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_937b5f41-170f-4af7-b09b-081185b6d767?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/flow/authenticate.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_22dba32b-c559-4936-bfaf-8688efb54686?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/fulfillment-service/authenticate.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8dca4cd9-81e9-42c9-b040-aa7bd657bbaf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/helpers/reject-bot-request.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cbb25c8b-c7df-4608-ab5e-6eeceea7d6ae?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-express/src/middlewares/validate-authenticated-session.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bb3c9e29-9e13-4e1b-91b5-6358109319d0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-express/src/middlewares/ensure-installed-on-shop.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_10363f71-4c5e-4eb5-81df-0f4e1418134a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-express/src/webhooks/process.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_863fa646-59b6-4235-8445-771bec2a4e3e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/runtime/http/cookies.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_70418a1f-8fda-4eba-950c-377051a8b862?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/runtime/http/utils.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9744ad17-8ccf-42c5-b536-21f5811e08ba?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/runtime/http/headers.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_44a2d132-4b2c-4c24-bf4e-24a75d6fcbc1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/processed-query.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f653a975-3ad0-46ca-b855-08f4793c3f33?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/session-storage/shopify-app-session-storage-mysql/src/mysql.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9b18612b-94f7-41ea-a8a7-2fb98fcdf9bf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/session-storage/shopify-app-session-storage-postgresql/src/postgresql.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1f056a07-b377-49b6-93a7-bfc37294ad74?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/session-storage/shopify-app-session-storage-sqlite/src/sqlite.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4ffeb4b4-d039-49e9-b352-d6deb766227f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/clients/graphql_proxy/graphql_proxy.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_533ef046-a3a2-474c-b3f1-c64c8fe83790?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/clients/common.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fe4fb6ac-6cc6-422d-b745-be58f320cf88?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/fetch-request.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5acd3223-4e7d-4bd1-8440-e522a4d9e304?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/api-clients/admin-api-client/src/validations.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_948ebce9-8e57-48a6-b283-68959e899dde?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/api-clients/graphql-client/src/graphql-client/http-fetch.ts -> Scope: Intermediate. An unprivileged attacker bypasses an authorization or embedding gate that the library is responsible for enforcing, by evading ensure-installed-on-shop, validate-authenticated-session, reject-bot-request, or the bot/OPTIONS/CORS pre-checks, reaching an authenticated route or a merchant's app context without a valid session token.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4ac8bede-ff27-429a-95bc-41251ddeeae8?mode=deep",
+    "questions_generated": false
+  }
+]

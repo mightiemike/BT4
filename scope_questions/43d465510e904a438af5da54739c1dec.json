@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/hmac-validator.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_24f17432-47d6-4ec3-b960-370a205ec831?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/get-hmac-key.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8faafbd9-b3af-48f4-b27a-ca38c76dbddb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/safe-compare.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_635be5ce-d89e-45ee-aa0c-b77a5ae3a194?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/webhooks/validate.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fa5e7e76-dfef-46c3-b66c-3332c0a7e85c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/webhooks/process.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5d57a85e-1439-4c58-a0e4-a89e84948ab5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/flow/validate.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cd0775b1-5ecd-49cb-b4d4-c43cc281111d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/fulfillment-service/validate.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eecebcd2-4330-4a8e-a1f3-aba12aeb5196?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/runtime/crypto/index.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_34418051-5aca-4656-be99-d584de3f322b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/runtime/crypto/utils.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2991a04a-579a-4e9c-af31-a44c91f557bb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/session/decode-session-token.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_248eda27-e173-420f-9edd-718df098b23c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/session/session-utils.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2b19cfed-f1e6-4cb8-becf-477348186d0e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/session/session.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1d302063-31b5-4505-97f8-d632d895059f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/session/classes.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9d842fd7-b3bd-4e65-a3c0-f0c6495b8e20?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/helpers/validate-session-token.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d7a41653-2567-40cf-ade2-1b06a3d13095?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/helpers/get-session-token-header.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cc3b877a-fcda-4f26-8cb4-ba06248788a6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-express/src/helpers/get-session-token.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_45f95226-e9f4-422c-8062-cbcaf4914cc1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/oauth.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bac5e703-4f35-46d3-aacf-fc93365fe422?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/nonce.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f548ac50-2ea9-4daa-a691-091e99016aef?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/create-session.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5b8b8b01-3314-4110-87af-0a2bcd467e44?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/token-exchange.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f4c74755-3a2e-4cfc-ada0-8403093ab3a1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/client-credentials.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4396dd25-010c-4032-91db-458fa943b650?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/refresh-token.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eb395df4-fd7d-42b2-bb92-66be72a98729?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/admin/strategies/auth-code-flow.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_74c990b6-0822-4f86-b00c-ccf8c1c328b9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/admin/strategies/token-exchange.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_18f8264c-0c3c-4570-a45e-14e2e6451f3b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/admin/strategies/merchant-custom-app.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_96e41894-0b27-418f-b23e-5f17136fd233?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-express/src/auth/auth-callback.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ab37f8c7-2d5b-4623-b4a4-e6bc1e0bb65c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/shop-validator.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f2f74769-10b8-4eb6-b062-ddba2738b82b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/shop-admin-url-helper.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_03129a82-690e-4b54-bd9d-8d95bf362d15?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/domain-transformer.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4ef0dd5e-d69f-46e5-a736-26280618c2c1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/decode-host.ts -> Scope: Advanced. An unprivileged attacker injects into a session-storage query, by passing a crafted session id, shop domain, or state value that is concatenated into SQL (mysql.ts, postgresql.ts, sqlite.ts) rather than safely parameterized, reading or corrupting stored sessions and access tokens of other shops.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9b9bd428-9b05-4e77-8c1c-3f1f353db2a2?mode=deep",
+    "questions_generated": false
+  }
+]

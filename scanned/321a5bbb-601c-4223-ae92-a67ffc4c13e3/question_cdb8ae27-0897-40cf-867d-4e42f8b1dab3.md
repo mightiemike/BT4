@@ -1,1 +1,0 @@
-[File: packages/apps/session-storage/shopify-app-session-storage-postgresql/src/postgresql.ts -> Scope: session-storage injection via table/column identifiers] [Function: storeSession dynamic column list at lines 76-83] Since column names in the INSERT statement are derived from `session.toPropertyArray(true)` keys (double-quoted but interpolated directly, e.g. `\

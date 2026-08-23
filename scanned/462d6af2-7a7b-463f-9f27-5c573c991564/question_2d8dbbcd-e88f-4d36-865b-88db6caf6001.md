@@ -1,1 +1,0 @@
-[File: 'packages/apps/shopify-api/lib/session/session-utils.ts' -> Function: getCurrentSessionId] Can an attacker send an Authorization header value like 'Bearer' followed by no token, or an array-typed Authorization header (HTTP/2 allows multiple header instances collapsed to an array) to break 'typeof authHeader === \

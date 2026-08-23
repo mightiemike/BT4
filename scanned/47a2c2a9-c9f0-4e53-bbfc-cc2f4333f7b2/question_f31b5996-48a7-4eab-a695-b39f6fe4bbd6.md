@@ -1,1 +1,0 @@
-[File: packages/apps/shopify-api/runtime/http/cookies.ts -> Scope: Intermediate] [Function: Cookies.parseCookies] Can an unprivileged attacker who controls the raw 'Cookie' request header craft a cookie name/value pair such that 'splitN(keyval, \

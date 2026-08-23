@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/hmac-validator.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_848d869b-a9f6-46b4-88e6-c16fce774240?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/get-hmac-key.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_42423ee3-29d9-4b18-b500-c5653458d65b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/safe-compare.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ec0ca3f5-44ee-45a9-897d-d2ccd7b943f5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/webhooks/validate.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1c54fd2e-2875-4376-b6b9-2281a7f90071?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/webhooks/process.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8eb8e66f-f6b1-4fed-af64-89597ab23865?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/flow/validate.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ed225daa-0bfd-4649-b449-c0d2da1d161d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/fulfillment-service/validate.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_27b50f16-df1f-419d-8ca8-b672361de656?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/runtime/crypto/index.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c4c38b29-afaa-438b-b028-67b9a873d6ab?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/runtime/crypto/utils.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_64ab1552-9372-40a7-b7da-808cb0ea39c0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/session/decode-session-token.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_09fd4813-ca95-441f-ab01-298ddf2f91c4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/session/session-utils.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7a8911ac-e76b-49e8-bb6f-e6ccb768bff4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/session/session.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6f66a92e-e590-4bfc-9c48-1f98ae21db3a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/session/classes.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c6c90d4a-2f8d-4390-8477-b656006e8817?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/helpers/validate-session-token.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fae20fe4-9ac5-4a29-ab49-37e6a648173f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/helpers/get-session-token-header.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f16e6d7c-9498-4a60-bac9-a0c6051a4ae8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-express/src/helpers/get-session-token.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3e51f412-f5f9-4a3c-a106-bc4a1c746195?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/oauth.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ad4f0c9f-3e2d-4578-87e9-84e26f6fb3e3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/nonce.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4709e8f9-7e1d-4470-acd5-49aa89095bfe?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/create-session.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3fc995b1-c5ae-4063-aaa4-2c8bf70fe66e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/token-exchange.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_22ab61ab-d3d8-4b25-920c-b240ca703bf5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/client-credentials.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bf931155-c00f-47b4-920c-b0f4b09bedd4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/refresh-token.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1db8c916-5514-46cf-9afc-1daf584bb7a4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/admin/strategies/auth-code-flow.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5c8499f4-21a5-463d-86ec-b71238a67e96?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/admin/strategies/token-exchange.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ccfb0c93-1374-47f2-8870-adeb265f32d2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/admin/strategies/merchant-custom-app.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3a55512b-ec69-4068-9e57-90f19b11f132?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-express/src/auth/auth-callback.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9ab00af5-2fb7-4d55-9330-c054305819f8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/shop-validator.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c72db8d8-5df5-40d1-8446-e42a897c496d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/shop-admin-url-helper.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fe9bc40c-fb0c-46f2-8500-cf7b6380e7a4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/domain-transformer.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1ba38b8f-95ed-4bec-8789-14d33975c110?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/decode-host.ts -> Scope: Critical. An unprivileged attacker who can only send HTTP requests to a Shopify app built with this library forges a valid session token (JWT) or app-proxy/session context for a shop they do not control, by defeating signature verification, `aud`/`iss`/`dest`/`exp` claim checks in decodeSessionToken, or the JWT/HMAC key derivation in getHMACKey, gaining an authenticated admin or storefront-customer context as another merchant or user.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fa74951f-6c8f-49e9-8080-b01e3fc7d661?mode=deep",
+    "questions_generated": false
+  }
+]

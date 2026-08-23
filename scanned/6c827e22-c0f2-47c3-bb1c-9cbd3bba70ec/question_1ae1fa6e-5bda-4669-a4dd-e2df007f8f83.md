@@ -1,1 +1,0 @@
-[File: postgresql.ts -> Method: PostgreSQLSessionStorage.storeSession] Can an attacker-controlled Session object (built from a forged/very-long OAuth response passed to config.sessionStorage.storeSession) include a 'scope' or 'accessToken' string containing double-quote/backslash sequences that break out of the `\

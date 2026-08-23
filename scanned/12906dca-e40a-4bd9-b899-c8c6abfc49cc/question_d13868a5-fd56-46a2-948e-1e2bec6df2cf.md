@@ -1,0 +1,1 @@
+[File: packages/apps/shopify-api/lib/session/session-utils.ts -> Function: getCurrentSessionId] Can an unprivileged attacker forge a JWT whose 'dest' claim is 'https://evil.com' or 'https://legit.myshopify.com.evil.com', so that the raw '.replace(/^https:\\/\\//, \

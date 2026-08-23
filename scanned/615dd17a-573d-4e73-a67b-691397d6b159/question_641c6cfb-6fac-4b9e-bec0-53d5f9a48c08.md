@@ -1,0 +1,1 @@
+[File: 'packages/apps/shopify-app-remix/src/server/authenticate/admin/authenticate.ts -> getSessionTokenContext / config.sessionStorage.loadSession'] Can an unprivileged attacker forge a session token whose 'sub'/'sid' claim contains SQL metacharacters (e.g. \

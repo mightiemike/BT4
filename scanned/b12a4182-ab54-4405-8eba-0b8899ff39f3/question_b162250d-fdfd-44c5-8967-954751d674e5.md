@@ -1,0 +1,1 @@
+[File: 'packages/apps/session-storage/shopify-app-session-storage-postgresql/src/postgresql.ts'] [Function: PostgreSQLSessionStorage.storeSession ON CONFLICT clause] Can an attacker who replays a stale but not-yet-invalidated session token trigger `ON CONFLICT (\

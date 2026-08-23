@@ -1,0 +1,1 @@
+[File: packages/apps/shopify-app-session-storage-postgresql/src/postgresql.ts -> Function: storeSession()/loadSession()/findSessionsByShop()] Since `this.options.sessionTableName` is interpolated directly into the SQL via template literals (`INSERT INTO \

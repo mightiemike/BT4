@@ -1,0 +1,1 @@
+[File: packages/apps/shopify-app-remix/src/server/authenticate/admin/helpers/render-app-bridge.ts -> Function: renderAppBridge] Can an unprivileged attacker supply a redirectTo.url that passes `sanitizeRedirectUrl(config.appUrl, redirectTo.url)` (e.g. a same-origin path containing `</script>` or `

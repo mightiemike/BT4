@@ -1,0 +1,1 @@
+[File: packages/apps/session-storage/shopify-app-session-storage-postgresql/src/postgresql.ts] [Function: PostgreSQLSessionStorage.loadSession/findSessionsByShop] Can an attacker who forges the `shop` value flowing out of `refreshToken()`'s `sanitizeShop(config)(shop, true)` into `findSessionsByShop(shop)` (WHERE \

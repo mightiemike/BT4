@@ -1,1 +1,0 @@
-[File: packages/apps/shopify-api/lib/utils/hmac-validator.ts -> Scope: High] [Function: normalizeQuery] Can an unprivileged attacker exploit the comma-joining behavior for non-security repeated query keys in normalizeQuery (hmac-validator.ts:118-151, 'normalizedQuery[key] = existingValue + \

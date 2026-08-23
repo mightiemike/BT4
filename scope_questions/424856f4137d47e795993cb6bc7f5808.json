@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/hmac-validator.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_536a4595-b882-441a-ac30-be53ddeb8375?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/get-hmac-key.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e1ec4937-b428-491d-a05a-d0aa691cb49a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/safe-compare.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8fc39392-165b-4ff0-8b24-4dbe6142d489?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/webhooks/validate.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8994bbc9-ea83-4920-a9d9-3cc47758c771?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/webhooks/process.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_35d6aada-ce98-4d06-800f-21161027bfb7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/flow/validate.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e2e85af7-dfaf-45ca-9ca3-84d8acb140f3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/fulfillment-service/validate.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_78837e25-f8da-48b0-8fbf-db75ee7431ec?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/runtime/crypto/index.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cb7f1b41-29cc-45be-ba08-b74852e12fee?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/runtime/crypto/utils.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e23f8a2e-4cec-48ca-b1fc-cb2209a5dfb8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/session/decode-session-token.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_28eb92b7-28b9-480d-840a-e8e6c0dfc90a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/session/session-utils.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6e627ba2-d75c-46e2-8260-824dd1f1f474?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/session/session.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_020fab19-df71-4fc7-9d47-3b71d6fa74f7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/session/classes.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5b73151c-db6b-4482-822c-37e48d5da87c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/helpers/validate-session-token.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_61c4bcc9-cf21-4c13-a93a-fd75bf764f1a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/helpers/get-session-token-header.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_18cdd3bf-b2ee-4f4e-adde-b8c66d6cc2d3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-express/src/helpers/get-session-token.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f2258669-838b-48d1-bd63-fa72b9f4890a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/oauth.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5bc6bdf0-574f-4a14-aebc-ffffe529ae83?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/nonce.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_42f3e9d4-18d4-4e4b-b9e8-514cb22faa76?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/create-session.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_27bffcc2-20a5-4394-95b2-3246434ca735?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/token-exchange.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_93876675-38a4-4f23-a9a2-95000828164c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/client-credentials.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3dd63cc2-7933-4391-b1a1-c36ba39e2d9f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/oauth/refresh-token.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a44e79b5-7e86-4df9-a426-9d23212c41d0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/admin/strategies/auth-code-flow.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bc7e0975-6055-469a-b9ca-cab481d9e6f7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/admin/strategies/token-exchange.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8d29ff65-61c2-4d76-b73f-43669bb35440?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/admin/strategies/merchant-custom-app.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b1893645-9f83-4e92-b3d9-7b4bbe358497?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-express/src/auth/auth-callback.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f1e72428-6b8d-49d2-ad42-877dbb8b09dc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/shop-validator.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_66943cb2-0ad0-43d8-b2fa-77551d7a7b40?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/shop-admin-url-helper.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a94ed5ed-5209-4147-a37a-3a5444083889?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/domain-transformer.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7bfef987-e208-4651-8d15-e7f0e82b2403?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/decode-host.ts -> Scope: Critical. An unprivileged attacker escalates to another merchant's data or actions across tenant boundaries, by making the session lookup, shop-to-session mapping, or session persistence in session-utils / a session-storage adapter return, overwrite, or accept a session for a shop other than the one the request actually authenticated as.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_19a79c1f-36db-4a8b-8098-b1a640b4a9d5?mode=deep",
+    "questions_generated": false
+  }
+]

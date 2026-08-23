@@ -1,0 +1,137 @@
+[
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/auth/get-embedded-app-url.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cdf6fce2-28f8-40d2-953a-62d72cfa1e0a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/admin/helpers/validate-redirect-url.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0a8259cf-fcfd-4e15-9139-3e1750de53bc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/admin/helpers/validate-shop-and-host-params.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_404b2cc3-b1f1-48bc-b407-633da21901cc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/helpers/get-shop-from-request.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eccdfc61-9c14-453b-b44d-ec22738feb3d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/admin/authenticate.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a404e5d4-2cb5-4739-8509-b8bf455446df?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/webhooks/authenticate.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_34bf27b5-05fc-4ef3-b7ba-2a49a1a8f0bd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/public/appProxy/authenticate.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c15f588a-7383-45f4-a4d7-928a4865ff94?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/public/checkout/authenticate.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d3b9a321-448b-4c91-a662-e21a0a1992ff?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/public/customer-account/authenticate.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9f60cbf7-0df2-4973-b9c8-13a828f67e4e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/flow/authenticate.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_640f4529-5315-4987-a20f-06c3698c4e3d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/fulfillment-service/authenticate.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_98bf7528-5678-41f2-bb2c-dd06264340ec?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-remix/src/server/authenticate/helpers/reject-bot-request.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9aed1c77-fc07-40a7-854b-74520f0b969e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-express/src/middlewares/validate-authenticated-session.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6db2104d-03d2-47ec-b2f0-38485cff086e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-express/src/middlewares/ensure-installed-on-shop.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7bde39ff-8c80-46ea-9aab-5696bf9d507a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-app-express/src/webhooks/process.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bd467d9c-3c5c-4260-b98a-bb59e3d07aa5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/runtime/http/cookies.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d5310c66-c02b-4009-aa39-4dfdad007a58?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/runtime/http/utils.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_465f677b-4763-4ca4-b289-f5ee1293ce9f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/runtime/http/headers.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e46eaad0-431e-4ed6-b6cf-f3446062a033?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/processed-query.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_93280c8b-7e0d-412a-b40a-578a1fc58a0c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/session-storage/shopify-app-session-storage-mysql/src/mysql.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9ce28b3a-87b1-418b-8566-83e2729028a9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/session-storage/shopify-app-session-storage-postgresql/src/postgresql.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_21f3d7cf-3620-4212-b3c4-0bd0e43eb487?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/session-storage/shopify-app-session-storage-sqlite/src/sqlite.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e2bfc34f-e0fe-42a2-98ec-5c91b2dd1205?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/clients/graphql_proxy/graphql_proxy.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6593dde4-0cc8-4c86-afa5-310d9362e2b1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/clients/common.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6484317c-d947-4ee6-b142-c105dd59dc6a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/apps/shopify-api/lib/utils/fetch-request.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a58105be-d7c3-4317-83bc-742013d64832?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/api-clients/admin-api-client/src/validations.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_39164e04-7577-4a36-9e3a-c5ae5e232232?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: packages/api-clients/graphql-client/src/graphql-client/http-fetch.ts -> Scope: Critical. An unprivileged attacker forges a webhook, Flow, fulfillment-service, or app-proxy request that the library accepts as genuinely signed by Shopify, by bypassing HMAC verification in validateHmac/validateHmacFromRequestFactory, the raw-body handling in webhooks/process, or the timing-safe comparison in safeCompare, causing the app to perform state changes or leak data on behalf of an unverified sender.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f3ba1524-789d-4f71-a782-3fa385e71fba?mode=deep",
+    "questions_generated": false
+  }
+]

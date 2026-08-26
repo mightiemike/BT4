@@ -1,0 +1,13 @@
+# Q3254: instruction_context::default - VM slice configuration points outside the instruction region
+
+## Question
+Can an unprivileged attacker who invokes its own program with a crafted instruction account list, repeating one account three times with different signer and writable flags, drive `instruction_context::default` to make configure_vm_slices publish slices that overlap other instructions' regions, so that the invariant that VM slices for an instruction cover only that instruction's own regions is broken and the outcome is Loss of Funds (theft of funds without the owner's signature)?
+
+## Target
+- File/function: `transaction-context/src/instruction.rs` -> `default`
+- Entrypoint: invokes its own program with a crafted instruction account list, repeating one account three times with different signer and writable flags
+- Attacker controls: instruction account indexes, duplicate entries, signer and writable flags, instruction data and program index
+- Exploit idea: Make configure_vm_slices publish slices that overlap other instructions' regions.
+- Invariant to test: VM slices for an instruction cover only that instruction's own regions.
+- Expected Immunefi impact: Critical - Loss of Funds (theft of funds without the owner's signature)
+- Fast validation: unit-test the instruction context accessors against the crafted account list and assert privileges and indexes are exact

@@ -1,0 +1,13 @@
+# Q5687: inflation_points::tower_epoch_credits_iter - points differ across nodes for the same stake (splitting stake across many accounts delegated)
+
+## Question
+Can an unprivileged attacker who delegates stake to a vote account it controls and accumulates epoch credits, splitting stake across many accounts delegated to one vote account, drive `inflation_points::tower_epoch_credits_iter` to construct stake and credit state whose point calculation depends on iteration order, so that the invariant that point calculation is deterministic across nodes is broken and the outcome is Consensus/Safety Violation (bank hash divergence or fork)?
+
+## Target
+- File/function: `runtime/src/inflation_rewards/points.rs` -> `tower_epoch_credits_iter`
+- Entrypoint: delegates stake to a vote account it controls and accumulates epoch credits, splitting stake across many accounts delegated to one vote account
+- Attacker controls: stake amounts, delegation activation timing, vote credit history and commission settings
+- Exploit idea: Construct stake and credit state whose point calculation depends on iteration order.
+- Invariant to test: Point calculation is deterministic across nodes.
+- Expected Immunefi impact: Critical - Consensus/Safety Violation (bank hash divergence or fork)
+- Fast validation: unit-test the point calculation against the crafted stake and credit history and assert points match the protocol formula

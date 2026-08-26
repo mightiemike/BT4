@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: runtime/src/account_saver.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b77ea7e7-94c7-42cc-9262-bf40c87bcc9b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/rent_collector.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f6a91679-1319-4593-a9b7-ee5f3f751bf1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: program-runtime/src/invoke_context.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a2c67e4b-05e1-472b-b9b0-654aff473986?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: program-runtime/src/cpi.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a6cc90aa-23e4-44af-9aeb-ca34d9662615?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: program-runtime/src/serialization.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b9dbc48c-1f08-45de-ac5a-36b31bf98e8e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: program-runtime/src/memory.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9443d247-b93e-4dda-8242-8dfedace2275?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: program-runtime/src/memory_context.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_10888e51-5a97-4847-ae81-faebc5d2c301?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: program-runtime/src/vm.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1d8bf91d-e1bb-430f-a6ca-5e06ea3684bb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: program-runtime/src/execution_budget.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1034fd63-aecf-4a8d-a4c4-c847d217ec18?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: program-runtime/src/loaded_programs.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_544cec58-2870-455a-ab50-bc773d8a5f1c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: program-runtime/src/program_cache_entry.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e826383f-3991-4422-bd4b-0e8ab75f06cf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: program-runtime/src/deploy.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3672b2c0-320a-4dec-8644-fac3bb1bf7ac?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: program-runtime/src/sysvar_cache.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1656c330-2f5c-41ef-84a0-67e219dfb362?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: program-runtime/src/mem_pool.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5c0315e7-3160-43dd-a9f0-12ec708d80d2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: transaction-context/src/lib.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ba2ccbca-335a-4b60-8a85-2e9fb5e1ae6d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: transaction-context/src/transaction.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aeb7f391-2d23-44c9-8a03-16c3108137cd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: transaction-context/src/transaction_accounts.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8aca651f-e54d-4d39-b93d-af4eca47b5cf?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: transaction-context/src/instruction.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9697b22f-cf0f-44ad-8afa-e94168b0e096?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: transaction-context/src/instruction_accounts.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4b8a5280-32cd-4581-95c9-302a1e18a7d0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: transaction-context/src/vm_slice.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9a27e65f-29f4-4b06-a503-7ab0ea0a4499?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: transaction-context/src/vm_addresses.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_82dd72af-d6f0-4656-bc4b-3b0266e086cd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: syscalls/src/lib.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_682bfa2a-14dd-45b1-8222-46697f36ebff?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: syscalls/src/cpi.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_df041eba-9e5f-40c7-a901-2564a3aa882d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: syscalls/src/mem_ops.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eaf29e4b-6851-4dc2-99f7-d4e7f2fbf78e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: syscalls/src/sysvar.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c0a5a194-c922-452d-87f8-dce54bfbf299?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: syscalls/src/logging.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_353601ee-059a-4142-bcd8-53c6b7461b79?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/system/src/system_processor.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_887804f4-69cf-4acd-b972-6a2dac95b16e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/system/src/system_instruction.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5200966e-a556-42fc-9f76-e50c0abe1418?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/bpf_loader/src/lib.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_41384ae4-24e9-4943-af04-920dfb808e8f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/vote/src/vote_processor.rs -> Scope: High. An unprivileged sender submits transactions whose real validator cost far exceeds what the cost model, CU meter, or account-lock accounting charges (program load and ELF verification, account data resizing, syscall work, lookup-table expansion), exhausting block capacity or node resources and degrading liveness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8a36210b-7fdb-43f8-a702-c48e04753c5a?mode=deep",
+    "questions_generated": false
+  }
+]

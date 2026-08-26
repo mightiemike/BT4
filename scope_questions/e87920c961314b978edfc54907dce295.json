@@ -1,0 +1,77 @@
+[
+  {
+    "question": "'File Name: programs/vote/src/vote_state/mod.rs -> Scope: Critical. An unprivileged sender forges a signature accepted by transaction sigverify or an ed25519/secp256k1/secp256r1 precompile via crafted instruction-data offsets, counts, or recovery parameters, so a program that trusts precompile verification authorizes a transfer the key owner never approved.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b8ca7ed2-a971-4378-bdb4-926b7949515c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/vote/src/vote_state/handler.rs -> Scope: Critical. An unprivileged sender forges a signature accepted by transaction sigverify or an ed25519/secp256k1/secp256r1 precompile via crafted instruction-data offsets, counts, or recovery parameters, so a program that trusts precompile verification authorizes a transfer the key owner never approved.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_184a3822-374b-4e05-9872-ef9af46c9c39?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/compute-budget/src/lib.rs -> Scope: Critical. An unprivileged sender forges a signature accepted by transaction sigverify or an ed25519/secp256k1/secp256r1 precompile via crafted instruction-data offsets, counts, or recovery parameters, so a program that trusts precompile verification authorizes a transfer the key owner never approved.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_30b5af05-ea05-4d3a-bb10-aa88c8eec119?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/zk-elgamal-proof/src/lib.rs -> Scope: Critical. An unprivileged sender forges a signature accepted by transaction sigverify or an ed25519/secp256k1/secp256r1 precompile via crafted instruction-data offsets, counts, or recovery parameters, so a program that trusts precompile verification authorizes a transfer the key owner never approved.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_37cfda83-087f-4cf2-83c3-1e65cc616c19?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank.rs -> Scope: Critical. An unprivileged sender forges a signature accepted by transaction sigverify or an ed25519/secp256k1/secp256r1 precompile via crafted instruction-data offsets, counts, or recovery parameters, so a program that trusts precompile verification authorizes a transfer the key owner never approved.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_efd5b2e9-d1a8-4546-ab64-59d9a05a714c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/accounts_lt_hash.rs -> Scope: Critical. An unprivileged sender forges a signature accepted by transaction sigverify or an ed25519/secp256k1/secp256r1 precompile via crafted instruction-data offsets, counts, or recovery parameters, so a program that trusts precompile verification authorizes a transfer the key owner never approved.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_68901ba6-b86e-4a68-ad26-acc1c346cb7d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/fee_distribution.rs -> Scope: Critical. An unprivileged sender forges a signature accepted by transaction sigverify or an ed25519/secp256k1/secp256r1 precompile via crafted instruction-data offsets, counts, or recovery parameters, so a program that trusts precompile verification authorizes a transfer the key owner never approved.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8117d78f-6ed8-4673-ad77-649ecd608fe7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/transaction_execution.rs -> Scope: Critical. An unprivileged sender forges a signature accepted by transaction sigverify or an ed25519/secp256k1/secp256r1 precompile via crafted instruction-data offsets, counts, or recovery parameters, so a program that trusts precompile verification authorizes a transfer the key owner never approved.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_12169507-0ee4-40cf-8acb-bbb973121b99?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/recent_blockhashes_account.rs -> Scope: Critical. An unprivileged sender forges a signature accepted by transaction sigverify or an ed25519/secp256k1/secp256r1 precompile via crafted instruction-data offsets, counts, or recovery parameters, so a program that trusts precompile verification authorizes a transfer the key owner never approved.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f57b7ad6-04c5-4ca1-af13-c2f7af4c9f77?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/partitioned_epoch_rewards/calculation.rs -> Scope: Critical. An unprivileged sender forges a signature accepted by transaction sigverify or an ed25519/secp256k1/secp256r1 precompile via crafted instruction-data offsets, counts, or recovery parameters, so a program that trusts precompile verification authorizes a transfer the key owner never approved.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_df976420-e04b-4b93-805f-8b9248c1e906?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/partitioned_epoch_rewards/distribution.rs -> Scope: Critical. An unprivileged sender forges a signature accepted by transaction sigverify or an ed25519/secp256k1/secp256r1 precompile via crafted instruction-data offsets, counts, or recovery parameters, so a program that trusts precompile verification authorizes a transfer the key owner never approved.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e372cfd2-d348-4abf-bf9f-874525030ff9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/inflation_rewards/points.rs -> Scope: Critical. An unprivileged sender forges a signature accepted by transaction sigverify or an ed25519/secp256k1/secp256r1 precompile via crafted instruction-data offsets, counts, or recovery parameters, so a program that trusts precompile verification authorizes a transfer the key owner never approved.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f742f31b-6b57-47d9-8723-937dfad41345?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stakes.rs -> Scope: Critical. An unprivileged sender forges a signature accepted by transaction sigverify or an ed25519/secp256k1/secp256r1 precompile via crafted instruction-data offsets, counts, or recovery parameters, so a program that trusts precompile verification authorizes a transfer the key owner never approved.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0c7f9e1c-a3f1-467a-8c6f-7b964cd48e20?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stake_account.rs -> Scope: Critical. An unprivileged sender forges a signature accepted by transaction sigverify or an ed25519/secp256k1/secp256r1 precompile via crafted instruction-data offsets, counts, or recovery parameters, so a program that trusts precompile verification authorizes a transfer the key owner never approved.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6788634c-859a-4ae2-b933-2a59056ef1cb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/sysvar_account.rs -> Scope: Critical. An unprivileged sender forges a signature accepted by transaction sigverify or an ed25519/secp256k1/secp256r1 precompile via crafted instruction-data offsets, counts, or recovery parameters, so a program that trusts precompile verification authorizes a transfer the key owner never approved.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0138f7ad-9f2c-40b4-a167-4f2cd97951d3?mode=deep",
+    "questions_generated": false
+  }
+]

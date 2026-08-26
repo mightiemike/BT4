@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: runtime-transaction/src/runtime_transaction/sdk_transactions.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4f0ce6c2-13d9-4f0e-bc06-90dc5619d2e7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime-transaction/src/runtime_transaction/transaction_view.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1936ea2f-f78a-4391-9118-62a1916a9831?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime-transaction/src/instruction_data_len.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e911ddeb-af8f-4867-8b23-a6ceb85f7038?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime-transaction/src/signature_details.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0809bea9-2c45-4226-b4c1-89de0c9fb90a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime-transaction/src/sanitize_config.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a2bfd638-4c6e-45bf-aadb-076be3acb7de?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: perf/src/sigverify.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_92809949-3b06-49f0-897c-539757483a95?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: precompiles/src/lib.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_25931a7f-c60c-4a80-9d50-41176b829de7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: precompiles/src/ed25519.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6fc4a79c-8bc6-486a-8725-dc885fb17437?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: precompiles/src/secp256k1.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_dda91a84-49bb-4991-9173-ea7b4c2f68d1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: precompiles/src/secp256r1.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_44c8c882-efe7-4c53-987e-db696c7d0978?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/check_transactions.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6366c071-1962-49a5-8bdb-5a3078913e50?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/status_cache.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b4146e8c-0b4f-47fd-8705-fec931dfa628?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/address_lookup_table.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3879f2b5-0f17-4089-b2c3-385cd1aaf40c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/blockhash_queue.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_035605b6-85f9-4d3a-adb5-de9fcaa64e4e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/account_locks.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3cf07340-f2a0-45b9-b21c-7aceb1daf090?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f60e71ff-8249-4793-ae90-3ed3ef680606?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: compute-budget-instruction/src/compute_budget_instruction_details.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3ba826e2-972d-4045-853f-01de37338e96?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: compute-budget-instruction/src/instructions_processor.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_54964a9f-f94e-4eab-9c79-c9252bcd8478?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: compute-budget-instruction/src/builtin_programs_filter.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a46677b9-df34-43fd-b37a-29ed4e92163b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: compute-budget/src/compute_budget_limits.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_000ec4c6-4cc1-42ed-b8e4-116711079cd2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: fee/src/lib.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4ce8267f-8812-44c1-b8bb-6e33ae8e2cb2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cost-model/src/cost_model.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f9e46095-d8a6-40c6-b57c-d3537c22f428?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cost-model/src/cost_tracker.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9b7cf641-7073-4321-bf4a-42136176a45d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/account_loader.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aecf1543-1d5d-4aeb-943f-5d6f33550050?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/transaction_account_state_info.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_031944a0-3eb0-43cf-8678-763613569b8c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/rent_calculator.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b7dc2ea8-9b0d-4ea1-a903-c95a6e279801?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/transaction_processor.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a0360e90-f321-428c-9485-7d9f3f1cf890?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/program_loader.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b69fd163-10b3-4523-b1e2-cc4f3ace605e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/nonce_info.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ecced56e-8527-42f6-83d9-f99b0fe84275?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/rollback_accounts.rs -> Scope: Critical. An unprivileged sender crafts a transaction whose execution is nondeterministic or state-dependent across validators (program cache reuse, sysvar snapshot, account lt-hash accumulation, feature-gated branch, iteration order), producing a bank hash mismatch, fork, or optimistically confirmed slot that is later invalid.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5f4d13c9-054d-49e5-a632-c1bb18d2270d?mode=deep",
+    "questions_generated": false
+  }
+]

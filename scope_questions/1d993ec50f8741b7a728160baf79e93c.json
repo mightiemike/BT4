@@ -1,0 +1,77 @@
+[
+  {
+    "question": "'File Name: programs/vote/src/vote_state/mod.rs -> Scope: High. An unprivileged sender executes a transaction while paying less than the fee, rent, or compute it actually consumes, by manipulating compute-budget instruction parsing, CU metering across CPI depth and heap requests, or fee/prioritization computation, extracting free execution and starving the fee market.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ab59dc37-c2cd-4a9d-81be-a418310bf7d5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/vote/src/vote_state/handler.rs -> Scope: High. An unprivileged sender executes a transaction while paying less than the fee, rent, or compute it actually consumes, by manipulating compute-budget instruction parsing, CU metering across CPI depth and heap requests, or fee/prioritization computation, extracting free execution and starving the fee market.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cc0b9494-c1c4-47ce-afbe-bd0e59f33857?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/compute-budget/src/lib.rs -> Scope: High. An unprivileged sender executes a transaction while paying less than the fee, rent, or compute it actually consumes, by manipulating compute-budget instruction parsing, CU metering across CPI depth and heap requests, or fee/prioritization computation, extracting free execution and starving the fee market.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0cb02bac-1866-42d0-ad8a-11d67736eb15?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/zk-elgamal-proof/src/lib.rs -> Scope: High. An unprivileged sender executes a transaction while paying less than the fee, rent, or compute it actually consumes, by manipulating compute-budget instruction parsing, CU metering across CPI depth and heap requests, or fee/prioritization computation, extracting free execution and starving the fee market.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_43edd8f3-fb15-4e92-8c4d-1c0789aa2452?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank.rs -> Scope: High. An unprivileged sender executes a transaction while paying less than the fee, rent, or compute it actually consumes, by manipulating compute-budget instruction parsing, CU metering across CPI depth and heap requests, or fee/prioritization computation, extracting free execution and starving the fee market.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4563b786-e6ca-457f-bc49-fef3f1bf8d89?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/accounts_lt_hash.rs -> Scope: High. An unprivileged sender executes a transaction while paying less than the fee, rent, or compute it actually consumes, by manipulating compute-budget instruction parsing, CU metering across CPI depth and heap requests, or fee/prioritization computation, extracting free execution and starving the fee market.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_461d088c-bfb3-40fb-9c80-421621ea24f8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/fee_distribution.rs -> Scope: High. An unprivileged sender executes a transaction while paying less than the fee, rent, or compute it actually consumes, by manipulating compute-budget instruction parsing, CU metering across CPI depth and heap requests, or fee/prioritization computation, extracting free execution and starving the fee market.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4324325f-fb23-4a6b-818b-4de8247113af?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/transaction_execution.rs -> Scope: High. An unprivileged sender executes a transaction while paying less than the fee, rent, or compute it actually consumes, by manipulating compute-budget instruction parsing, CU metering across CPI depth and heap requests, or fee/prioritization computation, extracting free execution and starving the fee market.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4e324202-6937-4e8d-a241-8897d0768e71?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/recent_blockhashes_account.rs -> Scope: High. An unprivileged sender executes a transaction while paying less than the fee, rent, or compute it actually consumes, by manipulating compute-budget instruction parsing, CU metering across CPI depth and heap requests, or fee/prioritization computation, extracting free execution and starving the fee market.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_12c722c8-11ce-4420-9a94-60650d3d61a2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/partitioned_epoch_rewards/calculation.rs -> Scope: High. An unprivileged sender executes a transaction while paying less than the fee, rent, or compute it actually consumes, by manipulating compute-budget instruction parsing, CU metering across CPI depth and heap requests, or fee/prioritization computation, extracting free execution and starving the fee market.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_66d1896d-ec03-4585-8988-b7028141ae36?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/partitioned_epoch_rewards/distribution.rs -> Scope: High. An unprivileged sender executes a transaction while paying less than the fee, rent, or compute it actually consumes, by manipulating compute-budget instruction parsing, CU metering across CPI depth and heap requests, or fee/prioritization computation, extracting free execution and starving the fee market.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_470b584b-5016-4f73-a436-8f46fbbd9dac?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/inflation_rewards/points.rs -> Scope: High. An unprivileged sender executes a transaction while paying less than the fee, rent, or compute it actually consumes, by manipulating compute-budget instruction parsing, CU metering across CPI depth and heap requests, or fee/prioritization computation, extracting free execution and starving the fee market.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e854639b-89b6-44c8-8668-b62bd6c4800e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stakes.rs -> Scope: High. An unprivileged sender executes a transaction while paying less than the fee, rent, or compute it actually consumes, by manipulating compute-budget instruction parsing, CU metering across CPI depth and heap requests, or fee/prioritization computation, extracting free execution and starving the fee market.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8711e034-9b7c-43f6-9f93-a40c055c4949?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stake_account.rs -> Scope: High. An unprivileged sender executes a transaction while paying less than the fee, rent, or compute it actually consumes, by manipulating compute-budget instruction parsing, CU metering across CPI depth and heap requests, or fee/prioritization computation, extracting free execution and starving the fee market.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c8182a61-558e-4423-a806-6755970fda7a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/sysvar_account.rs -> Scope: High. An unprivileged sender executes a transaction while paying less than the fee, rent, or compute it actually consumes, by manipulating compute-budget instruction parsing, CU metering across CPI depth and heap requests, or fee/prioritization computation, extracting free execution and starving the fee market.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_84dbbbe1-b921-44a3-94d0-9848ab2055ac?mode=deep",
+    "questions_generated": false
+  }
+]

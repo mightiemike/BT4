@@ -1,0 +1,77 @@
+[
+  {
+    "question": "'File Name: programs/vote/src/vote_state/mod.rs -> Scope: Critical. An unprivileged sender lands a single transaction that panics, aborts, or fails to terminate during replay (unwrap, index out of range, unchecked arithmetic overflow, unbounded recursion), halting every validator on that block and requiring human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f7bb311f-29a5-42d0-b1a9-ffceaa231de8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/vote/src/vote_state/handler.rs -> Scope: Critical. An unprivileged sender lands a single transaction that panics, aborts, or fails to terminate during replay (unwrap, index out of range, unchecked arithmetic overflow, unbounded recursion), halting every validator on that block and requiring human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c667a51d-a0d4-46c2-941c-3437a3db4721?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/compute-budget/src/lib.rs -> Scope: Critical. An unprivileged sender lands a single transaction that panics, aborts, or fails to terminate during replay (unwrap, index out of range, unchecked arithmetic overflow, unbounded recursion), halting every validator on that block and requiring human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eddac17a-8f09-4fe9-ab82-d3af2c689d2a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/zk-elgamal-proof/src/lib.rs -> Scope: Critical. An unprivileged sender lands a single transaction that panics, aborts, or fails to terminate during replay (unwrap, index out of range, unchecked arithmetic overflow, unbounded recursion), halting every validator on that block and requiring human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ca686347-745a-4176-ad92-925562f00d72?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank.rs -> Scope: Critical. An unprivileged sender lands a single transaction that panics, aborts, or fails to terminate during replay (unwrap, index out of range, unchecked arithmetic overflow, unbounded recursion), halting every validator on that block and requiring human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_debe3e32-3b00-499f-bc88-dd31180e121c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/accounts_lt_hash.rs -> Scope: Critical. An unprivileged sender lands a single transaction that panics, aborts, or fails to terminate during replay (unwrap, index out of range, unchecked arithmetic overflow, unbounded recursion), halting every validator on that block and requiring human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_097652f1-e1a1-4fda-b3de-0a989eac5c4e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/fee_distribution.rs -> Scope: Critical. An unprivileged sender lands a single transaction that panics, aborts, or fails to terminate during replay (unwrap, index out of range, unchecked arithmetic overflow, unbounded recursion), halting every validator on that block and requiring human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_54afa274-f9ba-4cab-b29e-869c91e7db0c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/transaction_execution.rs -> Scope: Critical. An unprivileged sender lands a single transaction that panics, aborts, or fails to terminate during replay (unwrap, index out of range, unchecked arithmetic overflow, unbounded recursion), halting every validator on that block and requiring human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a89eb859-80cd-4f6f-beeb-ca7976ac0794?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/recent_blockhashes_account.rs -> Scope: Critical. An unprivileged sender lands a single transaction that panics, aborts, or fails to terminate during replay (unwrap, index out of range, unchecked arithmetic overflow, unbounded recursion), halting every validator on that block and requiring human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cdcbe676-c537-434f-8e79-abcb3936adc5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/partitioned_epoch_rewards/calculation.rs -> Scope: Critical. An unprivileged sender lands a single transaction that panics, aborts, or fails to terminate during replay (unwrap, index out of range, unchecked arithmetic overflow, unbounded recursion), halting every validator on that block and requiring human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9f7b324f-6f0e-42ba-b516-f06e4fcf33a1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/partitioned_epoch_rewards/distribution.rs -> Scope: Critical. An unprivileged sender lands a single transaction that panics, aborts, or fails to terminate during replay (unwrap, index out of range, unchecked arithmetic overflow, unbounded recursion), halting every validator on that block and requiring human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cd468122-6942-47c0-9ea7-842d15fd2c46?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/inflation_rewards/points.rs -> Scope: Critical. An unprivileged sender lands a single transaction that panics, aborts, or fails to terminate during replay (unwrap, index out of range, unchecked arithmetic overflow, unbounded recursion), halting every validator on that block and requiring human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b8b69f0d-9da5-434c-879c-cc40f390f417?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stakes.rs -> Scope: Critical. An unprivileged sender lands a single transaction that panics, aborts, or fails to terminate during replay (unwrap, index out of range, unchecked arithmetic overflow, unbounded recursion), halting every validator on that block and requiring human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_efb06c7e-99cb-47dd-83e7-85dc00b2e10b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stake_account.rs -> Scope: Critical. An unprivileged sender lands a single transaction that panics, aborts, or fails to terminate during replay (unwrap, index out of range, unchecked arithmetic overflow, unbounded recursion), halting every validator on that block and requiring human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ff323ef8-bc26-4f32-bf65-293249bfe42c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/sysvar_account.rs -> Scope: Critical. An unprivileged sender lands a single transaction that panics, aborts, or fails to terminate during replay (unwrap, index out of range, unchecked arithmetic overflow, unbounded recursion), halting every validator on that block and requiring human intervention.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_12338117-7566-49bf-b8eb-c477833375b1?mode=deep",
+    "questions_generated": false
+  }
+]

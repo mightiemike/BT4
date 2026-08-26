@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: runtime-transaction/src/runtime_transaction/sdk_transactions.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_53078db7-4cef-4f4a-ad06-b2d21e12af97?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime-transaction/src/runtime_transaction/transaction_view.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8394ac63-c529-4ee3-bf86-99c618c2f381?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime-transaction/src/instruction_data_len.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_238ef59a-c512-4800-b4f1-96ee4923ccef?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime-transaction/src/signature_details.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6fe4c688-df08-4ee0-a2ec-e633b8391ca4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime-transaction/src/sanitize_config.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3fb6e980-bfd7-4103-8ec1-7ab1ce33136d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: perf/src/sigverify.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9a3895fe-1eca-4071-8010-20cf04aaa4ef?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: precompiles/src/lib.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_895e6de4-f0ae-45e3-897c-891344a0cba7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: precompiles/src/ed25519.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7c41b32a-87f4-4c48-b9ce-aab87fa6a6f1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: precompiles/src/secp256k1.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_42396d03-db7e-4893-a2ff-103ef85a412f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: precompiles/src/secp256r1.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b62769be-1990-40a5-8b5a-88449cf3a141?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/check_transactions.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c22db946-057e-41da-ae71-a362c03833d8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/status_cache.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_19a65e1c-bf36-46bb-bdfe-a1f780ed51c6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/address_lookup_table.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cbab88f5-842d-431f-9fbf-18db0c1692d0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/blockhash_queue.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1e0d5d1a-4a74-4c4d-957e-0d5e6c3de2c3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/account_locks.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fc3faab0-bae4-4144-91e4-16f63aead528?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: accounts-db/src/accounts.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e81b4be7-c83e-453e-af8c-e8df565cd2d9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: compute-budget-instruction/src/compute_budget_instruction_details.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d14762a5-fec2-4868-8fff-a69f1f7be46e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: compute-budget-instruction/src/instructions_processor.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_12444860-d717-440e-a3fa-3f8f06b9f303?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: compute-budget-instruction/src/builtin_programs_filter.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c64917d4-66d9-4783-8439-fe23022e0ea6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: compute-budget/src/compute_budget_limits.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d0753ebb-eab0-43ff-b84c-77de27516bc4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: fee/src/lib.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b3e3759c-615e-4f2b-be1d-cb01db22da49?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cost-model/src/cost_model.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a800df91-a389-4805-be0c-84992c810d8e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: cost-model/src/cost_tracker.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9d6e1b1c-9fad-4b45-83fd-5a754606acab?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/account_loader.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c75cab19-3713-4e6a-9153-4b2d60d8242a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/transaction_account_state_info.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_109e8a23-63c0-4651-a90d-0eb0e45cf8ee?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/rent_calculator.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a36cb09d-2fa8-4469-a617-2575d3d27b7c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/transaction_processor.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d062efc9-9ae1-4d14-a785-45d2dc592668?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/program_loader.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bf87f2f4-8da8-4910-adbf-9f6c203bc9fb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/nonce_info.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8aec0f65-73ea-4660-816b-635bbfbae58e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: svm/src/rollback_accounts.rs -> Scope: Critical. An unprivileged sender drives the vote program into a state transition that mis-attributes credits, stake, or authorized voter/withdrawer, or lets a vote account be updated in a way that corrupts consensus accounting or lets delegated stake be withdrawn by the wrong key.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cb12eb0b-0f48-4cbf-b54a-d7240e040222?mode=deep",
+    "questions_generated": false
+  }
+]

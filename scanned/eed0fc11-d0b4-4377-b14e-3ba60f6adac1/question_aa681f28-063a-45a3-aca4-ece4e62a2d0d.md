@@ -1,0 +1,1 @@
+[File: 'File Name: runtime/src/bank.rs -> Scope: Critical.'] [Function: Bank::deposit_fees / Bank::deposit_or_burn_fee] Can an unprivileged attacker who funds many transactions to a leader whose vote account lacks `block_revenue_collector` field (dormant pre-v4 vote state) trigger the `.expect(\

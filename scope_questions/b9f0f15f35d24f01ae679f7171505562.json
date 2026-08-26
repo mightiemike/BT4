@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: runtime/src/account_saver.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8e272506-f068-48d9-8e30-b46bd058b376?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/rent_collector.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6e4b56c8-d8da-4533-a5e8-11a42b97e04d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: program-runtime/src/invoke_context.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_94c5a3c8-ca2d-46bb-846c-57ef23514f47?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: program-runtime/src/cpi.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_46617719-a572-43ae-aa25-c45b4bd8eb55?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: program-runtime/src/serialization.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_62520159-3ee1-4f6d-9ab7-103e4b7b8e9a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: program-runtime/src/memory.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7b055154-a815-46bd-ab38-08f02a096211?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: program-runtime/src/memory_context.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b368d795-733a-4137-a9e1-4027b073b0a8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: program-runtime/src/vm.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_db14f2bb-986f-4135-ab68-ca6e688088c8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: program-runtime/src/execution_budget.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f81bb934-5d54-46c0-bcfd-ae402cf7ce8b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: program-runtime/src/loaded_programs.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_50bf4ad1-572f-4362-80e1-6647e74e499c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: program-runtime/src/program_cache_entry.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b9bcbfca-a812-42f6-b427-63adb9d1c1dc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: program-runtime/src/deploy.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a7d41039-ebd4-4d8d-badf-578c3db619e7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: program-runtime/src/sysvar_cache.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a5c8e209-e52d-4d84-8ef0-24546c559ab7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: program-runtime/src/mem_pool.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_680e363f-1d36-45ff-a7d3-1cf34a693b18?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: transaction-context/src/lib.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_933f392a-eac5-4201-9b18-ed5aa9f0530c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: transaction-context/src/transaction.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c593e9f0-e1aa-448f-ba4f-de7469e904d0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: transaction-context/src/transaction_accounts.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5aaba681-8c9c-4e9c-b6a9-c9227b2c5dcb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: transaction-context/src/instruction.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c7204ada-2dd8-461c-b9f5-b8b3a392954d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: transaction-context/src/instruction_accounts.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4072e00c-0490-45e5-b3ff-9ad56f54eef1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: transaction-context/src/vm_slice.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ed81b690-8540-4c8d-8812-58a40a2ad5c8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: transaction-context/src/vm_addresses.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_de6764de-5599-4b73-98e4-83b188f2d65d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: syscalls/src/lib.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f1eb522e-8e61-42d5-b86f-265da07f03de?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: syscalls/src/cpi.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6e8e5eae-89e8-42da-bcbd-c9bfb741800b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: syscalls/src/mem_ops.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cea71423-8ef8-46b7-9aff-8ad585e661ca?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: syscalls/src/sysvar.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_ca9b2184-49dd-4128-b451-10b1b610f880?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: syscalls/src/logging.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9c5fcf89-816c-4c16-9513-380c69ba5f35?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/system/src/system_processor.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_df178c12-a06f-472f-8372-f1b432cb24ff?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/system/src/system_instruction.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c8a0c0a0-261d-4f35-bd73-c9d3486c0ba5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/bpf_loader/src/lib.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_eeecc0d1-2f1c-4600-a5f5-5bbd03504b32?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/vote/src/vote_processor.rs -> Scope: High. An unprivileged sender exploits a protocol blind spot the design never anticipated: an unmodelled interaction between two individually correct components (loaded-program cache vs redeployment, lookup-table resolution vs account locks, nonce vs fee payer rollback, rent vs state-size accounting, sysvar refresh vs mid-block reads) where each side's assumption holds alone but their composition breaks value conservation, determinism, or privilege exactness.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6c1ea46e-1765-4c60-b539-d931e0fbd429?mode=deep",
+    "questions_generated": false
+  }
+]

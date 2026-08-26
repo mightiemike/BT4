@@ -1,1 +1,0 @@
-[File: compute-budget-instruction/src/compute_budget_instruction_details.rs] [Function: ComputeBudgetInstructionDetails::try_from] Can an attacker exploit `ComputeBudgetProgramIdFilter`/`BuiltinProgramsFilter`'s array-based cache (`[Option<_>; FILTER_SIZE]` where FILTER_SIZE = u8::MAX+1 = 256) together with `.expect(\

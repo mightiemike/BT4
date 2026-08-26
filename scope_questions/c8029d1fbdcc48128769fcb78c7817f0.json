@@ -1,0 +1,77 @@
+[
+  {
+    "question": "'File Name: programs/vote/src/vote_state/mod.rs -> Scope: Critical. An unprivileged sender breaks lamport conservation in a single transaction or block, minting or destroying lamports through account state-change accounting, rent collection, fee charging, rollback/nonce restoration, or reward distribution, inflating supply or draining balances.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fc0dd589-ea04-4d63-926b-56650210e8ba?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/vote/src/vote_state/handler.rs -> Scope: Critical. An unprivileged sender breaks lamport conservation in a single transaction or block, minting or destroying lamports through account state-change accounting, rent collection, fee charging, rollback/nonce restoration, or reward distribution, inflating supply or draining balances.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_985cf229-4c6c-4939-b828-26098d71876f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/compute-budget/src/lib.rs -> Scope: Critical. An unprivileged sender breaks lamport conservation in a single transaction or block, minting or destroying lamports through account state-change accounting, rent collection, fee charging, rollback/nonce restoration, or reward distribution, inflating supply or draining balances.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9bed2cc0-7d0c-4002-a42c-71dcfff93917?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/zk-elgamal-proof/src/lib.rs -> Scope: Critical. An unprivileged sender breaks lamport conservation in a single transaction or block, minting or destroying lamports through account state-change accounting, rent collection, fee charging, rollback/nonce restoration, or reward distribution, inflating supply or draining balances.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f46bab13-2a07-49b1-8b00-74b6d0ceba79?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank.rs -> Scope: Critical. An unprivileged sender breaks lamport conservation in a single transaction or block, minting or destroying lamports through account state-change accounting, rent collection, fee charging, rollback/nonce restoration, or reward distribution, inflating supply or draining balances.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_4d17af6c-b24e-4c5d-ab45-109941495bdb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/accounts_lt_hash.rs -> Scope: Critical. An unprivileged sender breaks lamport conservation in a single transaction or block, minting or destroying lamports through account state-change accounting, rent collection, fee charging, rollback/nonce restoration, or reward distribution, inflating supply or draining balances.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9c01c552-ec14-4719-a53e-d1c27ee29fdb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/fee_distribution.rs -> Scope: Critical. An unprivileged sender breaks lamport conservation in a single transaction or block, minting or destroying lamports through account state-change accounting, rent collection, fee charging, rollback/nonce restoration, or reward distribution, inflating supply or draining balances.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_fc37ada3-ac4c-4da3-97a8-a97df063c24c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/transaction_execution.rs -> Scope: Critical. An unprivileged sender breaks lamport conservation in a single transaction or block, minting or destroying lamports through account state-change accounting, rent collection, fee charging, rollback/nonce restoration, or reward distribution, inflating supply or draining balances.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6d1f44e6-c1b1-4a9a-9114-56ab676a8d25?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/recent_blockhashes_account.rs -> Scope: Critical. An unprivileged sender breaks lamport conservation in a single transaction or block, minting or destroying lamports through account state-change accounting, rent collection, fee charging, rollback/nonce restoration, or reward distribution, inflating supply or draining balances.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2fd1bdd9-e323-47a3-b893-fd3ead10575e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/partitioned_epoch_rewards/calculation.rs -> Scope: Critical. An unprivileged sender breaks lamport conservation in a single transaction or block, minting or destroying lamports through account state-change accounting, rent collection, fee charging, rollback/nonce restoration, or reward distribution, inflating supply or draining balances.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_847673cf-3c3f-43bd-8404-5e67808f6c7d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/partitioned_epoch_rewards/distribution.rs -> Scope: Critical. An unprivileged sender breaks lamport conservation in a single transaction or block, minting or destroying lamports through account state-change accounting, rent collection, fee charging, rollback/nonce restoration, or reward distribution, inflating supply or draining balances.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_30c2d506-d1cc-4dac-bdf4-2bc09ed68b36?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/inflation_rewards/points.rs -> Scope: Critical. An unprivileged sender breaks lamport conservation in a single transaction or block, minting or destroying lamports through account state-change accounting, rent collection, fee charging, rollback/nonce restoration, or reward distribution, inflating supply or draining balances.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_bacb82ac-24b8-4df6-b0ff-03657a4c0be4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stakes.rs -> Scope: Critical. An unprivileged sender breaks lamport conservation in a single transaction or block, minting or destroying lamports through account state-change accounting, rent collection, fee charging, rollback/nonce restoration, or reward distribution, inflating supply or draining balances.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_683e1a0f-cba9-4a66-846a-727acb0d9b66?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stake_account.rs -> Scope: Critical. An unprivileged sender breaks lamport conservation in a single transaction or block, minting or destroying lamports through account state-change accounting, rent collection, fee charging, rollback/nonce restoration, or reward distribution, inflating supply or draining balances.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b26b0293-0384-4640-83ca-eb0a23348ad9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/sysvar_account.rs -> Scope: Critical. An unprivileged sender breaks lamport conservation in a single transaction or block, minting or destroying lamports through account state-change accounting, rent collection, fee charging, rollback/nonce restoration, or reward distribution, inflating supply or draining balances.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_8536d09e-1a8d-4ccb-99b9-27b6c0feac45?mode=deep",
+    "questions_generated": false
+  }
+]

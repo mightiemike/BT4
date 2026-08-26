@@ -1,0 +1,77 @@
+[
+  {
+    "question": "'File Name: programs/vote/src/vote_state/mod.rs -> Scope: Critical. An unprivileged fee-payer submits a transaction whose instruction mutates lamports, data, or owner of an account it never signed for, because signer/writable privilege bookkeeping in transaction-context, duplicate-account dedup, or CPI privilege propagation widens privileges, giving theft of funds without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2caf8415-e94d-45b9-95d7-03628d4ca2e3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/vote/src/vote_state/handler.rs -> Scope: Critical. An unprivileged fee-payer submits a transaction whose instruction mutates lamports, data, or owner of an account it never signed for, because signer/writable privilege bookkeeping in transaction-context, duplicate-account dedup, or CPI privilege propagation widens privileges, giving theft of funds without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a654e48e-cf12-423b-a608-db33a76965d0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/compute-budget/src/lib.rs -> Scope: Critical. An unprivileged fee-payer submits a transaction whose instruction mutates lamports, data, or owner of an account it never signed for, because signer/writable privilege bookkeeping in transaction-context, duplicate-account dedup, or CPI privilege propagation widens privileges, giving theft of funds without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b2024cd2-f470-484b-99e0-e4bd3e25c3e4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/zk-elgamal-proof/src/lib.rs -> Scope: Critical. An unprivileged fee-payer submits a transaction whose instruction mutates lamports, data, or owner of an account it never signed for, because signer/writable privilege bookkeeping in transaction-context, duplicate-account dedup, or CPI privilege propagation widens privileges, giving theft of funds without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7eb8a229-20ef-4d16-a59f-d26b2ba8398a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank.rs -> Scope: Critical. An unprivileged fee-payer submits a transaction whose instruction mutates lamports, data, or owner of an account it never signed for, because signer/writable privilege bookkeeping in transaction-context, duplicate-account dedup, or CPI privilege propagation widens privileges, giving theft of funds without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b521683f-803b-4d78-81ad-60ad5e4cd9fd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/accounts_lt_hash.rs -> Scope: Critical. An unprivileged fee-payer submits a transaction whose instruction mutates lamports, data, or owner of an account it never signed for, because signer/writable privilege bookkeeping in transaction-context, duplicate-account dedup, or CPI privilege propagation widens privileges, giving theft of funds without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f5fc6647-20c7-4661-a4b3-738b421c746c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/fee_distribution.rs -> Scope: Critical. An unprivileged fee-payer submits a transaction whose instruction mutates lamports, data, or owner of an account it never signed for, because signer/writable privilege bookkeeping in transaction-context, duplicate-account dedup, or CPI privilege propagation widens privileges, giving theft of funds without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f0bdc9ba-8c8b-4398-863a-2a3069d73559?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/transaction_execution.rs -> Scope: Critical. An unprivileged fee-payer submits a transaction whose instruction mutates lamports, data, or owner of an account it never signed for, because signer/writable privilege bookkeeping in transaction-context, duplicate-account dedup, or CPI privilege propagation widens privileges, giving theft of funds without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_190ee17a-3422-4c05-b965-b6b4196e5dd4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/recent_blockhashes_account.rs -> Scope: Critical. An unprivileged fee-payer submits a transaction whose instruction mutates lamports, data, or owner of an account it never signed for, because signer/writable privilege bookkeeping in transaction-context, duplicate-account dedup, or CPI privilege propagation widens privileges, giving theft of funds without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_cc3b0ff5-9e0a-4399-8f9c-b16764852f38?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/partitioned_epoch_rewards/calculation.rs -> Scope: Critical. An unprivileged fee-payer submits a transaction whose instruction mutates lamports, data, or owner of an account it never signed for, because signer/writable privilege bookkeeping in transaction-context, duplicate-account dedup, or CPI privilege propagation widens privileges, giving theft of funds without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d226ff28-803e-45f2-ba37-43bf6d26582a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/partitioned_epoch_rewards/distribution.rs -> Scope: Critical. An unprivileged fee-payer submits a transaction whose instruction mutates lamports, data, or owner of an account it never signed for, because signer/writable privilege bookkeeping in transaction-context, duplicate-account dedup, or CPI privilege propagation widens privileges, giving theft of funds without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0ac9b5e7-21e4-45c6-bd6e-606708bdc1e2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/inflation_rewards/points.rs -> Scope: Critical. An unprivileged fee-payer submits a transaction whose instruction mutates lamports, data, or owner of an account it never signed for, because signer/writable privilege bookkeeping in transaction-context, duplicate-account dedup, or CPI privilege propagation widens privileges, giving theft of funds without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1f3f6ae6-f481-416f-88ed-e5c2c84f2f57?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stakes.rs -> Scope: Critical. An unprivileged fee-payer submits a transaction whose instruction mutates lamports, data, or owner of an account it never signed for, because signer/writable privilege bookkeeping in transaction-context, duplicate-account dedup, or CPI privilege propagation widens privileges, giving theft of funds without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_9e9ade2c-ea5a-489b-8e2b-9b9aee9b070e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stake_account.rs -> Scope: Critical. An unprivileged fee-payer submits a transaction whose instruction mutates lamports, data, or owner of an account it never signed for, because signer/writable privilege bookkeeping in transaction-context, duplicate-account dedup, or CPI privilege propagation widens privileges, giving theft of funds without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_da9944aa-6c44-4e52-ba99-faa8abe9e617?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/sysvar_account.rs -> Scope: Critical. An unprivileged fee-payer submits a transaction whose instruction mutates lamports, data, or owner of an account it never signed for, because signer/writable privilege bookkeeping in transaction-context, duplicate-account dedup, or CPI privilege propagation widens privileges, giving theft of funds without the victim's signature.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f0c03050-85e1-4bbd-849e-57792888ff65?mode=deep",
+    "questions_generated": false
+  }
+]

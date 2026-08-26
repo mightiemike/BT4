@@ -1,0 +1,77 @@
+[
+  {
+    "question": "'File Name: programs/vote/src/vote_state/mod.rs -> Scope: Critical. An unprivileged sender takes ownership of an account or program another authority controls through the system program (assign, create_account, create_with_seed, allocate) or bpf_loader upgrade/authority/buffer checks, then drains or reprograms it.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f65bb8cc-3fe8-4bc1-bd26-33245d950830?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/vote/src/vote_state/handler.rs -> Scope: Critical. An unprivileged sender takes ownership of an account or program another authority controls through the system program (assign, create_account, create_with_seed, allocate) or bpf_loader upgrade/authority/buffer checks, then drains or reprograms it.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_51ce90ff-68b5-4fd8-bfe1-9898ef7f528c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/compute-budget/src/lib.rs -> Scope: Critical. An unprivileged sender takes ownership of an account or program another authority controls through the system program (assign, create_account, create_with_seed, allocate) or bpf_loader upgrade/authority/buffer checks, then drains or reprograms it.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_5e6b9ac7-2c90-447c-a8ea-a23978d6abc4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/zk-elgamal-proof/src/lib.rs -> Scope: Critical. An unprivileged sender takes ownership of an account or program another authority controls through the system program (assign, create_account, create_with_seed, allocate) or bpf_loader upgrade/authority/buffer checks, then drains or reprograms it.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_845270ec-a152-485f-8b98-0c22de2673db?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank.rs -> Scope: Critical. An unprivileged sender takes ownership of an account or program another authority controls through the system program (assign, create_account, create_with_seed, allocate) or bpf_loader upgrade/authority/buffer checks, then drains or reprograms it.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_1b5e09db-e05b-46fd-a11b-afe19bd0dc71?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/accounts_lt_hash.rs -> Scope: Critical. An unprivileged sender takes ownership of an account or program another authority controls through the system program (assign, create_account, create_with_seed, allocate) or bpf_loader upgrade/authority/buffer checks, then drains or reprograms it.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_526a770c-3c60-45d6-9f3a-5bdeb93bbcc1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/fee_distribution.rs -> Scope: Critical. An unprivileged sender takes ownership of an account or program another authority controls through the system program (assign, create_account, create_with_seed, allocate) or bpf_loader upgrade/authority/buffer checks, then drains or reprograms it.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_93f843c2-124a-45f9-b454-3faf2de62e29?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/transaction_execution.rs -> Scope: Critical. An unprivileged sender takes ownership of an account or program another authority controls through the system program (assign, create_account, create_with_seed, allocate) or bpf_loader upgrade/authority/buffer checks, then drains or reprograms it.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_aa55efe9-e383-4d36-8f0c-696779e813b3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/recent_blockhashes_account.rs -> Scope: Critical. An unprivileged sender takes ownership of an account or program another authority controls through the system program (assign, create_account, create_with_seed, allocate) or bpf_loader upgrade/authority/buffer checks, then drains or reprograms it.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7aa320d5-11b8-4129-a0c3-dbebc65e4244?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/partitioned_epoch_rewards/calculation.rs -> Scope: Critical. An unprivileged sender takes ownership of an account or program another authority controls through the system program (assign, create_account, create_with_seed, allocate) or bpf_loader upgrade/authority/buffer checks, then drains or reprograms it.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_074cb36f-1430-4b5c-9de8-0f6927735a1e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/partitioned_epoch_rewards/distribution.rs -> Scope: Critical. An unprivileged sender takes ownership of an account or program another authority controls through the system program (assign, create_account, create_with_seed, allocate) or bpf_loader upgrade/authority/buffer checks, then drains or reprograms it.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_52e5efde-7c17-4004-bc69-635fc6a807d0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/inflation_rewards/points.rs -> Scope: Critical. An unprivileged sender takes ownership of an account or program another authority controls through the system program (assign, create_account, create_with_seed, allocate) or bpf_loader upgrade/authority/buffer checks, then drains or reprograms it.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_84b0f96c-0068-4500-8ea8-beca31867cf6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stakes.rs -> Scope: Critical. An unprivileged sender takes ownership of an account or program another authority controls through the system program (assign, create_account, create_with_seed, allocate) or bpf_loader upgrade/authority/buffer checks, then drains or reprograms it.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_0e7c02ce-d17b-44e2-9d5f-9450cef09b8b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stake_account.rs -> Scope: Critical. An unprivileged sender takes ownership of an account or program another authority controls through the system program (assign, create_account, create_with_seed, allocate) or bpf_loader upgrade/authority/buffer checks, then drains or reprograms it.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_2f9e46e4-63ca-4d4c-b299-22f842242cc2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/sysvar_account.rs -> Scope: Critical. An unprivileged sender takes ownership of an account or program another authority controls through the system program (assign, create_account, create_with_seed, allocate) or bpf_loader upgrade/authority/buffer checks, then drains or reprograms it.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_f4f99ea5-3b11-4ed7-ac2e-5df8d348cbc1?mode=deep",
+    "questions_generated": false
+  }
+]

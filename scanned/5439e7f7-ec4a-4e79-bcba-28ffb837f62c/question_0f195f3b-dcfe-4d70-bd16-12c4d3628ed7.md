@@ -1,0 +1,1 @@
+[File: accounts-db/src/blockhash_queue.rs -> Scope: authorized withdrawer corruption] [Function: BlockhashQueue::last_hash / register_hash] Can an attacker who observes `last_hash()` panicking via `.expect(\

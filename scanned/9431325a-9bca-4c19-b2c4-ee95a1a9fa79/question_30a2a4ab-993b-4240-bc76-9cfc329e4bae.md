@@ -1,1 +1,0 @@
-[File: transaction_view.rs -> Scope: Critical.] [Function: as_sanitized_transaction / SanitizedTransaction::try_new_from_fields expect] Can an attacker construct an edge-case resolved transaction (e.g., zero static accounts beyond the fee payer, maximal ALT loaded accounts) under PRECONDITIONS (crafted V0 message) that causes the `.expect(\

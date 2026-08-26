@@ -1,0 +1,77 @@
+[
+  {
+    "question": "'File Name: programs/vote/src/vote_state/mod.rs -> Scope: Critical. An unprivileged sender gets an already-processed transaction executed a second time, or gets a durable-nonce transaction replayed, by defeating status-cache dedup, blockhash-queue age checks, or nonce advance/rollback ordering, double-spending the transfer.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d4b3480e-72a2-44f9-bf63-6599045592ad?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/vote/src/vote_state/handler.rs -> Scope: Critical. An unprivileged sender gets an already-processed transaction executed a second time, or gets a durable-nonce transaction replayed, by defeating status-cache dedup, blockhash-queue age checks, or nonce advance/rollback ordering, double-spending the transfer.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d6ce79e4-309c-4e0e-9fae-258c688457d4?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/compute-budget/src/lib.rs -> Scope: Critical. An unprivileged sender gets an already-processed transaction executed a second time, or gets a durable-nonce transaction replayed, by defeating status-cache dedup, blockhash-queue age checks, or nonce advance/rollback ordering, double-spending the transfer.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b52114dc-05a5-4525-a3bd-3457ada67b89?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: programs/zk-elgamal-proof/src/lib.rs -> Scope: Critical. An unprivileged sender gets an already-processed transaction executed a second time, or gets a durable-nonce transaction replayed, by defeating status-cache dedup, blockhash-queue age checks, or nonce advance/rollback ordering, double-spending the transfer.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_81eb4e31-9853-4ee4-800e-d66d5a77107a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank.rs -> Scope: Critical. An unprivileged sender gets an already-processed transaction executed a second time, or gets a durable-nonce transaction replayed, by defeating status-cache dedup, blockhash-queue age checks, or nonce advance/rollback ordering, double-spending the transfer.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_de5cc608-0d85-452c-8268-9a2f7b1ea263?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/accounts_lt_hash.rs -> Scope: Critical. An unprivileged sender gets an already-processed transaction executed a second time, or gets a durable-nonce transaction replayed, by defeating status-cache dedup, blockhash-queue age checks, or nonce advance/rollback ordering, double-spending the transfer.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_c7d2b523-dcf5-44f3-a6e4-0da171dd5822?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/fee_distribution.rs -> Scope: Critical. An unprivileged sender gets an already-processed transaction executed a second time, or gets a durable-nonce transaction replayed, by defeating status-cache dedup, blockhash-queue age checks, or nonce advance/rollback ordering, double-spending the transfer.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_a441bb78-e221-409c-af68-f93f92f61373?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/transaction_execution.rs -> Scope: Critical. An unprivileged sender gets an already-processed transaction executed a second time, or gets a durable-nonce transaction replayed, by defeating status-cache dedup, blockhash-queue age checks, or nonce advance/rollback ordering, double-spending the transfer.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_d0be827b-4301-48c6-aee5-803bd724f829?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/recent_blockhashes_account.rs -> Scope: Critical. An unprivileged sender gets an already-processed transaction executed a second time, or gets a durable-nonce transaction replayed, by defeating status-cache dedup, blockhash-queue age checks, or nonce advance/rollback ordering, double-spending the transfer.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_99ffa1c5-290b-4aca-9514-94768c3dd5ef?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/partitioned_epoch_rewards/calculation.rs -> Scope: Critical. An unprivileged sender gets an already-processed transaction executed a second time, or gets a durable-nonce transaction replayed, by defeating status-cache dedup, blockhash-queue age checks, or nonce advance/rollback ordering, double-spending the transfer.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3916d499-c9ad-4ed7-94e3-a2b512bee3e7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/bank/partitioned_epoch_rewards/distribution.rs -> Scope: Critical. An unprivileged sender gets an already-processed transaction executed a second time, or gets a durable-nonce transaction replayed, by defeating status-cache dedup, blockhash-queue age checks, or nonce advance/rollback ordering, double-spending the transfer.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_7662194d-e639-4408-aeac-337ea28862a3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/inflation_rewards/points.rs -> Scope: Critical. An unprivileged sender gets an already-processed transaction executed a second time, or gets a durable-nonce transaction replayed, by defeating status-cache dedup, blockhash-queue age checks, or nonce advance/rollback ordering, double-spending the transfer.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_b4a455fe-cf00-400c-bb01-ecfa817b35b7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stakes.rs -> Scope: Critical. An unprivileged sender gets an already-processed transaction executed a second time, or gets a durable-nonce transaction replayed, by defeating status-cache dedup, blockhash-queue age checks, or nonce advance/rollback ordering, double-spending the transfer.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_6d49c3c1-eb9a-48e3-89ff-138236e31120?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/stake_account.rs -> Scope: Critical. An unprivileged sender gets an already-processed transaction executed a second time, or gets a durable-nonce transaction replayed, by defeating status-cache dedup, blockhash-queue age checks, or nonce advance/rollback ordering, double-spending the transfer.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_e45a2dae-d83a-47e9-a70d-d088a55c9813?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: runtime/src/sysvar_account.rs -> Scope: Critical. An unprivileged sender gets an already-processed transaction executed a second time, or gets a durable-nonce transaction replayed, by defeating status-cache dedup, blockhash-queue age checks, or nonce advance/rollback ordering, double-spending the transfer.'",
+    "url": "https://deepwiki.com/search/-generate-exploitfocused-secur_3569269f-032b-4767-b4c7-00a10b7e81ca?mode=deep",
+    "questions_generated": false
+  }
+]

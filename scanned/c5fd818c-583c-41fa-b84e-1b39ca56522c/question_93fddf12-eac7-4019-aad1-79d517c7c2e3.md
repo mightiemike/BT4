@@ -1,1 +1,0 @@
-[File: 'runtime/src/status_cache.rs -> Scope: Critical'] [Function: StatusCache::clear_slot_entries] Can an attacker who forces a dead/duplicate slot to be produced (e.g., by submitting a transaction whose signature collides in slot processing, per the code's documented \

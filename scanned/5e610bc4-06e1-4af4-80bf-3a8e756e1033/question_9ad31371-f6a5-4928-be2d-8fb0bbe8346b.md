@@ -1,1 +1,0 @@
-[File: 'File Name: runtime/src/bank.rs -> Scope: Critical.'] [Function: Bank::get_nanosecond_clock] Can an unprivileged attacker who prefunds the well-known NANOSECOND_CLOCK_ACCOUNT address with non-empty garbage data (before Alpenglow migration populates it) trigger `wincode::deserialize(acct.data()).expect(\

@@ -1,1 +1,0 @@
-[File: 'File Name: precompiles/src/ed25519.rs -> Scope: Critical.'] [Function: verify] Can an unprivileged sender exploit `agave-precompiles`'s `agave-unstable-api` cargo feature gate (`#![cfg(feature =

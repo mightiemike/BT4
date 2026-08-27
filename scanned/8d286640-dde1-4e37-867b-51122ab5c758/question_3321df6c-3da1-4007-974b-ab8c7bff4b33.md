@@ -1,1 +1,0 @@
-[File: transaction_view.rs] [Function: to_versioned_transaction] Can an attacker exploit asymmetry between transaction.version() reported as TransactionVersion::V1 while transaction_config() returns None (an invariant assumed by `.expect(\

@@ -1,1 +1,0 @@
-[File: 'syscalls/src/logging.rs' -> Scope: High] [Function: SyscallLogU64::rust] Can an attacker exploit the fixed-cost `let cost = invoke_context.get_execution_cost().log_64_units;` in SyscallLogU64::rust, which charges a constant 100 CUs regardless of argument values, combined with the `format!(\

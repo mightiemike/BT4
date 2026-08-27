@@ -1,0 +1,1 @@
+The code confirms the seed-length bound is enforced correctly: `translate_signers` checks `untranslated_seeds.len() > MAX_SEEDS` and rejects with `InstructionError::MaxSeedLengthExceeded` before calling `Pubkey::create_program_address`, matching the standard Solana runtime CPI signer-seed validation.

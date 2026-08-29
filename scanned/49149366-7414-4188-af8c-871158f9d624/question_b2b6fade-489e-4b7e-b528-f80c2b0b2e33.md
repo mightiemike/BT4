@@ -1,0 +1,1 @@
+for the same underlying event? Proof idea: Clarinet test comparing `(get-debt)`-derived interest against `(get-liquidity-index)` growth over one `accrue` call, asserting they diverge, breaking ACCRUAL_EXACTNESS. Impact: High, theft of unclaimed yield for lindex-based consumers.

@@ -1,0 +1,27 @@
+[
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-4-market.clar -> Scope: Critical. `deposit` APPLIES THE FUTURE INDEX TWICE. It calls `(try! (accrue))`, which writes `index` and `lindex`, and then computes `inkind` from `convert-to-shares-preview`, which reaches `total-assets-preview` and hence `debt-preview` and `next-index` - re-deriving a forward index from the values `accrue` just wrote. Establish whether `time-delta` is genuinely zero at that point on every path, including when the pause state made `accrue` a no-op or when `last-update` was left stale, and show shares minted against interest counted twice. Impact: theft of supplier principal.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_7117a3fb-d600-4cf3-b2b1-dbeef5c9a546?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-market-vault.clar -> Scope: Critical. `deposit` APPLIES THE FUTURE INDEX TWICE. It calls `(try! (accrue))`, which writes `index` and `lindex`, and then computes `inkind` from `convert-to-shares-preview`, which reaches `total-assets-preview` and hence `debt-preview` and `next-index` - re-deriving a forward index from the values `accrue` just wrote. Establish whether `time-delta` is genuinely zero at that point on every path, including when the pause state made `accrue` a no-op or when `last-update` was left stale, and show shares minted against interest counted twice. Impact: theft of supplier principal.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_e7bc4904-3bc5-44eb-b7c8-9cb93513a80a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-stx.clar -> Scope: Critical. `deposit` APPLIES THE FUTURE INDEX TWICE. It calls `(try! (accrue))`, which writes `index` and `lindex`, and then computes `inkind` from `convert-to-shares-preview`, which reaches `total-assets-preview` and hence `debt-preview` and `next-index` - re-deriving a forward index from the values `accrue` just wrote. Establish whether `time-delta` is genuinely zero at that point on every path, including when the pause state made `accrue` a no-op or when `last-update` was left stale, and show shares minted against interest counted twice. Impact: theft of supplier principal.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_248586f3-030f-477b-a4c8-388b7fc946b6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-sbtc.clar -> Scope: Critical. `deposit` APPLIES THE FUTURE INDEX TWICE. It calls `(try! (accrue))`, which writes `index` and `lindex`, and then computes `inkind` from `convert-to-shares-preview`, which reaches `total-assets-preview` and hence `debt-preview` and `next-index` - re-deriving a forward index from the values `accrue` just wrote. Establish whether `time-delta` is genuinely zero at that point on every path, including when the pause state made `accrue` a no-op or when `last-update` was left stale, and show shares minted against interest counted twice. Impact: theft of supplier principal.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_bb73416c-b2ce-4fd1-bbbc-931d3fd6c091?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-ststxbtc.clar -> Scope: Critical. `deposit` APPLIES THE FUTURE INDEX TWICE. It calls `(try! (accrue))`, which writes `index` and `lindex`, and then computes `inkind` from `convert-to-shares-preview`, which reaches `total-assets-preview` and hence `debt-preview` and `next-index` - re-deriving a forward index from the values `accrue` just wrote. Establish whether `time-delta` is genuinely zero at that point on every path, including when the pause state made `accrue` a no-op or when `last-update` was left stale, and show shares minted against interest counted twice. Impact: theft of supplier principal.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_e072d56f-7aef-4871-96b4-a7a56ca8a9aa?mode=deep",
+    "questions_generated": false
+  }
+]

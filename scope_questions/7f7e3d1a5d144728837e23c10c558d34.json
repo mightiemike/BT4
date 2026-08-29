@@ -1,0 +1,27 @@
+[
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-4-market.clar -> Scope: High. `repay` TAKES ITS INDEX FROM A CACHE IT MAY NOT HAVE PRIMED. It calls `accrue-user-debts` over the position's debt list, then reads `(get index (unwrap-panic (get-cached-indexes asset-id)))`. Establish what happens when the repaid asset is not in that list - a debt row filtered out by the enabled mask, a repayment on behalf of an account with no such row, an asset accrued under a different id - and whether the `unwrap-panic` aborts or an unrelated index is used to size the repayment. Impact: permanent freezing of an unrepayable debt, or theft of unclaimed yield.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_5ee88495-4adf-4298-a4cd-067ecf70f7d8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-market-vault.clar -> Scope: High. `repay` TAKES ITS INDEX FROM A CACHE IT MAY NOT HAVE PRIMED. It calls `accrue-user-debts` over the position's debt list, then reads `(get index (unwrap-panic (get-cached-indexes asset-id)))`. Establish what happens when the repaid asset is not in that list - a debt row filtered out by the enabled mask, a repayment on behalf of an account with no such row, an asset accrued under a different id - and whether the `unwrap-panic` aborts or an unrelated index is used to size the repayment. Impact: permanent freezing of an unrepayable debt, or theft of unclaimed yield.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_fbf75073-8246-4529-9acb-615807b4f2c8?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-stx.clar -> Scope: High. `repay` TAKES ITS INDEX FROM A CACHE IT MAY NOT HAVE PRIMED. It calls `accrue-user-debts` over the position's debt list, then reads `(get index (unwrap-panic (get-cached-indexes asset-id)))`. Establish what happens when the repaid asset is not in that list - a debt row filtered out by the enabled mask, a repayment on behalf of an account with no such row, an asset accrued under a different id - and whether the `unwrap-panic` aborts or an unrelated index is used to size the repayment. Impact: permanent freezing of an unrepayable debt, or theft of unclaimed yield.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_d017e352-88de-4cf1-ba9e-d3ed07ec8c0e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-sbtc.clar -> Scope: High. `repay` TAKES ITS INDEX FROM A CACHE IT MAY NOT HAVE PRIMED. It calls `accrue-user-debts` over the position's debt list, then reads `(get index (unwrap-panic (get-cached-indexes asset-id)))`. Establish what happens when the repaid asset is not in that list - a debt row filtered out by the enabled mask, a repayment on behalf of an account with no such row, an asset accrued under a different id - and whether the `unwrap-panic` aborts or an unrelated index is used to size the repayment. Impact: permanent freezing of an unrepayable debt, or theft of unclaimed yield.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_b670ef96-758a-42bf-8615-887900b8094d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-ststxbtc.clar -> Scope: High. `repay` TAKES ITS INDEX FROM A CACHE IT MAY NOT HAVE PRIMED. It calls `accrue-user-debts` over the position's debt list, then reads `(get index (unwrap-panic (get-cached-indexes asset-id)))`. Establish what happens when the repaid asset is not in that list - a debt row filtered out by the enabled mask, a repayment on behalf of an account with no such row, an asset accrued under a different id - and whether the `unwrap-panic` aborts or an unrelated index is used to size the repayment. Impact: permanent freezing of an unrepayable debt, or theft of unclaimed yield.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_1fe17af7-7f5a-4086-8753-b764f0e90303?mode=deep",
+    "questions_generated": false
+  }
+]

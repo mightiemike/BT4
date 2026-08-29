@@ -1,0 +1,27 @@
+[
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-4-market.clar -> Scope: Critical. `last-update` ONLY MOVES WHEN AN INDEX MOVED. `accrue` sets `last-update` to `stacks-block-time` only inside `(if (or (not (is-eq idx next)) (not (is-eq lidx nliq))) ...)`. Any interval in which the computed multiplier rounds to `INDEX-PRECISION` - a zero rate, a tiny `time-delta`, a vault with no debt - leaves `last-update` stale, so the NEXT accrual computes `time-delta` over an interval that already elapsed. Show interest charged twice for the same seconds, or a `lindex` that grows on time nobody borrowed for. Impact: protocol insolvency, or theft of unclaimed yield.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_e315399c-bb51-460f-8155-68e42ad3f97c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-market-vault.clar -> Scope: Critical. `last-update` ONLY MOVES WHEN AN INDEX MOVED. `accrue` sets `last-update` to `stacks-block-time` only inside `(if (or (not (is-eq idx next)) (not (is-eq lidx nliq))) ...)`. Any interval in which the computed multiplier rounds to `INDEX-PRECISION` - a zero rate, a tiny `time-delta`, a vault with no debt - leaves `last-update` stale, so the NEXT accrual computes `time-delta` over an interval that already elapsed. Show interest charged twice for the same seconds, or a `lindex` that grows on time nobody borrowed for. Impact: protocol insolvency, or theft of unclaimed yield.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_502e35da-921c-41bc-9b87-dafb1094404e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-stx.clar -> Scope: Critical. `last-update` ONLY MOVES WHEN AN INDEX MOVED. `accrue` sets `last-update` to `stacks-block-time` only inside `(if (or (not (is-eq idx next)) (not (is-eq lidx nliq))) ...)`. Any interval in which the computed multiplier rounds to `INDEX-PRECISION` - a zero rate, a tiny `time-delta`, a vault with no debt - leaves `last-update` stale, so the NEXT accrual computes `time-delta` over an interval that already elapsed. Show interest charged twice for the same seconds, or a `lindex` that grows on time nobody borrowed for. Impact: protocol insolvency, or theft of unclaimed yield.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_50d6ba21-815c-4600-a4eb-812555b9045c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-sbtc.clar -> Scope: Critical. `last-update` ONLY MOVES WHEN AN INDEX MOVED. `accrue` sets `last-update` to `stacks-block-time` only inside `(if (or (not (is-eq idx next)) (not (is-eq lidx nliq))) ...)`. Any interval in which the computed multiplier rounds to `INDEX-PRECISION` - a zero rate, a tiny `time-delta`, a vault with no debt - leaves `last-update` stale, so the NEXT accrual computes `time-delta` over an interval that already elapsed. Show interest charged twice for the same seconds, or a `lindex` that grows on time nobody borrowed for. Impact: protocol insolvency, or theft of unclaimed yield.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_6d341c14-e9f9-41db-bd17-222ba7b8b582?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-ststxbtc.clar -> Scope: Critical. `last-update` ONLY MOVES WHEN AN INDEX MOVED. `accrue` sets `last-update` to `stacks-block-time` only inside `(if (or (not (is-eq idx next)) (not (is-eq lidx nliq))) ...)`. Any interval in which the computed multiplier rounds to `INDEX-PRECISION` - a zero rate, a tiny `time-delta`, a vault with no debt - leaves `last-update` stale, so the NEXT accrual computes `time-delta` over an interval that already elapsed. Show interest charged twice for the same seconds, or a `lindex` that grows on time nobody borrowed for. Impact: protocol insolvency, or theft of unclaimed yield.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_3a969b67-64e1-4bff-810f-f63c018e876b?mode=deep",
+    "questions_generated": false
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-4-market.clar -> Scope: High. TWO CLOCKS, TWO UNITS. Every index uses `stacks-block-time` while `last-borrow-block` is stamped from `stacks-block-height`, and `is-liquidation-paused` compares grace entries against time. Establish where the two are compared, defaulted or mixed, what `(- stacks-block-time (var-get last-update))` does if `last-update` is ever ahead of the current time, and whether the same-block borrow guard can be satisfied or defeated by the mismatch. Impact: protocol insolvency, or temporary freezing of liquidations.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_8585e8ef-4133-4823-aabb-a5b1c61f15fd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-market-vault.clar -> Scope: High. TWO CLOCKS, TWO UNITS. Every index uses `stacks-block-time` while `last-borrow-block` is stamped from `stacks-block-height`, and `is-liquidation-paused` compares grace entries against time. Establish where the two are compared, defaulted or mixed, what `(- stacks-block-time (var-get last-update))` does if `last-update` is ever ahead of the current time, and whether the same-block borrow guard can be satisfied or defeated by the mismatch. Impact: protocol insolvency, or temporary freezing of liquidations.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_d12fc815-dde0-4c8d-9923-01449a7ea5c0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-stx.clar -> Scope: High. TWO CLOCKS, TWO UNITS. Every index uses `stacks-block-time` while `last-borrow-block` is stamped from `stacks-block-height`, and `is-liquidation-paused` compares grace entries against time. Establish where the two are compared, defaulted or mixed, what `(- stacks-block-time (var-get last-update))` does if `last-update` is ever ahead of the current time, and whether the same-block borrow guard can be satisfied or defeated by the mismatch. Impact: protocol insolvency, or temporary freezing of liquidations.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_3a6757e2-110a-4df5-803c-66d8a14fadd3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-sbtc.clar -> Scope: High. TWO CLOCKS, TWO UNITS. Every index uses `stacks-block-time` while `last-borrow-block` is stamped from `stacks-block-height`, and `is-liquidation-paused` compares grace entries against time. Establish where the two are compared, defaulted or mixed, what `(- stacks-block-time (var-get last-update))` does if `last-update` is ever ahead of the current time, and whether the same-block borrow guard can be satisfied or defeated by the mismatch. Impact: protocol insolvency, or temporary freezing of liquidations.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_55890756-376a-4bf7-ac4d-06ec6c22db0f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-ststxbtc.clar -> Scope: High. TWO CLOCKS, TWO UNITS. Every index uses `stacks-block-time` while `last-borrow-block` is stamped from `stacks-block-height`, and `is-liquidation-paused` compares grace entries against time. Establish where the two are compared, defaulted or mixed, what `(- stacks-block-time (var-get last-update))` does if `last-update` is ever ahead of the current time, and whether the same-block borrow guard can be satisfied or defeated by the mismatch. Impact: protocol insolvency, or temporary freezing of liquidations.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_3dbe6494-41ec-4289-ae49-1544126b4d3a?mode=deep",
+    "questions_generated": false
+  }
+]

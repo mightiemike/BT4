@@ -1,0 +1,27 @@
+[
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-4-market.clar -> Scope: Critical. `liquidate` READS THE POSITION BEFORE THE WRITES IT AUTHORIZES. `position`, `pos-full`, `mask`, `group` and every price are bound at the top of the `let`, then the debt repayment, the collateral seizure and any socialization execute in sequence, each mutating vault state the later steps still evaluate against the original bindings. Show a multi-asset seizure in which the amount seized for the second asset is computed from a `lindex` or `index` the first asset's repayment already changed. Impact: direct theft of user funds.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_d63b4eb4-201d-497c-a22c-3f36dfec49a7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-market-vault.clar -> Scope: Critical. `liquidate` READS THE POSITION BEFORE THE WRITES IT AUTHORIZES. `position`, `pos-full`, `mask`, `group` and every price are bound at the top of the `let`, then the debt repayment, the collateral seizure and any socialization execute in sequence, each mutating vault state the later steps still evaluate against the original bindings. Show a multi-asset seizure in which the amount seized for the second asset is computed from a `lindex` or `index` the first asset's repayment already changed. Impact: direct theft of user funds.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_0bb5cb8f-047e-41e2-8c1a-0573506d66f0?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-stx.clar -> Scope: Critical. `liquidate` READS THE POSITION BEFORE THE WRITES IT AUTHORIZES. `position`, `pos-full`, `mask`, `group` and every price are bound at the top of the `let`, then the debt repayment, the collateral seizure and any socialization execute in sequence, each mutating vault state the later steps still evaluate against the original bindings. Show a multi-asset seizure in which the amount seized for the second asset is computed from a `lindex` or `index` the first asset's repayment already changed. Impact: direct theft of user funds.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_10860cab-8fe8-4ffa-ab14-8bf7f7e84c90?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-sbtc.clar -> Scope: Critical. `liquidate` READS THE POSITION BEFORE THE WRITES IT AUTHORIZES. `position`, `pos-full`, `mask`, `group` and every price are bound at the top of the `let`, then the debt repayment, the collateral seizure and any socialization execute in sequence, each mutating vault state the later steps still evaluate against the original bindings. Show a multi-asset seizure in which the amount seized for the second asset is computed from a `lindex` or `index` the first asset's repayment already changed. Impact: direct theft of user funds.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_3c812b65-8dc0-4238-968d-38af55e0d466?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-ststxbtc.clar -> Scope: Critical. `liquidate` READS THE POSITION BEFORE THE WRITES IT AUTHORIZES. `position`, `pos-full`, `mask`, `group` and every price are bound at the top of the `let`, then the debt repayment, the collateral seizure and any socialization execute in sequence, each mutating vault state the later steps still evaluate against the original bindings. Show a multi-asset seizure in which the amount seized for the second asset is computed from a `lindex` or `index` the first asset's repayment already changed. Impact: direct theft of user funds.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_4aac55a0-ce0b-46c9-b034-6770f92e8407?mode=deep",
+    "questions_generated": false
+  }
+]

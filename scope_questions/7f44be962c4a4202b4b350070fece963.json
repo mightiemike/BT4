@@ -1,0 +1,27 @@
+[
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-4-market.clar -> Scope: Critical. CHECK-THEN-ACT ACROSS A CONTRACT BOUNDARY - the seam nobody modelled. Enumerate every point in the protocol where a Zest contract validates a condition, then calls out to another contract, then acts on the value it read BEFORE the call. Include market to vault, market to market-vault, market to registry, vault to `.wstx` and to the underlying token, and every attacker-supplied `<ft-trait>` invocation. For each, name the value read, the call made, and whether that call can change the value. Then find the one where it can, and prove with a single simnet transaction that the value used to move money differs from the value the safety check approved. Impact: name it as direct theft, permanent freezing, or protocol insolvency.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_a99a9539-dc96-4fd5-9a3e-63726137a5db?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-market-vault.clar -> Scope: Critical. CHECK-THEN-ACT ACROSS A CONTRACT BOUNDARY - the seam nobody modelled. Enumerate every point in the protocol where a Zest contract validates a condition, then calls out to another contract, then acts on the value it read BEFORE the call. Include market to vault, market to market-vault, market to registry, vault to `.wstx` and to the underlying token, and every attacker-supplied `<ft-trait>` invocation. For each, name the value read, the call made, and whether that call can change the value. Then find the one where it can, and prove with a single simnet transaction that the value used to move money differs from the value the safety check approved. Impact: name it as direct theft, permanent freezing, or protocol insolvency.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_13d024be-6e73-43c3-8c9f-513234a2e797?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-stx.clar -> Scope: Critical. CHECK-THEN-ACT ACROSS A CONTRACT BOUNDARY - the seam nobody modelled. Enumerate every point in the protocol where a Zest contract validates a condition, then calls out to another contract, then acts on the value it read BEFORE the call. Include market to vault, market to market-vault, market to registry, vault to `.wstx` and to the underlying token, and every attacker-supplied `<ft-trait>` invocation. For each, name the value read, the call made, and whether that call can change the value. Then find the one where it can, and prove with a single simnet transaction that the value used to move money differs from the value the safety check approved. Impact: name it as direct theft, permanent freezing, or protocol insolvency.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_53f7118b-c890-44f4-a86c-10ef52cb314d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-sbtc.clar -> Scope: Critical. CHECK-THEN-ACT ACROSS A CONTRACT BOUNDARY - the seam nobody modelled. Enumerate every point in the protocol where a Zest contract validates a condition, then calls out to another contract, then acts on the value it read BEFORE the call. Include market to vault, market to market-vault, market to registry, vault to `.wstx` and to the underlying token, and every attacker-supplied `<ft-trait>` invocation. For each, name the value read, the call made, and whether that call can change the value. Then find the one where it can, and prove with a single simnet transaction that the value used to move money differs from the value the safety check approved. Impact: name it as direct theft, permanent freezing, or protocol insolvency.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_194e9667-af2a-4252-b247-f5ac05a8d591?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-ststxbtc.clar -> Scope: Critical. CHECK-THEN-ACT ACROSS A CONTRACT BOUNDARY - the seam nobody modelled. Enumerate every point in the protocol where a Zest contract validates a condition, then calls out to another contract, then acts on the value it read BEFORE the call. Include market to vault, market to market-vault, market to registry, vault to `.wstx` and to the underlying token, and every attacker-supplied `<ft-trait>` invocation. For each, name the value read, the call made, and whether that call can change the value. Then find the one where it can, and prove with a single simnet transaction that the value used to move money differs from the value the safety check approved. Impact: name it as direct theft, permanent freezing, or protocol insolvency.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_2d6b7852-083f-4d2c-b1b5-c4c8076b6758?mode=deep",
+    "questions_generated": false
+  }
+]

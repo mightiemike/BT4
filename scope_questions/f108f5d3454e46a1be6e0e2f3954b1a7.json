@@ -1,0 +1,27 @@
+[
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-4-market.clar -> Scope: Critical. A ZERO RESULT AND A MISSING ROW ARE INDISTINGUISHABLE. `find-collateral-amount` and `find-debt-scaled` both return `u0` when the asset is absent from the list, and `find-asset` returns `none` which several callers resolve with `unwrap-panic` or a default. Enumerate every decision made on those return values - `removing-all` in `collateral-remove`, the `(> coll-amount u0)` and `(> debt-scaled u0)` guards in the notional fold, `curr-scaled` in the liquidation path - and show a real holding treated as absent, or an absence treated as a zero holding, at a moment that moves money. Impact: protocol insolvency, or direct theft.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_2c6baae0-d374-4fc7-b598-b74677468fa6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-market-vault.clar -> Scope: Critical. A ZERO RESULT AND A MISSING ROW ARE INDISTINGUISHABLE. `find-collateral-amount` and `find-debt-scaled` both return `u0` when the asset is absent from the list, and `find-asset` returns `none` which several callers resolve with `unwrap-panic` or a default. Enumerate every decision made on those return values - `removing-all` in `collateral-remove`, the `(> coll-amount u0)` and `(> debt-scaled u0)` guards in the notional fold, `curr-scaled` in the liquidation path - and show a real holding treated as absent, or an absence treated as a zero holding, at a moment that moves money. Impact: protocol insolvency, or direct theft.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_6552cfea-81eb-4c80-9efd-13e89a671858?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-stx.clar -> Scope: Critical. A ZERO RESULT AND A MISSING ROW ARE INDISTINGUISHABLE. `find-collateral-amount` and `find-debt-scaled` both return `u0` when the asset is absent from the list, and `find-asset` returns `none` which several callers resolve with `unwrap-panic` or a default. Enumerate every decision made on those return values - `removing-all` in `collateral-remove`, the `(> coll-amount u0)` and `(> debt-scaled u0)` guards in the notional fold, `curr-scaled` in the liquidation path - and show a real holding treated as absent, or an absence treated as a zero holding, at a moment that moves money. Impact: protocol insolvency, or direct theft.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_d46c1bd5-e6b5-4db9-b887-e347c2b8f5e2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-sbtc.clar -> Scope: Critical. A ZERO RESULT AND A MISSING ROW ARE INDISTINGUISHABLE. `find-collateral-amount` and `find-debt-scaled` both return `u0` when the asset is absent from the list, and `find-asset` returns `none` which several callers resolve with `unwrap-panic` or a default. Enumerate every decision made on those return values - `removing-all` in `collateral-remove`, the `(> coll-amount u0)` and `(> debt-scaled u0)` guards in the notional fold, `curr-scaled` in the liquidation path - and show a real holding treated as absent, or an absence treated as a zero holding, at a moment that moves money. Impact: protocol insolvency, or direct theft.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_eb37b2ac-05b8-4d85-8339-054245f85b11?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-ststxbtc.clar -> Scope: Critical. A ZERO RESULT AND A MISSING ROW ARE INDISTINGUISHABLE. `find-collateral-amount` and `find-debt-scaled` both return `u0` when the asset is absent from the list, and `find-asset` returns `none` which several callers resolve with `unwrap-panic` or a default. Enumerate every decision made on those return values - `removing-all` in `collateral-remove`, the `(> coll-amount u0)` and `(> debt-scaled u0)` guards in the notional fold, `curr-scaled` in the liquidation path - and show a real holding treated as absent, or an absence treated as a zero holding, at a moment that moves money. Impact: protocol insolvency, or direct theft.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_03637f8e-8c32-4416-bd73-ade570ac2f82?mode=deep",
+    "questions_generated": false
+  }
+]

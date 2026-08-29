@@ -1,0 +1,13 @@
+# Q3844: iter-lookup-debt via collateral-remove-redeem: absorb a sub-step failure into a fold flag and proceed on 
+
+## Question
+Does `collateral-remove-redeem` (mainnet/contracts/market/v0-4-market.clar:1211) let an unprivileged attacker who controls `min-underlying` reach `iter-lookup-debt` (mainnet/contracts/market/v0-market-vault.clar:218) in a state where it absorb a sub-step failure into a fold flag and proceed on partial state? Given that it skips rows failing `relevant`, so a disabled asset's DEBT vanishes from the returned position, the invariant that the state a safety check approved is the state the money movement executes against breaks and the result is direct theft of user funds at rest or in motion.
+
+## Target
+- File/function: `mainnet/contracts/market/v0-market-vault.clar:218` -> `iter-lookup-debt`
+- Entrypoint: `collateral-remove-redeem` (`mainnet/contracts/market/v0-4-market.clar:1211`), unprivileged and publicly callable
+- Attacker controls: `min-underlying`
+- Exploit idea: `iter-lookup-debt` skips rows failing `relevant`, so a disabled asset's DEBT vanishes from the returned position. Reach it through `collateral-remove-redeem` and absorb a sub-step failure into a fold flag and proceed on partial state.
+- Invariant to test: the state a safety check approved is the state the money movement executes against
+- Expected Immunefi impact: Critical - direct theft of user funds at rest or in motion
+- Fast validation: Set up the position in simnet, call `collateral-remove-redeem` with `min-underlying`, and assert on the printed event plus the post-state that collateral, debt and share totals still reconcile.

@@ -1,0 +1,13 @@
+# Q5211: calc-principal-ratio-reduction via deposit: leave the accrual clock stale so a later interval double-c
+
+## Question
+`calc-principal-ratio-reduction` (mainnet/contracts/vault/v0-vault-stx.clar:191) reduces scaled principal proportionally to an amount over total debt. Can an unprivileged caller of `deposit` (mainnet/contracts/vault/v0-vault-stx.clar:763), by choosing `amount`, use that to leave the accrual clock stale so a later interval double-counts elapsed time, violating the invariant that a value read from `index-cache` describes the vault as it is at the moment of use and producing permanent freezing of funds?
+
+## Target
+- File/function: `mainnet/contracts/vault/v0-vault-stx.clar:191` -> `calc-principal-ratio-reduction`
+- Entrypoint: `deposit` (`mainnet/contracts/vault/v0-vault-stx.clar:763`), unprivileged and publicly callable
+- Attacker controls: `amount`
+- Exploit idea: `calc-principal-ratio-reduction` reduces scaled principal proportionally to an amount over total debt. Reach it through `deposit` and leave the accrual clock stale so a later interval double-counts elapsed time.
+- Invariant to test: a value read from `index-cache` describes the vault as it is at the moment of use
+- Expected Immunefi impact: Critical - permanent freezing of funds
+- Fast validation: Snapshot every state variable `calc-principal-ratio-reduction` touches, run `deposit` with `amount`, recompute the invariant off-chain from the snapshot, and assert it matches the on-chain result.

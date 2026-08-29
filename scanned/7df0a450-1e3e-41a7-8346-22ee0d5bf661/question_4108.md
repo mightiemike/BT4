@@ -1,0 +1,13 @@
+# Q4108: process-debt-asset via liquidate-redeem: consume a cache entry after the vault it describes has alr
+
+## Question
+Does `liquidate-redeem` (mainnet/contracts/market/v0-4-market.clar:1604) let an unprivileged attacker who controls the borrower targeted reach `process-debt-asset` (mainnet/contracts/market/v0-4-market.clar:761) in a state where it consume a cache entry after the vault it describes has already moved? Given that it caps debt at the max liquidatable USD and converts back to tokens with `mul-div-down`, the invariant that a value read from `index-cache` describes the vault as it is at the moment of use breaks and the result is direct theft of another user's collateral.
+
+## Target
+- File/function: `mainnet/contracts/market/v0-4-market.clar:761` -> `process-debt-asset`
+- Entrypoint: `liquidate-redeem` (`mainnet/contracts/market/v0-4-market.clar:1604`), unprivileged and publicly callable
+- Attacker controls: the borrower targeted
+- Exploit idea: `process-debt-asset` caps debt at the max liquidatable USD and converts back to tokens with `mul-div-down`. Reach it through `liquidate-redeem` and consume a cache entry after the vault it describes has already moved.
+- Invariant to test: a value read from `index-cache` describes the vault as it is at the moment of use
+- Expected Immunefi impact: Critical - direct theft of another user's collateral
+- Fast validation: Set up the position in simnet, call `liquidate-redeem` with the borrower targeted, and assert on the printed event plus the post-state that collateral, debt and share totals still reconcile.

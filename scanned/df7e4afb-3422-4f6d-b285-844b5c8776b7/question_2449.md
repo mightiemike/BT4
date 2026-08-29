@@ -1,0 +1,13 @@
+# Q2449: check-confidence via liquidate: strand value on the market contract when a later step of a
+
+## Question
+Can an unprivileged attacker entering through `liquidate` (mainnet/contracts/market/v0-4-market.clar:1382), controlling `min-collateral-expected`, drive `check-confidence` (mainnet/contracts/market/v0-4-market.clar:305) — which compares the Pyth confidence interval against `max-confidence-ratio` in BPS, a gate that has no DIA equivalent — to strand value on the market contract when a later step of a composite call fails, breaking the invariant that every second of elapsed time is charged exactly once, to one index, in one direction, and cause direct theft of user funds at rest or in motion?
+
+## Target
+- File/function: `mainnet/contracts/market/v0-4-market.clar:305` -> `check-confidence`
+- Entrypoint: `liquidate` (`mainnet/contracts/market/v0-4-market.clar:1382`), unprivileged and publicly callable
+- Attacker controls: `min-collateral-expected`
+- Exploit idea: `check-confidence` compares the Pyth confidence interval against `max-confidence-ratio` in BPS, a gate that has no DIA equivalent. Reach it through `liquidate` and strand value on the market contract when a later step of a composite call fails.
+- Invariant to test: every second of elapsed time is charged exactly once, to one index, in one direction
+- Expected Immunefi impact: Critical - direct theft of user funds at rest or in motion
+- Fast validation: In `local-testing/tests` on a local fork, drive `liquidate` with `min-collateral-expected`, then read `check-confidence` state before and after in the same block and assert the two sides of the invariant are equal.

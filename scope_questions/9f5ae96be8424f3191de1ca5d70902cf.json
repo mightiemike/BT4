@@ -1,0 +1,27 @@
+[
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-4-market.clar -> Scope: Critical. THE CACHE IS NEVER INVALIDATED WHEN THE VAULT MOVES. `accrue-and-cache` keys `index-cache` on `{{ timestamp: stacks-block-time, aid }}` and returns the stored record on every later read in that block, but nothing clears an entry when the underlying vault's `index`, `lindex` or `assets` change afterwards - a deposit, a redeem, a `system-borrow` or a `system-repay` in the same transaction. Show a single transaction that primes the cache, mutates the vault, and then makes a decision from the stale cached record. Impact: protocol insolvency, or direct theft of user funds.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_3e82df6c-233e-4452-9ed6-bdef5c1c3144?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-market-vault.clar -> Scope: Critical. THE CACHE IS NEVER INVALIDATED WHEN THE VAULT MOVES. `accrue-and-cache` keys `index-cache` on `{{ timestamp: stacks-block-time, aid }}` and returns the stored record on every later read in that block, but nothing clears an entry when the underlying vault's `index`, `lindex` or `assets` change afterwards - a deposit, a redeem, a `system-borrow` or a `system-repay` in the same transaction. Show a single transaction that primes the cache, mutates the vault, and then makes a decision from the stale cached record. Impact: protocol insolvency, or direct theft of user funds.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_0bc29228-0dc6-4aba-9d87-2aaeafb2665d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-stx.clar -> Scope: Critical. THE CACHE IS NEVER INVALIDATED WHEN THE VAULT MOVES. `accrue-and-cache` keys `index-cache` on `{{ timestamp: stacks-block-time, aid }}` and returns the stored record on every later read in that block, but nothing clears an entry when the underlying vault's `index`, `lindex` or `assets` change afterwards - a deposit, a redeem, a `system-borrow` or a `system-repay` in the same transaction. Show a single transaction that primes the cache, mutates the vault, and then makes a decision from the stale cached record. Impact: protocol insolvency, or direct theft of user funds.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_78622dbf-c374-476b-85a4-8278fc73702b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-sbtc.clar -> Scope: Critical. THE CACHE IS NEVER INVALIDATED WHEN THE VAULT MOVES. `accrue-and-cache` keys `index-cache` on `{{ timestamp: stacks-block-time, aid }}` and returns the stored record on every later read in that block, but nothing clears an entry when the underlying vault's `index`, `lindex` or `assets` change afterwards - a deposit, a redeem, a `system-borrow` or a `system-repay` in the same transaction. Show a single transaction that primes the cache, mutates the vault, and then makes a decision from the stale cached record. Impact: protocol insolvency, or direct theft of user funds.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_4a69b97f-00f2-4a0f-8ea3-8780b6ef926e?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-ststxbtc.clar -> Scope: Critical. THE CACHE IS NEVER INVALIDATED WHEN THE VAULT MOVES. `accrue-and-cache` keys `index-cache` on `{{ timestamp: stacks-block-time, aid }}` and returns the stored record on every later read in that block, but nothing clears an entry when the underlying vault's `index`, `lindex` or `assets` change afterwards - a deposit, a redeem, a `system-borrow` or a `system-repay` in the same transaction. Show a single transaction that primes the cache, mutates the vault, and then makes a decision from the stale cached record. Impact: protocol insolvency, or direct theft of user funds.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_482ada85-aa70-4128-b656-f950710add6e?mode=deep",
+    "questions_generated": false
+  }
+]

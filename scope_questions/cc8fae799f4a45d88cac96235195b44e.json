@@ -1,0 +1,27 @@
+[
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-4-market.clar -> Scope: Critical. `redeem` BINDS ITS BALANCES AROUND THE ACCRUAL. Its `let` binds `current-assets`, `balance`, `available-assets` and `inkind` in sequence with `(try! (accrue))` among them, then asserts against those bindings and calls `ft-burn?` and `send-underlying`. Establish the exact evaluation order, which bindings therefore reflect pre-accrual state, and whether `(>= current-assets inkind)` and `(>= available-assets inkind)` can both pass against values that no longer describe the vault when the transfer executes. Impact: protocol insolvency, or permanent freezing for the remaining suppliers.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_1f137a25-5d86-458a-8c1a-b4dc9ea311f3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-market-vault.clar -> Scope: Critical. `redeem` BINDS ITS BALANCES AROUND THE ACCRUAL. Its `let` binds `current-assets`, `balance`, `available-assets` and `inkind` in sequence with `(try! (accrue))` among them, then asserts against those bindings and calls `ft-burn?` and `send-underlying`. Establish the exact evaluation order, which bindings therefore reflect pre-accrual state, and whether `(>= current-assets inkind)` and `(>= available-assets inkind)` can both pass against values that no longer describe the vault when the transfer executes. Impact: protocol insolvency, or permanent freezing for the remaining suppliers.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_cdb373a1-728b-4111-89c1-798d813005cb?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-stx.clar -> Scope: Critical. `redeem` BINDS ITS BALANCES AROUND THE ACCRUAL. Its `let` binds `current-assets`, `balance`, `available-assets` and `inkind` in sequence with `(try! (accrue))` among them, then asserts against those bindings and calls `ft-burn?` and `send-underlying`. Establish the exact evaluation order, which bindings therefore reflect pre-accrual state, and whether `(>= current-assets inkind)` and `(>= available-assets inkind)` can both pass against values that no longer describe the vault when the transfer executes. Impact: protocol insolvency, or permanent freezing for the remaining suppliers.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_d53c1c79-8862-4c7c-b6ba-9e8118570cd6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-sbtc.clar -> Scope: Critical. `redeem` BINDS ITS BALANCES AROUND THE ACCRUAL. Its `let` binds `current-assets`, `balance`, `available-assets` and `inkind` in sequence with `(try! (accrue))` among them, then asserts against those bindings and calls `ft-burn?` and `send-underlying`. Establish the exact evaluation order, which bindings therefore reflect pre-accrual state, and whether `(>= current-assets inkind)` and `(>= available-assets inkind)` can both pass against values that no longer describe the vault when the transfer executes. Impact: protocol insolvency, or permanent freezing for the remaining suppliers.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_9ed08c2d-1a3a-4860-a190-3b79d0feed91?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-ststxbtc.clar -> Scope: Critical. `redeem` BINDS ITS BALANCES AROUND THE ACCRUAL. Its `let` binds `current-assets`, `balance`, `available-assets` and `inkind` in sequence with `(try! (accrue))` among them, then asserts against those bindings and calls `ft-burn?` and `send-underlying`. Establish the exact evaluation order, which bindings therefore reflect pre-accrual state, and whether `(>= current-assets inkind)` and `(>= available-assets inkind)` can both pass against values that no longer describe the vault when the transfer executes. Impact: protocol insolvency, or permanent freezing for the remaining suppliers.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_c5fdc43c-a06c-4a38-aa19-8dd50ac406ba?mode=deep",
+    "questions_generated": false
+  }
+]

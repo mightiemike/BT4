@@ -1,0 +1,27 @@
+[
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-4-market.clar -> Scope: High. A ZERO `time-delta` IS SPECIAL-CASED, A ZERO RATE IS NOT. Both index functions substitute `INDEX-PRECISION` when `time-delta` is zero but otherwise call `calc-multiplier-delta` unconditionally, and `interest-rate` interpolates from packed curve points that can produce zero. Establish what the multiplier and the resulting index become when the rate is zero over a long interval, when `time-delta` is enormous after a dormant period, and whether either case aborts or silently freezes accrual for that vault. Impact: temporary or permanent freezing of funds, or theft of unclaimed yield.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_de813674-43e4-4791-859d-bd8d7ced6aba?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-market-vault.clar -> Scope: High. A ZERO `time-delta` IS SPECIAL-CASED, A ZERO RATE IS NOT. Both index functions substitute `INDEX-PRECISION` when `time-delta` is zero but otherwise call `calc-multiplier-delta` unconditionally, and `interest-rate` interpolates from packed curve points that can produce zero. Establish what the multiplier and the resulting index become when the rate is zero over a long interval, when `time-delta` is enormous after a dormant period, and whether either case aborts or silently freezes accrual for that vault. Impact: temporary or permanent freezing of funds, or theft of unclaimed yield.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_0345f6dc-78a0-468a-884c-4bd34d6c2bc2?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-stx.clar -> Scope: High. A ZERO `time-delta` IS SPECIAL-CASED, A ZERO RATE IS NOT. Both index functions substitute `INDEX-PRECISION` when `time-delta` is zero but otherwise call `calc-multiplier-delta` unconditionally, and `interest-rate` interpolates from packed curve points that can produce zero. Establish what the multiplier and the resulting index become when the rate is zero over a long interval, when `time-delta` is enormous after a dormant period, and whether either case aborts or silently freezes accrual for that vault. Impact: temporary or permanent freezing of funds, or theft of unclaimed yield.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_8d22c0f5-52a0-4ffa-83cf-f7289350e44b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-sbtc.clar -> Scope: High. A ZERO `time-delta` IS SPECIAL-CASED, A ZERO RATE IS NOT. Both index functions substitute `INDEX-PRECISION` when `time-delta` is zero but otherwise call `calc-multiplier-delta` unconditionally, and `interest-rate` interpolates from packed curve points that can produce zero. Establish what the multiplier and the resulting index become when the rate is zero over a long interval, when `time-delta` is enormous after a dormant period, and whether either case aborts or silently freezes accrual for that vault. Impact: temporary or permanent freezing of funds, or theft of unclaimed yield.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_8700bd2d-9164-4d84-a40b-8b8df0dca827?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-ststxbtc.clar -> Scope: High. A ZERO `time-delta` IS SPECIAL-CASED, A ZERO RATE IS NOT. Both index functions substitute `INDEX-PRECISION` when `time-delta` is zero but otherwise call `calc-multiplier-delta` unconditionally, and `interest-rate` interpolates from packed curve points that can produce zero. Establish what the multiplier and the resulting index become when the rate is zero over a long interval, when `time-delta` is enormous after a dormant period, and whether either case aborts or silently freezes accrual for that vault. Impact: temporary or permanent freezing of funds, or theft of unclaimed yield.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_e4fe3daf-b4f9-4f05-b331-b679113259fb?mode=deep",
+    "questions_generated": false
+  }
+]

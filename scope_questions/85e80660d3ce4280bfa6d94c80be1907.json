@@ -1,0 +1,27 @@
+[
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-4-market.clar -> Scope: Critical. THE LEDGER MUTATES BEFORE THE GUARDS RUN. In market-vault `collateral-add`, `collateral-remove`, `debt-add-scaled` and `debt-remove-scaled`, the map write and `mask-update` are `let` bindings evaluated before `check-impl-auth`, the pause state and the amount assertion; `resolve-or-create` consumes `increment` in the same position. Determine precisely what persists when a later assertion fails, across every call-boundary and `as-contract?` scope in scope, and whether any identifier, mask, or partially updated row survives a rejected call. Impact: permanent freezing of funds.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_f2ffb22d-5641-46cc-b436-00f981711967?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-market-vault.clar -> Scope: Critical. THE LEDGER MUTATES BEFORE THE GUARDS RUN. In market-vault `collateral-add`, `collateral-remove`, `debt-add-scaled` and `debt-remove-scaled`, the map write and `mask-update` are `let` bindings evaluated before `check-impl-auth`, the pause state and the amount assertion; `resolve-or-create` consumes `increment` in the same position. Determine precisely what persists when a later assertion fails, across every call-boundary and `as-contract?` scope in scope, and whether any identifier, mask, or partially updated row survives a rejected call. Impact: permanent freezing of funds.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_4b8783b0-f2dc-4ce3-8661-8bc9ca30fa6d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-stx.clar -> Scope: Critical. THE LEDGER MUTATES BEFORE THE GUARDS RUN. In market-vault `collateral-add`, `collateral-remove`, `debt-add-scaled` and `debt-remove-scaled`, the map write and `mask-update` are `let` bindings evaluated before `check-impl-auth`, the pause state and the amount assertion; `resolve-or-create` consumes `increment` in the same position. Determine precisely what persists when a later assertion fails, across every call-boundary and `as-contract?` scope in scope, and whether any identifier, mask, or partially updated row survives a rejected call. Impact: permanent freezing of funds.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_5ba570cd-1aea-4352-93f3-492a988b19c3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-sbtc.clar -> Scope: Critical. THE LEDGER MUTATES BEFORE THE GUARDS RUN. In market-vault `collateral-add`, `collateral-remove`, `debt-add-scaled` and `debt-remove-scaled`, the map write and `mask-update` are `let` bindings evaluated before `check-impl-auth`, the pause state and the amount assertion; `resolve-or-create` consumes `increment` in the same position. Determine precisely what persists when a later assertion fails, across every call-boundary and `as-contract?` scope in scope, and whether any identifier, mask, or partially updated row survives a rejected call. Impact: permanent freezing of funds.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_75cea114-f115-4c51-a00e-564db53563dc?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-ststxbtc.clar -> Scope: Critical. THE LEDGER MUTATES BEFORE THE GUARDS RUN. In market-vault `collateral-add`, `collateral-remove`, `debt-add-scaled` and `debt-remove-scaled`, the map write and `mask-update` are `let` bindings evaluated before `check-impl-auth`, the pause state and the amount assertion; `resolve-or-create` consumes `increment` in the same position. Determine precisely what persists when a later assertion fails, across every call-boundary and `as-contract?` scope in scope, and whether any identifier, mask, or partially updated row survives a rejected call. Impact: permanent freezing of funds.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_fe8777c7-c106-4e78-8368-6c3dafa12b27?mode=deep",
+    "questions_generated": false
+  }
+]

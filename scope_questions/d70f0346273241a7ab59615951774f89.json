@@ -1,0 +1,27 @@
+[
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-4-market.clar -> Scope: Critical. `borrow` PRICES ASSETS IT HAS NOT ACCRUED. Its `let` runs `write-feeds`, then `get-position`, then `accrue-user-debts`, then `accrue-user-collateral`, then `accrue-and-cache` for the borrowed asset, and only then `get-assets` and the notional evaluation. Establish which assets are guaranteed to be in the cache when `resolve-ztoken` reads `get-cached-indexes`, and find a position composition where a zToken collateral is priced from an index primed for a different asset, from a cold cache, or from an entry written before the borrowed asset accrued. Impact: protocol insolvency.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_4234c6ec-0b6f-4eb4-9868-6206826e1062?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-market-vault.clar -> Scope: Critical. `borrow` PRICES ASSETS IT HAS NOT ACCRUED. Its `let` runs `write-feeds`, then `get-position`, then `accrue-user-debts`, then `accrue-user-collateral`, then `accrue-and-cache` for the borrowed asset, and only then `get-assets` and the notional evaluation. Establish which assets are guaranteed to be in the cache when `resolve-ztoken` reads `get-cached-indexes`, and find a position composition where a zToken collateral is priced from an index primed for a different asset, from a cold cache, or from an entry written before the borrowed asset accrued. Impact: protocol insolvency.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_9bfce29a-4a6a-412d-8980-35232f1c4cc9?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-stx.clar -> Scope: Critical. `borrow` PRICES ASSETS IT HAS NOT ACCRUED. Its `let` runs `write-feeds`, then `get-position`, then `accrue-user-debts`, then `accrue-user-collateral`, then `accrue-and-cache` for the borrowed asset, and only then `get-assets` and the notional evaluation. Establish which assets are guaranteed to be in the cache when `resolve-ztoken` reads `get-cached-indexes`, and find a position composition where a zToken collateral is priced from an index primed for a different asset, from a cold cache, or from an entry written before the borrowed asset accrued. Impact: protocol insolvency.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_94820b1c-58fa-4cd5-8832-330c22488c27?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-sbtc.clar -> Scope: Critical. `borrow` PRICES ASSETS IT HAS NOT ACCRUED. Its `let` runs `write-feeds`, then `get-position`, then `accrue-user-debts`, then `accrue-user-collateral`, then `accrue-and-cache` for the borrowed asset, and only then `get-assets` and the notional evaluation. Establish which assets are guaranteed to be in the cache when `resolve-ztoken` reads `get-cached-indexes`, and find a position composition where a zToken collateral is priced from an index primed for a different asset, from a cold cache, or from an entry written before the borrowed asset accrued. Impact: protocol insolvency.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_bf6416e0-b8e9-4d74-9843-6cf103470e3a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-ststxbtc.clar -> Scope: Critical. `borrow` PRICES ASSETS IT HAS NOT ACCRUED. Its `let` runs `write-feeds`, then `get-position`, then `accrue-user-debts`, then `accrue-user-collateral`, then `accrue-and-cache` for the borrowed asset, and only then `get-assets` and the notional evaluation. Establish which assets are guaranteed to be in the cache when `resolve-ztoken` reads `get-cached-indexes`, and find a position composition where a zToken collateral is priced from an index primed for a different asset, from a cold cache, or from an entry written before the borrowed asset accrued. Impact: protocol insolvency.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_43bf4b58-8d55-4fb7-9aee-a9019eb3a071?mode=deep",
+    "questions_generated": false
+  }
+]

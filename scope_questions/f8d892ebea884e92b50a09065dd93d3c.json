@@ -1,0 +1,27 @@
+[
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-4-market.clar -> Scope: High. `refresh` RESETS A CLOCK OTHER LOGIC READS. Every market-vault write merges `(refresh mask)`, setting `last-update` to `stacks-block-time` while carrying `last-borrow-block` forward, and `debt-add-scaled` alone writes the borrow stamp. Establish everything that reads the position's `last-update`, and show an operation - including a dust `repay` or a collateral top-up - that resets it in a way that changes whether a later check passes. Impact: protocol insolvency, or temporary freezing of a liquidation.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_c0d7f86e-b1de-420f-b4b3-d47bd42b9594?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-market-vault.clar -> Scope: High. `refresh` RESETS A CLOCK OTHER LOGIC READS. Every market-vault write merges `(refresh mask)`, setting `last-update` to `stacks-block-time` while carrying `last-borrow-block` forward, and `debt-add-scaled` alone writes the borrow stamp. Establish everything that reads the position's `last-update`, and show an operation - including a dust `repay` or a collateral top-up - that resets it in a way that changes whether a later check passes. Impact: protocol insolvency, or temporary freezing of a liquidation.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_9cdd8f6c-01af-4277-bd89-4b9206a1b6a5?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-stx.clar -> Scope: High. `refresh` RESETS A CLOCK OTHER LOGIC READS. Every market-vault write merges `(refresh mask)`, setting `last-update` to `stacks-block-time` while carrying `last-borrow-block` forward, and `debt-add-scaled` alone writes the borrow stamp. Establish everything that reads the position's `last-update`, and show an operation - including a dust `repay` or a collateral top-up - that resets it in a way that changes whether a later check passes. Impact: protocol insolvency, or temporary freezing of a liquidation.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_ba92b2c3-15c4-4037-b60d-e673c097910f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-sbtc.clar -> Scope: High. `refresh` RESETS A CLOCK OTHER LOGIC READS. Every market-vault write merges `(refresh mask)`, setting `last-update` to `stacks-block-time` while carrying `last-borrow-block` forward, and `debt-add-scaled` alone writes the borrow stamp. Establish everything that reads the position's `last-update`, and show an operation - including a dust `repay` or a collateral top-up - that resets it in a way that changes whether a later check passes. Impact: protocol insolvency, or temporary freezing of a liquidation.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_9a0d0213-6cae-422f-bf82-14ee28f04701?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-ststxbtc.clar -> Scope: High. `refresh` RESETS A CLOCK OTHER LOGIC READS. Every market-vault write merges `(refresh mask)`, setting `last-update` to `stacks-block-time` while carrying `last-borrow-block` forward, and `debt-add-scaled` alone writes the borrow stamp. Establish everything that reads the position's `last-update`, and show an operation - including a dust `repay` or a collateral top-up - that resets it in a way that changes whether a later check passes. Impact: protocol insolvency, or temporary freezing of a liquidation.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_0f115dc2-5eff-49db-9d02-002702092516?mode=deep",
+    "questions_generated": false
+  }
+]

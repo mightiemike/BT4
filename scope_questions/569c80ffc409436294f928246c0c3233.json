@@ -1,0 +1,27 @@
+[
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-4-market.clar -> Scope: Critical. `socialize-debt-asset` REWRITES THE CACHE IT IS ITERATING UNDER. Inside the fold it calls `vault-socialize-debt`, then writes `(vault-accrue asset-id)` directly into `index-cache` for the current timestamp, replacing the record earlier steps of the same transaction already consumed. Show a transaction in which values computed before that refresh are combined with values computed after it - a seizure sized on the old `lindex` settled against the new one, or a debt total that no longer matches the rows it was derived from. Impact: protocol insolvency.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_4d69679f-ecbf-4be5-914e-9b228340e74a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/market/v0-market-vault.clar -> Scope: Critical. `socialize-debt-asset` REWRITES THE CACHE IT IS ITERATING UNDER. Inside the fold it calls `vault-socialize-debt`, then writes `(vault-accrue asset-id)` directly into `index-cache` for the current timestamp, replacing the record earlier steps of the same transaction already consumed. Show a transaction in which values computed before that refresh are combined with values computed after it - a seizure sized on the old `lindex` settled against the new one, or a debt total that no longer matches the rows it was derived from. Impact: protocol insolvency.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_4397ff88-6759-4a8d-b1c5-a6e7b1325e13?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-stx.clar -> Scope: Critical. `socialize-debt-asset` REWRITES THE CACHE IT IS ITERATING UNDER. Inside the fold it calls `vault-socialize-debt`, then writes `(vault-accrue asset-id)` directly into `index-cache` for the current timestamp, replacing the record earlier steps of the same transaction already consumed. Show a transaction in which values computed before that refresh are combined with values computed after it - a seizure sized on the old `lindex` settled against the new one, or a debt total that no longer matches the rows it was derived from. Impact: protocol insolvency.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_adc61b47-ccb8-4542-8903-83778bf00877?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-sbtc.clar -> Scope: Critical. `socialize-debt-asset` REWRITES THE CACHE IT IS ITERATING UNDER. Inside the fold it calls `vault-socialize-debt`, then writes `(vault-accrue asset-id)` directly into `index-cache` for the current timestamp, replacing the record earlier steps of the same transaction already consumed. Show a transaction in which values computed before that refresh are combined with values computed after it - a seizure sized on the old `lindex` settled against the new one, or a debt total that no longer matches the rows it was derived from. Impact: protocol insolvency.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_3dce337a-8a52-46e3-b649-f18a487ca134?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: mainnet/contracts/vault/v0-vault-ststxbtc.clar -> Scope: Critical. `socialize-debt-asset` REWRITES THE CACHE IT IS ITERATING UNDER. Inside the fold it calls `vault-socialize-debt`, then writes `(vault-accrue asset-id)` directly into `index-cache` for the current timestamp, replacing the record earlier steps of the same transaction already consumed. Show a transaction in which values computed before that refresh are combined with values computed after it - a seizure sized on the old `lindex` settled against the new one, or a debt total that no longer matches the rows it was derived from. Impact: protocol insolvency.'",
+    "url": "https://deepwiki.com/search/-generate-ordering-staleness-a_2a562b81-2f89-4b68-b8af-0dc9dffb9c77?mode=deep",
+    "questions_generated": false
+  }
+]

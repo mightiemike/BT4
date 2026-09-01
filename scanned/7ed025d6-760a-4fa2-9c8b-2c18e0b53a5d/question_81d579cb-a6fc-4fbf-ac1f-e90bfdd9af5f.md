@@ -1,1 +1,0 @@
-)`) -> circuit replay of an *already finalized* (and thus, by construction, correctly ordered) block never independently re-derives the mempool ordering, it only replays the committed tx list. Binding: enforcement of

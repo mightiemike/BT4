@@ -1,1 +1,0 @@
-)`) call back into `WCBTC.withdraw` to drain the fee vault's or bridge's cBTC balance beyond what was ever deposited? Precondition: attacker deploys a contract as `failedDepositVault` is not attacker controlled normally, so precondition is that the deposit's `recipient.call{value: depositAmount}(

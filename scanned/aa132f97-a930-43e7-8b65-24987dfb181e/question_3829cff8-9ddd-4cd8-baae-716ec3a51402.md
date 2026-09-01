@@ -1,1 +1,0 @@
-` vs the production `TESTNET_FORKS`), so `filter_changes`'s reported block hash for that height diverges from the hash embedded in the actual `L2BlockResponse`/proof? Preconditions: a build where `citrea_primitives::forks::FORKS` OnceLock was seeded differently between the sequencer and a full node (e.g. one built with `feature =

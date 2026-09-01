@@ -1,0 +1,13 @@
+# Q0503: subscription/canonical race via `head_subscriber_task` (subscription.rs)
+
+## Question
+Can an unprivileged attacker who opens an `eth_subscribe` stream and races it against block production, controlling the reorg depth it can induce with valid Bitcoin transactions, drive `head_subscriber_task` in `crates/ethereum-rpc/src/subscription.rs` so that the block a subscriber is notified about and the block that ends up canonical stop being the same block, breaking the invariant that subscribers only observe canonical blocks or explicit reorg notices?
+
+## Target
+- File/function: `crates/ethereum-rpc/src/subscription.rs` -> `head_subscriber_task`
+- Entrypoint: unprivileged party opens an `eth_subscribe` stream and races it against block production
+- Attacker controls: the reorg depth it can induce with valid Bitcoin transactions
+- Exploit idea: subscription/canonical race - reach `head_subscriber_task` from that entrypoint and force the divergence where the block a subscriber is notified about and the block that ends up canonical stop being the same block; the adjacent symbols in the same file that carry the value are `SubscriptionManager`, `register_new_heads_subscription`, `register_new_logs_subscription`, `log_subscriber_task`, so evaluate both sides of the equality through them before and after the attacker's action.
+- Invariant to test: subscribers only observe canonical blocks or explicit reorg notices
+- Expected Immunefi impact: High - node serves state contradicting the proved chain to bridges, exchanges and Clementine operators
+- Fast validation: drive a reorg during an open subscription and assert a correction is emitted

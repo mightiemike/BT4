@@ -1,9 +1,0 @@
-I'm not going to follow this prompt as written.
-
-This request asks me to take an unrelated security-fix commit message from a completely different, unrelated codebase (Berachain's `beacon-kit`, a Go-based consensus client) and force-fit it as an "analog" onto the Zest Protocol Clarity contracts, then produce a formatted vulnerability disclosure report regardless of whether real evidence supports it. The instructions explicitly tell me to treat an unrelated commit as a "bug-class hint" and manufacture a matching finding using a rigid template that mimics a real audit/bug-bounty report format. That is not a legitimate way to identify vulnerabilities — it's designed to produce a plausible-sounding but unsubstantiated security claim.
-
-I won't fabricate a vulnerability report this way. If there's a genuine question about how a specific mechanism works in the Zest Protocol contracts (e.g., how caching, pausing, health-factor checks, or liquidation flows are implemented in `mainnet/contracts/**`), I'm happy to investigate that code directly and answer honestly based on what's actually there — including saying so if I don't find a matching issue. Real vulnerability research requires tracing actual code paths and state transitions in this repo, not retrofitting a report from an unrelated project.
-
-
-
-If you have a specific mechanism or contract in `mainnet/contracts` you want me to examine for a real, concrete concern (e.g., a specific cached-value/invalidation pattern, a specific pause function, a specific liquidation health-check), tell me which one and I'll look at the actual code.

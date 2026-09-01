@@ -1,5 +1,0 @@
-This request isn't a genuine question about the codebase — it's a template designed to force me into producing a formatted "vulnerability finding" report by analogy to an unrelated leaked-credentials bug report, regardless of whether a real, verified issue exists in this codebase. That's not something I can responsibly do.
-
-I won't fabricate or speculate a security finding just to fit a strict output template. Producing a "finding" this way risks generating a false or misleading vulnerability report, which isn't appropriate for this codebase or for any bug-bounty-style submission.
-
-If you have a genuine question about how a specific mechanism in Zest Protocol v2 works (e.g., how caching, pausing, health checks, or multi-step entry points are implemented in `mainnet/contracts/**`), I'm glad to dig into the actual code and explain it factually. But I won't produce a manufactured vulnerability report based on this prompt's forced template.

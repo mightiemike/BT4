@@ -1,0 +1,13 @@
+# Q0105: db provider view during build via `last_block_tx_hashes` (mod.rs)
+
+## Question
+Can an unprivileged attacker who submits deposits and ordinary transactions that compete for the same block space, controlling submission timing, drive `last_block_tx_hashes` in `crates/sequencer/src/db_provider/mod.rs` so that the state the block builder reads and the state the block finally commits stop being the same, breaking the invariant that block building reads the state it commits to?
+
+## Target
+- File/function: `crates/sequencer/src/db_provider/mod.rs` -> `last_block_tx_hashes`
+- Entrypoint: unprivileged party submits deposits and ordinary transactions that compete for the same block space
+- Attacker controls: submission timing
+- Exploit idea: db provider view during build - reach `last_block_tx_hashes` from that entrypoint and force the divergence where the state the block builder reads and the state the block finally commits stop being the same; the adjacent symbols in the same file that carry the value are `DbProvider`, `cfg`, `last_block`, `genesis_block`, so evaluate both sides of the equality through them before and after the attacker's action.
+- Invariant to test: block building reads the state it commits to
+- Expected Immunefi impact: Critical - unintended permanent chain split: honest nodes accept a state root the proved chain does not contain
+- Fast validation: build under concurrent state changes and diff

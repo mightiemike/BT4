@@ -1,0 +1,13 @@
+# Q4460: ledger RPC index bounds via `get_last_verified_batch_proof` (server.rs)
+
+## Question
+Can an unprivileged attacker who calls a ledger / node RPC method with out-of-range or reversed parameters, controlling range and index parameters, drive `get_last_verified_batch_proof` in `crates/sovereign-sdk/full-node/sov-ledger-rpc/src/server.rs` so that the range the ledger RPC iterates and the range the caller requested stop being the same range, breaking the invariant that range queries never read beyond the requested window?
+
+## Target
+- File/function: `crates/sovereign-sdk/full-node/sov-ledger-rpc/src/server.rs` -> `get_last_verified_batch_proof`
+- Entrypoint: unprivileged party calls a ledger / node RPC method with out-of-range or reversed parameters
+- Attacker controls: range and index parameters
+- Exploit idea: ledger RPC index bounds - reach `get_last_verified_batch_proof` from that entrypoint and force the divergence where the range the ledger RPC iterates and the range the caller requested stop being the same range; the adjacent symbols in the same file that carry the value are `LedgerRpcServerConfig`, `LedgerRpcServerImpl`, `to_ledger_rpc_error`, `get_l2_block_by_number`, so evaluate both sides of the equality through them before and after the attacker's action.
+- Invariant to test: range queries never read beyond the requested window
+- Expected Immunefi impact: High - node serves state contradicting the proved chain to bridges, exchanges and Clementine operators
+- Fast validation: call with reversed/oversized ranges and assert bounded output

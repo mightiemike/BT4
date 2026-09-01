@@ -1,0 +1,13 @@
+# Q0457: coinbase/basefee exposure via `verify_system_tx` (executor.rs)
+
+## Question
+Can an unprivileged attacker who sends a transaction that reverts after writing large state diffs, controlling value, gas and access list, drive `verify_system_tx` in `crates/evm/src/evm/executor.rs` so that the block fields exposed to contracts and the fields the header commits stop being equal, breaking the invariant that EVM block context equals the sealed header?
+
+## Target
+- File/function: `crates/evm/src/evm/executor.rs` -> `verify_system_tx`
+- Entrypoint: unprivileged party sends a transaction that reverts after writing large state diffs
+- Attacker controls: value, gas and access list
+- Exploit idea: coinbase/basefee exposure - reach `verify_system_tx` from that entrypoint and force the divergence where the block fields exposed to contracts and the fields the header commits stop being equal; the adjacent symbols in the same file that carry the value are `CitreaEvm`, `transact`, `commit`, `execute_multiple_tx`, so evaluate both sides of the equality through them before and after the attacker's action.
+- Invariant to test: EVM block context equals the sealed header
+- Expected Immunefi impact: High - transient consensus failure / unintended chain split recoverable only by resync
+- Fast validation: read every block opcode from a contract and diff against the header

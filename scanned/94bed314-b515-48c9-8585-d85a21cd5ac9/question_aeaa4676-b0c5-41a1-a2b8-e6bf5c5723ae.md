@@ -1,0 +1,1 @@
+[File: crates/bitcoin-da/src/spec/proof.rs -> Scope: Critical. EXECUTION AGREEMENT.] Can an unprivileged attacker exploit the `fork_from_block_number` OnceLock initialization race described in crates/primitives/src/forks.rs — where under `#[cfg(feature =

@@ -1,0 +1,1 @@
+- excluded as a dead end, kept here only to flag as NOT independently exploitable by an unprivileged EVM/RPC attacker without additional protocol-level access). Impact: excluded — flagged as an area requiring node-role/consensus-level investigation beyond this file's scope, not a standalone finding.

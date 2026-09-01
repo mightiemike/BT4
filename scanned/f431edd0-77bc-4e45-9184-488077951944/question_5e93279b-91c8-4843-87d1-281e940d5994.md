@@ -1,0 +1,1 @@
+threshold without 3 independent council members agreeing. Proof idea: cargo test asserting all pairs in `TESTNET_/NIGHTLY_/MAINNET_METHOD_ID_UPGRADE_AUTHORITY_DA_PUBLIC_KEYS` are pairwise distinct compressed pubkeys.

@@ -1,0 +1,1 @@
+via rejecting a block the chain proof accepts). Proof idea: cargo test forcing try_reserve failure on native path while the equivalent zk path succeeds for identical inputs -- DETERMINISM / EXECUTION_AGREEMENT.]

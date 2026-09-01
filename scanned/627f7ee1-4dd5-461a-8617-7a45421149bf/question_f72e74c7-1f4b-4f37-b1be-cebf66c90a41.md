@@ -1,0 +1,1 @@
+panic), making an honest, correct state transition permanently unprovable. Proof idea: cargo test constructing an L2 block with overlapping-key transactions run through two independently-constructed `WorkingSet`s and asserting `ReadWriteLog::iter_ordered_writes()` yields byte-identical, key-sorted output regardless of insertion order.

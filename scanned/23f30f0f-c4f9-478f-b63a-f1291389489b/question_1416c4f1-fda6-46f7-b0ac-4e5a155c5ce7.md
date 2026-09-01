@@ -1,0 +1,1 @@
+[File: crates/citrea-stf/src/verifier.rs -> Scope: Critical] The chaining loop in `crates/light-client-prover/src/circuit/mod.rs` (lines ~592-609) walks `last_sequencer_commitment_index + 1` forward via `VerifiedStateTransitionForSequencerCommitmentIndexAccessor::get`, and calls `unreachable!(

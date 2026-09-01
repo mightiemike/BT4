@@ -1,0 +1,1 @@
+[File: 'crates/citrea-stf/src/verifier.rs' -> fn: get_last_l1_hash_on_contract -> Scope: Critical. ZERO-HASH DEFAULT MASQUERADE.] Can an unprivileged attacker exploit the EVM storage default-zero semantics noted in BitcoinLightClient.sol ('Block hash getters returning 0 value means no such block is recorded') combined with get_last_l1_hash_on_contract's unconditional panic!(

@@ -1,0 +1,1 @@
+by the LCP. Binding: `BatchProofCircuitOutputV3.last_l1_hash_on_bitcoin_light_client_contract` == an L1 block hash that the light client circuit's `BlockHashAccessor` JMT actually contains (i.e., was genuinely part of the canonical chain the LCP verified via `verify_header_chain`). Impact: Critical/PROOF SOUNDNESS — if the LCP's check of

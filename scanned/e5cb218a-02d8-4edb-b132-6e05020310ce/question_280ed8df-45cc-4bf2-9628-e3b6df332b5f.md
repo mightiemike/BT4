@@ -1,0 +1,1 @@
+[File: 'guests/risc0/batch-proof/bitcoin/src/bin/batch_proof_bitcoin.rs' -> Scope: Critical, via process_complete_proof's BlockHashAccessor::exists check] Can an unprivileged attacker force a legitimately-chunked, legitimately-signed DataOnDa::Aggregate to be rejected (`Err(

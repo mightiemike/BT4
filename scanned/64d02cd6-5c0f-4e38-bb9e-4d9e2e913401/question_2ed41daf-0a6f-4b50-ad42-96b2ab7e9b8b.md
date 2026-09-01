@@ -1,0 +1,1 @@
+[File: crates/fullnode/src/da_block_handler.rs -> Scope: Critical. EXECUTION AGREEMENT.] Target: `CitreaHandler::output`'s `decrease_caller_balance(evm.ctx(), l1_fee)?` returning `Some(_out_of_funds)` triggering `Err(ERROR::from_string(format!(

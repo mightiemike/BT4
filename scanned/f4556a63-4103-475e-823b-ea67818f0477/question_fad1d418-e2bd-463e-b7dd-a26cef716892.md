@@ -1,0 +1,1 @@
+[File: 'guests/risc0/light-client-proof/bitcoin/src/bin/light_client_proof_bitcoin.rs -> Scope: Critical.'] Can two honest light client provers running this exact `main()` on the same Bitcoin block produce different `LightClientCircuitOutput` journals because `NETWORK` is resolved via `option_env!(

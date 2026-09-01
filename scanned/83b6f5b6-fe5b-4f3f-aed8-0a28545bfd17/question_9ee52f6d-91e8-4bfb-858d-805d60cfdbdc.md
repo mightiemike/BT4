@@ -1,0 +1,1 @@
+[File: crates/light-client-prover/src/circuit/mod.rs -> fn run_l1_block, while let Some(sequencer_commitment_info) chaining loop] After the blob loop, `while let Some(sequencer_commitment_info) = VerifiedStateTransitionForSequencerCommitmentIndexAccessor::<S>::get(last_sequencer_commitment_index + 1, &mut working_set)` chains forward and calls `unreachable!(

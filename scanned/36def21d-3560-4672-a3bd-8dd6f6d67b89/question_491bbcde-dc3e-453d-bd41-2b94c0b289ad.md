@@ -1,0 +1,1 @@
+[Target: verify_prehash call site in verify_method_id_security_council over `eip191_hash_message(msg)` where msg = batch_proof_method_id.body.serialize().as_slice(), crates/light-client-prover/src/circuit/method_id_verifier.rs] Given EIP-191 message hashing prefixes the message with a length-dependent prefix (

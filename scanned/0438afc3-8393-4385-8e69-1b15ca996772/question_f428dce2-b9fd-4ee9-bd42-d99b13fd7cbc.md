@@ -1,0 +1,1 @@
+, making a true, honestly-executed state transition for that commitment permanently unprovable? Proof idea: cargo test reproducing `test_no_get_last_l1_hash_on_contract_failure` in crates/citrea-stf/src/verifier.rs but with an attacker EVM tx as the final tx of the commitment instead of a synthetic setup, asserting the panic occurs on a state transition that was otherwise valid.

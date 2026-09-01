@@ -1,0 +1,1 @@
+[File: crates/sovereign-sdk/module-system/sov-modules-stf-blueprint/src/lib.rs -> fn apply_l2_blocks_from_sequencer_commitments] Can an unprivileged attacker submit a normal EVM transaction that the honest sequencer includes in an L2 block whose hash, when later verified via `assert!(merkle_proof.verify(commitment.merkle_root, &[index], &[last_header_hash], count),

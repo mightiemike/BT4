@@ -1,0 +1,1 @@
+to admit the tx WITHOUT reserving any L1 fee balance, under preconditions the sender's balance covers only the L2 cost (`reth_cost`) with zero headroom for L1 fee, so when the sequencer actually executes this tx in `dry_run_transactions`, `CitreaHandler::output`'s `decrease_caller_balance(evm.ctx(), l1_fee)` returns `Some(_out_of_funds)` and the tx errors mid-block-building with

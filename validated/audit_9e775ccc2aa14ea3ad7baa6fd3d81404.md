@@ -1,0 +1,1 @@
+Now find where `run_l1_block` is called from, to check whether `verify_header_chain` (which calls `verify_hash()`) is invoked before `run_l1_block` on the same header instance.

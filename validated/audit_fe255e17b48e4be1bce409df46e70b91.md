@@ -1,0 +1,1 @@
+Let me check the `SequencerCommitment` struct definition to see if it independently records the start height, which would determine whether the "hint" `prev_sequencer_commitment_start` can be forged.

@@ -1,1 +1,0 @@
-splitting the light-client proof chain — Critical, DETERMINISM/PROOF SOUNDNESS violation. Proof idea: cargo test chaining two `run_sequencer_commitments_in_da_slot` calls where the second batch's fallback read is engineered to return a stale, lower-height hash than the first batch's queried hash, and assert the light-client circuit test harness rejects the chain.]

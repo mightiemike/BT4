@@ -1,1 +1,0 @@
-`multiproof` is `unimplemented!("multiproof")` — it's a stub that panics if called, not code that reads or diverges state. This is not a live code path; the trait method is never actually invoked in the block-building flow.The `multiproof` function is exactly one line: `unimplemented!("multiproof")`.

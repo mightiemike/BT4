@@ -1,1 +1,0 @@
-Now let's find where `AddressWrapper`/sender is constructed from the actual Bitcoin transaction (i.e., where public key bytes are extracted) to check whether the encoding is deterministic across implementations.

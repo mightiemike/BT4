@@ -1,0 +1,1 @@
+? Proof idea: construct two blocks whose root-to-block map entries share (or are forced to share via test hook) an identical `TrieHash` key and confirm `verify_proof` distinguishes them correctly or fails as predicted.

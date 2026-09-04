@@ -1,0 +1,1 @@
+which this file's append_block does not itself resolve deterministically. Proof idea: reproduce the documented 3-miner benign-fork scenario (A tenure-change, B tenure-change signed, C confirms A's last block signed) in a two-node harness and submit an ambiguous continuation block to both; assert divergent accept/reject results.

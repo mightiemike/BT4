@@ -1,0 +1,1 @@
+)` or an incorrect silent sum, breaking `reward paid once == coinbase+fees earned once`, with Critical impact of a crash-induced node divergence (chain split) or STX over-crediting? Proof idea: integration test forcing 3 reward rows for one `(parent,child)` pair via a crafted reorg and asserting either a clean error or a bounded reward total, not a double payment.

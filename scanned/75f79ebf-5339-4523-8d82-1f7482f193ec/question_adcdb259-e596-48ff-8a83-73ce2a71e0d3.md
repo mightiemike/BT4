@@ -1,0 +1,1 @@
+bonus twice across two forks that both survive briefly? Proof idea: integration test creating a multi-block burn gap, forking at the tenure that first claims the bonus, and asserting the bonus is deducted from `accumulated_coinbase_ustx` such that only one fork's balance reflects it.

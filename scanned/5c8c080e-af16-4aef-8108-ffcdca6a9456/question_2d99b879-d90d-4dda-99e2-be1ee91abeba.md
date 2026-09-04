@@ -1,0 +1,1 @@
+[File: stacks-common/src/util/ed25519.rs -> Scope: Critical] [Method: NakamotoBlockHeader::verify_signer_signatures] Can an unprivileged attacker submit a NakamotoBlock whose signer_signature contains a single signature from a signer whose weight field was corrupted upstream by StacksChainState::make_signer_set's `u32::try_from(stacked_amt / threshold).expect(

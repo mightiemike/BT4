@@ -1,0 +1,1 @@
+tenure-start blocks is canonical? Proof idea: integration test submitting two `BlockFound` blocks with identical consensus_hash but different miner signature/nonce fields to two separate node instances in different order and diffing their resulting canonical tips (DETERMINISM).

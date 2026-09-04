@@ -1,0 +1,1 @@
+))`, feeding back into `ClarityError::StaticCheck` and then `handle_clarity_analysis_error`. Attacker action: craft a deploy transaction whose contract identifier collides with an existing analysis-database entry in a way that only manifests as a commit failure under a specific, non-deterministic error-formatting path (`format!(

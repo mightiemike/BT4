@@ -1,0 +1,1 @@
+[File: 'stackslib/src/net/api/gettenureblocks.rs' -> Scope: Critical] `NakamotoSigners::get_signers_weights` (stackslib/src/chainstate/nakamoto/signer_set.rs) reads the `.signers` boot contract via `chainstate.eval_boot_code_read_only(sortdb, block_id, SIGNERS_NAME,

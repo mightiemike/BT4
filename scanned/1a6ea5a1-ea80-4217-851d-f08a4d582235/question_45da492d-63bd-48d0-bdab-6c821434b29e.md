@@ -1,0 +1,1 @@
+, a chain split. Proof idea: run pox_5_make_signer_set twice with the same input entries in different insertion orders (permutations) and assert the output signer_set vector is byte-for-byte identical every time (property test extending stackslib/src/chainstate/nakamoto/tests/signer_set.rs check_make_signer_set).]

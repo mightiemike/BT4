@@ -1,0 +1,1 @@
+becomes vacuously true (0>=0) with NO valid signer signatures at all, i.e., threshold degenerates to zero when total_weight is zero. Impact: Critical - a block accepted with NO signer approval whatsoever whenever the reward set apportions to total weight 0, directly violating

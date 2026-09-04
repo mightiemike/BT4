@@ -1,0 +1,1 @@
+[File: 'clarity/src/vm/analysis/type_checker/mod.rs -> Scope: Critical.'] Can an attacker who commits a block causing `UncommittedState::seal` (storage.rs:294) to be invoked twice due to a retry path in miner block-assembly (calling `TrieRAM::inner_seal` after a prior `Sealed` state was already produced) trigger the `panic!(

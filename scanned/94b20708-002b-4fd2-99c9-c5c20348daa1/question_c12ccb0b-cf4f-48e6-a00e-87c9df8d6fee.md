@@ -1,0 +1,1 @@
+Proof idea: Rust integration test using TestPeer to build fork1 with a poison tx and mature it to spendable balance, then reorg to fork2 with a duplicate poison tx from a different reporter address, and assert only one of the two commissions is ever spendable in the final chainstate.]

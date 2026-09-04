@@ -1,0 +1,1 @@
+[File: 'stackslib/src/net/api/getstackerdbmetadata.rs' -> Scope: Critical, via `NakamotoSignerSet::get_signers_weights` Clarity read-only call] Can an unprivileged attacker who is a minority stacker exploit `get_signers_weights` in signer_set.rs, which calls `eval_boot_code_read_only(sortdb, block_id, SIGNERS_NAME,

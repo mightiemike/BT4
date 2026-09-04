@@ -1,0 +1,1 @@
+[File: 'stackslib/src/net/httpcore.rs' -> Scope: Critical] Can an attacker who is a signer of weight exactly equal to `total_weight - threshold + 1` (i.e., just enough to be the sole blocker) exploit `verify_signer_signatures`'s `checked_add` `.expect(

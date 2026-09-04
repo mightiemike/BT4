@@ -1,0 +1,152 @@
+[
+  {
+    "question": "'File Name: stacks-node/src/burnchains/rpc/bitcoin_rpc_client/mod.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_2874b1f4-db03-43c4-b65a-6d33e033111f?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/burnchains/rpc/mod.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_3bd3a091-9a48-4b92-bcb4-35dba2e7d6bd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/burnchains/rpc/rpc_transport/mod.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_88f9e3fa-3085-4c4c-be77-755ae7945b82?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/event_dispatcher.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_545776ea-6268-4770-8722-e3c94757f379?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/event_dispatcher/db.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_1542ff01-ccca-4e47-a1fc-47182ae2c1e6?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/event_dispatcher/payloads.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_7d6c80d7-0c0c-43bb-bf0e-2f49ec9e74c7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/event_dispatcher/stacker_db.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_6fb05ead-2ff7-40ac-bc9d-12ea5ef46375?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/event_dispatcher/worker.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_47c2007c-a8a5-4be4-ab70-3b2350d2a3d3?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/globals.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_bb7c1792-8701-4be2-8394-df85f7d05284?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/keychain.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_8caf1b21-cf70-4a03-9fe8-70c9f9e4abd7?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/main.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_9968681e-cc17-4f6d-afe3-d12c100c5527?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/monitoring/mod.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_105cfb29-947a-4140-938f-9b007d105a6a?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/monitoring/prometheus.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_e384c74b-a0aa-43c4-93bf-b26174aaff79?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/nakamoto_node.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_3c86917b-7312-41bf-b6ce-bc99e92f436d?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/nakamoto_node/miner.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_3be5b644-d776-478f-866f-bb28afea0c49?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/nakamoto_node/miner_db.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_031f4c1c-4855-45a6-bff8-a1577a44ee0c?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/nakamoto_node/peer.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_ebfa0807-fb15-45eb-b6ba-ae4336691b96?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/nakamoto_node/relayer.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_c8f88459-f596-4330-9894-00b88b63b524?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/nakamoto_node/signer_coordinator.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_b037890e-065a-4cce-a44f-753f01658034?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/nakamoto_node/stackerdb_listener.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_e2eb00be-45ec-4365-8aaa-eb8672af7372?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/neon_node.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_614321b3-168a-4448-bfd3-ba971ca39ad1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/node.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_be4a4b65-21ec-4608-ac14-b150f7538b61?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/operations.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_30c678f2-3c96-4a6c-9f43-8f69b48f0753?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/run_loop/boot_nakamoto.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_7815f25b-8e03-499f-8f97-eef2d7cdba5b?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/run_loop/helium.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_2670c9bc-cca7-4a06-aa28-1da648c1ac42?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/run_loop/mod.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_46193ae7-a854-4042-8e7b-58cc8d31f537?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/run_loop/nakamoto.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_508c2c46-527b-45b0-9cf9-3fc428e667e1?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/run_loop/neon.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_4eaaf0e9-48ea-47dd-adb9-5fa053e36aea?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/syncctl.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_31696681-ec9f-4dc9-9d3f-45d22779cfdd?mode=deep",
+    "questions_generated": false
+  },
+  {
+    "question": "'File Name: stacks-node/src/tenure.rs -> Scope: High. VRF SEED AND LEADER KEY MUST BIND EACH BLOCK TO ITS COMMITTED RANDOMNESS. `validate_vrf_seed`, `check_block_commit_vrf_seed` (nakamoto/mod.rs) and `leader_key_register.rs` bind a block's VRF proof to the seed committed on the burnchain. Show a block whose VRF proof does not correspond to the committed seed and leader key yet is accepted, a seed reused across tenures, or a leader key consumed by two commits: a proof verified against the wrong public key, a seed derived from a mutable field, a key-register op accepted without binding to the committer. Identity: the VRF proof in an accepted block == a proof under the leader key and seed the winning block-commit committed on the burnchain.'",
+    "url": "https://deepwiki.com/search/-generate-blockchainconsensus_e122cd61-2481-4b30-84d1-8b62ac804d9d?mode=deep",
+    "questions_generated": false
+  }
+]

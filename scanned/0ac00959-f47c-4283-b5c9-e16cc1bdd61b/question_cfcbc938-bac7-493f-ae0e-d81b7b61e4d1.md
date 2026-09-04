@@ -1,0 +1,1 @@
+over different orderings validate/invalidate the same signed block differently, producing chain split. Proof idea: integration test asserting `Vec<ProblematicTxMarker>` field is only ever populated by direct deserialization (never rebuilt from a HashMap), then assert two independently-decoded copies of the same block bytes produce identical `validate_problematic_txs` results.

@@ -1,0 +1,1 @@
+accepted block? Proof idea: two-node Rust harness where node A validates the block before a poison-microblock report propagates and node B validates after, asserting both nodes converge on an identical `MinerReward`/state root once fully synced, or documenting the exact divergence window as a reproducibility bug.

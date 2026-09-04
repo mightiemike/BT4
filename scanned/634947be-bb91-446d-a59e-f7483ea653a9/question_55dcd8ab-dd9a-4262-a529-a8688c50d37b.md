@@ -1,0 +1,1 @@
+[File: stackslib/src/chainstate/nakamoto/signer_set.rs -> Scope: Critical] Can an attacker exploit `NakamotoSigners::get_signers_weights` (signer_set.rs:1076), which reads the reward set purely from the on-chain `.signers` boot contract via `eval_boot_code_read_only(sortdb, block_id, SIGNERS_NAME,

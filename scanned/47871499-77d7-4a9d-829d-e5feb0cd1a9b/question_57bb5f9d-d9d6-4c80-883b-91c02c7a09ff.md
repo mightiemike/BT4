@@ -1,0 +1,1 @@
+includes not-crashing. Impact: High, temporary tip disagreement / node unavailability, not full chain split since both ultimately reject. Proof idea: Rust test asserting `validate_transactions_static(false, chain_id, epoch)` on an empty-tx block returns exactly `false` without panicking across all supported epochs.

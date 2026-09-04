@@ -1,0 +1,1 @@
+[File: stackslib/src/chainstate/nakamoto/signer_set.rs -> Scope: High. Target: NakamotoSigners::get_signers_weights u64::try_from(weight u128) overflow guard.] Can an unprivileged stacker stack an amount engineered so that entry.weight (a u128 read from the .signers contract tuple) exceeds u64::MAX when cast, triggering get_signers_weights's `.map_err(|_| Expects(

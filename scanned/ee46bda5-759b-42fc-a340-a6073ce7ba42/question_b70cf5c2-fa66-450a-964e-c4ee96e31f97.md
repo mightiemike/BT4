@@ -1,0 +1,1 @@
+`, breaking verdict(A) == verdict(B) at the exact activation boundary and causing a Critical chain split for the first several blocks of the new epoch? Proof idea: two-node harness with one node's Bitcoin RPC connection paused for N seconds spanning the epoch-activation burn block, submit a problematic-tx-bearing block, assert divergent `validate_transactions_static` results.

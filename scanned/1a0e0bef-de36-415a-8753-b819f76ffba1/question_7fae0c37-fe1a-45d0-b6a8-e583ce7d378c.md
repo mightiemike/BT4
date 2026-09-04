@@ -1,0 +1,1 @@
+[File: stackslib/src/chainstate/stacks/db/accounts.rs -> Scope: Critical. Target: `MinerReward::try_add_parent`.] Can an attacker arrange for `get_matured_miner_payment` to receive two rows where `ret_0.is_child()` and `ret_1.is_child()` are both true (i.e., neither passes the `is_parent()` check used inside `try_add_parent`), forcing the `panic!(

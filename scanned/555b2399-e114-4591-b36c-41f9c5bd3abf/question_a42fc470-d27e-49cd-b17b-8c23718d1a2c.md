@@ -1,0 +1,1 @@
+)`, breaking verdict(A) == verdict(B) for identical block bytes at the same epoch and causing a temporary tip disagreement that could mature a reward on A before B converges? Proof idea: two-node harness where only node A has locally staged the shadow block, broadcast identical bytes to both, assert divergent accept/reject and divergent reward-maturation timing.

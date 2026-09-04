@@ -1,0 +1,1 @@
+a Coinbase/TenureChange from later effects, potentially double-paying or unpaying the tenure reward. Proof idea: integration test building a tenure-start block with a marker on tx_index 0 or 1, assert validate_problematic_txs is deterministically Err on all node instances and that no chainstate ever proceeds to process_skipped_transaction on a Coinbase/TenureChange.

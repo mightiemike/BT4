@@ -1,0 +1,1 @@
+)`) on any node, which is a network-wide crash-DoS with a chain-split byproduct (crashed nodes fall behind = effectively partitioned). Proof idea: Rust test relaying a synthetic shadow-bit-set block via `NakamotoChainState::accept_block` to a chainstate with no shadow records and asserting whether it panics versus returning a graceful `Err`.

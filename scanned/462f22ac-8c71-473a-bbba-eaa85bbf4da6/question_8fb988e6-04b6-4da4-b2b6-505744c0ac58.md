@@ -1,0 +1,1 @@
+an irreversible Critical fund-misdirection once matured funds move on. Proof idea: Rust test asserting `StacksBlockId::to_sql` -> `FromSql::column_result` is the identity function across a large randomized/edge-case byte corpus (all-zero, all-0xff, single-bit-set) and that the maturation query keyed on this id returns exactly the intended block's payment record.

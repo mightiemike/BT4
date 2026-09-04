@@ -1,0 +1,1 @@
+and its reward-mint semantics altered (Critical: reward mis-payment)? Proof idea: integration test with two chainstate builds representing pre/post enum-variant nodes, submit identical block bytes, assert identical Err from validate_problematic_txs and identical minted-reward STATE_ROOT after block acceptance.]

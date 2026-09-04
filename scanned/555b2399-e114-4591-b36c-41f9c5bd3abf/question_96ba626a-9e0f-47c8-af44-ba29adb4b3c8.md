@@ -1,0 +1,1 @@
+? Proof idea: submit a normal block with the shadow bit set through the normal ingestion path on two nodes, assert one routes it through `validate_nakamoto_block_static` while a node checking `is_shadow_block()` first routes it elsewhere.

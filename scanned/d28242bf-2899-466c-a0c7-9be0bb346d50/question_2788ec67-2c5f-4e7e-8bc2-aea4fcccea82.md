@@ -1,0 +1,1 @@
+fork of the same tenure would incorrectly mint coinbase). Proof: integration test that adds a shadow block on peer1 only, then pushes a competing signed normal block for the same consensus_hash to peer2, asserting divergent acceptance.

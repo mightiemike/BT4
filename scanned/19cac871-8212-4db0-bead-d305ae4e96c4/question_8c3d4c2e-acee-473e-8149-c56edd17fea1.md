@@ -1,0 +1,1 @@
+[File: nakamoto/mod.rs -> Scope: High. validate_nakamoto_block_static epoch resolution `SortitionDB::get_stacks_epoch(sortdb_conn, block_tenure_burn_height)?.expect(...)` panicking pure-function violation] Can an unprivileged attacker cause validate_nakamoto_block_static to panic via the `.expect(

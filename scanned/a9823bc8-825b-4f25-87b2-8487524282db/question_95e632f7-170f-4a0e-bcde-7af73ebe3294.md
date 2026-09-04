@@ -1,0 +1,1 @@
+blocks with different IDs)? Proof idea: Rust test that serializes one NakamotoBlock and computes `block_hash()`/`signer_signature_hash()` using two codec implementations differing only in whether they gate `problematic_txs` inclusion by `version_includes_problematic_txs`, and asserts the hashes are always identical for every version byte in [0,255].

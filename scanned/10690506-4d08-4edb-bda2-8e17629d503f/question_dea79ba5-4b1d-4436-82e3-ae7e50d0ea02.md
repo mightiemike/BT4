@@ -1,1 +1,0 @@
-[File: 'stackslib/src/net/api/read_only/mod.rs' -> Scope: Critical] Target: `MARF::insert_leaf`/`inner_insert_batch` in `stackslib/src/chainstate/stacks/index/marf.rs`, documented as inserting the last key/value pair specially so

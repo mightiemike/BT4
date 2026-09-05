@@ -1,1 +1,0 @@
-guard that `add_shadow_block` has, an attacker-supplied block can be interleaved into a shadow tenure, producing state divergent from nodes that reject it. Proof idea: integration test submitting a normal NakamotoBlock into a tenure with an existing shadow block via the normal P2P/RPC accept path and asserting rejection matches across nodes.

@@ -1,0 +1,1 @@
+Now let's find where `get_signers_weights` is actually called, to determine whether the `reward_cycle` argument passed to it is validated against the block being processed.

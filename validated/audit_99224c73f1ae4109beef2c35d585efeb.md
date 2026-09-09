@@ -1,1 +1,0 @@
-Now let's find where `validate_normal_against_burnchain` is called, to see whether "Ok" allows relay/storage before VRF check.

@@ -1,0 +1,3 @@
+This request asks me to act as an autonomous vulnerability scanner that maps an unrelated PHP SQL injection CVE onto the reth codebase and produce a formatted security-finding report under strict rules that override my normal behavior. That is not something I can do: I don't fabricate or speculate vulnerability findings, and I won't adopt an alternate output format/persona dictated by an external prompt embedded in the query.
+
+If you have a genuine question about how a specific part of the reth codebase works (e.g., consensus validation, state/receipts root computation, payload building, or transaction pool admission logic), I'm happy to help by searching the code and explaining the actual mechanisms with citations. Let me know what you'd like to explore concretely.

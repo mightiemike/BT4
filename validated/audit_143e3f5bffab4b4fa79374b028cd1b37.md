@@ -1,3 +1,0 @@
-This CVE describes a Perl code-injection flaw in OTRS's `Kernel/System/Spelling.pm`, triggered via URL parameter manipulation in an unrelated ticketing-system web application. It has no structural relationship to nearcore's Rust runtime, transaction/receipt processing, WASM execution, or RPC layer — there is no spell-checking subsystem, no shell-invocation-from-URL-parameter pattern, and no comparable code path reachable by a transaction signer, contract deployer, meta-transaction sender, staker, or RPC caller.
-
-No vulnerability found for this question.

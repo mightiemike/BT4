@@ -4,11 +4,11 @@ import os
 from decouple import config
 
 # todo: if scope_files is: 500 > 50, 300 > 30 , 100 > 10
-MAX_REPO = 20
-# todo: the path from https://github.com/near/nearcore
-SOURCE_REPO = "near/nearcore"
+MAX_REPO = 25
+# todo: the path from https://github.com/starkware-libs/sequencer
+SOURCE_REPO = "starkware-libs/sequencer"
 # todo: the name of the repository
-REPO_NAME = "nearcore"
+REPO_NAME = "sequencer"
 run_number = os.environ.get('GITHUB_RUN_NUMBER') or os.environ.get('CI_PIPELINE_IID', '0')
 
 
@@ -48,254 +48,242 @@ else:
 
 scope_files = [
     # =================================================================================
-    # Transaction and action validation: signatures, nonces, access keys, meta-txs
+    # Public ingress: the HTTP add_tx endpoint and gateway stateless/stateful validation
     # =================================================================================
-    "runtime/runtime/src/verifier.rs",
-    "runtime/runtime/src/action_validation.rs",
-    "runtime/runtime/src/access_keys.rs",
-    "core/primitives/src/transaction.rs",
-    "core/primitives/src/action/mod.rs",
-    "core/primitives/src/action/delegate.rs",
-    "core/primitives/src/signable_message.rs",
-    "core/primitives/src/receipt.rs",
-    "core/primitives/src/errors.rs",
-    "core/primitives-core/src/account.rs",
-    "core/primitives-core/src/types.rs",
-    "core/primitives-core/src/errors.rs",
-    "core/primitives-core/src/serialize.rs",
-    "core/crypto/src/signature.rs",
-    "core/crypto/src/key_conversion.rs",
-    "core/crypto/src/hash.rs",
-    "chain/chain/src/signature_verification.rs",
-    "chain/chain/src/validate.rs",
+    "crates/apollo_http_server/src/http_server.rs",
+    "crates/apollo_http_server/src/deprecated_gateway_transaction.rs",
+    "crates/apollo_http_server/src/errors.rs",
+    "crates/apollo_gateway/src/gateway.rs",
+    "crates/apollo_gateway/src/stateless_transaction_validator.rs",
+    "crates/apollo_gateway/src/stateful_transaction_validator.rs",
+    "crates/apollo_gateway/src/state_reader.rs",
+    "crates/apollo_gateway/src/sync_state_reader.rs",
+    "crates/apollo_gateway/src/gateway_fixed_block_state_reader.rs",
+    "crates/apollo_gateway/src/errors.rs",
+    "crates/apollo_transaction_converter/src/transaction_converter.rs",
 
     # =================================================================================
-    # Runtime apply loop: action execution, balance flow, refunds, receipt generation
+    # Transaction encoding, fields, hashing and the identity a signature commits to
     # =================================================================================
-    "runtime/runtime/src/lib.rs",
-    "runtime/runtime/src/actions.rs",
-    "runtime/runtime/src/receipt_manager.rs",
-    "runtime/runtime/src/function_call.rs",
-    "runtime/runtime/src/ext.rs",
-    "runtime/runtime/src/config.rs",
-    "runtime/runtime/src/conversions.rs",
-    "runtime/runtime/src/pipelining.rs",
-    "runtime/runtime/src/contract_code.rs",
-    "runtime/runtime/src/types.rs",
-    "runtime/runtime/src/adapter.rs",
-    "runtime/runtime/src/prefetch.rs",
-    "runtime/runtime/src/cache_warming.rs",
-    "runtime/runtime/src/state_viewer/mod.rs",
-    "runtime/runtime/src/state_viewer/errors.rs",
-    "core/primitives-core/src/apply.rs",
+    "crates/starknet_api/src/rpc_transaction.rs",
+    "crates/starknet_api/src/transaction.rs",
+    "crates/starknet_api/src/transaction/fields.rs",
+    "crates/starknet_api/src/transaction/constants.rs",
+    "crates/starknet_api/src/transaction_hash.rs",
+    "crates/starknet_api/src/executable_transaction.rs",
+    "crates/starknet_api/src/consensus_transaction.rs",
+    "crates/starknet_api/src/core.rs",
+    "crates/starknet_api/src/hash.rs",
+    "crates/starknet_api/src/crypto/utils.rs",
+    "crates/starknet_api/src/crypto/patricia_hash.rs",
+    "crates/starknet_api/src/serde_utils.rs",
+    "crates/starknet_api/src/compression_utils.rs",
+    "crates/starknet_api/src/execution_resources.rs",
+    "crates/starknet_api/src/versioned_constants_logic.rs",
+    "crates/starknet_api/src/state.rs",
+    "crates/starknet_api/src/block.rs",
 
     # =================================================================================
-    # Global contracts, deterministic and universal accounts, state init
+    # Declare pipeline: Sierra -> CASM compilation, class hashing and class storage
     # =================================================================================
-    "runtime/runtime/src/global_contracts.rs",
-    "runtime/runtime/src/deterministic_account_id.rs",
-    "runtime/runtime/src/universal_account_id.rs",
-    "core/primitives-core/src/global_contract.rs",
-    "core/primitives-core/src/deterministic_account_id.rs",
-    "core/primitives-core/src/universal_account_id.rs",
-    "core/primitives-core/src/universal_state_init.rs",
-    "core/primitives/src/universal_state_init.rs",
-    "core/primitives-core/src/code.rs",
-    "core/store/src/contract.rs",
+    "crates/apollo_compile_to_casm/src/compiler.rs",
+    "crates/apollo_compile_to_casm/src/constants.rs",
+    "crates/apollo_class_manager/src/class_manager.rs",
+    "crates/apollo_class_manager/src/class_storage.rs",
+    "crates/starknet_api/src/contract_class.rs",
+    "crates/starknet_api/src/contract_class/compiled_class_hash.rs",
+    "crates/starknet_api/src/contract_class/structs.rs",
+    "crates/starknet_api/src/deprecated_contract_class.rs",
+    "crates/blockifier/src/execution/contract_class.rs",
+    "crates/blockifier/src/execution/casm_hash_estimation.rs",
+    "crates/blockifier/src/state/contract_class_manager.rs",
+    "crates/blockifier/src/state/native_class_manager.rs",
+    "crates/blockifier/src/state/global_cache.rs",
+    "crates/blockifier/src/state/compiled_class_hash_migration.rs",
 
     # =================================================================================
-    # Gas metering, fee schedule and protocol parameters
+    # Mempool admission, ordering, replacement and eviction of user transactions
     # =================================================================================
-    "core/parameters/src/config.rs",
-    "core/parameters/src/config_store.rs",
-    "core/parameters/src/cost.rs",
-    "core/parameters/src/parameter_table.rs",
-    "core/parameters/src/parameter.rs",
-    "core/parameters/src/view.rs",
-    "core/parameters/src/vm.rs",
-    "core/primitives-core/src/gas.rs",
-    "core/primitives-core/src/config.rs",
-    "core/primitives-core/src/version.rs",
-    "core/primitives/src/version.rs",
-    "core/primitives/src/upgrade_schedule.rs",
-    "core/primitives/src/profile_data_v3.rs",
+    "crates/apollo_mempool/src/mempool.rs",
+    "crates/apollo_mempool/src/transaction_pool.rs",
+    "crates/apollo_mempool/src/fee_transaction_queue.rs",
+    "crates/apollo_mempool/src/fifo_transaction_queue.rs",
+    "crates/apollo_mempool/src/utils.rs",
 
     # =================================================================================
-    # WASM: preparation, instrumentation, host functions, gas counter, VM cache
+    # L1 -> L2 messaging: the permissionless L1 entrypoint into L1 handler transactions
     # =================================================================================
-    "runtime/near-vm-runner/src/prepare.rs",
-    "runtime/near-vm-runner/src/prepare/prepare_v3.rs",
-    "runtime/near-vm-runner/src/prepare/instrument_v3.rs",
-    "runtime/near-vm-runner/src/runner.rs",
-    "runtime/near-vm-runner/src/cache.rs",
-    "runtime/near-vm-runner/src/imports.rs",
-    "runtime/near-vm-runner/src/features.rs",
-    "runtime/near-vm-runner/src/errors.rs",
-    "runtime/near-vm-runner/src/profile.rs",
-    "runtime/near-vm-runner/src/utils.rs",
-    "runtime/near-vm-runner/src/logic/logic.rs",
-    "runtime/near-vm-runner/src/logic/gas_counter.rs",
-    "runtime/near-vm-runner/src/logic/vmstate.rs",
-    "runtime/near-vm-runner/src/logic/context.rs",
-    "runtime/near-vm-runner/src/logic/dependencies.rs",
-    "runtime/near-vm-runner/src/logic/recorded_storage_counter.rs",
-    "runtime/near-vm-runner/src/logic/alt_bn128.rs",
-    "runtime/near-vm-runner/src/logic/bls12381.rs",
-    "runtime/near-vm-runner/src/logic/errors.rs",
-    "runtime/near-vm-runner/src/logic/types.rs",
-    "runtime/near-vm-runner/src/logic/utils.rs",
-    "runtime/near-vm-runner/src/wasmtime_runner/mod.rs",
-    "runtime/near-vm-runner/src/wasmtime_runner/logic.rs",
-    "runtime/near-vm-runner/src/wasmtime_runner/trap_classification.rs",
+    "crates/papyrus_base_layer/src/eth_events.rs",
+    "crates/papyrus_base_layer/src/ethereum_base_layer_contract.rs",
+    "crates/papyrus_base_layer/src/constants.rs",
+    "crates/apollo_l1_provider/src/l1_provider.rs",
+    "crates/apollo_l1_provider/src/l1_scraper.rs",
+    "crates/apollo_l1_provider/src/transaction_manager.rs",
+    "crates/apollo_l1_provider/src/transaction_record.rs",
+    "crates/apollo_l1_provider/src/catchupper.rs",
+    "crates/blockifier/src/transaction/l1_handler_transaction.rs",
 
     # =================================================================================
-    # Cross-shard receipt flow: congestion control, bandwidth scheduler, buffers
+    # Account transaction lifecycle: validate/execute stages, nonces, revert, fee charge
     # =================================================================================
-    "runtime/runtime/src/congestion_control.rs",
-    "runtime/runtime/src/bandwidth_scheduler/mod.rs",
-    "runtime/runtime/src/bandwidth_scheduler/scheduler.rs",
-    "runtime/runtime/src/bandwidth_scheduler/distribute_remaining.rs",
-    "core/primitives/src/congestion_info.rs",
-    "core/primitives/src/bandwidth_scheduler.rs",
-    "core/store/src/trie/receipts_column_helper.rs",
-    "core/store/src/trie/outgoing_metadata.rs",
-    "chain/chain/src/receipt_to_tx.rs",
+    "crates/blockifier/src/transaction/account_transaction.rs",
+    "crates/blockifier/src/transaction/transaction_execution.rs",
+    "crates/blockifier/src/transaction/transactions.rs",
+    "crates/blockifier/src/transaction/objects.rs",
+    "crates/blockifier/src/transaction/errors.rs",
+    "crates/blockifier/src/blockifier/stateful_validator.rs",
+    "crates/blockifier/src/blockifier/transaction_executor.rs",
+    "crates/blockifier/src/blockifier/concurrent_transaction_executor.rs",
+    "crates/blockifier/src/blockifier/block.rs",
+    "crates/blockifier/src/context.rs",
 
     # =================================================================================
-    # Trie and state storage touched by every user write
+    # Fee, gas and resource accounting: value conservation for every charged transaction
     # =================================================================================
-    "core/store/src/trie/mod.rs",
-    "core/store/src/trie/update.rs",
-    "core/store/src/trie/trie_storage.rs",
-    "core/store/src/trie/trie_storage_update.rs",
-    "core/store/src/trie/trie_recording.rs",
-    "core/store/src/trie/raw_node.rs",
-    "core/store/src/trie/nibble_slice.rs",
-    "core/store/src/trie/iterator.rs",
-    "core/store/src/trie/shard_tries.rs",
-    "core/store/src/trie/state_parts.rs",
-    "core/store/src/trie/config.rs",
-    "core/store/src/trie/ops/insert_delete.rs",
-    "core/store/src/trie/ops/interface.rs",
-    "core/store/src/trie/ops/iter.rs",
-    "core/store/src/trie/ops/squash.rs",
-    "core/store/src/trie/ops/resharding.rs",
-    "core/store/src/trie/mem/memtrie_update.rs",
-    "core/store/src/trie/mem/lookup.rs",
-    "core/store/src/trie/mem/node/encoding.rs",
-    "core/store/src/trie/mem/node/view.rs",
-    "core/store/src/trie/mem/flexible_data/encoding.rs",
-    "core/store/src/trie/mem/flexible_data/children.rs",
-    "core/store/src/trie/mem/flexible_data/extension.rs",
-    "core/store/src/trie/mem/flexible_data/value.rs",
-    "core/store/src/trie/mem/arena/alloc.rs",
-    "core/store/src/trie/mem/freelist.rs",
-    "core/store/src/flat/storage.rs",
-    "core/store/src/flat/chunk_view.rs",
-    "core/store/src/flat/delta.rs",
-    "core/store/src/flat/manager.rs",
-    "core/store/src/db/refcount.rs",
-    "core/store/src/merkle_proof.rs",
-    "core/primitives-core/src/trie_key.rs",
-    "core/primitives/src/trie_key.rs",
-    "core/primitives/src/state_record.rs",
-    "core/primitives/src/state.rs",
+    "crates/blockifier/src/fee/fee_checks.rs",
+    "crates/blockifier/src/fee/fee_utils.rs",
+    "crates/blockifier/src/fee/gas_usage.rs",
+    "crates/blockifier/src/fee/receipt.rs",
+    "crates/blockifier/src/fee/resources.rs",
+    "crates/blockifier/src/fee/eth_gas_constants.rs",
+    "crates/blockifier/src/bouncer.rs",
+    "crates/blockifier/src/blockifier_versioned_constants.rs",
+    "crates/apollo_consensus_orchestrator/src/fee_market/mod.rs",
 
     # =================================================================================
-    # Transaction admission, chunk transaction selection and tx pool
+    # Entrypoint dispatch and syscalls: the surface attacker contract code drives directly
     # =================================================================================
-    "chain/pool/src/lib.rs",
-    "chain/pool/src/types.rs",
-    "chain/client/src/prepare_transactions.rs",
-    "chain/client/src/rpc_handler.rs",
-    "chain/client/src/pending_transaction_queue.rs",
-    "chain/client/src/chunk_producer.rs",
-    "chain/chain/src/chain.rs",
-    "chain/chain/src/chain_update.rs",
-    "chain/chain/src/update_shard.rs",
-    "chain/chain/src/sharding.rs",
-    "chain/chain/src/types.rs",
-    "chain/chunks/src/logic.rs",
+    "crates/blockifier/src/execution/entry_point.rs",
+    "crates/blockifier/src/execution/entry_point_execution.rs",
+    "crates/blockifier/src/execution/deprecated_entry_point_execution.rs",
+    "crates/blockifier/src/execution/execution_utils.rs",
+    "crates/blockifier/src/execution/call_info.rs",
+    "crates/blockifier/src/execution/contract_address.rs",
+    "crates/blockifier/src/execution/common_hints.rs",
+    "crates/blockifier/src/execution/stack_trace.rs",
+    "crates/blockifier/src/execution/syscalls/mod.rs",
+    "crates/blockifier/src/execution/syscalls/syscall_base.rs",
+    "crates/blockifier/src/execution/syscalls/syscall_executor.rs",
+    "crates/blockifier/src/execution/syscalls/hint_processor.rs",
+    "crates/blockifier/src/execution/syscalls/common_syscall_logic.rs",
+    "crates/blockifier/src/execution/syscalls/vm_syscall_utils.rs",
+    "crates/blockifier/src/execution/syscalls/secp.rs",
+    "crates/blockifier/src/execution/secp.rs",
+    "crates/blockifier/src/execution/deprecated_syscalls/mod.rs",
+    "crates/blockifier/src/execution/deprecated_syscalls/hint_processor.rs",
+    "crates/blockifier/src/execution/deprecated_syscalls/deprecated_syscall_executor.rs",
+    "crates/blockifier/src/execution/native/entry_point_execution.rs",
+    "crates/blockifier/src/execution/native/syscall_handler.rs",
+    "crates/blockifier/src/execution/native/contract_class.rs",
+    "crates/blockifier/src/execution/native/utils.rs",
+    "crates/blockifier/src/abi/sierra_types.rs",
+    "crates/blockifier/src/abi/constants.rs",
 
     # =================================================================================
-    # Stateless validation surface a user transaction can inflate or corrupt
+    # State reads/writes, aliasing and parallel execution determinism
     # =================================================================================
-    "chain/chain/src/stateless_validation/chunk_validation.rs",
-    "chain/client/src/stateless_validation/state_witness_producer.rs",
-    "chain/client/src/stateless_validation/validate.rs",
-    "core/primitives/src/stateless_validation/state_witness.rs",
-    "core/primitives/src/stateless_validation/stored_chunk_state_transition_data.rs",
-    "core/primitives/src/stateless_validation/contract_distribution.rs",
+    "crates/blockifier/src/state/cached_state.rs",
+    "crates/blockifier/src/state/state_api.rs",
+    "crates/blockifier/src/state/state_reader_and_contract_manager.rs",
+    "crates/blockifier/src/state/stateful_compression.rs",
+    "crates/blockifier/src/state/utils.rs",
+    "crates/blockifier/src/concurrency/versioned_state.rs",
+    "crates/blockifier/src/concurrency/versioned_storage.rs",
+    "crates/blockifier/src/concurrency/scheduler.rs",
+    "crates/blockifier/src/concurrency/worker_logic.rs",
+    "crates/blockifier/src/concurrency/worker_pool.rs",
+    "crates/blockifier/src/concurrency/fee_utils.rs",
 
     # =================================================================================
-    # Staking, rewards and validator selection reachable by any account
+    # Block building and proposal: where a user transaction becomes part of a block
     # =================================================================================
-    "chain/epoch-manager/src/lib.rs",
-    "chain/epoch-manager/src/validator_selection.rs",
-    "chain/epoch-manager/src/reward_calculator.rs",
-    "chain/epoch-manager/src/validator_stats.rs",
-    "chain/epoch-manager/src/epoch_info_aggregator.rs",
-    "chain/epoch-manager/src/adapter.rs",
-    "core/primitives/src/epoch_info.rs",
-    "core/primitives/src/validator_mandates/mod.rs",
-    "core/primitives/src/validator_mandates/compute_price.rs",
+    "crates/apollo_batcher/src/batcher.rs",
+    "crates/apollo_batcher/src/block_builder.rs",
+    "crates/apollo_batcher/src/transaction_executor.rs",
+    "crates/apollo_batcher/src/transaction_provider.rs",
+    "crates/apollo_batcher/src/pre_confirmed_block_writer.rs",
+    "crates/apollo_batcher/src/commitment_manager/commitment_manager_impl.rs",
+    "crates/apollo_batcher/src/commitment_manager/state_committer.rs",
+    "crates/apollo_batcher/src/utils.rs",
+    "crates/apollo_consensus_orchestrator/src/build_proposal.rs",
+    "crates/apollo_consensus_orchestrator/src/validate_proposal.rs",
+    "crates/apollo_consensus_orchestrator/src/cende/central_objects.rs",
+    "crates/apollo_committer/src/committer.rs",
 
     # =================================================================================
-    # RPC and view-layer entrypoints exposed to any caller
+    # Block hash and commitments: the values honest nodes must agree on bit for bit
     # =================================================================================
-    "chain/jsonrpc/src/lib.rs",
-    "chain/jsonrpc/src/sharded_rpc.rs",
-    "chain/jsonrpc/src/api/mod.rs",
-    "chain/jsonrpc/src/api/query.rs",
-    "chain/jsonrpc/src/api/call_function.rs",
-    "chain/jsonrpc/src/api/transactions.rs",
-    "chain/jsonrpc/src/api/view_state.rs",
-    "chain/jsonrpc/src/api/view_access_key.rs",
-    "chain/jsonrpc/src/api/view_access_key_list.rs",
-    "chain/jsonrpc/src/api/view_gas_key_nonces.rs",
-    "chain/jsonrpc/src/api/changes.rs",
-    "chain/jsonrpc/src/api/gas_price.rs",
-    "chain/jsonrpc/src/api/receipts.rs",
-    "chain/client/src/view_client_actor.rs",
-    "core/primitives/src/views.rs",
+    "crates/starknet_api/src/block_hash/block_hash_calculator.rs",
+    "crates/starknet_api/src/block_hash/receipt_commitment.rs",
+    "crates/starknet_api/src/block_hash/event_commitment.rs",
+    "crates/starknet_api/src/block_hash/transaction_commitment.rs",
+    "crates/starknet_api/src/block_hash/state_diff_hash.rs",
 
     # =================================================================================
-    # NEAR-developed wallet contract: Ethereum transaction emulation
+    # State commitment: committer forests and the Patricia trees behind the state root
     # =================================================================================
-    "runtime/near-wallet-contract/implementation/wallet-contract/src/lib.rs",
-    "runtime/near-wallet-contract/implementation/wallet-contract/src/internal.rs",
-    "runtime/near-wallet-contract/implementation/wallet-contract/src/eth_emulation.rs",
-    "runtime/near-wallet-contract/implementation/wallet-contract/src/near_action.rs",
-    "runtime/near-wallet-contract/implementation/wallet-contract/src/ethabi_utils.rs",
-    "runtime/near-wallet-contract/implementation/wallet-contract/src/types.rs",
-    "runtime/near-wallet-contract/implementation/address-registrar/src/lib.rs",
+    "crates/starknet_committer/src/block_committer/commit.rs",
+    "crates/starknet_committer/src/block_committer/input.rs",
+    "crates/starknet_committer/src/block_committer/state_diff_generator.rs",
+    "crates/starknet_committer/src/forest/original_skeleton_forest.rs",
+    "crates/starknet_committer/src/forest/updated_skeleton_forest.rs",
+    "crates/starknet_committer/src/forest/filled_forest.rs",
+    "crates/starknet_committer/src/hash_function/hash.rs",
+    "crates/starknet_committer/src/patricia_merkle_tree/leaf/leaf_impl.rs",
+    "crates/starknet_committer/src/patricia_merkle_tree/leaf/leaf_serde.rs",
+    "crates/starknet_committer/src/db/facts_db/node_serde.rs",
+    "crates/starknet_committer/src/db/facts_db/create_facts_tree.rs",
+    "crates/starknet_committer/src/db/index_db/leaves.rs",
+    "crates/starknet_committer/src/db/trie_traversal.rs",
+    "crates/starknet_patricia/src/patricia_merkle_tree/original_skeleton_tree/tree.rs",
+    "crates/starknet_patricia/src/patricia_merkle_tree/original_skeleton_tree/utils.rs",
+    "crates/starknet_patricia/src/patricia_merkle_tree/updated_skeleton_tree/create_tree_helper.rs",
+    "crates/starknet_patricia/src/patricia_merkle_tree/updated_skeleton_tree/tree.rs",
+    "crates/starknet_patricia/src/patricia_merkle_tree/updated_skeleton_tree/hash_function.rs",
+    "crates/starknet_patricia/src/patricia_merkle_tree/filled_tree/tree.rs",
+    "crates/starknet_patricia/src/patricia_merkle_tree/node_data/inner_node.rs",
+    "crates/starknet_patricia/src/patricia_merkle_tree/node_data/leaf.rs",
+    "crates/starknet_patricia/src/patricia_merkle_tree/traversal.rs",
+    "crates/starknet_patricia/src/patricia_merkle_tree/types.rs",
 
     # =================================================================================
-    # Shared encoding, hashing and merkle primitives on validation paths
+    # Starknet OS: the proved re-execution that must match what the sequencer committed
     # =================================================================================
-    "core/primitives/src/utils.rs",
-    "core/primitives/src/utils/compression.rs",
-    "core/primitives/src/utils/io.rs",
-    "core/primitives/src/merkle.rs",
-    "core/primitives/src/shard_layout/mod.rs",
-    "core/primitives/src/sharding.rs",
-    "core/primitives/src/types.rs",
-    "core/primitives-core/src/hash.rs",
+    "crates/starknet_os/src/runner.rs",
+    "crates/starknet_os/src/io/os_input.rs",
+    "crates/starknet_os/src/io/os_output.rs",
+    "crates/starknet_os/src/hint_processor/execution_helper.rs",
+    "crates/starknet_os/src/hint_processor/snos_hint_processor.rs",
+    "crates/starknet_os/src/hint_processor/snos_syscall_executor.rs",
+    "crates/starknet_os/src/hint_processor/snos_deprecated_syscall_executor.rs",
+    "crates/starknet_os/src/hint_processor/state_update_pointers.rs",
+    "crates/starknet_os/src/hints/hint_implementation/execution/implementation.rs",
+    "crates/starknet_os/src/hints/hint_implementation/execute_transactions/implementation.rs",
+    "crates/starknet_os/src/hints/hint_implementation/execute_syscalls.rs",
+    "crates/starknet_os/src/hints/hint_implementation/patricia/implementation.rs",
+    "crates/starknet_os/src/hints/hint_implementation/patricia/utils.rs",
+    "crates/starknet_os/src/hints/hint_implementation/stateless_compression/utils.rs",
+    "crates/starknet_os/src/hints/hint_implementation/stateful_compression/implementation.rs",
+    "crates/starknet_os/src/hints/hint_implementation/compiled_class/implementation.rs",
+    "crates/starknet_os/src/hints/hint_implementation/deprecated_compiled_class/class_hash.rs",
+    "crates/starknet_os/src/hints/class_hash/hinted_class_hash.rs",
+    "crates/starknet_os/src/hints/hint_implementation/cairo1_revert/implementation.rs",
+    "crates/starknet_os/src/hints/hint_implementation/kzg/utils.rs",
+    "crates/starknet_os/src/hints/hint_implementation/output.rs",
 ]
 
 
 target_scopes = [
-    "Critical. An unprivileged account holder moves NEAR or contract-owned assets they were never authorized to move, because signature and nonce checks in verifier.rs, access-key permission and allowance enforcement in access_keys.rs, SignedDelegateAction sender/receiver binding and the signable-message discriminant in delegate.rs and signable_message.rs, or Ethereum transaction emulation in the NEAR wallet contract lets a transaction or meta-transaction execute under another account's authority.",
-    "Critical. Total NEAR supply or an account balance changes without a matching debit, because deposit, refund, gas-refund, storage-staking, or account-deletion accounting in runtime/src/lib.rs, actions.rs, and receipt_manager.rs lets a user-submitted transaction or receipt mint tokens from nothing, double-refund a failed action, or burn balance that should have been returned.",
-    "Critical. A contract executes work far beyond what it paid for, because gas metering in gas_counter.rs, the instrumentation inserted by instrument_v3.rs/prepare_v3.rs, per-op and host-function costs in core/parameters, or the attached-gas and prepaid-fee split in config.rs lets an attacker-deployed WASM module or a crafted function call run with a gas charge that does not match its real cost, bypassing fee payment and letting one account starve a shard.",
-    "Critical. Two honest nodes applying the same chunk reach different state roots or outcomes, because nondeterminism in WASM execution and trap classification in the wasmtime runner, divergence between memtrie, flat storage, and disk trie reads, protocol-version or feature gating in version.rs and features.rs, or ordering in the apply loop depends on node-local state, producing an unintended permanent chain split from a single submitted transaction.",
-    "Critical. An invalid state transition is accepted as valid, because trie insert/delete and squash logic, refcount handling in db/refcount.rs, memtrie node encoding and flexible-data layout, or the recorded-witness path in trie_recording.rs lets an attacker-controlled key/value pattern produce a state root that does not reflect the applied changes, or lets a witness prove a value that was never written.",
-    "Critical. One transaction or receipt any user can submit permanently stops honest nodes from applying chunks, because a panic, arithmetic overflow, unwrap, or failed assertion in the runtime apply loop, action validation, trie update, or receipt deserialization leaves a poison receipt in a queue that every node re-executes forever, halting the network with no recovery short of a hard fork.",
-    "Critical. A cross-shard receipt is lost, duplicated, or delivered with the wrong value, because outgoing-buffer accounting in congestion_control.rs, allowance grants in the bandwidth scheduler, receipt queue indices in receipts_column_helper.rs and outgoing_metadata.rs, or queue handling across a resharding boundary drops or replays an attacker-triggered receipt, destroying or duplicating funds in transit.",
-    "High. A cheap attacker transaction makes honest chunk producers unable to produce a valid chunk or honest nodes unable to serve queries, because state-witness size and recorded-storage accounting in state_witness_producer.rs, chunk_validation.rs, and recorded_storage_counter.rs, transaction admission in prepare_transactions.rs and chain/pool, or view-call handling in the JSON-RPC and view-client paths lets a single account inflate work beyond enforced limits, stalling the shard or crashing RPC nodes.",
-    "High. User funds or an account become permanently unusable, because storage_usage accounting, storage-staking checks, account and access-key deletion in actions.rs and action_validation.rs, or global-contract, deterministic-account and universal-account state initialization leaves an account below its storage bond, unable to be funded, or controlled by a code hash that can never be satisfied, permanently freezing the balance.",
-    "High. A staker gains rewards or influence they did not earn, because stake and unstake action handling, locked-balance and withdrawal accounting, validator proposal processing in validator_selection.rs, mandate pricing in compute_price.rs, or uptime and reward computation in reward_calculator.rs and validator_stats.rs lets an ordinary account manipulate its effective stake, recover locked tokens early, or claim rewards attributable to others.",
-    "Critical/High blind spot. An unprivileged transaction signer, contract deployer, meta-transaction sender, staker, or RPC caller abuses an assumption the protocol never wrote down: a value validated at transaction admission and trusted as already-validated at apply time, an account or contract re-derived after the check that authorized it, a limit enforced on one path but not on its cached, batched, promise-chained, or refund twin, state carried across chunk, shard, epoch, resharding, or protocol-upgrade boundaries that was only proven safe within one of them, or an error path that commits partial state - yielding unauthorized balance movement, a state root that diverges between honest nodes, or a receipt no node can ever finish applying.",
+    "Critical. A user loses funds or pays the wrong amount because fee accounting is wrong: check_fee_bounds, handle_fee, execute_fee_transfer and assert_actual_fee_in_bounds in blockifier/src/transaction/account_transaction.rs, PostExecutionReport and check_actual_cost_within_bounds in fee/fee_checks.rs, get_fee_by_gas_vector and balance reads in fee/fee_utils.rs, TransactionReceipt::from_account_tx in fee/receipt.rs, or gas_usage.rs data-availability costs let an attacker's transaction charge a victim account more than its declared resource bounds, charge nothing for consumed resources, or transfer the fee to an address other than the sequencer.",
+    "Critical. An attacker executes calls or spends state belonging to an account whose keys they do not hold, because the validate/execute boundary is not enforced: validate_entry_point_selector, validate_entrypoint_calldata, run_validate_entry_point, handle_nonce and run_revertible in account_transaction.rs, sender-address and nonce checks in blockifier/src/blockifier/stateful_validator.rs, calculate_contract_address in execution/contract_address.rs, or the meta_tx, library_call, replace_class, deploy and call_contract paths in execution/syscalls/syscall_base.rs and hint_processor.rs run attacker calldata under another account's context or bind a signature to a payload the owner never authorized.",
+    "Critical. A declared class executes code that does not match the hash the network committed to, because the declare pipeline breaks the Sierra-to-CASM binding: compile in apollo_compile_to_casm/src/compiler.rs, the compiled_class_hash check in apollo_class_manager/src/class_manager.rs and class_storage.rs, CompiledClassHash computation in starknet_api/src/contract_class/compiled_class_hash.rs, RunnableCompiledClass construction in blockifier/src/execution/contract_class.rs, or the native/VM selection in state/native_class_manager.rs lets an attacker get one class hash to resolve to two different executables.",
+    "Critical. Funds are permanently frozen or an L1 deposit is consumed twice, because L1 handler bookkeeping is wrong: parse_event in papyrus_base_layer/src/eth_events.rs, add_events, validate and commit_block in apollo_l1_provider/src/l1_provider.rs, add_tx, validate_tx, consume_tx, commit_txs, request_cancellation and finalize_cancellation in transaction_manager.rs, the staged/consumed state machine in transaction_record.rs, or L1HandlerTransaction fee and nonce handling in blockifier/src/transaction/l1_handler_transaction.rs lets an attacker replay a consumed message, cancel one already included, or make a paid message unconsumable forever.",
+    "Critical. The committed state root does not reflect the executed state diff, so balances are silently wrong or the chain can no longer be proved and funds are frozen: commit_block in starknet_committer/src/block_committer/commit.rs, ForestSortedIndices and skeleton construction in forest/original_skeleton_forest.rs and updated_skeleton_forest.rs, leaf encoding in patricia_merkle_tree/leaf/leaf_impl.rs and leaf_serde.rs, edge/binary node hashing in starknet_patricia/src/patricia_merkle_tree/updated_skeleton_tree/hash_function.rs and node_data/inner_node.rs, create_tree_helper.rs path splitting, or alias allocation in blockifier/src/state/stateful_compression.rs produces a root that omits, duplicates or misplaces an attacker-chosen storage key.",
+    "High. Honest nodes compute different block hashes or commitments for the same accepted block, splitting the chain: calculate_block_hash in starknet_api/src/block_hash/block_hash_calculator.rs, receipt_commitment.rs, event_commitment.rs, transaction_commitment.rs and state_diff_hash.rs, the diff assembled in apollo_batcher/src/commitment_manager/state_committer.rs, or the central objects in apollo_consensus_orchestrator/src/cende/central_objects.rs serialize attacker-controlled events, l2 gas, revert reasons or state-diff ordering in a way that is not canonical.",
+    "High. The same attacker transaction produces different execution results on different honest nodes, causing a chain split: versioned reads and writes in blockifier/src/concurrency/versioned_state.rs and versioned_storage.rs, re-validation and commit ordering in concurrency/scheduler.rs and worker_logic.rs commit_tx/validate, cache reuse in state/cached_state.rs and state/global_cache.rs, gas or error differences between execution/native/entry_point_execution.rs and execution/entry_point_execution.rs, or non-deterministic iteration of state-diff and event collections makes a parallel run disagree with a sequential one.",
+    "High. The Starknet OS re-execution disagrees with what the sequencer committed, so no valid proof can be produced and the network stops advancing: execution_helper.rs per-transaction state, snos_syscall_executor.rs and snos_deprecated_syscall_executor.rs syscall replay, state_update_pointers.rs, patricia/utils.rs and patricia/implementation.rs tree reconstruction, stateless_compression/utils.rs and stateful_compression/implementation.rs encoding, cairo1_revert/implementation.rs revert reconstruction, or os_input.rs/os_output.rs field ordering mishandle an attacker-chosen syscall sequence, revert or storage pattern.",
+    "High. A single crafted transaction or L1 message permanently stops the network from confirming new transactions, because it panics, deadlocks or wedges a stage it is replayed into after restart: add_tx in apollo_http_server/src/http_server.rs and apollo_gateway/src/gateway.rs, validate in stateless_transaction_validator.rs, add_tx/get_txs/commit_block and try_make_space in apollo_mempool/src/mempool.rs, Bouncer::try_update and within_max_capacity_or_err in blockifier/src/bouncer.rs, build_block in apollo_batcher/src/block_builder.rs, or proposal handling in apollo_consensus_orchestrator/src/build_proposal.rs and validate_proposal.rs, where the same transaction is re-selected every height and every block build fails.",
+    "Critical/High blind spot. An ordinary transaction sender, contract deployer, class declarer or L1 message sender abuses an assumption the sequencer never wrote down: a value validated in apollo_gateway against one block state and trusted as still valid when the batcher executes it at a later height, a class, nonce, alias or compiled-class hash re-read after the check that authorized it, a limit enforced for the VM path but not the cairo_native path or for an account transaction but not its l1_handler or meta_tx twin, state carried across transaction, block, chunk, revert, restart or version-boundary lines that was only proven safe inside one of them, or an error path that keeps partial state, charged fees or a written alias - yielding loss or permanent freezing of user funds, honest nodes splitting the chain, or the network permanently unable to confirm new transactions.",
 ]
 
 
@@ -305,51 +293,50 @@ scope_scan = [
 
 def question_generator(target_file: str) -> str:
     """
-    Generate exploit-focused audit and fuzzing questions for one nearcore target.
+    Generate exploit-focused audit and fuzzing questions for one sequencer target.
 
     ```
     target_file format:
-    "'File Name: runtime/runtime/src/verifier.rs -> Scope: Critical. ...'"
+    "'File Name: crates/blockifier/src/fee/fee_checks.rs -> Scope: Critical. ...'"
     """
 
     prompt = f"""
     ```
 
-    Generate exploit-focused security audit questions for this exact nearcore target:
+    Generate exploit-focused security audit questions for this exact Apollo Starknet sequencer target:
 
     {target_file}
 
     Project focus:
-    nearcore is the reference NEAR Protocol client. Focus only on what an ordinary account holder reaches by signing and submitting a transaction, deploying and calling their own WASM contract, sending a meta-transaction, staking, or calling public RPC: transaction and action validation, access keys and nonces, the runtime apply loop and balance accounting, gas metering and WASM preparation, global/deterministic/universal accounts, cross-shard receipts with congestion control and the bandwidth scheduler, trie and flat-storage state, state-witness size limits, transaction admission and chunk transaction selection, staking and rewards, JSON-RPC and view calls, and the NEAR wallet contract's Ethereum emulation.
+    Apollo is the Starknet sequencer. Focus only on what an ordinary user reaches: submitting invoke, declare and deploy_account transactions to the public HTTP gateway, the contract code and calldata they deploy and call, the Sierra classes they declare, the syscalls their contracts issue, and the L1 handler messages they trigger by calling the Starknet core contract on L1. Downstream of that: mempool admission and ordering, blockifier execution and fee charging, bouncer weights, block building, state commitment in the committer and Patricia trees, block hash and commitments, and Starknet OS re-execution of those blocks.
 
     Rules:
     * Treat `File Name:` as the exact file/module.
     * Treat `Scope:` as the ONLY impact to target.
     * Assume full repo context is accessible.
     * Do not ask for code or say anything is missing.
-    * Use exact Rust symbols (function, method, struct, enum variant, field, host function, protocol feature) when possible.
-    * Attacker is unprivileged only: any account holder who funds an account, signs and submits transactions through public RPC, deploys their own WASM contract, calls any contract, sends a SignedDelegateAction through a relayer, deploys or uses a global/deterministic/universal account, stakes their own tokens, or queries RPC. They sign only for their own keys.
-    * Attacker is NOT a validator, block or chunk producer, chunk validator, node operator, relayer key holder, archival/DB owner, or holder of another user's key. Never assume a malicious peer, malicious node, malicious validator, network/gossip/sync/state-sync attacker, leaked key, compromised host, non-default config, or social engineering.
-    * Out of scope, never ask about: peer-to-peer message handling, network flooding, peer discovery, block/header/state/epoch sync, block and chunk gossip, SPICE validator-only paths, sandbox or adversarial test features, node configuration, metrics, CLI, dependencies.
-    * Ignore test files, mocks, fuzz harnesses, benchmarks, docs, generated code, and TOML/config-only findings.
-    * Every question must describe a real transaction, receipt, contract call, or RPC request an attacker actually submits. No generic unbounded-allocation, memory-growth, cache-size, or resource-exhaustion speculation; no "what if the input is huge" questions without a concrete submitted payload and a concrete broken invariant.
+    * Use exact Rust symbols (function, method, struct, enum variant, trait impl, const) when possible.
+    * Attacker is unprivileged only: anyone who funds an account and submits signed transactions of any version, deploys and calls their own contracts, declares their own Sierra classes, or sends an L1 to L2 message by calling the core contract on L1. They sign only for their own accounts.
+    * Attacker is NOT a sequencer operator, proposer, validator, staker, prover, node operator, host or DB owner, and does not hold another user's key. Never assume a malicious peer, malicious node, malicious proposer or validator, p2p/gossip/sync/catchup attacker, network-level DoS, leaked key, compromised host, non-default config, or social engineering.
+    * Out of scope, never ask about: p2p networking and peer handling, consensus voting and proposer selection, state sync between nodes, monitoring and dashboard endpoints, CLI, logging, deployment and infra, dependencies.
+    * Ignore test files, mocks, benchmarks, docs, generated files, and config-only findings.
+    * Every question must describe a real transaction, contract call, declared class or L1 message an attacker actually submits through a valid entrypoint. No generic unbounded-allocation, memory-growth, cache-size, or resource-exhaustion speculation; no "what if the input is huge" without a concrete submitted payload and a concrete broken invariant.
     * Generate 40 to 80 high-signal questions.
-    * At least 70% must target unauthorized balance or asset movement, token minting or supply inflation, fee and gas payment bypass, state-root divergence between honest nodes, acceptance of an invalid state transition, cross-shard receipt loss or duplication, permanently frozen funds, or a submitted payload that halts chunk application.
-    * Every question must be testable by a Rust unit test, a runtime or near-vm-runner test, a test-loop test under test-loop-tests, or a script against the local network in tools/bounty-localnet.
+    * At least 70% must target loss or permanent freezing of user funds, acting on an account without its keys, a wrong committed state root or block hash, honest nodes splitting the chain, or the network permanently unable to confirm new transactions.
+    * Every question must be testable by a `cargo test -p <crate>` unit test, a blockifier transaction-execution test, a committer or OS flow test, or a local integration-test node run.
     * Avoid generic checklist questions and repeated root causes.
 
     Core invariants:
-    * Authorization is exact: an action executes only under a signature over the exact transaction or delegate-action hash, within the access key's permission, allowance, and nonce ordering.
-    * Value is conserved: total supply, account balances, locked stake, storage bonds, prepaid gas and refunds balance exactly across every transaction, receipt, and shard.
-    * Determinism holds: every honest node applying the same chunk against the same state produces the same state root, gas burnt, and outcomes, regardless of caching, memtrie vs disk reads, or node-local state.
-    * Delivery is exact-once: every outgoing receipt is delivered to its target shard exactly once with its full value, across congestion, bandwidth limits, and resharding.
-    * Metering is honest: gas charged matches work performed, and every limit enforced at admission is also enforced at apply time.
-    * Execution is total: no attacker-submitted transaction, receipt, or contract can leave nodes unable to apply chunks or serve valid requests.
+    * Authorization is exact: a call runs against an account's state only when that account's __validate__ accepted the exact transaction hash that is executed and committed.
+    * Value is conserved: fees charged equal resources consumed within the sender's declared resource bounds, are paid to the sequencer once, and no path mints, burns or strands balance.
+    * Determinism holds: every honest node executing the same block reaches the same results, fees, events, state diff, state root and block hash, whether run sequentially, concurrently, on the VM or on cairo_native.
+    * Provability holds: the Starknet OS re-execution of a committed block reproduces exactly the sequencer's outputs, so every committed block can be proved.
+    * Liveness of valid users: no submitted transaction, declared class or L1 message can permanently stop the sequencer from building and committing new blocks.
 
     Each question must include:
     1. target function/method;
-    2. attacker action (a concrete transaction, action, receipt, contract, or RPC request);
-    3. preconditions (accounts, keys, balances, and contracts the attacker controls);
+    2. attacker action (a concrete transaction, contract call, declared class or L1 message: type, version, fields, calldata);
+    3. preconditions (accounts, balance, deployed contracts and classes the attacker owns);
     4. execution sequence;
     5. invariant tested;
     6. scoped impact;
@@ -358,7 +345,7 @@ def question_generator(target_file: str) -> str:
     Output only valid Python. No markdown. No explanations.
 
     questions = [
-    "[File: {target_file}] [Function: symbol_or_method] Can an unprivileged ATTACKER_ACTION under PRECONDITIONS trigger EXECUTION_SEQUENCE, violating INVARIANT, causing scoped impact: SCOPE_IMPACT? Proof idea: Rust unit/runtime/test-loop/localnet test PARAMETERS and assert AUTHORIZATION_EXACTNESS, VALUE_CONSERVATION, DETERMINISM, EXACT_ONCE_DELIVERY, HONEST_METERING, or TOTAL_EXECUTION.",
+    "[File: {target_file}] [Function: symbol_or_method] Can an unprivileged ATTACKER_ACTION under PRECONDITIONS trigger EXECUTION_SEQUENCE, violating INVARIANT, causing scoped impact: SCOPE_IMPACT? Proof idea: cargo test unit/execution/committer/OS-flow/integration test PARAMETERS and assert AUTHORIZATION_EXACTNESS, VALUE_CONSERVATION, DETERMINISM, PROVABILITY, or USER_LIVENESS.",
     ]
     """
     return prompt
@@ -366,7 +353,7 @@ def question_generator(target_file: str) -> str:
 
 def audit_format(security_question: str) -> str:
     """
-    Generate a focused nearcore exploit-validation prompt.
+    Generate a focused sequencer exploit-validation prompt.
     """
 
     prompt = f"""# SECURITY AUDIT PROMPT
@@ -376,18 +363,18 @@ def audit_format(security_question: str) -> str:
 
 ## Rules
 - Use existing repo context only. Analyze only this question and scoped impact.
-- Attacker is unprivileged only: any account holder who signs and submits transactions through public RPC, deploys and calls their own WASM contract, sends a meta-transaction, stakes their own tokens, or queries RPC. No validator, chunk producer, chunk validator, node operator, archival/DB, relayer-key, or foreign-key access.
-- Reject malicious-peer, malicious-node, malicious-validator, p2p/gossip/sync/state-sync/network-layer, leaked-key, host-level, and misconfiguration-only paths.
-- Reject SPICE validator-only paths, sandbox/adversarial test features, metrics, CLI, dependency-only, and test/mock/fuzz/bench/docs/generated/config-only findings.
-- Reject generic unbounded-allocation or resource-growth claims with no concrete submitted transaction and no broken invariant.
-- This program pays High and Critical only. Focus on real chain impact: unauthorized balance or asset movement, token minting or supply inflation, fee and gas payment bypass, state-root divergence between honest nodes, acceptance of an invalid state transition, cross-shard receipt loss or duplication, permanently frozen funds, or a submitted payload that halts chunk application or crashes RPC nodes.
+- Attacker is unprivileged only: anyone who funds an account and submits signed transactions to the public gateway, deploys and calls their own contracts, declares their own Sierra classes, or sends an L1 to L2 message via the core contract. No operator, proposer, validator, staker, prover, node, host, DB, or foreign-key access.
+- Reject malicious-operator, malicious-proposer, malicious-peer, malicious-node, p2p/gossip/sync/catchup, network-DoS, leaked-key, host-level, and misconfiguration-only paths.
+- Reject 51%-style, sybil and centralization claims, and monitoring, dashboard, CLI, logging, deployment, dependency-only, and test/mock/bench/generated/config-only findings.
+- Reject generic unbounded-allocation or resource-growth claims with no concrete submitted payload and no broken invariant.
+- This program pays High and Critical only. Focus on real chain impact: direct loss or permanent freezing of user funds, acting on an account without its keys, a committed state root or block hash that does not match executed state, honest nodes splitting the chain, or the network permanently unable to confirm new transactions.
 
 ## Validate
-- Trace the exact reachable path from the attacker's transaction, receipt, contract call, or RPC request into the affected function.
-- Check whether signature and nonce checks, access-key permissions, action validation, gas and storage limits, congestion and bandwidth limits, or existing error handling already stop it.
-- Confirm the path is reachable on the current mainnet protocol version and active feature gates.
-- Accept only concrete unauthorized value movement, supply inflation, fee bypass, state divergence, invalid state transition acceptance, receipt loss or duplication, permanent fund freezing, or a node-level halt.
-- Require exact file/function support and a reproducible Rust unit, runtime, near-vm-runner, test-loop, or bounty-localnet PoC.
+- Trace the exact reachable path from the attacker's transaction, contract call, declared class or L1 message into the affected function.
+- Check whether gateway stateless and stateful validation, signature and nonce checks, resource-bound and fee checks, compiled-class-hash verification, bouncer limits, or existing error handling already stop it.
+- Confirm the path is reachable under current mainnet versioned constants and the active Starknet version.
+- Accept only concrete fund loss or freezing, unauthorized account action, wrong committed root or block hash, node divergence, or a lasting inability to produce blocks.
+- Require exact file/function support and a reproducible cargo test, blockifier execution test, committer/OS flow test, or integration-test PoC.
 
 ## Output
 If valid, output exactly:
@@ -399,19 +386,19 @@ If valid, output exactly:
 [2-3 sentences]
 
 ### Finding Description
-[Code path, root cause, attacker transaction inputs, exploit flow, and why checks fail]
+[Code path, root cause, attacker payload, exploit flow, and why checks fail]
 
 ### Impact Explanation
-[Concrete scoped impact and severity: Critical (loss or theft of funds, supply inflation, fee bypass, consensus divergence, invalid state transition, chain halt) or High (authorization bypass, state corruption, permanently frozen funds, long-lived inability to apply chunks or serve RPC)]
+[Concrete scoped impact and severity: Critical (direct loss of user funds, permanent freezing of funds, executing transactions from another user's account without their keys, protocol insolvency) or High (unintended chain split between honest nodes, network unable to confirm new transactions, unprovable committed block, corruption of committed state)]
 
 ### Likelihood Explanation
-[Preconditions, accounts and balances needed, feasibility, repeatability]
+[Preconditions, accounts and balance needed, feasibility, repeatability]
 
 ### Recommendation
 [Specific fix]
 
 ### Proof of Concept
-[Rust unit/runtime/test-loop/localnet test plan with expected assertions]
+[cargo test / execution / committer / OS flow / integration test plan with expected assertions]
 
 If invalid, output exactly:
 #NoVulnerability found for this question.
@@ -423,7 +410,7 @@ No extra text.
 
 def scan_format(report: str) -> str:
     """
-    Generate a short cross-project analog scan prompt for nearcore.
+    Generate a short cross-project analog scan prompt for the sequencer.
     """
     prompt = f"""# ANALOG SCAN PROMPT
 
@@ -433,14 +420,14 @@ def scan_format(report: str) -> str:
 ## Rules
 - Use in-scope production repo context only. Do not ask for code or claim missing files.
 - Use the external report only as a bug-class hint, not as proof.
-- Keep only analogs an unprivileged transaction signer, contract deployer, meta-transaction sender, staker, or RPC caller can reach: transaction and action validation, access keys and nonces, the runtime apply loop and balance accounting, gas metering and WASM preparation, global/deterministic/universal accounts, cross-shard receipts with congestion control and bandwidth scheduling, trie and flat-storage state, state-witness limits, transaction admission and chunk transaction selection, staking and rewards, JSON-RPC and view calls, or the NEAR wallet contract.
-- Reject malicious-peer, malicious-node, malicious-validator, network-layer, sync, leaked-key, operator-only, SPICE validator-only, sandbox/adversarial, CLI, mocked-only paths, dependency-only bugs, and no-impact analogs.
+- Keep only analogs an unprivileged transaction sender, contract deployer, class declarer or L1 message sender can reach: gateway validation, transaction hashing and fields, Sierra to CASM compilation and class hashing, mempool admission and ordering, blockifier execution, syscalls, fee and resource accounting, bouncer weights, state reads and aliasing, block building, state commitment and Patricia trees, block hash and commitments, or Starknet OS re-execution.
+- Reject malicious-operator, malicious-proposer, malicious-peer, malicious-node, p2p/sync/catchup, network-DoS, leaked-key, staker-only, prover-only, monitoring, CLI, deployment, mocked-only paths, dependency-only bugs, and no-impact analogs.
 - Medium , High and Critical only; no low, or resource-only analogs.
 
 ## Validate
-- Map the bug class to the strongest reachable nearcore path from a single submitted transaction, contract call, or RPC request.
+- Map the bug class to the strongest reachable sequencer path from a single submitted transaction, contract call, declared class or L1 message.
 - Prove root cause with exact file/function support.
-- Accept only concrete unauthorized value movement, supply inflation, fee or gas bypass, state-root divergence between honest nodes, invalid state transition acceptance, receipt loss or duplication, permanently frozen funds, or a transaction-triggered halt.
+- Accept only concrete loss or permanent freezing of funds, unauthorized account action, wrong committed root or block hash, honest-node divergence, or a network unable to confirm new transactions.
 
 ## Output (Strict)
 If valid analog exists, output:
@@ -465,7 +452,7 @@ No extra text.
 
 def validation_format(report: str) -> str:
     """
-    Generate a strict bounty-style validation prompt for nearcore security claims.
+    Generate a strict bounty-style validation prompt for sequencer security claims.
     """
     prompt = f"""# VALIDATION PROMPT
 
@@ -478,30 +465,31 @@ def validation_format(report: str) -> str:
 - Do not create a new vulnerability if the submitted claim is weak or invalid.
 - Do not upgrade severity unless the provided evidence proves the higher impact.
 - This program pays High and Critical only; reject low, medium, informational, best-practice, and resource-only reports.
-- Reject malicious-peer, malicious-node, malicious-validator, p2p/gossip/network-layer, block/header/state/epoch sync, SPICE validator-only, sandbox/adversarial test-feature, metrics, CLI, dependency-only, docs/style, generated-file, and test/mock/fuzz/bench/config-only issues.
-- Reject if the exploit needs validator, chunk-producer, chunk-validator, node-operator, host, database, or relayer-key access, another user's key, victim social engineering, a non-default configuration, or anything outside what an unprivileged account holder can put in a transaction, a deployed contract, or an RPC request.
+- Reject malicious-operator, malicious-proposer, malicious-validator, malicious-peer, malicious-node, p2p/gossip/sync/catchup, network-level DoS, monitoring and dashboard endpoints, CLI, logging, deployment and infra, dependency-only, docs/style, generated-file, and test/mock/bench/config-only issues.
+- Reject if the exploit needs sequencer operator, proposer, validator, staker, prover, node, host, database, or privileged access, another user's key, victim social engineering, a non-default config, or anything outside what an unprivileged user can put in a submitted transaction, a contract they deploy, a class they declare, or an L1 to L2 message they send.
+- Reject 51%-style majority attacks, sybil and centralization claims, and third-party oracle data being wrong without a manipulation path.
 - Reject if the bug was fixed, acknowledged, or publicly disclosed already, per the eligibility rules.
-- A valid report must be triggerable by an unprivileged transaction signer, contract deployer, meta-transaction sender, staker, or RPC caller, unless the claim proves escalation from that starting point.
-- The final impact must map to an in-scope category: Critical - unauthorized transfer or theft of NEAR or contract assets, token minting or supply inflation, fee or gas payment bypass, state-root divergence between honest nodes, acceptance of an invalid state transition, cross-shard receipt loss or duplication, or a chain halt; High - access-key or authorization bypass, corruption of account, trie, receipt, or stake state, permanently frozen funds, reward manipulation, or long-lived inability of honest nodes to apply chunks or serve RPC.
+- A valid report must be triggerable by an unprivileged transaction sender, contract deployer, class declarer or L1 message sender, unless the claim proves escalation from that starting point.
+- The final impact must map to an in-scope category: Critical - direct theft or loss of user funds, permanent freezing of funds, executing transactions from another user's account without their private keys, or protocol insolvency; High - unintended chain split between honest nodes, the network unable to confirm new transactions, a committed block that cannot be proved, or corruption of committed state, balances or class code.
 - Prefer #NoVulnerability over speculative reports.
 
 ## Required Validation Checks
 All must pass:
 1. Exact in-scope file, function, and line/code references.
-2. Clear root cause and broken authorization, value-conservation, determinism, exact-once-delivery, metering, or total-execution invariant.
-3. Reachable exploit path: preconditions (attacker-controlled accounts, keys, balances, contracts) -> submitted transaction, receipt, contract call, or RPC request -> trigger -> bad result.
-4. Existing signature and nonce checks, access-key permissions, action validation, gas and storage limits, congestion and bandwidth limits, and error handling reviewed and shown insufficient.
+2. Clear root cause and broken authorization, value-conservation, determinism, provability, or user-liveness invariant.
+3. Reachable exploit path: preconditions (attacker-owned accounts, balance, deployed contracts, declared classes) -> submitted transaction, contract call, declared class or L1 message -> trigger -> bad result.
+4. Existing gateway stateless and stateful validation, signature and nonce checks, resource-bound and fee checks, compiled-class-hash verification, bouncer limits, and error handling reviewed and shown insufficient.
 5. Concrete in-scope High/Critical impact with realistic likelihood.
-6. Reproducible proof path: Rust unit PoC, runtime or near-vm-runner test, test-loop test, or exact steps against the local network in tools/bounty-localnet.
+6. Reproducible proof path: cargo test unit PoC, blockifier execution test, committer or OS flow test, or exact steps on a local integration-test node.
 7. No obvious rejection reason from SECURITY.md, known issues, privilege assumptions, or scope exclusions.
 
 ## Silent Triage Questions
 Before output, internally answer:
-- Can an ordinary account holder trigger this with a transaction, contract, or RPC call, without validator, operator, host, or foreign-key access?
-- Does the code actually behave as claimed under the current mainnet protocol version and active feature gates?
-- Is the impact caused by this code, not by a malicious peer, validator, or dependency?
-- Is the theft, inflation, divergence, freeze, or halt concrete rather than hypothetical?
-- Would a NEAR triager accept the proof-of-concept?
+- Can an ordinary user trigger this by submitting a transaction, deploying or calling a contract, declaring a class, or sending an L1 message, without operator, proposer, validator, prover, host, or foreign-key access?
+- Does the code actually behave as claimed under current mainnet versioned constants and the active Starknet version?
+- Is the impact caused by this code, not by a malicious operator, peer, or dependency?
+- Is the fund loss, unauthorized action, divergence, or halt concrete rather than hypothetical?
+- Would a Starknet triager on Immunefi accept the proof-of-concept?
 - What exact test would prove it?
 
 ## Output
@@ -519,16 +507,16 @@ Audit Report
 [Exact code path, root cause, exploit flow, and why existing checks fail]
 
 ## Impact Explanation
-[Concrete in-scope impact, severity rationale, and NEAR bounty category]
+[Concrete in-scope impact, severity rationale, and Starknet bounty category]
 
 ## Likelihood Explanation
-[Attacker capability, accounts and balances required, feasibility, repeatability]
+[Attacker capability, accounts and balance required, feasibility, repeatability]
 
 ## Recommendation
 [Specific fix guidance]
 
 ## Proof of Concept
-[Minimal reproducible steps or Rust unit/runtime/test-loop/localnet test plan]
+[Minimal reproducible steps or cargo test / execution / committer / OS flow / integration test plan]
 
 If invalid, output exactly:
 #NoVulnerability found for this question.

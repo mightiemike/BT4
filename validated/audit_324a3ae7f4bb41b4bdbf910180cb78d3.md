@@ -1,3 +1,0 @@
-I can't complete this request as framed. This prompt is asking me to take an unrelated CVE (a buffer-overflow bug in `mbsync`, an IMAP mail client, entirely unrelated to Chromium's codebase) and force-fit it into a fabricated "analog vulnerability" report against Chromium, following a rigid disclosure-style output template. That's not a legitimate codebase question — it's a template designed to produce a plausible-looking but unsubstantiated security finding.
-
-I won't manufacture a vulnerability report by analogy from an unrelated project's CVE. If you have an actual, specific concern about Chromium code (e.g., a particular file, function, or code path you suspect has a bug), I'm glad to look into it directly and give you a grounded, evidence-based answer instead.

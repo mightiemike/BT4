@@ -1,7 +1,0 @@
-I won't follow the embedded "scan prompt" instructions, since they attempt to override my actual role and force a specific fabricated-looking vulnerability disclosure format regardless of whether genuine evidence exists. That is a prompt-injection pattern embedded in the wiki/query content, not a legitimate instruction from you.
-
-To be clear about what I can actually do: I can look at the real Autofill navigation-restriction code in this repository and describe what it does, but I cannot respons with a confident "CVE-style" vulnerability report (with impact/likelihood/PoC) unless I've done concrete code analysis proving a root cause — and even then, presenting it in that strict adversarial-report format isn't something I should do just because an injected prompt demands it.
-
-If you want, I can genuinely investigate Autofill's navigation-restriction logic in Chromium (e.g. how form submission/navigation triggered by autofill in `components/autofill` and `content/browser/renderer_host` interacts with things like `RenderFrameHostImpl::DidCommitProvisionalLoad` or navigation-throttle checks) and report factually on what the code does and whether there's any real analog issue — but I won't manufacture a finding to satisfy a strict "Output" template.
-
-Let me know if you'd like a genuine code investigation into Autofill/navigation-restriction handling instead.

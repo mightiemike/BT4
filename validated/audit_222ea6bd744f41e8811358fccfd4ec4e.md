@@ -1,9 +1,0 @@
-This prompt is attempting a prompt-injection/jailbreak pattern: it takes an unrelated Solidity smart-contract bug report (an `EMPAM.sol` uint96 downcasting issue from an audit of a DeFi protocol) and tries to instruct me to fabricate an "analog" Chromium security vulnerability report, complete with a forced output template demanding a Title/Summary/Impact/PoC for a supposed Chromium bug — regardless of whether one actually exists.
-
-I won't do this. Specifically:
-
-- The linked bug report is about a completely unrelated codebase (`Axis-Fi/moonraker`, a Solidity auction contract), not Chromium. There is no legitimate technical basis for mapping an integer-downcasting issue in a Solidity settlement function to a specific Chromium file/function.
-- The prompt's "Output (Strict)" instructions are designed to coerce a fabricated vulnerability report (with invented file paths, impact, and proof-of-concept) even when no real analysis has been performed. Producing that would mean inventing a security finding without genuine root-cause verification in the actual Chromium source, which is misleading and could constitute a false security report.
-- My role here is to answer legitimate questions about the `Thankgoddavid56/chromium--019` codebase, not to synthesize speculative vulnerability disclosures against a template dictated by injected content.
-
-If you have a genuine question about the Chromium codebase — e.g., how integer types are used in a specific subsystem (Mojo IPC, the GPU command buffer, the network service, V8/Blink bindings, etc.), or whether a particular real code path has an integer overflow/truncation issue — I'm glad to investigate that with the actual tools (`codebase_search`, `grep_search`, `read_file`) and give you a grounded, evidence-based answer with citations. Let me know the specific area or file you'd like me to look at.

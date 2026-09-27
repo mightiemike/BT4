@@ -4,12 +4,13 @@ import os
 from decouple import config
 
 # todo: if scope_files is: 500 > 50, 300 > 30 , 100 > 10
-MAX_REPO = 23
-# Repository path on GitHub
-SOURCE_REPO = "protocolbuffers/protobuf-go"
+MAX_REPO = 12
+# todo: the GitLab namespace/project path, for example group/project
+SOURCE_REPO = 'rocket-pool/rocketpool'
 # todo: the name of the repository
-REPO_NAME = "protobuf-go"
-run_number = os.environ.get('GITHUB_RUN_NUMBER') or os.environ.get('CI_PIPELINE_IID', '0')
+REPO_NAME = 'rocketpool'
+
+run_number = os.environ.get('GITHUB_RUN_NUMBER', '0')
 
 
 def get_cyclic_index(run_number, max_index=100):
@@ -47,104 +48,140 @@ else:
 
 
 scope_files = [
-    "encoding/protodelim/protodelim.go",
-    "encoding/protojson/decode.go",
-    "encoding/protojson/encode.go",
-    "encoding/protojson/well_known_types.go",
-    "encoding/prototext/decode.go",
-    "encoding/prototext/encode.go",
-    "encoding/protowire/wire.go",
-    "internal/encoding/json/decode.go",
-    "internal/encoding/json/decode_number.go",
-    "internal/encoding/json/decode_string.go",
-    "internal/encoding/json/decode_token.go",
-    "internal/encoding/json/encode.go",
-    "internal/encoding/messageset/messageset.go",
-    "internal/encoding/text/decode.go",
-    "internal/encoding/text/decode_number.go",
-    "internal/encoding/text/decode_string.go",
-    "internal/encoding/text/decode_token.go",
-    "internal/encoding/text/encode.go",
-    "internal/impl/api_export.go",
-    "internal/impl/api_export_opaque.go",
-    "internal/impl/bitmap.go",
-    "internal/impl/bitmap_race.go",
-    "internal/impl/checkinit.go",
-    "internal/impl/codec_extension.go",
-    "internal/impl/codec_field.go",
-    "internal/impl/codec_field_opaque.go",
-    "internal/impl/codec_map.go",
-    "internal/impl/codec_message.go",
-    "internal/impl/codec_message_opaque.go",
-    "internal/impl/codec_messageset.go",
-    "internal/impl/codec_tables.go",
-    "internal/impl/codec_unsafe.go",
-    "internal/impl/convert.go",
-    "internal/impl/convert_list.go",
-    "internal/impl/convert_map.go",
-    "internal/impl/decode.go",
-    "internal/impl/encode.go",
-    "internal/impl/enum.go",
-    "internal/impl/equal.go",
-    "internal/impl/extension.go",
-    "internal/impl/lazy.go",
-    "internal/impl/legacy_enum.go",
-    "internal/impl/legacy_export.go",
-    "internal/impl/legacy_extension.go",
-    "internal/impl/legacy_file.go",
-    "internal/impl/legacy_message.go",
-    "internal/impl/merge.go",
-    "internal/impl/message.go",
-    "internal/impl/message_opaque.go",
-    "internal/impl/message_reflect.go",
-    "internal/impl/message_reflect_field.go",
-    "internal/impl/pointer_unsafe.go",
-    "internal/impl/pointer_unsafe_opaque.go",
-    "internal/impl/presence.go",
-    "internal/impl/validate.go",
-    "internal/protolazy/bufferreader.go",
-    "internal/protolazy/lazy.go",
-    "internal/protolazy/pointer_unsafe.go",
-    "proto/checkinit.go",
-    "proto/decode.go",
-    "proto/encode.go",
-    "proto/equal.go",
-    "proto/extension.go",
-    "proto/merge.go",
-    "proto/messageset.go",
-    "proto/proto.go",
-    "proto/proto_methods.go",
-    "proto/proto_reflect.go",
-    "proto/reset.go",
-    "proto/size.go",
-    "proto/wrapperopaque.go",
-    "proto/wrappers.go",
-    "reflect/protoreflect/methods.go",
-    "reflect/protoreflect/proto.go",
-    "reflect/protoreflect/source.go",
-    "reflect/protoreflect/type.go",
-    "reflect/protoreflect/value.go",
-    "reflect/protoreflect/value_equal.go",
-    "reflect/protoreflect/value_union.go",
-    "reflect/protoreflect/value_unsafe.go",
-    "reflect/protoregistry/registry.go",
-    "runtime/protoiface/legacy.go",
-    "runtime/protoiface/methods.go",
-    "runtime/protolazy/protolazy.go",
+    # =================================================================================
+    # Megapool: validator lifecycle, capital/bond/debt accounting, delegate proxy
+    # =================================================================================
+    "contracts/contract/megapool/RocketMegapoolDelegate.sol",
+    "contracts/contract/megapool/RocketMegapoolDelegateBase.sol",
+    "contracts/contract/megapool/RocketMegapoolProxy.sol",
+    "contracts/contract/megapool/RocketMegapoolStorageLayout.sol",
+    "contracts/contract/megapool/RocketMegapoolFactory.sol",
+    "contracts/contract/megapool/RocketMegapoolManager.sol",
+    "contracts/contract/megapool/RocketMegapoolPenalties.sol",
+
+    # =================================================================================
+    # Beacon state proofs: SSZ merkleisation, EIP-4788 roots, validator/withdrawal/slot proofs
+    # =================================================================================
+    "contracts/contract/util/BeaconStateVerifier.sol",
+    "contracts/contract/util/SSZ.sol",
+
+    # =================================================================================
+    # Deposit pool, assignment queues, rETH and vault
+    # =================================================================================
+    "contracts/contract/deposit/RocketDepositPool.sol",
+    "contracts/contract/util/LinkedListStorage.sol",
+    "contracts/contract/token/RocketTokenRETH.sol",
+    "contracts/contract/RocketVault.sol",
+
+    # =================================================================================
+    # Node operators: registration, deposits, credit, RPL staking, withdrawal addresses
+    # =================================================================================
+    "contracts/contract/node/RocketNodeManager.sol",
+    "contracts/contract/node/RocketNodeDeposit.sol",
+    "contracts/contract/node/RocketNodeStaking.sol",
+    "contracts/contract/node/RocketNodeDistributor.sol",
+    "contracts/contract/node/RocketNodeDistributorDelegate.sol",
+    "contracts/contract/node/RocketNodeDistributorFactory.sol",
+    "contracts/contract/node/RocketNodeDistributorStorageLayout.sol",
+
+    # =================================================================================
+    # Legacy minipools: distribution, bond reduction, queue, penalties
+    # =================================================================================
+    "contracts/contract/minipool/RocketMinipoolBase.sol",
+    "contracts/contract/minipool/RocketMinipoolDelegate.sol",
+    "contracts/contract/minipool/RocketMinipoolStorageLayout.sol",
+    "contracts/contract/minipool/RocketMinipoolFactory.sol",
+    "contracts/contract/minipool/RocketMinipoolManager.sol",
+    "contracts/contract/minipool/RocketMinipoolQueue.sol",
+    "contracts/contract/minipool/RocketMinipoolBondReducer.sol",
+    "contracts/contract/minipool/RocketMinipoolPenalty.sol",
+
+    # =================================================================================
+    # Rewards: merkle claims, rewards pool, smoothing pool, pDAO treasury
+    # =================================================================================
+    "contracts/contract/rewards/RocketMerkleDistributorMainnet.sol",
+    "contracts/contract/rewards/RocketRewardsPool.sol",
+    "contracts/contract/rewards/RocketSmoothingPool.sol",
+    "contracts/contract/rewards/RocketClaimDAO.sol",
+
+    # =================================================================================
+    # Network: balances, prices, fees, revenue split, snapshots, penalties, voting power
+    # =================================================================================
+    "contracts/contract/network/RocketNetworkBalances.sol",
+    "contracts/contract/network/RocketNetworkPrices.sol",
+    "contracts/contract/network/RocketNetworkFees.sol",
+    "contracts/contract/network/RocketNetworkRevenues.sol",
+    "contracts/contract/network/RocketNetworkSnapshots.sol",
+    "contracts/contract/network/RocketNetworkSnapshotsTime.sol",
+    "contracts/contract/network/RocketNetworkPenalties.sol",
+    "contracts/contract/network/RocketNetworkVoting.sol",
+
+    # =================================================================================
+    # Protocol DAO: proposals, voting-power verifier (challenge/response bonds), settings
+    # =================================================================================
+    "contracts/contract/dao/RocketDAOProposal.sol",
+    "contracts/contract/dao/protocol/RocketDAOProtocol.sol",
+    "contracts/contract/dao/protocol/RocketDAOProtocolActions.sol",
+    "contracts/contract/dao/protocol/RocketDAOProtocolProposal.sol",
+    "contracts/contract/dao/protocol/RocketDAOProtocolProposals.sol",
+    "contracts/contract/dao/protocol/RocketDAOProtocolVerifier.sol",
+    "contracts/contract/dao/protocol/settings/RocketDAOProtocolSettings.sol",
+    "contracts/contract/dao/protocol/settings/RocketDAOProtocolSettingsAuction.sol",
+    "contracts/contract/dao/protocol/settings/RocketDAOProtocolSettingsDeposit.sol",
+    "contracts/contract/dao/protocol/settings/RocketDAOProtocolSettingsInflation.sol",
+    "contracts/contract/dao/protocol/settings/RocketDAOProtocolSettingsMegapool.sol",
+    "contracts/contract/dao/protocol/settings/RocketDAOProtocolSettingsMinipool.sol",
+    "contracts/contract/dao/protocol/settings/RocketDAOProtocolSettingsNetwork.sol",
+    "contracts/contract/dao/protocol/settings/RocketDAOProtocolSettingsNode.sol",
+    "contracts/contract/dao/protocol/settings/RocketDAOProtocolSettingsProposals.sol",
+    "contracts/contract/dao/protocol/settings/RocketDAOProtocolSettingsRewards.sol",
+    "contracts/contract/dao/protocol/settings/RocketDAOProtocolSettingsSecurity.sol",
+
+    # =================================================================================
+    # Oracle DAO and security council: membership, proposals, upgrades, settings
+    # =================================================================================
+    "contracts/contract/dao/node/RocketDAONodeTrusted.sol",
+    "contracts/contract/dao/node/RocketDAONodeTrustedActions.sol",
+    "contracts/contract/dao/node/RocketDAONodeTrustedProposals.sol",
+    "contracts/contract/dao/node/RocketDAONodeTrustedUpgrade.sol",
+    "contracts/contract/dao/node/settings/RocketDAONodeTrustedSettings.sol",
+    "contracts/contract/dao/node/settings/RocketDAONodeTrustedSettingsMembers.sol",
+    "contracts/contract/dao/node/settings/RocketDAONodeTrustedSettingsMinipool.sol",
+    "contracts/contract/dao/node/settings/RocketDAONodeTrustedSettingsProposals.sol",
+    "contracts/contract/dao/node/settings/RocketDAONodeTrustedSettingsRewards.sol",
+    "contracts/contract/dao/security/RocketDAOSecurity.sol",
+    "contracts/contract/dao/security/RocketDAOSecurityActions.sol",
+    "contracts/contract/dao/security/RocketDAOSecurityProposals.sol",
+    "contracts/contract/dao/security/RocketDAOSecurityUpgrade.sol",
+
+    # =================================================================================
+    # Core storage, RPL token, auction and shared utilities
+    # =================================================================================
+    "contracts/contract/RocketStorage.sol",
+    "contracts/contract/RocketBase.sol",
+    "contracts/contract/token/RocketTokenRPL.sol",
+    "contracts/contract/auction/RocketAuctionManager.sol",
+    "contracts/contract/util/AddressQueueStorage.sol",
+    "contracts/contract/util/AddressSetStorage.sol",
+    "contracts/contract/util/ERC20.sol",
+    "contracts/contract/util/ERC20Burnable.sol",
+    "contracts/contract/util/SafeERC20.sol",
+    "contracts/contract/util/SafeMath.sol",
+    "contracts/contract/util/Context.sol",
 ]
 
 
 target_scopes = [
-    "Critical/High — binary wire parsing: proto/decode.go, encoding/protowire/wire.go and internal/impl/decode.go must safely reject attacker-sent malformed tags, varints, length-delimited fields, groups and packed values. Find a reachable incorrect bounds or wire-type decision that corrupts memory through Go unsafe code or changes a security-relevant parsed field.",
-    "Critical/High — generated-message fast paths: internal/impl/codec_field.go, codec_map.go, codec_message.go, codec_extension.go and codec_messageset.go decode an unauthenticated request into a trusted application schema. Find a malformed wire payload that makes the fast path disagree with the reflective path or violates field ownership, presence or map/oneof invariants with concrete confidentiality or integrity impact.",
-    "Critical/High — lazy decoding and buffer ownership: internal/impl/lazy.go, internal/protolazy/*.go and runtime/protolazy/protolazy.go may defer work on bytes supplied in a network request. Find a concrete aliasing, lifetime or validation error that lets later access to the parsed message read or write the wrong bytes, bypass field validation, or cross a request boundary.",
-    "Critical/High — ProtoJSON: encoding/protojson/decode.go, well_known_types.go and internal/encoding/json/decode*.go parse attacker-submitted JSON. Find a duplicate-field, number, string, oneof, null or nested-value interpretation error that makes a security-sensitive field appear validated while a different value is stored or used; show the exact application-visible mismatch.",
-    "Critical/High — Any and extension resolution: proto/extension.go, encoding/protojson/well_known_types.go, reflect/protoregistry/registry.go and internal/impl/codec_extension.go resolve payload-selected types against trusted registrations. Find a request payload that is accepted as one trusted type but used as another, or bypasses a required field/extension check, producing unauthorized state or sensitive-data disclosure.",
-    "Critical/High — required fields, oneofs and message sets: proto/checkinit.go, proto/messageset.go, internal/impl/checkinit.go, validate.go and codec_messageset.go handle accepted wire data. Find a payload that returns success while a field relied on for authorization is absent, conflicting or interpreted differently on a subsequent supported path.",
-    "Critical/High — unsafe reflection and parsed-message reuse: internal/impl/message_reflect.go, pointer_unsafe.go, convert*.go and proto/reset.go, merge.go, proto_reflect.go move fields from parsed requests. Find a normal server flow in which attacker-controlled bytes lead to a stale pointer, aliased backing storage or cross-request data exposure; prove the value crosses a trust boundary.",
-    "High — framed input and secondary text parsing: encoding/protodelim/protodelim.go, encoding/prototext/decode.go and internal/encoding/text/decode*.go consume an unprivileged client's framed or text-form request only where an application actually exposes that parser. Find an exact framing or tokenization error that creates a demonstrated authorization/integrity failure or sensitive-data disclosure; account for this surface's weaker policy priority.",
-    "Critical/High — parse-to-use consistency: proto/decode.go, encoding/protojson/decode.go, internal/impl/decode.go and the production encode/reflect paths must preserve security-relevant field semantics after successful parse. Find a concrete request whose accepted value, presence, unknown fields, or type identity changes before an application makes a documented security decision; do not assume canonical serialization or a second service reparsing original bytes.",
-    "Critical/High blind spot — inspect every scoped production parser helper and transition for an unstated assumption about trusted schema versus attacker-owned bytes: especially lazy validation, legacy MessageSet, unknown fields, proto2 required fields, and Any. Require a direct unprivileged request path and a demonstrable confidentiality, integrity or unsafe-memory consequence that the preceding scopes miss.",
+    "Critical. Anyone submitting beacon-state proofs gets a false validator or withdrawal state accepted, because BeaconStateVerifier.verifyValidator/verifyWithdrawal/verifySlot, its generalized-index and fork-boundary handling, the historical_summaries vs block_roots path, EIP-4788 root lookup by _slotTimestamp, or SSZ merkleisation fail to bind the proof to the right slot, validator index, pubkey, withdrawal credentials or amount, so RocketMegapoolManager stakes, dissolves, exits or settles a validator on forged data and user ETH is stolen or frozen.",
+    "Critical. Exited validator principal is settled or distributed wrongly, because RocketMegapoolManager.notifyFinalBalance accepts any proven withdrawal at or after withdrawable_epoch (a later small sweep, a withdrawal the attacker created by depositing to the exited pubkey, or one not bound to megapool credentials), or because returned principal sitting in the megapool is paid out by the permissionless distribute() as rewards before notifyExit, so rETH principal is split as node/voter/pDAO rewards, user shortfall escapes debt, or the node receives more than its bond.",
+    "Critical. A permissionless node operator redirects assigned user ETH to a validator the megapool does not control, because newValidator/addValidator pubkey uniqueness (per-megapool, not global), the 1 ETH prestake in assignFunds, RocketMegapoolManager.stake checks (credentials, effective balance, activation epochs), dissolve/dissolveValidator timing, or a beacon-chain deposit the operator makes to their own pubkey let the 31 ETH top-up land on a validator with foreign withdrawal credentials or be recycled without charging the node.",
+    "Critical. A node operator extracts more ETH than their bond from megapool accounting, because nodeBond, nodeQueuedBond, userCapital, userQueuedCapital, assignedValue, refundValue and debt drift across newValidator, dequeue, reduceBond, dissolveValidator, _calculateCapitalDispersal, _notifyFinalBalance, repayDebt and claim, so credit, refunds or rewards withdrawn to the withdrawal address come out of rETH holders' capital or leave debt that is never repaid.",
+    "Critical. Deposit pool assignment loses or double-spends user ETH, because RocketDepositPool deposit, assignDeposits/_assignMegapools, express vs standard queue rotation in LinkedListStorage, requestedTotal and nodeBalance tracking in uint32 milli-ETH, exitQueue, applyCredit/withdrawCredit(For), recycleDissolvedDeposit, fundsReturned or the minipool-queue interplay let ETH be assigned twice, withdrawn from RocketVault without backing, mint rETH credit that was never deposited, or strand user ETH permanently.",
+    "Critical. An rETH holder or depositor drains other holders, because RocketTokenRETH mint/burn, getEthValue/getRethValue, the deposit fee, deposit-delay transfer lock, getTotalCollateral, depositExcessCollateral and DepositPool.withdrawExcessBalance, combined with RocketNetworkBalances updates or ETH donated to megapools/minipools/distributors, allow a round-trip or sandwich that burns rETH for more ETH than was deposited, or lets burns pull ETH already reserved for assignment.",
+    "Critical. A permissionless caller moves another node's funds, because RocketStorage withdrawal-address and RocketNodeManager RPL-withdrawal-address set/confirm/unset flows, onlyMegapoolOwner/isNodeCalling, RocketMegapoolProxy delegateUpgrade after expiry, RocketNodeStaking _callerAllowedFor/stakeRPLFor/unstake/withdraw, legacy vs megapool vs locked RPL checks, or RocketVault token accounting let the attacker redirect claims, withdraw staked RPL, bypass the unstaking period, or permanently lock a node's ETH or RPL.",
+    "High. Unclaimed yield is stolen or permanently frozen, because RocketMerkleDistributorMainnet claim/claimAndStake bitmap, v0/v1 leaf encoding, outstanding-ETH fallback, RocketRewardsPool snapshots and voter share, RocketSmoothingPool, RocketNodeDistributorDelegate.distribute, legacy minipool distributeBalance/beginUserDistribute/refund, or megapool distribute timing with RocketNetworkRevenues time-weighted commission and RocketNetworkSnapshotsTime capital-ratio averaging let an attacker claim twice, claim for another node, or shift others' rewards to themselves.",
+    "High. A permissionless node manipulates on-chain governance at a cost to others, because RocketNetworkVoting delegation snapshots, RocketDAOProtocolVerifier challenge/response voting-power trees, createChallenge/defeatProposal/submitRoot/claimBondChallenger/claimBondProposer, or RocketDAOProtocolProposal vote/overrideVote/finalise/execute let it inflate voting power, pass or defeat proposals against stake, double-claim or steal challenge/proposal RPL bonds, or lock another node's RPL indefinitely.",
+    "Critical/High blind spot. An unprivileged user exploits an assumption Rocket Pool never wrote down: a value proven or checked in one contract and trusted as proven in another, ETH that arrives at a megapool/minipool/distributor/deposit pool without a code path accounting for it (donations, beacon sweeps, consolidation or EIP-7002 flows, selfdestruct), a check enforced on the megapool path but not its legacy-minipool, credit, express-ticket or migration twin, state carried across delegate upgrades, storage layouts or the v1.3 to v1.4 transition that was only safe in one version, or a setting boundary (zero, max, changed mid-flight) that flips an invariant - yielding theft of user principal, permanent freezing, or theft of unclaimed yield.",
 ]
 
 
@@ -153,85 +190,114 @@ scope_scan = [
 
 
 def question_generator(target_file: str) -> str:
-    """Generate focused security questions for one protobuf-go target."""
-    prompt = f"""Generate 40–80 distinct, high-signal security audit questions for:
-{target_file}
+    """
+    Generate exploit-focused audit and fuzzing questions for one rocketpool target.
 
-Treat `File Name:` as the exact production file and `Scope:` as the only target impact. Assume full repo access. Attacker is an unprivileged client sending crafted binary protobuf or ProtoJSON to an exposed Go service using a trusted schema and ordinary API defaults; use ProtoText or framed input only if the entry point actually exposes it. No privileged access, malicious peer/node, untrusted schema, custom resolver, local code execution, or victim cooperation. Exclude tests, mocks, generated files, docs and build-only issues.
+    ```
+    target_file format:
+    "'File Name: contracts/contract/megapool/RocketMegapoolDelegate.sol -> Scope: Critical. ...'"
+    """
 
-Prioritize direct parsing of untrusted bytes: wire bounds/types, nested depth handling without generic resource-growth claims, generated versus reflective decoding, lazy validation/buffer ownership, oneof/map/extension/Any semantics, required-field checks, and ProtoJSON tokens. Follow bytes through exact functions into the application-visible field or unsafe memory operation. Do not treat noncanonical wire encodings, duplicate JSON keys, trusted in-memory object misuse, or cross-service reparsing alone as vulnerabilities. Do not ask about unbounded memory/CPU consumption, generic panics, speculative gateway policy, or mere format disagreement.
+    prompt = f"""
+    ```
 
-Every question must name a real entry point and concrete payload shape, trusted-schema preconditions, exact target symbol, execution sequence, violated invariant, scoped Critical/High impact (or a demonstrable Medium issue if within the policy), and a minimal Go test/proof. Avoid repeated root causes. Output only valid Python, no markdown:
-questions = [
-    "[File: {target_file}] [Function: symbol] Can an unauthenticated client send PAYLOAD via ENTRY_POINT with TRUSTED_SCHEMA and trigger SEQUENCE, violating INVARIANT and causing IMPACT? Proof: Go test INPUT and expected FIELD/ERROR/SAFETY assertion.",
-]
-"""
+    Generate exploit-focused security audit questions for this exact rocketpool target:
+
+    {target_file}
+
+    Project focus:
+    Rocket Pool is an Ethereum liquid staking protocol (v1.4 Saturn). Users deposit ETH for rETH. Permissionless node operators bond ETH in megapools (and legacy minipools) that borrow user ETH to run validators. Beacon-state proofs drive staking, exits and final balances. Focus on user principal, node bonds and debt, rETH backing, queue assignment, reward splits and RPL stake.
+
+    Rules:
+    * Treat `File Name:` as the exact contract.
+    * Treat `Scope:` as the ONLY impact to target.
+    * Assume full repo context is accessible.
+    * Do not ask for code or say anything is missing.
+    * Use exact Solidity symbols (contract, function, storage key) when possible.
+    * Attacker is unprivileged only: any EOA or contract calling public functions, an rETH depositor or holder, a permissionless node operator acting on their own node/megapool/minipool and withdrawal addresses, an RPL staker, or a caller submitting real beacon-state proofs with a slot they choose. They may make real beacon-chain deposits to any pubkey and send ETH to any address.
+    * Attacker is NOT the oDAO, a trusted node, the pDAO, the security council or the guardian, and never another node's withdrawal address. Assume oDAO balance/price/penalty/reward submissions are honest and beacon chain data is canonical. Never assume a malicious peer, beacon node, validator majority or consensus client.
+    * Out of scope, never ask about: DoS, gas griefing, unbounded loops, storage/memory growth, centralization or privileged-role misuse, 51%/Sybil attacks, incorrect oracle data, best practices, and bugs whose only victim is the attacker.
+    * Ignore test/helper/mock contracts (StakeHelper, MegapoolUpgradeHelper, StorageHelper, *Test, *Mock, RocketTokenDummyRPL), interfaces-only, scripts and config.
+    * Every question must be a real on-chain scenario through a valid entry point: who calls which external function, with what inputs, in what state and order.
+    * Generate 40 to 80 high-signal questions.
+    * At least 70% must target theft of user principal or node bonds, permanent freezing of ETH/RPL/rETH, unbacked rETH, or theft/freezing of unclaimed yield.
+    * Every question must be testable by a Hardhat test in test/ (local mainnet fork where needed).
+    * Avoid generic checklist questions and repeated root causes.
+
+    Core invariants:
+    * Principal is conserved: every wei of user capital assigned to a validator returns to rETH/deposit pool or becomes node debt; nothing is paid out as rewards.
+    * rETH is backed: rETH supply times exchange rate never exceeds ETH the protocol can return, and mint/burn cannot be round-tripped for profit.
+    * Proofs bind: a beacon proof binds to the right megapool, validator, pubkey, credentials, slot and the actual final withdrawal.
+    * Bonds are honest: a node can withdraw only its bond, credit and earned rewards net of debt, never user capital.
+    * Only owners move funds: only a node's own addresses can claim, withdraw or redirect its ETH, RPL or rewards, and each reward is claimed once.
+
+    Each question must include:
+    1. target contract/function;
+    2. attacker role and action (calls, inputs, ETH/RPL sent, proofs or beacon deposits);
+    3. preconditions (protocol and node state, settings);
+    4. execution sequence;
+    5. invariant tested;
+    6. scoped impact;
+    7. proof idea.
+
+    Output only valid Python. No markdown. No explanations.
+
+    questions = [
+    "[File: {target_file}] [Function: contract.function] Can an unprivileged ATTACKER_ROLE doing ATTACKER_ACTION under PRECONDITIONS trigger EXECUTION_SEQUENCE, violating INVARIANT, causing scoped impact: SCOPE_IMPACT? Proof idea: Hardhat test PARAMETERS and assert PRINCIPAL_CONSERVED, RETH_BACKED, PROOF_BINDS, BOND_HONEST, or OWNER_ONLY.",
+    ]
+    """
     return prompt
 
 
 def audit_format(security_question: str) -> str:
-    """Generate a focused protobuf-go claim review prompt."""
+    """
+    Generate a focused rocketpool exploit-validation prompt.
+    """
+
     prompt = f"""# SECURITY AUDIT PROMPT
 
 ## Question
 {security_question}
 
 ## Rules
-- Trace only this question and its scoped impact in production protobuf-go code.
-- Start with an unprivileged client's concrete binary or ProtoJSON request to a service using trusted schemas and default parsing; allow ProtoText/framing only when exposed. No malicious peer/node, privileged role, custom resolver, untrusted schema or local code execution.
-- Apply repository SECURITY.md and the Protobuf threat model: binary and ProtoJSON parsing are hardened; text parsing is secondary; schemas and in-memory objects are trusted. Ignore generated/test/mock/build-only paths, noncanonical-encoding claims alone, mere parse disagreements, generic panic and unbounded resource claims.
-- Prove exact file/function, payload, checks, resulting security-relevant field or unsafe-memory effect, and realistic confidentiality/integrity impact. Classify Critical, High or supported Medium from evidence, never by analogy alone.
+- Use existing repo context only. Analyze only this question and scoped impact.
+- Attacker is unprivileged only: any caller of public functions, an rETH depositor/holder, a permissionless node operator on their own node, an RPL staker, or a submitter of real beacon proofs. They can make beacon-chain deposits and send ETH anywhere.
+- Reject premises needing oDAO, trusted node, pDAO, security council, guardian, or another node's withdrawal address; dishonest oracle submissions; malicious peers, beacon nodes, or consensus majority.
+- Reject DoS, gas griefing, unbounded loops or memory growth, centralization, 51%/Sybil, best practices, self-harm-only bugs, and test/helper/mock/interface/script findings.
+- Focus on real impact: theft of user principal or node bonds, unbacked rETH, permanent or temporary freezing of funds, theft or freezing of unclaimed yield, or governance manipulation.
+
+## Validate
+- Trace the exact reachable path from the attacker's external call (inputs, ETH/RPL, proofs) into the affected function.
+- Check whether modifiers (onlyMegapoolOwner, onlyRegisteredNode, onlyLatestContract), proof checks, debt/bond checks, delays, and settings bounds already stop it.
+- Confirm it works with current mainnet settings, not only an extreme DAO setting.
+- Accept only concrete loss, freeze, unbacked rETH, or yield theft with a quantified amount.
+- Require exact file/function support and a reproducible Hardhat PoC (local fork only).
 
 ## Output
 If valid, output exactly:
+
 ### Title
 [Bug statement] - ([File: file_path])
+
 ### Summary
-[2–3 sentences]
+[2-3 sentences]
+
 ### Finding Description
-[Root cause, request path, checks and why they fail]
+[Code path, root cause, attacker inputs, exploit flow, and why existing checks fail]
+
 ### Impact Explanation
-[Concrete impact and justified severity]
+[Concrete impact, funds at risk, and matching category: Theft of Principal, Permanent Freezing, Temporary Freezing, Theft of Unclaimed Yield, or Governance Manipulation]
+
 ### Likelihood Explanation
-[Required attacker capabilities and repeatability]
+[Preconditions, attacker cost, feasibility, repeatability]
+
 ### Recommendation
 [Specific fix]
+
 ### Proof of Concept
-[Minimal Go test or exact request bytes and expected result]
+[Hardhat test plan with expected assertions]
 
 If invalid, output exactly:
-#NoVulnerability found for this question.
-
-No extra text.
-"""
-    return prompt
-
-
-def scan_format(report: str) -> str:
-    """Scan a report for a reachable protobuf-go analog."""
-    prompt = f"""# ANALOG SCAN PROMPT
-
-## External Report
-{report}
-
-## Rules
-- Use the report as a bug-class hint, not evidence. Search scoped production protobuf-go code for the same broken invariant on a reachable unprivileged request path. Assume a trusted schema and default binary or ProtoJSON parser; use ProtoText or protodelim only if an endpoint exposes it. No malicious peer/node, privileged caller, custom resolver or attacker-supplied descriptor.
-- Map the report's source, parser state, validation step and sink to exact protobuf-go functions. Check both generic and generated-message paths, lazy versus eager decode, unknown/extension/oneof/map handling, Any and well-known JSON types, required-field checks and buffer ownership. Follow accepted values into a concrete confidentiality/integrity decision or unsafe-memory effect.
-- Apply SECURITY.md and the Protobuf threat model. Reject analogs based only on noncanonical serialization, duplicate JSON keys, cross-service reparsing original bytes, trusted in-memory misuse, generic panic, unbounded resources, tests/mocks/generated code or another project's behavior. Do not assume a generic Go service has a specific authorization rule.
-- Accept Critical/High, or Medium when the evidence and live scope support it. Require exact file/function, request bytes or JSON, trusted-schema preconditions, failing check and a minimal Go proof. If no such path exists, reject.
-
-## Output (Strict)
-If valid, output exactly:
-### Title
-[Clear vulnerability statement] - ([File: file_path])
-### Summary
-### Finding Description
-### Impact Explanation
-### Likelihood Explanation
-### Recommendation
-### Proof of Concept
-
-If not, output exactly:
 #NoVulnerability found for this question.
 
 No extra text.
@@ -240,39 +306,133 @@ No extra text.
 
 
 def validation_format(report: str) -> str:
-    """Validate a protobuf-go claim against its actual security boundary."""
+    """
+    Generate a strict bounty-style validation prompt for rocketpool security claims.
+    """
     prompt = f"""# VALIDATION PROMPT
 
 ## Security Claim
 {report}
 
 ## Rules
-- Validate only the claim; do not invent another finding or upgrade severity without proof. Apply this repo's SECURITY.md and Researcher.Md when present, plus the Protobuf security policy and current Google OSS VRP rules; do not claim this repo has a bounty tier unless verified.
-- Binary wire and ProtoJSON parsing of untrusted bytes with trusted schemas are the primary hardened surfaces. ProtoText is secondary. Offline compiler, untrusted schemas/descriptors, direct misuse of trusted in-memory messages, noncanonical serialization, and gateway reparsing original bytes have different or excluded threat boundaries.
-- Attacker must be an unprivileged client reaching a real exposed parsing API with a concrete request. No malicious peer/node, privileged access, custom resolver, local code execution, test-only path, or generated-file root cause.
-- Require exact file/function/line, payload, trusted-schema preconditions, path from input through failed checks to demonstrated unauthorized disclosure/state change or unsafe-memory effect, and a reproducible Go proof. A panic, duplicate JSON key, format difference, or resource-growth claim alone is insufficient.
-- Classify by proven impact: Critical for demonstrated server compromise or comparable cross-boundary control; High for substantial unauthorized disclosure/integrity change or exploitable unsafe-memory corruption; Medium for a narrower but concrete security impact that the live program accepts. Reject Low, informational, speculative and best-practice claims. Respect program-specific exclusions if they differ.
+- Validate only the submitted claim.
+- Check SECURITY.md and Researcher.Md for scope, exclusions, and valid impact classes.
+- Do not create a new vulnerability if the submitted claim is weak or invalid.
+- Do not upgrade severity unless the provided evidence proves the higher impact.
+- Accepted severities (Immunefi, Rocket Pool):
+  - Critical: direct theft of user principal (rETH backing, deposit pool, vault, node bonds), or permanent freezing of funds.
+  - High: direct theft of unclaimed yield, governance manipulation with cost impact, or smaller-scale principal theft.
+  - Medium: temporary freezing of funds, governance manipulation without cost impact, or small principal theft.
+  - Low: only concrete, quantified unfair yield/commission manipulation. Reject pure griefing, informational, and best-practice reports.
+- Reject anything requiring oDAO, trusted node, pDAO, security council, or guardian privileges, another node's withdrawal address, leaked keys, dishonest oracle submissions, malicious peers/beacon nodes/consensus majority, 51% or Sybil attacks.
+- Reject DoS, gas griefing, unbounded loops or memory growth, centralization risk, self-harm-only bugs, and extreme DAO settings outside their enforced bounds.
+- Reject test/helper/mock contracts (StakeHelper, MegapoolUpgradeHelper, StorageHelper, *Test, *Mock, RocketTokenDummyRPL), interfaces, scripts, and config.
+- Reject if already fixed, acknowledged, publicly disclosed, or listed in Rocket Pool known issues or audits.
+- A valid report must be triggerable by an unprivileged user (any caller, rETH holder, permissionless node operator on their own node, RPL staker, beacon-proof submitter) through a real external entry point.
+- Prefer #NoVulnerability over speculative reports.
+
+## Required Validation Checks
+All must pass:
+1. Exact in-scope file, contract, function, and line references.
+2. Clear root cause and broken invariant (principal conserved, rETH backed, proof binds, bond honest, owner-only).
+3. Reachable exploit path: preconditions -> attacker call/proof/deposit -> trigger -> loss or freeze.
+4. Existing modifiers, proof checks, debt/bond checks, delays, and settings bounds reviewed and shown insufficient.
+5. Concrete impact with funds at risk quantified and correct severity.
+6. Reproducible Hardhat PoC on a local fork (no mainnet/testnet testing).
+7. No obvious rejection reason from SECURITY.md, known issues, privilege assumptions, or scope exclusions.
+
+## Silent Triage Questions
+Before output, internally answer:
+- Can an unprivileged user trigger this with current mainnet settings?
+- Does the code actually behave as claimed, including onlyMegapoolOwner, debt, delay, and proof checks?
+- Whose funds are lost or frozen, and how much?
+- Is the loss permanent, temporary, or only yield?
+- Would a Rocket Pool triager on Immunefi accept the PoC?
+- What exact test would prove it?
 
 ## Output
 If valid, output exactly:
+
 Audit Report
 
 ## Title
 [Clear vulnerability statement] - ([File: file_path])
+
 ## Summary
-[2–3 sentences]
+[2-3 sentence summary of the bug and impact]
+
 ## Finding Description
-[Exact path, root cause and failed checks]
+[Exact code path, root cause, exploit flow, and why existing checks fail]
+
 ## Impact Explanation
-[Proven impact, severity and policy basis]
+[Concrete impact, funds at risk, severity rationale, and Immunefi category]
+
 ## Likelihood Explanation
-[Preconditions and repeatability]
+[Attacker capability, cost, feasibility, repeatability]
+
 ## Recommendation
-[Specific fix]
+[Specific fix guidance]
+
 ## Proof of Concept
-[Request bytes/JSON, trusted schema and Go reproduction]
+[Minimal reproducible steps or Hardhat test plan]
 
 If invalid, output exactly:
+#NoVulnerability found for this question.
+
+Output only one of the two outcomes above. No extra text.
+"""
+    return prompt
+
+
+def scan_format(report: str) -> str:
+    """
+    Generate a short cross-project analog scan prompt for rocketpool.
+    """
+    prompt = f"""# ANALOG SCAN PROMPT
+
+## External Report
+{report}
+
+## Rules
+- Use in-scope production repo context only. Do not ask for code or claim missing files.
+- Use the external report only as a bug-class hint, not as proof. The analog must stand on Rocket Pool's own code.
+- Attacker is unprivileged only: any caller of public functions, an rETH depositor/holder, a permissionless node operator on their own node, an RPL staker, or a submitter of real beacon proofs with a slot they choose. They can make beacon-chain deposits and send ETH anywhere.
+- Reject premises needing oDAO, trusted node, pDAO, security council, guardian, another node's withdrawal address, dishonest oracle data, or malicious peers/beacon nodes/consensus majority.
+- Reject DoS, gas griefing, unbounded loops or memory growth, centralization, 51%/Sybil, self-harm-only, mocked-only paths, or no impact.
+- Ignore test/helper/mock contracts, interfaces, scripts and config.
+
+## Map the Bug Class
+Pick the strongest reachable Rocket Pool surface for this class, then name the exact contract and function:
+- Beacon proofs (forged state, wrong gindex, fork boundaries, stale/unbound slot, wrong withdrawal chosen): BeaconStateVerifier, SSZ, RocketMegapoolManager stake/dissolve/notifyExit/notifyNotExit/notifyFinalBalance.
+- Principal vs rewards (exit ETH or donations paid as rewards, shortfall not charged): RocketMegapoolDelegate distribute/_notifyFinalBalance/getPendingRewards, RocketMinipoolDelegate distributeBalance/beginUserDistribute, RocketNodeDistributorDelegate.
+- Bond, debt and credit accounting (withdraw more than bond, rounding, uint32 milli-ETH truncation): RocketMegapoolDelegate newValidator/dequeue/reduceBond/dissolveValidator/claim/_calculateCapitalDispersal, RocketNodeDeposit, RocketDepositPool applyCredit/withdrawCredit, RocketMinipoolBondReducer.
+- Deposit queues and assignment (double assignment, skipped entries, stuck ETH): RocketDepositPool, LinkedListStorage, RocketMinipoolQueue, RocketVault.
+- LST exchange rate (inflation, sandwich, rounding, fee bypass, withdrawal-queue races): RocketTokenRETH, RocketNetworkBalances, RocketDepositPool deposit/withdrawExcessBalance.
+- Reward distribution (double claim, wrong leaf, timing or time-weighted commission manipulation): RocketMerkleDistributorMainnet, RocketRewardsPool, RocketSmoothingPool, RocketNetworkRevenues, RocketNetworkSnapshots(Time).
+- Access and ownership (withdrawal-address hijack, proxy/delegate upgrade, storage layout collision, reentrancy via ETH send): RocketStorage, RocketNodeManager, RocketMegapoolProxy/StorageLayout, RocketMinipoolBase, RocketNodeStaking.
+- Governance (vote power inflation, snapshot timing, bond theft in challenge games): RocketNetworkVoting, RocketDAOProtocolVerifier, RocketDAOProtocolProposal.
+
+## Validate
+- Trace the analog from a concrete unprivileged external call (inputs, ETH/RPL, proof, beacon deposit) into the named function.
+- Show which invariant breaks: principal conserved, rETH backed, proof binds, bond honest, or owner-only.
+- Confirm modifiers, proof checks, debt/bond checks, delays and settings bounds do not already stop it under current mainnet settings.
+- Accept only theft of principal or bonds, unbacked rETH, permanent or temporary freezing, theft/freezing of unclaimed yield, or governance manipulation.
+- Require a reproducible Hardhat PoC (local fork only).
+
+## Output (Strict)
+If valid analog exists, output:
+
+### Title
+[Clear vulnerability statement] - ([File: file_path])
+
+### Summary
+### Finding Description
+### Impact Explanation
+### Likelihood Explanation
+### Recommendation
+### Proof of Concept
+
+If not, output exactly:
 #NoVulnerability found for this question.
 
 No extra text.

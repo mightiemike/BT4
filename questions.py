@@ -4,13 +4,12 @@ import os
 from decouple import config
 
 # todo: if scope_files is: 500 > 50, 300 > 30 , 100 > 10
-MAX_REPO = 12
-# todo: the GitLab namespace/project path, for example group/project
-SOURCE_REPO = 'rocket-pool/rocketpool'
+MAX_REPO = 10
+# todo: the path from https://github.com/0xPolygon/heimdall-v2
+SOURCE_REPO = "0xPolygon/heimdall-v2"
 # todo: the name of the repository
-REPO_NAME = 'rocketpool'
-
-run_number = os.environ.get('GITHUB_RUN_NUMBER', '0')
+REPO_NAME = "heimdall-v2"
+run_number = os.environ.get('GITHUB_RUN_NUMBER') or os.environ.get('CI_PIPELINE_IID', '0')
 
 
 def get_cyclic_index(run_number, max_index=100):
@@ -47,141 +46,158 @@ else:
         BASE_URL = f"https://deepwiki.com/{SOURCE_REPO}"
 
 
+
+
 scope_files = [
     # =================================================================================
-    # Megapool: validator lifecycle, capital/bond/debt accounting, delegate proxy
+    # ABCI++ core: PrepareProposal/ProcessProposal/ExtendVote/VerifyVoteExtension/PreBlocker,
+    # vote-extension tallying, tx decode guard, ante chain, pending-stall handling
     # =================================================================================
-    "contracts/contract/megapool/RocketMegapoolDelegate.sol",
-    "contracts/contract/megapool/RocketMegapoolDelegateBase.sol",
-    "contracts/contract/megapool/RocketMegapoolProxy.sol",
-    "contracts/contract/megapool/RocketMegapoolStorageLayout.sol",
-    "contracts/contract/megapool/RocketMegapoolFactory.sol",
-    "contracts/contract/megapool/RocketMegapoolManager.sol",
-    "contracts/contract/megapool/RocketMegapoolPenalties.sol",
+    "app/abci.go",
+    "app/vote_ext_utils.go",
+    "app/ante.go",
+    "app/tx_decode_guard.go",
+    "app/pending_stall.go",
+    "app/bor_failover_guard.go",
+    "app/app.go",
+    "app/util.go",
 
     # =================================================================================
-    # Beacon state proofs: SSZ merkleisation, EIP-4788 roots, validator/withdrawal/slot proofs
+    # side-tx pipeline: side/post handler registry, side-tx ante decorator
     # =================================================================================
-    "contracts/contract/util/BeaconStateVerifier.sol",
-    "contracts/contract/util/SSZ.sol",
+    "sidetxs/side_handler.go",
+    "sidetxs/side_tx_configurator.go",
+    "sidetxs/ante_decorator.go",
 
     # =================================================================================
-    # Deposit pool, assignment queues, rETH and vault
+    # x/stake: validator join/exit/stake-update/signer-update from L1 events, nonce checks,
+    # validator set and voting power
     # =================================================================================
-    "contracts/contract/deposit/RocketDepositPool.sol",
-    "contracts/contract/util/LinkedListStorage.sol",
-    "contracts/contract/token/RocketTokenRETH.sol",
-    "contracts/contract/RocketVault.sol",
+    "x/stake/keeper/msg_server.go",
+    "x/stake/keeper/side_msg_server.go",
+    "x/stake/keeper/keeper.go",
+    "x/stake/keeper/validator.go",
+    "x/stake/keeper/abci.go",
+    "x/stake/types/msg.go",
+    "x/stake/types/validator.go",
+    "x/stake/types/validator_set.go",
+    "x/stake/types/side_tx.go",
 
     # =================================================================================
-    # Node operators: registration, deposits, credit, RPL staking, withdrawal addresses
+    # x/checkpoint: checkpoint proposal, L1 root verification, ack, buffer, merkle root,
+    # account root hash
     # =================================================================================
-    "contracts/contract/node/RocketNodeManager.sol",
-    "contracts/contract/node/RocketNodeDeposit.sol",
-    "contracts/contract/node/RocketNodeStaking.sol",
-    "contracts/contract/node/RocketNodeDistributor.sol",
-    "contracts/contract/node/RocketNodeDistributorDelegate.sol",
-    "contracts/contract/node/RocketNodeDistributorFactory.sol",
-    "contracts/contract/node/RocketNodeDistributorStorageLayout.sol",
+    "x/checkpoint/keeper/msg_server.go",
+    "x/checkpoint/keeper/side_msg_server.go",
+    "x/checkpoint/keeper/keeper.go",
+    "x/checkpoint/types/msg.go",
+    "x/checkpoint/types/checkpoint.go",
+    "x/checkpoint/types/merkle.go",
+    "x/checkpoint/types/side_tx.go",
+    "x/checkpoint/ante/account_root_hash_len.go",
 
     # =================================================================================
-    # Legacy minipools: distribution, bond reduction, queue, penalties
+    # x/topup: fee top-up from L1, fee withdrawal, dividend accounts
     # =================================================================================
-    "contracts/contract/minipool/RocketMinipoolBase.sol",
-    "contracts/contract/minipool/RocketMinipoolDelegate.sol",
-    "contracts/contract/minipool/RocketMinipoolStorageLayout.sol",
-    "contracts/contract/minipool/RocketMinipoolFactory.sol",
-    "contracts/contract/minipool/RocketMinipoolManager.sol",
-    "contracts/contract/minipool/RocketMinipoolQueue.sol",
-    "contracts/contract/minipool/RocketMinipoolBondReducer.sol",
-    "contracts/contract/minipool/RocketMinipoolPenalty.sol",
+    "x/topup/keeper/msg_server.go",
+    "x/topup/keeper/side_msg_server.go",
+    "x/topup/keeper/keeper.go",
+    "x/topup/types/msg.go",
+    "x/topup/types/side_tx.go",
+    "types/dividend_account.go",
 
     # =================================================================================
-    # Rewards: merkle claims, rewards pool, smoothing pool, pDAO treasury
+    # x/clerk: state-sync records from L1 StateSender events
     # =================================================================================
-    "contracts/contract/rewards/RocketMerkleDistributorMainnet.sol",
-    "contracts/contract/rewards/RocketRewardsPool.sol",
-    "contracts/contract/rewards/RocketSmoothingPool.sol",
-    "contracts/contract/rewards/RocketClaimDAO.sol",
+    "x/clerk/keeper/msg_server.go",
+    "x/clerk/keeper/side_msg_server.go",
+    "x/clerk/keeper/keeper.go",
+    "x/clerk/types/msg.go",
+    "x/clerk/types/record.go",
+    "x/clerk/types/side_tx.go",
 
     # =================================================================================
-    # Network: balances, prices, fees, revenue split, snapshots, penalties, voting power
+    # x/bor: span proposal, producer selection, VEBLOP, producer fallback
     # =================================================================================
-    "contracts/contract/network/RocketNetworkBalances.sol",
-    "contracts/contract/network/RocketNetworkPrices.sol",
-    "contracts/contract/network/RocketNetworkFees.sol",
-    "contracts/contract/network/RocketNetworkRevenues.sol",
-    "contracts/contract/network/RocketNetworkSnapshots.sol",
-    "contracts/contract/network/RocketNetworkSnapshotsTime.sol",
-    "contracts/contract/network/RocketNetworkPenalties.sol",
-    "contracts/contract/network/RocketNetworkVoting.sol",
+    "x/bor/keeper/msg_server.go",
+    "x/bor/keeper/side_msg_server.go",
+    "x/bor/keeper/keeper.go",
+    "x/bor/keeper/selection.go",
+    "x/bor/keeper/veblop.go",
+    "x/bor/keeper/veblop_producer_fallback.go",
+    "x/bor/types/msg.go",
+    "x/bor/types/side_tx.go",
+    "x/bor/types/params.go",
+    "x/bor/types/util.go",
 
     # =================================================================================
-    # Protocol DAO: proposals, voting-power verifier (challenge/response bonds), settings
+    # x/milestone: milestone proposal/validation and ABCI hooks; x/chainmanager: chain params
     # =================================================================================
-    "contracts/contract/dao/RocketDAOProposal.sol",
-    "contracts/contract/dao/protocol/RocketDAOProtocol.sol",
-    "contracts/contract/dao/protocol/RocketDAOProtocolActions.sol",
-    "contracts/contract/dao/protocol/RocketDAOProtocolProposal.sol",
-    "contracts/contract/dao/protocol/RocketDAOProtocolProposals.sol",
-    "contracts/contract/dao/protocol/RocketDAOProtocolVerifier.sol",
-    "contracts/contract/dao/protocol/settings/RocketDAOProtocolSettings.sol",
-    "contracts/contract/dao/protocol/settings/RocketDAOProtocolSettingsAuction.sol",
-    "contracts/contract/dao/protocol/settings/RocketDAOProtocolSettingsDeposit.sol",
-    "contracts/contract/dao/protocol/settings/RocketDAOProtocolSettingsInflation.sol",
-    "contracts/contract/dao/protocol/settings/RocketDAOProtocolSettingsMegapool.sol",
-    "contracts/contract/dao/protocol/settings/RocketDAOProtocolSettingsMinipool.sol",
-    "contracts/contract/dao/protocol/settings/RocketDAOProtocolSettingsNetwork.sol",
-    "contracts/contract/dao/protocol/settings/RocketDAOProtocolSettingsNode.sol",
-    "contracts/contract/dao/protocol/settings/RocketDAOProtocolSettingsProposals.sol",
-    "contracts/contract/dao/protocol/settings/RocketDAOProtocolSettingsRewards.sol",
-    "contracts/contract/dao/protocol/settings/RocketDAOProtocolSettingsSecurity.sol",
+    "x/milestone/keeper/msg_server.go",
+    "x/milestone/keeper/keeper.go",
+    "x/milestone/abci/abci.go",
+    "x/milestone/types/milestone.go",
+    "x/chainmanager/keeper/msg_server.go",
+    "x/chainmanager/keeper/keeper.go",
+    "x/chainmanager/keeper/abci.go",
+    "x/chainmanager/types/params.go",
 
     # =================================================================================
-    # Oracle DAO and security council: membership, proposals, upgrades, settings
+    # helper: L1 receipt/log validation, contract calls, tx building/signing, sanitizing,
+    # sequence (tx hash + log index) encoding, config heights
     # =================================================================================
-    "contracts/contract/dao/node/RocketDAONodeTrusted.sol",
-    "contracts/contract/dao/node/RocketDAONodeTrustedActions.sol",
-    "contracts/contract/dao/node/RocketDAONodeTrustedProposals.sol",
-    "contracts/contract/dao/node/RocketDAONodeTrustedUpgrade.sol",
-    "contracts/contract/dao/node/settings/RocketDAONodeTrustedSettings.sol",
-    "contracts/contract/dao/node/settings/RocketDAONodeTrustedSettingsMembers.sol",
-    "contracts/contract/dao/node/settings/RocketDAONodeTrustedSettingsMinipool.sol",
-    "contracts/contract/dao/node/settings/RocketDAONodeTrustedSettingsProposals.sol",
-    "contracts/contract/dao/node/settings/RocketDAONodeTrustedSettingsRewards.sol",
-    "contracts/contract/dao/security/RocketDAOSecurity.sol",
-    "contracts/contract/dao/security/RocketDAOSecurityActions.sol",
-    "contracts/contract/dao/security/RocketDAOSecurityProposals.sol",
-    "contracts/contract/dao/security/RocketDAOSecurityUpgrade.sol",
+    "helper/call.go",
+    "helper/receipt.go",
+    "helper/sequence.go",
+    "helper/tx.go",
+    "helper/validation.go",
+    "helper/sanitize.go",
+    "helper/unpack.go",
+    "helper/util.go",
+    "helper/messages.go",
+    "helper/query.go",
+    "helper/config.go",
 
     # =================================================================================
-    # Core storage, RPL token, auction and shared utilities
+    # bridge: L1/Heimdall/Bor event listeners and processors that turn public L1 events
+    # into Heimdall txs
     # =================================================================================
-    "contracts/contract/RocketStorage.sol",
-    "contracts/contract/RocketBase.sol",
-    "contracts/contract/token/RocketTokenRPL.sol",
-    "contracts/contract/auction/RocketAuctionManager.sol",
-    "contracts/contract/util/AddressQueueStorage.sol",
-    "contracts/contract/util/AddressSetStorage.sol",
-    "contracts/contract/util/ERC20.sol",
-    "contracts/contract/util/ERC20Burnable.sol",
-    "contracts/contract/util/SafeERC20.sol",
-    "contracts/contract/util/SafeMath.sol",
-    "contracts/contract/util/Context.sol",
+    "bridge/listener/rootchain.go",
+    "bridge/listener/rootchain_log.go",
+    "bridge/listener/rootchain_selfheal.go",
+    "bridge/listener/rootchain_selfheal_graph.go",
+    "bridge/listener/borchain.go",
+    "bridge/listener/heimdall.go",
+    "bridge/listener/base.go",
+    "bridge/processor/stake.go",
+    "bridge/processor/checkpoint.go",
+    "bridge/processor/clerk.go",
+    "bridge/processor/topup_fee.go",
+    "bridge/processor/span.go",
+    "bridge/processor/base.go",
+    "bridge/util/common.go",
+    "bridge/util/db.go",
+
+    # =================================================================================
+    # shared types: event keys, error handling, proof REST helpers
+    # =================================================================================
+    "types/events.go",
+    "types/keys.go",
+    "types/rest/proof.go",
 ]
 
 
 target_scopes = [
-    "Critical. Anyone submitting beacon-state proofs gets a false validator or withdrawal state accepted, because BeaconStateVerifier.verifyValidator/verifyWithdrawal/verifySlot, its generalized-index and fork-boundary handling, the historical_summaries vs block_roots path, EIP-4788 root lookup by _slotTimestamp, or SSZ merkleisation fail to bind the proof to the right slot, validator index, pubkey, withdrawal credentials or amount, so RocketMegapoolManager stakes, dissolves, exits or settles a validator on forged data and user ETH is stolen or frozen.",
-    "Critical. Exited validator principal is settled or distributed wrongly, because RocketMegapoolManager.notifyFinalBalance accepts any proven withdrawal at or after withdrawable_epoch (a later small sweep, a withdrawal the attacker created by depositing to the exited pubkey, or one not bound to megapool credentials), or because returned principal sitting in the megapool is paid out by the permissionless distribute() as rewards before notifyExit, so rETH principal is split as node/voter/pDAO rewards, user shortfall escapes debt, or the node receives more than its bond.",
-    "Critical. A permissionless node operator redirects assigned user ETH to a validator the megapool does not control, because newValidator/addValidator pubkey uniqueness (per-megapool, not global), the 1 ETH prestake in assignFunds, RocketMegapoolManager.stake checks (credentials, effective balance, activation epochs), dissolve/dissolveValidator timing, or a beacon-chain deposit the operator makes to their own pubkey let the 31 ETH top-up land on a validator with foreign withdrawal credentials or be recycled without charging the node.",
-    "Critical. A node operator extracts more ETH than their bond from megapool accounting, because nodeBond, nodeQueuedBond, userCapital, userQueuedCapital, assignedValue, refundValue and debt drift across newValidator, dequeue, reduceBond, dissolveValidator, _calculateCapitalDispersal, _notifyFinalBalance, repayDebt and claim, so credit, refunds or rewards withdrawn to the withdrawal address come out of rETH holders' capital or leave debt that is never repaid.",
-    "Critical. Deposit pool assignment loses or double-spends user ETH, because RocketDepositPool deposit, assignDeposits/_assignMegapools, express vs standard queue rotation in LinkedListStorage, requestedTotal and nodeBalance tracking in uint32 milli-ETH, exitQueue, applyCredit/withdrawCredit(For), recycleDissolvedDeposit, fundsReturned or the minipool-queue interplay let ETH be assigned twice, withdrawn from RocketVault without backing, mint rETH credit that was never deposited, or strand user ETH permanently.",
-    "Critical. An rETH holder or depositor drains other holders, because RocketTokenRETH mint/burn, getEthValue/getRethValue, the deposit fee, deposit-delay transfer lock, getTotalCollateral, depositExcessCollateral and DepositPool.withdrawExcessBalance, combined with RocketNetworkBalances updates or ETH donated to megapools/minipools/distributors, allow a round-trip or sandwich that burns rETH for more ETH than was deposited, or lets burns pull ETH already reserved for assignment.",
-    "Critical. A permissionless caller moves another node's funds, because RocketStorage withdrawal-address and RocketNodeManager RPL-withdrawal-address set/confirm/unset flows, onlyMegapoolOwner/isNodeCalling, RocketMegapoolProxy delegateUpgrade after expiry, RocketNodeStaking _callerAllowedFor/stakeRPLFor/unstake/withdraw, legacy vs megapool vs locked RPL checks, or RocketVault token accounting let the attacker redirect claims, withdraw staked RPL, bypass the unstaking period, or permanently lock a node's ETH or RPL.",
-    "High. Unclaimed yield is stolen or permanently frozen, because RocketMerkleDistributorMainnet claim/claimAndStake bitmap, v0/v1 leaf encoding, outstanding-ETH fallback, RocketRewardsPool snapshots and voter share, RocketSmoothingPool, RocketNodeDistributorDelegate.distribute, legacy minipool distributeBalance/beginUserDistribute/refund, or megapool distribute timing with RocketNetworkRevenues time-weighted commission and RocketNetworkSnapshotsTime capital-ratio averaging let an attacker claim twice, claim for another node, or shift others' rewards to themselves.",
-    "High. A permissionless node manipulates on-chain governance at a cost to others, because RocketNetworkVoting delegation snapshots, RocketDAOProtocolVerifier challenge/response voting-power trees, createChallenge/defeatProposal/submitRoot/claimBondChallenger/claimBondProposer, or RocketDAOProtocolProposal vote/overrideVote/finalise/execute let it inflate voting power, pass or defeat proposals against stake, double-claim or steal challenge/proposal RPL bonds, or lock another node's RPL indefinitely.",
-    "Critical/High blind spot. An unprivileged user exploits an assumption Rocket Pool never wrote down: a value proven or checked in one contract and trusted as proven in another, ETH that arrives at a megapool/minipool/distributor/deposit pool without a code path accounting for it (donations, beacon sweeps, consolidation or EIP-7002 flows, selfdestruct), a check enforced on the megapool path but not its legacy-minipool, credit, express-ticket or migration twin, state carried across delegate upgrades, storage layouts or the v1.3 to v1.4 transition that was only safe in one version, or a setting boundary (zero, max, changed mid-flight) that flips an invariant - yielding theft of user principal, permanent freezing, or theft of unclaimed yield.",
+    "Critical. Forged L1 events mint stake, fees or state syncs: an unprivileged tx submitter or L1 event emitter causes Heimdall to accept a stake join/update, fee top-up or clerk state-sync record that never happened on L1 or has other values (amount, signer, user, data) - because helper/call.go and receipt.go log selection (log index, contract address, event topic, removed/reorg, confirmations), the side_msg_server.go handlers of stake/topup/clerk (SideHandleMsg* comparing msg fields against the receipt) or bridge/processor/*.go fail to bind every field of the tx to the verified L1 log.",
+    "Critical. Replay / double-processing of a real L1 event: the same StakeManager, StateSender or top-up log is credited twice or under two encodings - via stake nonce checks in x/stake side_msg_server.go and msg_server.go, topup tx-hash + log-index sequence keys (helper/sequence.go, x/topup keeper), clerk record id / sequence, hex-case or padding variants of TxHash, or PostHandle state written before the side-tx result is final - causing duplicated voting power, duplicated fee balance or duplicated state-sync.",
+    "Critical. Checkpoint forgery or theft through the bridge: a crafted MsgCheckpoint / MsgCpAck (root hash, start/end block, proposer, account root hash, checkpoint number, buffer state) or the accountroot/merkle code in x/checkpoint gets accepted so Heimdall signs and submits a root that does not match Bor's real chain or that L1 RootChain accepts for a wrong range - enabling exits (withdrawals) against a fake root, i.e. loss of bridge funds.",
+    "Critical. Theft or inflation of user fees: MsgWithdrawFee, MsgTopupTx and dividend account handling in x/topup (balance math, receiver address, amount, fee deduction in app/ante.go, negative or overflowing math.Int, duplicated dividend entries, withdraw-then-topup ordering) let an unprivileged user withdraw more than deposited, credit funds to another account, mint spendable balance, or drain the fee pool.",
+    "Critical. Validator-set takeover by an unprivileged L1 staker: MsgValidatorJoin, MsgStakeUpdate, MsgSignerUpdate and MsgValidatorExit handling in x/stake (pubkey / signer validation and uniqueness, signer-address reuse, power calculation, exit and unbond ordering, validator set update in keeper.go / abci.go, validator_set.go proposer priority and total-power math) lets a minimal-stake actor gain signer control of another validator, inflate power, or push the set past the 2/3 threshold used for checkpoint signatures, endangering staking and bridge funds.",
+    "High. Consensus halt from one unprivileged tx: a crafted transaction (malformed Any, nil or oversized fields, duplicate signers, side-tx message count, non-canonical bytes, bad address/hash lengths) reaches app/tx_decode_guard.go, sidetxs/ante_decorator.go, ValidateBasic in x/*/types/msg.go, PrepareProposal or ProcessProposal and causes a panic, error or nondeterministic result on every honest validator, so blocks cannot be proposed or accepted (total network shutdown or transient consensus failure).",
+    "High. Poison-pill side-tx or L1 event: a valid but adversarial L1 event (StateSender data, stake or top-up values, zero or max amounts, unusual addresses) makes a side handler or PostHandleMsg in x/clerk / x/stake / x/topup / x/checkpoint return an error or diverge across validators, stalling the pending side-tx queue, PreBlocker or vote-extension tally (app/pending_stall.go, app/vote_ext_utils.go, app/abci.go) so all later checkpoints, state syncs and stake updates stop.",
+    "High. Span, producer and milestone corruption: an unprivileged actor's stake or tx causes x/bor (MsgProposeSpan, selection.go, veblop.go, producer fallback, span boundaries, seed and ordering that must be deterministic) or x/milestone (MsgMilestone, hash / block-range validation, milestone ABCI) to accept a span or milestone that gives Bor a wrong producer set, a gap or overlap, or a false finality point - causing Bor to halt, reorg or finalize the wrong chain.",
+    "High. Permanent or temporary freezing of funds/flows: a state transition reachable by an unprivileged user (checkpoint buffer never cleared or ack rejected forever, exit/unbond stuck, topup withdrawal always failing, span or milestone counters not advancing, clerk sequence gap, bridge processor/listener self-heal loop that skips or re-queues events wrongly) blocks checkpoints, withdrawals, stake changes or state sync until a hardfork or long outage.",
+    "Critical/High blind spot. Something the protocol never considered: an unprivileged tx or L1 event exploits a mismatch between components - hardfork-height gating differing between CheckTx, PrepareProposal, ProcessProposal and PreBlocker; side-tx result vs PostHandle state divergence; genesis/export/migration state that breaks invariants; Heimdall-Bor gRPC/HTTP responses trusted in deterministic paths; L1 reorg or finality assumptions in helper/call.go; math.Int / uint64 truncation between proto, keeper and L1 units; module-account or fee accounting invariants across modules - yielding fund loss, forged state, frozen funds or a chain halt.",
 ]
 
 
@@ -191,50 +207,48 @@ scope_scan = [
 
 def question_generator(target_file: str) -> str:
     """
-    Generate exploit-focused audit and fuzzing questions for one rocketpool target.
+    Generate exploit-focused audit questions for one Heimdall v2 target.
 
     ```
     target_file format:
-    "'File Name: contracts/contract/megapool/RocketMegapoolDelegate.sol -> Scope: Critical. ...'"
+    "'File Name: x/topup/keeper/side_msg_server.go -> Scope: Critical. ...'"
     """
 
     prompt = f"""
     ```
 
-    Generate exploit-focused security audit questions for this exact rocketpool target:
+    Generate exploit-focused security audit questions for this exact Heimdall v2 target:
 
     {target_file}
 
     Project focus:
-    Rocket Pool is an Ethereum liquid staking protocol (v1.4 Saturn). Users deposit ETH for rETH. Permissionless node operators bond ETH in megapools (and legacy minipools) that borrow user ETH to run validators. Beacon-state proofs drive staking, exits and final balances. Focus on user principal, node bonds and debt, rETH backing, queue assignment, reward splits and RPL stake.
+    Heimdall v2 is the Polygon PoS consensus layer (Cosmos SDK + CometBFT, ABCI++). L1 events (StakeManager, StateSender, RootChain) become Heimdall txs via the bridge, are verified by validators through vote-extension side txs (SideHandleMsg / PostHandleMsg), and drive validator stake, fee top-ups, state syncs, checkpoints (bridge exits), spans and milestones. Bounty (Immunefi): Critical = direct loss/theft of funds, protocol insolvency, loss of bridge or staking funds; High = permanent/temporary freezing of funds, theft of user fees, transient consensus failure, total network shutdown; Medium = DoS, freezing under 1 week.
 
     Rules:
-    * Treat `File Name:` as the exact contract.
+    * Treat `File Name:` as the exact file.
     * Treat `Scope:` as the ONLY impact to target.
-    * Assume full repo context is accessible.
-    * Do not ask for code or say anything is missing.
-    * Use exact Solidity symbols (contract, function, storage key) when possible.
-    * Attacker is unprivileged only: any EOA or contract calling public functions, an rETH depositor or holder, a permissionless node operator acting on their own node/megapool/minipool and withdrawal addresses, an RPL staker, or a caller submitting real beacon-state proofs with a slot they choose. They may make real beacon-chain deposits to any pubkey and send ETH to any address.
-    * Attacker is NOT the oDAO, a trusted node, the pDAO, the security council or the guardian, and never another node's withdrawal address. Assume oDAO balance/price/penalty/reward submissions are honest and beacon chain data is canonical. Never assume a malicious peer, beacon node, validator majority or consensus client.
-    * Out of scope, never ask about: DoS, gas griefing, unbounded loops, storage/memory growth, centralization or privileged-role misuse, 51%/Sybil attacks, incorrect oracle data, best practices, and bugs whose only victim is the attacker.
-    * Ignore test/helper/mock contracts (StakeHelper, MegapoolUpgradeHelper, StorageHelper, *Test, *Mock, RocketTokenDummyRPL), interfaces-only, scripts and config.
-    * Every question must be a real on-chain scenario through a valid entry point: who calls which external function, with what inputs, in what state and order.
-    * Generate 40 to 80 high-signal questions.
-    * At least 70% must target theft of user principal or node bonds, permanent freezing of ETH/RPL/rETH, unbacked rETH, or theft/freezing of unclaimed yield.
-    * Every question must be testable by a Hardhat test in test/ (local mainnet fork where needed).
+    * Assume full repo context is accessible. Do not ask for code or say anything is missing.
+    * Use exact Go symbols (package, type, func, msg, keeper method, store key) when possible.
+    * Attacker is unprivileged: holds no validator key, no governance/authority rights, no operator or RPC access. They can only (a) submit signed txs through public RPC/mempool, (b) emit or trigger real L1 events as a normal staker/depositor/user (join, stake, top up, StateSender sync, initiate exit), (c) send public queries.
+    * Never assume a malicious validator, proposer, peer, node, RPC provider, Bor operator, leaked key, governance/authority action, 51% or Sybil attack, misconfiguration, test code, or an unmodified upstream Cosmos SDK / CometBFT bug.
+    * Out of scope: tests, mocks, generated code, docs, migration CLI tooling, and DoS by traffic volume, unbounded loops, memory growth or huge inputs.
+    * Every question must be a real-world scenario: name the tx or L1 event, the exact crafted field values, the chain state it relies on, the broken invariant, and the resulting funds or liveness impact. Follow a valid entry point: tx -> CheckTx/ante -> PrepareProposal/ProcessProposal -> ExtendVote/VerifyVoteExtension -> PreBlocker -> Side/Post handler -> keeper state, or L1 log -> bridge listener/processor -> tx.
+    * Generate 40 to 80 high-signal questions. At least 70% must target Critical or High impact from the Scope.
+    * Every question must be testable with a Go unit or keeper test in the target package.
     * Avoid generic checklist questions and repeated root causes.
 
     Core invariants:
-    * Principal is conserved: every wei of user capital assigned to a validator returns to rETH/deposit pool or becomes node debt; nothing is paid out as rewards.
-    * rETH is backed: rETH supply times exchange rate never exceeds ETH the protocol can return, and mint/burn cannot be round-tripped for profit.
-    * Proofs bind: a beacon proof binds to the right megapool, validator, pubkey, credentials, slot and the actual final withdrawal.
-    * Bonds are honest: a node can withdraw only its bond, credit and earned rewards net of debt, never user capital.
-    * Only owners move funds: only a node's own addresses can claim, withdraw or redirect its ETH, RPL or rewards, and each reward is claimed once.
+    * L1 fidelity: state changes from L1 events match exactly one real, final L1 log and its values.
+    * Replay safety: each L1 event, nonce and sequence is applied at most once.
+    * Fund conservation: fee balances, dividends, voting power and stake never exceed what L1 backs.
+    * Determinism: all honest validators reach the same result from the same block and vote extensions.
+    * Liveness: no single unprivileged tx or event blocks proposals, checkpoints, spans, milestones or the side-tx queue.
+    * Checkpoint integrity: only a root matching Bor's real chain and range is signed and accepted.
 
     Each question must include:
-    1. target contract/function;
-    2. attacker role and action (calls, inputs, ETH/RPL sent, proofs or beacon deposits);
-    3. preconditions (protocol and node state, settings);
+    1. target function/method;
+    2. attacker action (tx or L1 event with crafted fields);
+    3. preconditions (validator set, nonce/sequence, height, buffer state);
     4. execution sequence;
     5. invariant tested;
     6. scoped impact;
@@ -243,7 +257,7 @@ def question_generator(target_file: str) -> str:
     Output only valid Python. No markdown. No explanations.
 
     questions = [
-    "[File: {target_file}] [Function: contract.function] Can an unprivileged ATTACKER_ROLE doing ATTACKER_ACTION under PRECONDITIONS trigger EXECUTION_SEQUENCE, violating INVARIANT, causing scoped impact: SCOPE_IMPACT? Proof idea: Hardhat test PARAMETERS and assert PRINCIPAL_CONSERVED, RETH_BACKED, PROOF_BINDS, BOND_HONEST, or OWNER_ONLY.",
+    "[File: {target_file}] [Function: symbol_or_method] Can an unprivileged ATTACKER_INPUT under PRECONDITIONS trigger EXECUTION_SEQUENCE, violating INVARIANT, causing scoped impact: SCOPE_IMPACT? Proof idea: go test PARAMETERS and assert L1_FIDELITY, REPLAY_SAFETY, FUND_CONSERVATION, DETERMINISM, LIVENESS, or CHECKPOINT_INTEGRITY.",
     ]
     """
     return prompt
@@ -251,7 +265,7 @@ def question_generator(target_file: str) -> str:
 
 def audit_format(security_question: str) -> str:
     """
-    Generate a focused rocketpool exploit-validation prompt.
+    Generate a focused Heimdall v2 exploit-validation prompt.
     """
 
     prompt = f"""# SECURITY AUDIT PROMPT
@@ -261,17 +275,15 @@ def audit_format(security_question: str) -> str:
 
 ## Rules
 - Use existing repo context only. Analyze only this question and scoped impact.
-- Attacker is unprivileged only: any caller of public functions, an rETH depositor/holder, a permissionless node operator on their own node, an RPL staker, or a submitter of real beacon proofs. They can make beacon-chain deposits and send ETH anywhere.
-- Reject premises needing oDAO, trusted node, pDAO, security council, guardian, or another node's withdrawal address; dishonest oracle submissions; malicious peers, beacon nodes, or consensus majority.
-- Reject DoS, gas griefing, unbounded loops or memory growth, centralization, 51%/Sybil, best practices, self-harm-only bugs, and test/helper/mock/interface/script findings.
-- Focus on real impact: theft of user principal or node bonds, unbacked rETH, permanent or temporary freezing of funds, theft or freezing of unclaimed yield, or governance manipulation.
+- Attacker is unprivileged: no validator key, no governance/authority rights, no operator or RPC access. They can only submit txs via public RPC, emit or trigger real L1 events as a normal user or staker, and send public queries.
+- Reject malicious-validator/proposer/peer/node, malicious-RPC, Bor-operator, leaked-key, governance/authority, 51%/Sybil, misconfiguration, test/mock/generated code, and unmodified upstream Cosmos SDK / CometBFT bug paths.
+- Reject generic unbounded-loop, memory or traffic-volume DoS claims with no concrete input and no broken invariant.
+- Focus on real impact: loss or theft of funds, bridge/staking fund loss, insolvency, fee theft, freezing of funds, transient consensus failure or total network shutdown.
 
 ## Validate
-- Trace the exact reachable path from the attacker's external call (inputs, ETH/RPL, proofs) into the affected function.
-- Check whether modifiers (onlyMegapoolOwner, onlyRegisteredNode, onlyLatestContract), proof checks, debt/bond checks, delays, and settings bounds already stop it.
-- Confirm it works with current mainnet settings, not only an extreme DAO setting.
-- Accept only concrete loss, freeze, unbacked rETH, or yield theft with a quantified amount.
-- Require exact file/function support and a reproducible Hardhat PoC (local fork only).
+- Trace the exact path from the attacker's tx or L1 event through CheckTx/ante, PrepareProposal/ProcessProposal, vote extensions, PreBlocker, side/post handlers and keeper state (or bridge listener -> processor -> tx).
+- Check existing guards: ValidateBasic, tx_decode_guard, ante decorators, receipt and log validation in helper/call.go, nonce and sequence (tx hash + log index) checks, side-tx result tallying thresholds, hardfork height gates, and keeper invariants.
+- Accept only a concrete, reachable exploit with exact file/function support and a reproducible `go test` PoC.
 
 ## Output
 If valid, output exactly:
@@ -283,19 +295,19 @@ If valid, output exactly:
 [2-3 sentences]
 
 ### Finding Description
-[Code path, root cause, attacker inputs, exploit flow, and why existing checks fail]
+[Code path, root cause, attacker input, exploit flow, and why existing guards fail]
 
 ### Impact Explanation
-[Concrete impact, funds at risk, and matching category: Theft of Principal, Permanent Freezing, Temporary Freezing, Theft of Unclaimed Yield, or Governance Manipulation]
+[Concrete scoped impact and severity: Critical (direct loss/theft of funds, insolvency, loss of bridge or staking funds), High (freezing of funds, fee theft, transient consensus failure, network shutdown) or Medium (DoS, freezing under 1 week)]
 
 ### Likelihood Explanation
-[Preconditions, attacker cost, feasibility, repeatability]
+[Attacker capability, required inputs and state, feasibility, repeatability]
 
 ### Recommendation
 [Specific fix]
 
 ### Proof of Concept
-[Hardhat test plan with expected assertions]
+[go test plan with expected assertions]
 
 If invalid, output exactly:
 #NoVulnerability found for this question.
@@ -305,88 +317,9 @@ No extra text.
     return prompt
 
 
-def validation_format(report: str) -> str:
-    """
-    Generate a strict bounty-style validation prompt for rocketpool security claims.
-    """
-    prompt = f"""# VALIDATION PROMPT
-
-## Security Claim
-{report}
-
-## Rules
-- Validate only the submitted claim.
-- Check SECURITY.md and Researcher.Md for scope, exclusions, and valid impact classes.
-- Do not create a new vulnerability if the submitted claim is weak or invalid.
-- Do not upgrade severity unless the provided evidence proves the higher impact.
-- Accepted severities (Immunefi, Rocket Pool):
-  - Critical: direct theft of user principal (rETH backing, deposit pool, vault, node bonds), or permanent freezing of funds.
-  - High: direct theft of unclaimed yield, governance manipulation with cost impact, or smaller-scale principal theft.
-  - Medium: temporary freezing of funds, governance manipulation without cost impact, or small principal theft.
-  - Low: only concrete, quantified unfair yield/commission manipulation. Reject pure griefing, informational, and best-practice reports.
-- Reject anything requiring oDAO, trusted node, pDAO, security council, or guardian privileges, another node's withdrawal address, leaked keys, dishonest oracle submissions, malicious peers/beacon nodes/consensus majority, 51% or Sybil attacks.
-- Reject DoS, gas griefing, unbounded loops or memory growth, centralization risk, self-harm-only bugs, and extreme DAO settings outside their enforced bounds.
-- Reject test/helper/mock contracts (StakeHelper, MegapoolUpgradeHelper, StorageHelper, *Test, *Mock, RocketTokenDummyRPL), interfaces, scripts, and config.
-- Reject if already fixed, acknowledged, publicly disclosed, or listed in Rocket Pool known issues or audits.
-- A valid report must be triggerable by an unprivileged user (any caller, rETH holder, permissionless node operator on their own node, RPL staker, beacon-proof submitter) through a real external entry point.
-- Prefer #NoVulnerability over speculative reports.
-
-## Required Validation Checks
-All must pass:
-1. Exact in-scope file, contract, function, and line references.
-2. Clear root cause and broken invariant (principal conserved, rETH backed, proof binds, bond honest, owner-only).
-3. Reachable exploit path: preconditions -> attacker call/proof/deposit -> trigger -> loss or freeze.
-4. Existing modifiers, proof checks, debt/bond checks, delays, and settings bounds reviewed and shown insufficient.
-5. Concrete impact with funds at risk quantified and correct severity.
-6. Reproducible Hardhat PoC on a local fork (no mainnet/testnet testing).
-7. No obvious rejection reason from SECURITY.md, known issues, privilege assumptions, or scope exclusions.
-
-## Silent Triage Questions
-Before output, internally answer:
-- Can an unprivileged user trigger this with current mainnet settings?
-- Does the code actually behave as claimed, including onlyMegapoolOwner, debt, delay, and proof checks?
-- Whose funds are lost or frozen, and how much?
-- Is the loss permanent, temporary, or only yield?
-- Would a Rocket Pool triager on Immunefi accept the PoC?
-- What exact test would prove it?
-
-## Output
-If valid, output exactly:
-
-Audit Report
-
-## Title
-[Clear vulnerability statement] - ([File: file_path])
-
-## Summary
-[2-3 sentence summary of the bug and impact]
-
-## Finding Description
-[Exact code path, root cause, exploit flow, and why existing checks fail]
-
-## Impact Explanation
-[Concrete impact, funds at risk, severity rationale, and Immunefi category]
-
-## Likelihood Explanation
-[Attacker capability, cost, feasibility, repeatability]
-
-## Recommendation
-[Specific fix guidance]
-
-## Proof of Concept
-[Minimal reproducible steps or Hardhat test plan]
-
-If invalid, output exactly:
-#NoVulnerability found for this question.
-
-Output only one of the two outcomes above. No extra text.
-"""
-    return prompt
-
-
 def scan_format(report: str) -> str:
     """
-    Generate a short cross-project analog scan prompt for rocketpool.
+    Generate a short cross-project analog scan prompt for Heimdall v2.
     """
     prompt = f"""# ANALOG SCAN PROMPT
 
@@ -394,30 +327,25 @@ def scan_format(report: str) -> str:
 {report}
 
 ## Rules
-- Use in-scope production repo context only. Do not ask for code or claim missing files.
-- Use the external report only as a bug-class hint, not as proof. The analog must stand on Rocket Pool's own code.
-- Attacker is unprivileged only: any caller of public functions, an rETH depositor/holder, a permissionless node operator on their own node, an RPL staker, or a submitter of real beacon proofs with a slot they choose. They can make beacon-chain deposits and send ETH anywhere.
-- Reject premises needing oDAO, trusted node, pDAO, security council, guardian, another node's withdrawal address, dishonest oracle data, or malicious peers/beacon nodes/consensus majority.
-- Reject DoS, gas griefing, unbounded loops or memory growth, centralization, 51%/Sybil, self-harm-only, mocked-only paths, or no impact.
-- Ignore test/helper/mock contracts, interfaces, scripts and config.
-
-## Map the Bug Class
-Pick the strongest reachable Rocket Pool surface for this class, then name the exact contract and function:
-- Beacon proofs (forged state, wrong gindex, fork boundaries, stale/unbound slot, wrong withdrawal chosen): BeaconStateVerifier, SSZ, RocketMegapoolManager stake/dissolve/notifyExit/notifyNotExit/notifyFinalBalance.
-- Principal vs rewards (exit ETH or donations paid as rewards, shortfall not charged): RocketMegapoolDelegate distribute/_notifyFinalBalance/getPendingRewards, RocketMinipoolDelegate distributeBalance/beginUserDistribute, RocketNodeDistributorDelegate.
-- Bond, debt and credit accounting (withdraw more than bond, rounding, uint32 milli-ETH truncation): RocketMegapoolDelegate newValidator/dequeue/reduceBond/dissolveValidator/claim/_calculateCapitalDispersal, RocketNodeDeposit, RocketDepositPool applyCredit/withdrawCredit, RocketMinipoolBondReducer.
-- Deposit queues and assignment (double assignment, skipped entries, stuck ETH): RocketDepositPool, LinkedListStorage, RocketMinipoolQueue, RocketVault.
-- LST exchange rate (inflation, sandwich, rounding, fee bypass, withdrawal-queue races): RocketTokenRETH, RocketNetworkBalances, RocketDepositPool deposit/withdrawExcessBalance.
-- Reward distribution (double claim, wrong leaf, timing or time-weighted commission manipulation): RocketMerkleDistributorMainnet, RocketRewardsPool, RocketSmoothingPool, RocketNetworkRevenues, RocketNetworkSnapshots(Time).
-- Access and ownership (withdrawal-address hijack, proxy/delegate upgrade, storage layout collision, reentrancy via ETH send): RocketStorage, RocketNodeManager, RocketMegapoolProxy/StorageLayout, RocketMinipoolBase, RocketNodeStaking.
-- Governance (vote power inflation, snapshot timing, bond theft in challenge games): RocketNetworkVoting, RocketDAOProtocolVerifier, RocketDAOProtocolProposal.
+- Use in-scope production code only: app/, sidetxs/, x/{{stake,checkpoint,topup,clerk,bor,milestone,chainmanager}} (keeper, types, ante, abci), helper/ (call, receipt, sequence, tx, validation, sanitize, config), bridge/ (listener, processor, util), types/. Do not ask for code or claim missing files.
+- Use the external report only as a bug-class hint, not as proof. The analog must stand on Heimdall's own code.
+- Keep only analogs an unprivileged party can reach: a signed tx via public RPC, a real L1 event emitted as a normal staker/depositor/user, or a public query.
+- Map the class onto Heimdall's real shape, where its bugs live:
+  * L1 event trust: receipt/log selection, contract address and topic checks, log index, confirmations and reorgs, msg fields not bound to the verified log (helper/call.go, receipt.go, side_msg_server.go);
+  * replay and ordering: stake nonces, tx-hash + log-index sequence keys, clerk ids, hex-case variants, state written before side-tx approval;
+  * fund math: math.Int / uint64 / big.Int conversions, wei vs token units, fee deduction in ante, dividend accounts, withdraw-fee balance, negative or zero amounts, module-account conservation;
+  * validator set: pubkey and signer validation and uniqueness, power updates, exit/unbond ordering, proposer priority, 2/3 thresholds;
+  * ABCI++ determinism and liveness: panics or errors in PrepareProposal/ProcessProposal/ExtendVote/VerifyVoteExtension/PreBlocker, nil proto fields, Any unpacking, map iteration, time or RPC in deterministic paths, hardfork height gates (off-by-one, zero semantics);
+  * checkpoint and bridge: root hash / account root hash / merkle math, start/end range, ack and buffer state, exit proofs;
+  * span/milestone: producer selection, VEBLOP fallback, span boundaries, milestone hash and range validation;
+  * stuck state: poison-pill events, counters that never advance, queues that never drain, self-heal loops.
+- Reject malicious-validator/proposer/peer/node, malicious-RPC, Bor-operator, leaked-key, governance/authority, 51%/Sybil, misconfiguration, upstream-only, test-only, volume-based DoS, and no-impact analogs.
+- Critical, High and Medium only; no low, informational or best-practice analogs.
 
 ## Validate
-- Trace the analog from a concrete unprivileged external call (inputs, ETH/RPL, proof, beacon deposit) into the named function.
-- Show which invariant breaks: principal conserved, rETH backed, proof binds, bond honest, or owner-only.
-- Confirm modifiers, proof checks, debt/bond checks, delays and settings bounds do not already stop it under current mainnet settings.
-- Accept only theft of principal or bonds, unbacked rETH, permanent or temporary freezing, theft/freezing of unclaimed yield, or governance manipulation.
-- Require a reproducible Hardhat PoC (local fork only).
+- Map the bug class to the strongest reachable path from a tx or L1 event, naming the exact functions and field values.
+- Prove root cause with exact file/function support.
+- Accept only concrete loss or theft of funds, bridge/staking fund loss, fee theft, freezing of funds, consensus failure, network shutdown, or DoS/temporary freezing under 1 week.
 
 ## Output (Strict)
 If valid analog exists, output:
@@ -436,5 +364,80 @@ If not, output exactly:
 #NoVulnerability found for this question.
 
 No extra text.
+"""
+    return prompt
+
+
+def validation_format(report: str) -> str:
+    """
+    Generate a strict bounty-style validation prompt for Heimdall v2 security claims.
+    """
+    prompt = f"""# VALIDATION PROMPT
+
+## Security Claim
+{report}
+
+## Rules
+- Validate only the submitted claim.
+- Check SECURITY.md and RESEARCHER.md for scope, exclusions, and valid impact classes.
+- Scope (Immunefi Polygon program): Polygon PoS Heimdall (Cosmos SDK / CometBFT based) production code. Bor, contracts and other assets are out of scope for this repo.
+- Do not create a new vulnerability if the submitted claim is weak or invalid.
+- Do not upgrade severity unless the provided evidence proves the higher impact.
+- Accepted impacts only:
+  * Critical: direct loss of funds; direct theft of any user funds (at-rest or in-motion, excluding unclaimed yield); protocol insolvency; loss of bridge or staking funds.
+  * High: permanent freezing of funds (requiring hardfork); temporary freezing of funds; theft of user fees; transient consensus failures; network not being able to confirm new transactions (total network shutdown).
+  * Medium: denial of service; temporary freezing of funds for less than 1 week.
+- Reject unmodified upstream dependency bugs, previously known Ethereum/Tendermint/Cosmos-SDK issues, basic economic attacks (51%, Sybil), centralization risks, privileged access (validators, governance/authority, operators), leaked keys, malicious peers/nodes/RPC, best-practice critiques, self-exploited damage, phishing/social engineering, test/config/mock/generated code, volume-based DoS, and anything tested on mainnet or a public testnet.
+- A PoC is mandatory for every severity; prose alone is not accepted. Prefer #NoVulnerability over speculative reports.
+
+## Required Validation Checks
+All must pass:
+1. Exact in-scope file, function, and line/code references.
+2. Clear root cause and a broken L1-fidelity, replay-safety, fund-conservation, determinism, liveness or checkpoint-integrity invariant.
+3. Reachable path from an unprivileged actor (public tx, real L1 event as a normal user/staker, or public query) through the real entry point (CheckTx/ante -> proposal handlers -> vote extensions -> PreBlocker -> side/post handler -> keeper, or bridge -> tx), with no validator, authority or operator rights.
+4. Existing guards reviewed and shown insufficient: ValidateBasic, tx decode guard, ante decorators, receipt/log validation, nonce and sequence checks, vote-extension thresholds, hardfork height gates, keeper invariants.
+5. Concrete impact matching one accepted category above, with realistic likelihood.
+6. Reproducible proof path: a `go test` PoC (keeper, ABCI or integration test) on a local setup.
+7. No rejection reason from SECURITY.md, privilege assumptions, or known issues.
+
+## Silent Triage Questions
+Before output, internally answer:
+- Can a normal user, staker or depositor trigger this with public inputs only?
+- Does the code actually behave as claimed on the real ABCI++/bridge path, not only in an isolated unit?
+- Is the impact in Heimdall itself, not in upstream Cosmos SDK / CometBFT, Bor, contracts, or a malicious validator/node?
+- Is it absent from known issues and the audits folder?
+- Is the impact concrete (funds, freezing, consensus failure) rather than hypothetical?
+- Would a triager accept the proof-of-concept, and what exact test proves it?
+
+## Output
+If valid, output exactly:
+
+Audit Report
+
+## Title
+[Clear vulnerability statement] - ([File: file_path])
+
+## Summary
+[2-3 sentence summary of the bug and impact]
+
+## Finding Description
+[Exact code path, root cause, exploit flow, and why existing guards fail]
+
+## Impact Explanation
+[Concrete in-scope impact, severity rationale, and the exact Immunefi Polygon impact it maps to]
+
+## Likelihood Explanation
+[Attacker capability, inputs and state required, feasibility, repeatability]
+
+## Recommendation
+[Specific fix guidance]
+
+## Proof of Concept
+[Minimal reproducible steps or a go test plan]
+
+If invalid, output exactly:
+#NoVulnerability found for this question.
+
+Output only one of the two outcomes above. No extra text.
 """
     return prompt
